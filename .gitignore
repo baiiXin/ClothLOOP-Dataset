@@ -2,3 +2,8 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .DS_Store
+web/node_modules/
+web/dist/
+web/public/generated/
+web/test-results/
+web/playwright-report/

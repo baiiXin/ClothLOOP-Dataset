@@ -59,4 +59,16 @@ D-LAYERS 初值保持原始 NPZ 字节和坐标。`binding.json` 的 `path_base=
 
 索引中的相对文件路径以本目录为根（binding 内部路径除外）。`manifest.json` 覆盖全部数据与说明文件，`source_reference_base` 下的路径仅用于追溯，不是运行依赖。NPZ/PKL/OBJ 均已核对来源 SHA256；适配后的 JSON 只更改索引和相对路径。文件大小按实际字节统计，不含打包压缩率假定。
 
-未打包 HTML、视频、图片、缓存、SMPL 模型或旧体积统计报告。原始来源库和实验结果继续保留在相邻 DATA 工作空间。整理过程使用 CPU，未使用 CUDA2。
+上述三个来源目录不打包 HTML、视频、图片、缓存、SMPL 模型或旧体积统计报告。原始来源库和实验结果继续保留在相邻 DATA 工作空间。整理过程使用 CPU，未使用 CUDA2。
+
+## Dataset Explorer
+
+网站将人体动作、独立服装资产、人体—服装绑定初值分开浏览，支持分类筛选、视频播放、可旋转的三维网格、碰撞报告和选择 JSON 导出。
+
+预期访问地址：**https://baiixin.github.io/ClothLOOP-Dataset/**
+
+页面代码与已提交预览位于 `web/`，构建脚本位于 `scripts/`。GLB、网页索引和 HTML 详情页在构建时生成，不提交 Git；GitHub Actions 通过校验与浏览器测试后发布。构建只使用本仓库的输入，不依赖相邻 DATA 工作空间或 SMPL 模型。
+
+根目录 `manifest.json` 和 `validation.json` 描述科学数据包，不统计网页及构建工具；预览文件由 `web/media/manifest.json` 单独校验。网站 GLB 采用 float32 显示坐标，原始 NPZ/PKL/OBJ 数值保持不变。
+
+完整的本地启动、数据结构、新增数据、构建与部署说明见 [web/README.md](web/README.md)。

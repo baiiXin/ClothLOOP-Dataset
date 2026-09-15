@@ -3123,8 +3123,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4366,
-      "sha256": "bfbf61c9f58edccb94afa9225571ebbb69e43617eb347ae5189662a5b1332739",
+      "bytes": 5326,
+      "sha256": "917ca4ba814434c2d985ba1201b9fe41662bf28db9724bf1fb5953b6dd6edc59",
       "role": "curated metadata or documentation"
     },
     {
@@ -3139,5 +3139,6 @@
       "sha256": "ba501e188cc7d4fa5527092dff2293f1a56cff7d4b02a429fd72f372c8ccdca3",
       "role": "curated metadata or documentation"
     }
-  ]
+  ],
+  "scope": "Curated scientific payload and indexed documentation only; excludes web/, scripts/, workflows and Git files."
 }

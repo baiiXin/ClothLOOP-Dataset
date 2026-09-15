@@ -18,5 +18,6 @@
   "contains_SMPL_models": false,
   "device": "CPU",
   "cuda_used": false,
-  "final_split_assigned": false
+  "final_split_assigned": false,
+  "scope": "Curated scientific payload only; excludes the website and build tools."
 }
