@@ -1,0 +1,30 @@
+{
+  "gender": "male",
+  "gender_status": "best-fitting available SMPL model; source gender not provided",
+  "betas": [
+    0.5131980180740356,
+    1.333390235900879,
+    -0.21695201098918915,
+    0.948016881942749,
+    -0.6454021334648132,
+    -1.5549871921539307,
+    1.4178160429000854,
+    -1.3224873542785645,
+    -4.367112159729004,
+    -0.06624491512775421
+  ],
+  "scale": 0.9900884032249451,
+  "model_sha256": "0e8c0bbbbc635dcb166ed29c303fb4bef16ea5f623e5a89263495a9e403575bd",
+  "scale_convention": "vertices_world = scale * SMPL(betas, global_orient, body_pose, transl=0) + transl",
+  "up_axis": "Y",
+  "units": "source coordinate units; meters are not guaranteed by source",
+  "fps": 60,
+  "frames": 240,
+  "selected_stage": "joint_plausibility_repair",
+  "static_shape_shared_by_all_frames": true,
+  "objective": "Bounded anatomical joint-space inverse kinematics, temporal smoothness and relaxed hands; no vertex/surface distance objective.",
+  "required_model_filename": "basicmodel_m_lbs_10_207_0_v1.0.0.pkl",
+  "model_included": false,
+  "parameters_file": "sim_00003.npz",
+  "source_static_metadata_sha256": "3e70013965f3ff43bf313672813c4138338d373dcd6a76747bfad71e5cc24bcf"
+}

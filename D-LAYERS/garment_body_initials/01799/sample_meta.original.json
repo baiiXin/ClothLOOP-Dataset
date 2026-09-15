@@ -1,0 +1,27 @@
+{
+  "sample": "01799",
+  "num_frame": 122,
+  "seq_start": 133,
+  "seq_end": 255,
+  "gender": "female",
+  "motion_path": "human/15/15_03_poses.pkl",
+  "num_garments": 2,
+  "garments": [
+    "tee",
+    "jacket"
+  ],
+  "mesh_order": {
+    "1": "human",
+    "2": "tee",
+    "3": "jacket"
+  },
+  "coordinate_convention": {
+    "restpose": "canonical Y-up",
+    "frame0": "world Z-up"
+  },
+  "outputs": {
+    "restpose_image": "restpose.png",
+    "frame0_image": "frame0.png",
+    "mesh_directory": "meshes"
+  }
+}

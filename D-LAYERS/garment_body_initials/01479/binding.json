@@ -1,0 +1,164 @@
+{
+  "schema": "ClothLOOP.dlayers.bound-state.v1",
+  "sample": "01479",
+  "state": "restpose",
+  "category": "restpose无穿",
+  "source_coordinate_convention": "canonical Y-up",
+  "units": "Original exported coordinate units, unchanged in NPZ files",
+  "human": {
+    "file": "human.npz",
+    "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/01479/meshes/human_rest.npz",
+    "bytes": 218006,
+    "sha256": "dafc5755a84c665f2a52d28d13b72ceff74363ec21f86a5ef6dd0fe51328bb66",
+    "name": "human",
+    "mesh_number": 1,
+    "vertices": 6890,
+    "faces": 13776,
+    "original_bbox": [
+      [
+        -9.920292112154137,
+        -11.158929052910862,
+        -1.5599212499635318
+      ],
+      [
+        9.965493235863079,
+        8.623012899678866,
+        1.605326452567093
+      ]
+    ]
+  },
+  "garments": [
+    {
+      "file": "garments/skirt_4_panels.npz",
+      "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/01479/meshes/skirt_4_panels_tpose.npz",
+      "bytes": 505572,
+      "sha256": "d70543066f6156e264b7a5b25a73a2f2009b42d55654c0d7184b3bb22defc033",
+      "name": "skirt_4_panels",
+      "mesh_number": 2,
+      "vertices": 14489,
+      "faces": 28572,
+      "original_bbox": [
+        [
+          -3.0071124294316895,
+          -9.18261322808655,
+          -1.9999120089203228
+        ],
+        [
+          2.7884888889232147,
+          0.6606185814693712,
+          2.3836446536105678
+        ]
+      ]
+    },
+    {
+      "file": "garments/tee_sleeveless.npz",
+      "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/01479/meshes/tee_sleeveless_tpose.npz",
+      "bytes": 131838,
+      "sha256": "7fbe662a6d6eaf8aec7ec0317e1ec2b5d0b896fdca706a3d365ac5295c30789a",
+      "name": "tee_sleeveless",
+      "mesh_number": 3,
+      "vertices": 3819,
+      "faces": 7466,
+      "original_bbox": [
+        [
+          -1.9727398268756307,
+          1.539504731595801,
+          -1.4331258104712528
+        ],
+        [
+          1.9937318785502138,
+          5.821327842973385,
+          1.2016701753629742
+        ]
+      ]
+    },
+    {
+      "file": "garments/jacket_hood.npz",
+      "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/01479/meshes/jacket_hood_tpose.npz",
+      "bytes": 308672,
+      "sha256": "b41799e1b23ec34ec04f513e8edf7762565198dc1440114c54579547b0fcf3c3",
+      "name": "jacket_hood",
+      "mesh_number": 4,
+      "vertices": 9030,
+      "faces": 17721,
+      "original_bbox": [
+        [
+          -4.3559930305599135,
+          2.723405932363933,
+          -1.8357093236387754
+        ],
+        [
+          4.362560333518394,
+          8.693733731965468,
+          1.6158763281526802
+        ]
+      ]
+    }
+  ],
+  "mesh_order": {
+    "1": "human",
+    "2": "skirt_4_panels",
+    "3": "tee_sleeveless",
+    "4": "jacket_hood"
+  },
+  "collision": {
+    "sample": "01479",
+    "state": "restpose",
+    "mesh_order": {
+      "1": "human",
+      "2": "skirt_4_panels",
+      "3": "tee_sleeveless",
+      "4": "jacket_hood"
+    },
+    "counts": {
+      "11": 64,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "33": 0,
+      "34": 0,
+      "44": 0
+    },
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 64,
+    "source_report_sha256": "8dfb49beb9e26e92898b322a39f1a921833ad1d3ef4e89cdf225016ec3e61af0",
+    "recomputed": false
+  },
+  "source_sequence": {
+    "gender": "male",
+    "motion_path": "human/105/105_09_poses.pkl",
+    "seq_start": 1203,
+    "seq_end": 1351,
+    "num_frame": 148
+  },
+  "display_transform": {
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "operation": "output = matrix @ source; shared by all parts",
+    "coordinate_convention": "Y-up",
+    "raw_npz_transformed": false
+  },
+  "scope": "Exact exported body mesh at selected state; no recovered SMPL betas/parameters or full trajectory",
+  "path_base": ".",
+  "source_reference_base": "Original DATA/cloth; provenance only, not a runtime dependency",
+  "collision_report_file": "../../collision_report.snapshot.json",
+  "sample_metadata_file": "sample_meta.original.json"
+}

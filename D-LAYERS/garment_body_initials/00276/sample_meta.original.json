@@ -1,0 +1,27 @@
+{
+  "sample": "00276",
+  "num_frame": 495,
+  "seq_start": 1141,
+  "seq_end": 1636,
+  "gender": "male",
+  "motion_path": "human/137/137_03_poses.pkl",
+  "num_garments": 2,
+  "garments": [
+    "jumpsuit_sleeveless",
+    "jacket"
+  ],
+  "mesh_order": {
+    "1": "human",
+    "2": "jumpsuit_sleeveless",
+    "3": "jacket"
+  },
+  "coordinate_convention": {
+    "restpose": "canonical Y-up",
+    "frame0": "world Z-up"
+  },
+  "outputs": {
+    "restpose_image": "restpose.png",
+    "frame0_image": "frame0.png",
+    "mesh_directory": "meshes"
+  }
+}

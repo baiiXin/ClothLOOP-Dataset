@@ -1,0 +1,21 @@
+{
+  "sample": "01957",
+  "state": "restpose",
+  "mesh_order": {
+    "1": "human",
+    "2": "dress_sleeveless",
+    "3": "jacket_hood"
+  },
+  "counts": {
+    "11": 89,
+    "12": 0,
+    "13": 0,
+    "22": 0,
+    "23": 0,
+    "33": 0
+  },
+  "clothing_related_all_zero": true,
+  "human_self_intersections": 89,
+  "source_report_sha256": "8dfb49beb9e26e92898b322a39f1a921833ad1d3ef4e89cdf225016ec3e61af0",
+  "recomputed": false
+}

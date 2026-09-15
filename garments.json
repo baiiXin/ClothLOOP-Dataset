@@ -1,0 +1,364 @@
+[
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aaron_009::bottom.obj",
+    "file": "ContourCraft/garments/smpl/aaron_009::bottom.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aaron_009::top.obj",
+    "file": "ContourCraft/garments/smpl/aaron_009::top.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aaron_013::bottom.obj",
+    "file": "ContourCraft/garments/smpl/aaron_013::bottom.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aaron_013::top.obj",
+    "file": "ContourCraft/garments/smpl/aaron_013::top.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aneko_015::bottom.obj",
+    "file": "ContourCraft/garments/smpl/aneko_015::bottom.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aneko_015::top_jacket.obj",
+    "file": "ContourCraft/garments/smpl/aneko_015::top_jacket.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/aneko_015::top_shirt.obj",
+    "file": "ContourCraft/garments/smpl/aneko_015::top_shirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/beatrice_019::bottom.obj",
+    "file": "ContourCraft/garments/smpl/beatrice_019::bottom.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/beatrice_019::top_apron.obj",
+    "file": "ContourCraft/garments/smpl/beatrice_019::top_apron.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/beatrice_019::top_shirt.obj",
+    "file": "ContourCraft/garments/smpl/beatrice_019::top_shirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/ben_004::bottom.obj",
+    "file": "ContourCraft/garments/smpl/ben_004::bottom.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/ben_004::scarf.obj",
+    "file": "ContourCraft/garments/smpl/ben_004::scarf.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/ben_004::top_coat.obj",
+    "file": "ContourCraft/garments/smpl/ben_004::top_coat.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/ben_004::top_tshirt.obj",
+    "file": "ContourCraft/garments/smpl/ben_004::top_tshirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/ben_004::top_vest.obj",
+    "file": "ContourCraft/garments/smpl/ben_004::top_vest.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/dress.obj",
+    "file": "ContourCraft/garments/smpl/dress.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/dress_split.obj",
+    "file": "ContourCraft/garments/smpl/dress_split.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/hooded_tight_dress.obj",
+    "file": "ContourCraft/garments/smpl/hooded_tight_dress.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/longskirt.obj",
+    "file": "ContourCraft/garments/smpl/longskirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/longsleeve.obj",
+    "file": "ContourCraft/garments/smpl/longsleeve.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/novel_tank.obj",
+    "file": "ContourCraft/garments/smpl/novel_tank.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/novel_top.obj",
+    "file": "ContourCraft/garments/smpl/novel_top.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/pants.obj",
+    "file": "ContourCraft/garments/smpl/pants.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/pants_shorter.obj",
+    "file": "ContourCraft/garments/smpl/pants_shorter.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/shorts.obj",
+    "file": "ContourCraft/garments/smpl/shorts.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/shortsleeve.obj",
+    "file": "ContourCraft/garments/smpl/shortsleeve.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/tank.obj",
+    "file": "ContourCraft/garments/smpl/tank.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/tank_and_skirt.obj",
+    "file": "ContourCraft/garments/smpl/tank_and_skirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/tight_dress.obj",
+    "file": "ContourCraft/garments/smpl/tight_dress.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/tshirt.obj",
+    "file": "ContourCraft/garments/smpl/tshirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/tshirt_unzipped.obj",
+    "file": "ContourCraft/garments/smpl/tshirt_unzipped.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smpl/tshirt_unzipped_dynamic.obj",
+    "file": "ContourCraft/garments/smpl/tshirt_unzipped_dynamic.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_013::bottom_pants.obj",
+    "file": "ContourCraft/garments/smplx/aaron_013::bottom_pants.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_013::top_jacket.obj",
+    "file": "ContourCraft/garments/smplx/aaron_013::top_jacket.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_022::bottom_pants.obj",
+    "file": "ContourCraft/garments/smplx/aaron_022::bottom_pants.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_022::top_blouse.obj",
+    "file": "ContourCraft/garments/smplx/aaron_022::top_blouse.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_022::top_coat.obj",
+    "file": "ContourCraft/garments/smplx/aaron_022::top_coat.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_022::top_coat_buttoned.obj",
+    "file": "ContourCraft/garments/smplx/aaron_022::top_coat_buttoned.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/aaron_022_combined.obj",
+    "file": "ContourCraft/garments/smplx/aaron_022_combined.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/ben_004::bottom_pants.obj",
+    "file": "ContourCraft/garments/smplx/ben_004::bottom_pants.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/ben_004::scarf.obj",
+    "file": "ContourCraft/garments/smplx/ben_004::scarf.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/ben_004::top_coat.obj",
+    "file": "ContourCraft/garments/smplx/ben_004::top_coat.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/ben_004::top_tshirt.obj",
+    "file": "ContourCraft/garments/smplx/ben_004::top_tshirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/ben_004::top_vest.obj",
+    "file": "ContourCraft/garments/smplx/ben_004::top_vest.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/ben_004_combined.obj",
+    "file": "ContourCraft/garments/smplx/ben_004_combined.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/caren_008::dress.obj",
+    "file": "ContourCraft/garments/smplx/caren_008::dress.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/caren_008::top_overcoat.obj",
+    "file": "ContourCraft/garments/smplx/caren_008::top_overcoat.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/caren_008_combined.obj",
+    "file": "ContourCraft/garments/smplx/caren_008_combined.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/celina_002::bottom_pants.obj",
+    "file": "ContourCraft/garments/smplx/celina_002::bottom_pants.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/celina_002::top_blouse.obj",
+    "file": "ContourCraft/garments/smplx/celina_002::top_blouse.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/celina_002::top_jacket.obj",
+    "file": "ContourCraft/garments/smplx/celina_002::top_jacket.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/celina_002_combined.obj",
+    "file": "ContourCraft/garments/smplx/celina_002_combined.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/cindy_020::bottom_skirt.obj",
+    "file": "ContourCraft/garments/smplx/cindy_020::bottom_skirt.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/cindy_020::top_blouse.obj",
+    "file": "ContourCraft/garments/smplx/cindy_020::top_blouse.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/cindy_020_combined.obj",
+    "file": "ContourCraft/garments/smplx/cindy_020_combined.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/cindy_020_combined_test.obj",
+    "file": "ContourCraft/garments/smplx/cindy_020_combined_test.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ContourCraft",
+    "id": "smplx/tank_and_shorts.obj",
+    "file": "ContourCraft/garments/smplx/tank_and_shorts.obj",
+    "kind": "source garment or outfit OBJ"
+  },
+  {
+    "dataset": "ClothTransformer",
+    "id": "CT-sim_00000",
+    "file": "ClothTransformer/garments/CT-sim_00000.obj",
+    "selection": "user",
+    "source_variants": [
+      "sim_00000"
+    ],
+    "basis": "initial[:, :3]（与仿真第 0 帧一致；非保证的裁片或标准 T 姿态）"
+  },
+  {
+    "dataset": "ClothTransformer",
+    "id": "CT-sim_00002",
+    "file": "ClothTransformer/garments/CT-sim_00002.obj",
+    "selection": "user",
+    "source_variants": [
+      "sim_00002"
+    ],
+    "basis": "initial[:, :3]（与仿真第 0 帧一致；非保证的裁片或标准 T 姿态）"
+  }
+]

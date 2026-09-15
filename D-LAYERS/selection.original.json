@@ -1,0 +1,359 @@
+{
+  "source": "D-LAYERS",
+  "received_at": "2026-09-15T08:20:29.945624+00:00",
+  "count": 38,
+  "classification_sha256": "a4c669f23c2bf133d1f5258be7636cf2e840fe94aa741081bc4aae2ebc304f2b",
+  "samples": [
+    {
+      "sample": "00030",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00100",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00114",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "00212",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "skirt_4_panels",
+        "tee_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "00242",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "skirt_8_panels",
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00276",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "jumpsuit_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "00528",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "jumpsuit_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00568",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00662",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "00703",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "skirt_4_panels",
+        "tee_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "00800",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00887",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "00980",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "01306",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "skirt_8_panels",
+        "tee",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "01456",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "01479",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "skirt_4_panels",
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "01799",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "tee",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "01957",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "01990",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "skirt_4_panels",
+        "tee_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "02085",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "02807",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "pants_straight_sides",
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "02860",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "02871",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "skirt_4_panels",
+        "tee_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "02944",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "03223",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "03337",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "03496",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "03804",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "03826",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "jumpsuit_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "03961",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "skirt_4_panels",
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "04018",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "04173",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "04258",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "04527",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "04649",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "wb_dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "04847",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "sample": "04855",
+      "state": "frame0",
+      "category": "frame0无穿",
+      "garments": [
+        "dress_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "sample": "04869",
+      "state": "restpose",
+      "category": "restpose无穿",
+      "garments": [
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    }
+  ]
+}

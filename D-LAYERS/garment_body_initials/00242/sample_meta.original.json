@@ -1,0 +1,29 @@
+{
+  "sample": "00242",
+  "num_frame": 534,
+  "seq_start": 5011,
+  "seq_end": 5545,
+  "gender": "female",
+  "motion_path": "human/15/15_05_poses.pkl",
+  "num_garments": 3,
+  "garments": [
+    "skirt_8_panels",
+    "tee_sleeveless",
+    "jacket_hood"
+  ],
+  "mesh_order": {
+    "1": "human",
+    "2": "skirt_8_panels",
+    "3": "tee_sleeveless",
+    "4": "jacket_hood"
+  },
+  "coordinate_convention": {
+    "restpose": "canonical Y-up",
+    "frame0": "world Z-up"
+  },
+  "outputs": {
+    "restpose_image": "restpose.png",
+    "frame0_image": "frame0.png",
+    "mesh_directory": "meshes"
+  }
+}

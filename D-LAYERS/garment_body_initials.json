@@ -1,0 +1,505 @@
+[
+  {
+    "sample": "00030",
+    "state": "restpose",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00030/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00030/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 92,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00100",
+    "state": "frame0",
+    "garments": [
+      "tee_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00100/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00100/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 30,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00114",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00114/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00114/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 64,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00212",
+    "state": "restpose",
+    "garments": [
+      "skirt_4_panels",
+      "tee_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00212/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00212/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 62,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00242",
+    "state": "restpose",
+    "garments": [
+      "skirt_8_panels",
+      "tee_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00242/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00242/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 92,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00276",
+    "state": "frame0",
+    "garments": [
+      "jumpsuit_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00276/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00276/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 25,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00528",
+    "state": "frame0",
+    "garments": [
+      "jumpsuit_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00528/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00528/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 32,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00568",
+    "state": "frame0",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00568/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00568/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 118,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00662",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00662/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00662/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 86,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00703",
+    "state": "frame0",
+    "garments": [
+      "skirt_4_panels",
+      "tee_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00703/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00703/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 64,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00800",
+    "state": "frame0",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00800/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00800/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 61,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00887",
+    "state": "restpose",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00887/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00887/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 79,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00980",
+    "state": "restpose",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00980/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00980/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 62,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "01306",
+    "state": "frame0",
+    "garments": [
+      "skirt_8_panels",
+      "tee",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/01306/binding.json",
+    "body": "D-LAYERS/garment_body_initials/01306/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 61,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "01456",
+    "state": "restpose",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/01456/binding.json",
+    "body": "D-LAYERS/garment_body_initials/01456/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 62,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "01479",
+    "state": "restpose",
+    "garments": [
+      "skirt_4_panels",
+      "tee_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/01479/binding.json",
+    "body": "D-LAYERS/garment_body_initials/01479/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 64,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "01799",
+    "state": "restpose",
+    "garments": [
+      "tee",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/01799/binding.json",
+    "body": "D-LAYERS/garment_body_initials/01799/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 87,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "01957",
+    "state": "restpose",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/01957/binding.json",
+    "body": "D-LAYERS/garment_body_initials/01957/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 89,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "01990",
+    "state": "restpose",
+    "garments": [
+      "skirt_4_panels",
+      "tee_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/01990/binding.json",
+    "body": "D-LAYERS/garment_body_initials/01990/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 109,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "02085",
+    "state": "frame0",
+    "garments": [
+      "dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/02085/binding.json",
+    "body": "D-LAYERS/garment_body_initials/02085/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 130,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "02807",
+    "state": "frame0",
+    "garments": [
+      "pants_straight_sides",
+      "tee_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/02807/binding.json",
+    "body": "D-LAYERS/garment_body_initials/02807/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 84,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "02860",
+    "state": "frame0",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/02860/binding.json",
+    "body": "D-LAYERS/garment_body_initials/02860/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 138,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "02871",
+    "state": "frame0",
+    "garments": [
+      "skirt_4_panels",
+      "tee_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/02871/binding.json",
+    "body": "D-LAYERS/garment_body_initials/02871/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 28,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "02944",
+    "state": "frame0",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/02944/binding.json",
+    "body": "D-LAYERS/garment_body_initials/02944/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 35,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "03223",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/03223/binding.json",
+    "body": "D-LAYERS/garment_body_initials/03223/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 83,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "03337",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/03337/binding.json",
+    "body": "D-LAYERS/garment_body_initials/03337/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 109,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "03496",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/03496/binding.json",
+    "body": "D-LAYERS/garment_body_initials/03496/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 62,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "03804",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/03804/binding.json",
+    "body": "D-LAYERS/garment_body_initials/03804/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 106,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "03826",
+    "state": "frame0",
+    "garments": [
+      "jumpsuit_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/03826/binding.json",
+    "body": "D-LAYERS/garment_body_initials/03826/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 120,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "03961",
+    "state": "restpose",
+    "garments": [
+      "skirt_4_panels",
+      "tee_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/03961/binding.json",
+    "body": "D-LAYERS/garment_body_initials/03961/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 79,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04018",
+    "state": "frame0",
+    "garments": [
+      "dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04018/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04018/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 160,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04173",
+    "state": "restpose",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04173/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04173/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 60,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04258",
+    "state": "restpose",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04258/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04258/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 102,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04527",
+    "state": "frame0",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04527/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04527/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 41,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04649",
+    "state": "frame0",
+    "garments": [
+      "wb_dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04649/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04649/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 55,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04847",
+    "state": "frame0",
+    "garments": [
+      "dress_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04847/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04847/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 27,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04855",
+    "state": "frame0",
+    "garments": [
+      "dress_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04855/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04855/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 63,
+    "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "04869",
+    "state": "restpose",
+    "garments": [
+      "tee_sleeveless",
+      "jacket_hood"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/04869/binding.json",
+    "body": "D-LAYERS/garment_body_initials/04869/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 92,
+    "source": "uploaded collision report; not recomputed"
+  }
+]

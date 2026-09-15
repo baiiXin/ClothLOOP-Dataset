@@ -1,0 +1,72 @@
+{
+  "scope": "10 ClothTransformer sequences selected in ../body.md",
+  "original_count": 10,
+  "unique_motion_count": 7,
+  "canonical_sequences": [
+    "sim_00000",
+    "sim_00003",
+    "sim_00004",
+    "sim_00007",
+    "sim_00009",
+    "sim_00018",
+    "sim_00028"
+  ],
+  "duplicates": [
+    {
+      "canonical": "sim_00003",
+      "duplicate": "sim_00016",
+      "kind": "same motion, different body surface",
+      "confidence": "high geometric evidence; upstream animation ID unavailable",
+      "frames": 240,
+      "fps": 60,
+      "phase_shift_frames": 0,
+      "velocity_cosine": 0.997727632522583,
+      "active_frame_velocity_cosine_median": 0.9974032640457153,
+      "fraction_active_frames_cosine_above_0_9": 0.8835978835978836,
+      "displacement_scale_correction": 0.985416054725647,
+      "tracked_displacement_mean_body_height": 0.016656775027513504,
+      "tracked_displacement_p95_body_height": 0.03981063887476921,
+      "canonical_reason": "higher resolution body mesh",
+      "original_preserved": true,
+      "translation_removed_local_velocity_cosine": 0.9957292675971985
+    },
+    {
+      "canonical": "sim_00004",
+      "duplicate": "sim_00013",
+      "kind": "same motion, different body surface",
+      "confidence": "high geometric evidence; upstream animation ID unavailable",
+      "frames": 240,
+      "fps": 60,
+      "phase_shift_frames": 0,
+      "velocity_cosine": 0.995022177696228,
+      "active_frame_velocity_cosine_median": 0.9947664737701416,
+      "fraction_active_frames_cosine_above_0_9": 1.0,
+      "displacement_scale_correction": 1.0019747018814087,
+      "tracked_displacement_mean_body_height": 0.010159287601709366,
+      "tracked_displacement_p95_body_height": 0.03143159672617912,
+      "canonical_reason": "higher resolution body mesh",
+      "original_preserved": true,
+      "translation_removed_local_velocity_cosine": 0.994638979434967
+    },
+    {
+      "canonical": "sim_00009",
+      "duplicate": "sim_00024",
+      "kind": "same motion, different body surface",
+      "confidence": "high geometric evidence; upstream animation ID unavailable",
+      "frames": 240,
+      "fps": 60,
+      "phase_shift_frames": 0,
+      "velocity_cosine": 0.9941548705101013,
+      "active_frame_velocity_cosine_median": 0.9937917590141296,
+      "fraction_active_frames_cosine_above_0_9": 1.0,
+      "displacement_scale_correction": 1.0119489431381226,
+      "tracked_displacement_mean_body_height": 0.00518443388864398,
+      "tracked_displacement_p95_body_height": 0.013605920597910881,
+      "canonical_reason": "higher resolution body mesh",
+      "original_preserved": true,
+      "translation_removed_local_velocity_cosine": 0.9942770004272461
+    }
+  ],
+  "source_report_sha256": "d4e0fd87441a9d2453e60911bae8b5a2507cdebd09e0a6b4fcb042e2340fa566",
+  "note": "Deduplication covers the selected ten sequences only; the source DATA retains all original variants."
+}

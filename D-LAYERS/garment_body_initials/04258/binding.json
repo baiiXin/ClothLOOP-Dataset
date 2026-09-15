@@ -1,0 +1,136 @@
+{
+  "schema": "ClothLOOP.dlayers.bound-state.v1",
+  "sample": "04258",
+  "state": "restpose",
+  "category": "restpose无穿",
+  "source_coordinate_convention": "canonical Y-up",
+  "units": "Original exported coordinate units, unchanged in NPZ files",
+  "human": {
+    "file": "human.npz",
+    "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/04258/meshes/human_rest.npz",
+    "bytes": 218204,
+    "sha256": "058b516de4f2261bd387911557268c3c31cd700cd1c7d6fb0c9acbe87c69bc4c",
+    "name": "human",
+    "mesh_number": 1,
+    "vertices": 6890,
+    "faces": 13776,
+    "original_bbox": [
+      [
+        -8.364368026823783,
+        -9.166414588781851,
+        -1.4553031721242426
+      ],
+      [
+        8.392091365290453,
+        7.50713369153952,
+        1.3489185350564448
+      ]
+    ]
+  },
+  "garments": [
+    {
+      "file": "garments/wb_dress_sleeveless.npz",
+      "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/04258/meshes/wb_dress_sleeveless_tpose.npz",
+      "bytes": 514209,
+      "sha256": "290450a0aaba3a084a6b60754c991751cfcb885a1835ff542a436ca11df9fa23",
+      "name": "wb_dress_sleeveless",
+      "mesh_number": 2,
+      "vertices": 14747,
+      "faces": 29219,
+      "original_bbox": [
+        [
+          -1.9587010470049293,
+          -6.621292552104212,
+          -1.5293036741493744
+        ],
+        [
+          2.125712628595021,
+          5.0375310364629735,
+          1.7622673182501423
+        ]
+      ]
+    },
+    {
+      "file": "garments/jacket.npz",
+      "source": "D-LAYERS/processed_p0_p2_20260809/processed/samples/04258/meshes/jacket_tpose.npz",
+      "bytes": 449904,
+      "sha256": "163b533d4a91e4a867f3186889047e6518c6f614b86f783672631dd2a86f8add",
+      "name": "jacket",
+      "mesh_number": 3,
+      "vertices": 12926,
+      "faces": 25332,
+      "original_bbox": [
+        [
+          -3.371794745657323,
+          -5.943778539594009,
+          -3.1380192473092183
+        ],
+        [
+          3.3453307945034334,
+          4.90852563232438,
+          1.0432889576943305
+        ]
+      ]
+    }
+  ],
+  "mesh_order": {
+    "1": "human",
+    "2": "wb_dress_sleeveless",
+    "3": "jacket"
+  },
+  "collision": {
+    "sample": "04258",
+    "state": "restpose",
+    "mesh_order": {
+      "1": "human",
+      "2": "wb_dress_sleeveless",
+      "3": "jacket"
+    },
+    "counts": {
+      "11": 102,
+      "12": 0,
+      "13": 0,
+      "22": 0,
+      "23": 0,
+      "33": 0
+    },
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 102,
+    "source_report_sha256": "8dfb49beb9e26e92898b322a39f1a921833ad1d3ef4e89cdf225016ec3e61af0",
+    "recomputed": false
+  },
+  "source_sequence": {
+    "gender": "female",
+    "motion_path": "human/15/15_04_poses.pkl",
+    "seq_start": 2567,
+    "seq_end": 2609,
+    "num_frame": 42
+  },
+  "display_transform": {
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "operation": "output = matrix @ source; shared by all parts",
+    "coordinate_convention": "Y-up",
+    "raw_npz_transformed": false
+  },
+  "scope": "Exact exported body mesh at selected state; no recovered SMPL betas/parameters or full trajectory",
+  "path_base": ".",
+  "source_reference_base": "Original DATA/cloth; provenance only, not a runtime dependency",
+  "collision_report_file": "../../collision_report.snapshot.json",
+  "sample_metadata_file": "sample_meta.original.json"
+}

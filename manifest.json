@@ -1,0 +1,3143 @@
+{
+  "schema": "ClothLOOP.compact-screening.v1",
+  "created_at": "2026-09-15T19:35:03.557109+08:00",
+  "source_reference_base": "Original ClothLOOP/DATA; provenance only",
+  "body_sequences": {
+    "ClothTransformer": 7,
+    "ContourCraft": 60,
+    "D-LAYERS": 22
+  },
+  "ct_selected_clothes": [
+    "CT-sim_00000",
+    "CT-sim_00002"
+  ],
+  "contourcraft_cloth_objs": 57,
+  "dlayers_initial_samples": 38,
+  "dlayers_initial_garments": 85,
+  "files": [
+    {
+      "path": "ClothTransformer/body_sequences/sim_00000.json",
+      "bytes": 1191,
+      "sha256": "9213b7717d3323cdaaac5ec08da8f21529ccda401d984863fab3a8fbefd5e905",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00000.npz",
+      "bytes": 94994,
+      "sha256": "2e4b1677860b3b91429cfc4b8c8d41f7d22f63fe0309b32d6314534861dcfb8a",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00000/smpl_parameters.npz",
+      "source_sha256": "2e4b1677860b3b91429cfc4b8c8d41f7d22f63fe0309b32d6314534861dcfb8a",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00003.json",
+      "bytes": 1193,
+      "sha256": "7666afa3977ba71867b43abb7cdf81c6bcc3df0b67579b502981ef9c6f79774e",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00003.npz",
+      "bytes": 88599,
+      "sha256": "916e7a200f432553c83d0daa5ef303097729924e5323495c55faacba60b54b2c",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00003/smpl_parameters.npz",
+      "source_sha256": "916e7a200f432553c83d0daa5ef303097729924e5323495c55faacba60b54b2c",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00004.json",
+      "bytes": 1196,
+      "sha256": "f98a7fdc2440b59ae437db5a246352cbdb8d1e03d5a319e0a6784ce38916003b",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00004.npz",
+      "bytes": 123650,
+      "sha256": "42cc6dbd8922b692d2bda6648483e882820ee97aed203b24894128376e0d917b",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00004/smpl_parameters.npz",
+      "source_sha256": "42cc6dbd8922b692d2bda6648483e882820ee97aed203b24894128376e0d917b",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00007.json",
+      "bytes": 1193,
+      "sha256": "5846dc80fe9edadf7574cd27394ca7919947fcf6b7ad0ba7574d7c70b6ab1eb6",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00007.npz",
+      "bytes": 23953,
+      "sha256": "a0eadd57fe58b8c5567b55d6efcd48683a39ad7c5c3a515785731cbda005cff7",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00007/smpl_parameters.npz",
+      "source_sha256": "a0eadd57fe58b8c5567b55d6efcd48683a39ad7c5c3a515785731cbda005cff7",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00009.json",
+      "bytes": 1193,
+      "sha256": "6d5509c49686c658ea08b0e2eaf0010193f8e1b7e209f583c3f5bade30796873",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00009.npz",
+      "bytes": 123612,
+      "sha256": "cbb99586481d6e727086feeb4aaa05dd77b43ca6553d817ebf0f854cbba42b09",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00009/smpl_parameters.npz",
+      "source_sha256": "cbb99586481d6e727086feeb4aaa05dd77b43ca6553d817ebf0f854cbba42b09",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00018.json",
+      "bytes": 1197,
+      "sha256": "7ab3457df27be37be99e799f27b9d401298b81b96d4ad7ba23686da2aeb99bf6",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00018.npz",
+      "bytes": 123585,
+      "sha256": "aa258318ff008418bf1b45d96b013e2b8127d684aaca5e05d9025b4bf7f553f5",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00018/smpl_parameters.npz",
+      "source_sha256": "aa258318ff008418bf1b45d96b013e2b8127d684aaca5e05d9025b4bf7f553f5",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00028.json",
+      "bytes": 1198,
+      "sha256": "92f193ba9d71d2258c3d52626ff1165957361a9bdfb1ac2599702e87873a50b9",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/body_sequences/sim_00028.npz",
+      "bytes": 123766,
+      "sha256": "2d9856bbd5e09cc198e336fac43b2973548d1b09123bf6dd8dd3c434c66872dc",
+      "source": "body_sequence/ours/body/smpl_recovery/joint_repair/motions/sim_00028/smpl_parameters.npz",
+      "source_sha256": "2d9856bbd5e09cc198e336fac43b2973548d1b09123bf6dd8dd3c434c66872dc",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/deduplication.json",
+      "bytes": 2916,
+      "sha256": "a190b92ece0e27985bafda6325c224ba6928f65a7bba00ac630db8cb16efb5a7",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "ClothTransformer/garments/CT-sim_00000.obj",
+      "bytes": 77531,
+      "sha256": "8491d50d40f086ada85d3a7347b80114a4c183572ece4494c407be61a1b1654e",
+      "source": "cloth/items/CT-sim_00000/rest.obj",
+      "source_sha256": "8491d50d40f086ada85d3a7347b80114a4c183572ece4494c407be61a1b1654e",
+      "byte_identical": true
+    },
+    {
+      "path": "ClothTransformer/garments/CT-sim_00002.obj",
+      "bytes": 220197,
+      "sha256": "f02253b509f2db93a1c5a99bfe6ed610683f349031aaf7425c86f1957bc89e59",
+      "source": "cloth/items/CT-sim_00002/rest.obj",
+      "source_sha256": "f02253b509f2db93a1c5a99bfe6ed610683f349031aaf7425c86f1957bc89e59",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/01_01.npz",
+      "bytes": 206048,
+      "sha256": "1ee0e2864ac593160ed5e00fde2b5eb5145344795819868379fddf9adbdfd4d9",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/01_01.npz",
+      "source_sha256": "1ee0e2864ac593160ed5e00fde2b5eb5145344795819868379fddf9adbdfd4d9",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/05_06.npz",
+      "bytes": 188216,
+      "sha256": "9f48fe3073397af6cb7e0274b3f6949e0727611a8ac7bbeb268be52a47104b13",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/05_06.npz",
+      "source_sha256": "9f48fe3073397af6cb7e0274b3f6949e0727611a8ac7bbeb268be52a47104b13",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/05_08.npz",
+      "bytes": 155349,
+      "sha256": "0eb5675a7fa24fbc471c81de65743774ef306c4eccf9199332a97cae8a793ddd",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/05_08.npz",
+      "source_sha256": "0eb5675a7fa24fbc471c81de65743774ef306c4eccf9199332a97cae8a793ddd",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/05_16.npz",
+      "bytes": 115749,
+      "sha256": "18f853ccef3c803e62b92177cbff40a09f58a1967fc563f481afbe2821b9ace5",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/05_16.npz",
+      "source_sha256": "18f853ccef3c803e62b92177cbff40a09f58a1967fc563f481afbe2821b9ace5",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/07_02.npz",
+      "bytes": 34490,
+      "sha256": "826d03f664d0d02a95dae47ebc9ef560d3bed2da4f2b3a9aef61ab58b13fa919",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/07_02.npz",
+      "source_sha256": "826d03f664d0d02a95dae47ebc9ef560d3bed2da4f2b3a9aef61ab58b13fa919",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/104_54.npz",
+      "bytes": 18275,
+      "sha256": "f92fc686554d7689e42b58f90588198c312336111159998fb991bc87dfc94f3f",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/104_54.npz",
+      "source_sha256": "f92fc686554d7689e42b58f90588198c312336111159998fb991bc87dfc94f3f",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/144_02.npz",
+      "bytes": 478753,
+      "sha256": "c1163d84f1aed726d39ba48d55f9128d82b2340067016f62cccf3f313fb5c157",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/144_02.npz",
+      "source_sha256": "c1163d84f1aed726d39ba48d55f9128d82b2340067016f62cccf3f313fb5c157",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/validation8/55_27.npz",
+      "bytes": 361892,
+      "sha256": "48784f1b5955981fa738c78fe71b73012442228b5a99e90ae5fb61b931368d2f",
+      "source": "body_sequence/datasets/ContourCraft/motions/validation8/55_27.npz",
+      "source_sha256": "48784f1b5955981fa738c78fe71b73012442228b5a99e90ae5fb61b931368d2f",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/02_04.npz",
+      "bytes": 33814,
+      "sha256": "847faf2d74e9bcbef478e5d227e3869b82da0a72b2e865c575e86c158a224b48",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/02_04.npz",
+      "source_sha256": "847faf2d74e9bcbef478e5d227e3869b82da0a72b2e865c575e86c158a224b48",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/02_05.npz",
+      "bytes": 33793,
+      "sha256": "0df754f54869a3e60dbad72b9510994e01f4fbcd9ac4a32a53c5f3455d31dc43",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/02_05.npz",
+      "source_sha256": "0df754f54869a3e60dbad72b9510994e01f4fbcd9ac4a32a53c5f3455d31dc43",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/05_20.npz",
+      "bytes": 75111,
+      "sha256": "caae4b8584288d7b264fe7e5eb673ec6f317772e4ea867f401b7f84727ac4543",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/05_20.npz",
+      "source_sha256": "caae4b8584288d7b264fe7e5eb673ec6f317772e4ea867f401b7f84727ac4543",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/104_04.npz",
+      "bytes": 14760,
+      "sha256": "113294ff56437ff24e5b3666f31149fc5eb719b137b76d41347d4362841dc32f",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/104_04.npz",
+      "source_sha256": "113294ff56437ff24e5b3666f31149fc5eb719b137b76d41347d4362841dc32f",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/104_11.npz",
+      "bytes": 37770,
+      "sha256": "4a11079c0f99e548bf3b05c2821a009d68c546964988c8dd4d39ca0e6501a9b2",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/104_11.npz",
+      "source_sha256": "4a11079c0f99e548bf3b05c2821a009d68c546964988c8dd4d39ca0e6501a9b2",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/104_17.npz",
+      "bytes": 32866,
+      "sha256": "9fa2357e1c1225a5a87ebd90bfdbdb8ef73545abec5a108177499854897b3b22",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/104_17.npz",
+      "source_sha256": "9fa2357e1c1225a5a87ebd90bfdbdb8ef73545abec5a108177499854897b3b22",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/104_53.npz",
+      "bytes": 21520,
+      "sha256": "a54528d0afc1f95befb62a0670a5ac2d6caf9b9d77dcd0723179ac2162c1354c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/104_53.npz",
+      "source_sha256": "a54528d0afc1f95befb62a0670a5ac2d6caf9b9d77dcd0723179ac2162c1354c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/105_05.npz",
+      "bytes": 49247,
+      "sha256": "b734be98d66d8202a11392f24c5a3a07bfe865dfbfbf388fe7ee66787539e57c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/105_05.npz",
+      "source_sha256": "b734be98d66d8202a11392f24c5a3a07bfe865dfbfbf388fe7ee66787539e57c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_11.npz",
+      "bytes": 18002,
+      "sha256": "396ac14bba447961f9ec1bdf0b83e864292a1f5aed4bd3cf5fde9a5cdab5a128",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_11.npz",
+      "source_sha256": "396ac14bba447961f9ec1bdf0b83e864292a1f5aed4bd3cf5fde9a5cdab5a128",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_12.npz",
+      "bytes": 10567,
+      "sha256": "37346eef86929a7c5d620d35f7a12e57ad8876776fa9d45e145776ea7f1c9b6b",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_12.npz",
+      "source_sha256": "37346eef86929a7c5d620d35f7a12e57ad8876776fa9d45e145776ea7f1c9b6b",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_16.npz",
+      "bytes": 25411,
+      "sha256": "48d5216fbad874fcafbcbcd31318e89e1658508be4f94e80224969998760ddcd",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_16.npz",
+      "source_sha256": "48d5216fbad874fcafbcbcd31318e89e1658508be4f94e80224969998760ddcd",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_17.npz",
+      "bytes": 16887,
+      "sha256": "857cda9a6ba9dc1649bebad8229ae305c6ccadb3f6ac2ec57e4170badab41a0f",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_17.npz",
+      "source_sha256": "857cda9a6ba9dc1649bebad8229ae305c6ccadb3f6ac2ec57e4170badab41a0f",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_18.npz",
+      "bytes": 17986,
+      "sha256": "a1a5accccd46e40bee118b07cf44c0dfa684cd221575611ecb8553a06111252c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_18.npz",
+      "source_sha256": "a1a5accccd46e40bee118b07cf44c0dfa684cd221575611ecb8553a06111252c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_20.npz",
+      "bytes": 20233,
+      "sha256": "9a999cdec879ff7d41ad2ce639cee3fb19bd1d59282eb2813fedf4278c2cd755",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_20.npz",
+      "source_sha256": "9a999cdec879ff7d41ad2ce639cee3fb19bd1d59282eb2813fedf4278c2cd755",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_22.npz",
+      "bytes": 32780,
+      "sha256": "8a0f41df9b9b52115424387899ede2e09c1658e2ed8c378f82b6a9801294460f",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_22.npz",
+      "source_sha256": "8a0f41df9b9b52115424387899ede2e09c1658e2ed8c378f82b6a9801294460f",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/108_27.npz",
+      "bytes": 29571,
+      "sha256": "7a16440b0e28f060553463ef026b0af86c14a0238817070f88be4f544cf346c0",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/108_27.npz",
+      "source_sha256": "7a16440b0e28f060553463ef026b0af86c14a0238817070f88be4f544cf346c0",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/111_02.npz",
+      "bytes": 29701,
+      "sha256": "598d76acda9873fa732b2890c04187f5b834e042a461d7319fa25af0900b7a9e",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/111_02.npz",
+      "source_sha256": "598d76acda9873fa732b2890c04187f5b834e042a461d7319fa25af0900b7a9e",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/111_05.npz",
+      "bytes": 33792,
+      "sha256": "67eef2ea041370aa0ecca25ae2221250cb2c01f90ba6a2acbb3e0231c9cf0311",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/111_05.npz",
+      "source_sha256": "67eef2ea041370aa0ecca25ae2221250cb2c01f90ba6a2acbb3e0231c9cf0311",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/111_14.npz",
+      "bytes": 33736,
+      "sha256": "0b4da989184588c8668883842199bfbf5bd701b93f0a1aab162c59cf4d70e290",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/111_14.npz",
+      "source_sha256": "0b4da989184588c8668883842199bfbf5bd701b93f0a1aab162c59cf4d70e290",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/111_20.npz",
+      "bytes": 29658,
+      "sha256": "4c277406084ba5d4d0a221ebac7dff9b44069437a99704c744d9d07493872b87",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/111_20.npz",
+      "source_sha256": "4c277406084ba5d4d0a221ebac7dff9b44069437a99704c744d9d07493872b87",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/111_37.npz",
+      "bytes": 23146,
+      "sha256": "af06bfaf8531c9e31dd674976b148ab94d0ba9e9b06937446dfe30c531312f33",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/111_37.npz",
+      "source_sha256": "af06bfaf8531c9e31dd674976b148ab94d0ba9e9b06937446dfe30c531312f33",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/128_02.npz",
+      "bytes": 12523,
+      "sha256": "ddb8f4330bfb40a840d055cef8bb2c7aa05ae478fb7685fbc522c6a2299bb4b7",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/128_02.npz",
+      "source_sha256": "ddb8f4330bfb40a840d055cef8bb2c7aa05ae478fb7685fbc522c6a2299bb4b7",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/128_03.npz",
+      "bytes": 12535,
+      "sha256": "17092725b8e851ca4dd583eb4c8169c86f8af3188c04a71a494555dcbba5afc0",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/128_03.npz",
+      "source_sha256": "17092725b8e851ca4dd583eb4c8169c86f8af3188c04a71a494555dcbba5afc0",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/128_04.npz",
+      "bytes": 10644,
+      "sha256": "12963e5dfbd75b13fa430c7615af1e7d8a1791aab6826a741a8f73eb7d6b78e6",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/128_04.npz",
+      "source_sha256": "12963e5dfbd75b13fa430c7615af1e7d8a1791aab6826a741a8f73eb7d6b78e6",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/128_05.npz",
+      "bytes": 15500,
+      "sha256": "616c2ab2f0fb16c51282b2446b37646d15f667262d6fb77eb4e1031737816819",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/128_05.npz",
+      "source_sha256": "616c2ab2f0fb16c51282b2446b37646d15f667262d6fb77eb4e1031737816819",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/128_06.npz",
+      "bytes": 14700,
+      "sha256": "1f3cbdccf11f2c2d64cd28b9298bb289b31ea1b2c73e94109ab3e66a67c4c09c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/128_06.npz",
+      "source_sha256": "1f3cbdccf11f2c2d64cd28b9298bb289b31ea1b2c73e94109ab3e66a67c4c09c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/128_07.npz",
+      "bytes": 24789,
+      "sha256": "c3aac55ce789c0c3253ddcd4e8b3765f06e0c2f2522619c99f9b94d2f44b5642",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/128_07.npz",
+      "source_sha256": "c3aac55ce789c0c3253ddcd4e8b3765f06e0c2f2522619c99f9b94d2f44b5642",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/131_03.npz",
+      "bytes": 75685,
+      "sha256": "a288d6f576bef5cd7431b07fd4e80205114d96691786bdbddcc4090d812f2e4e",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/131_03.npz",
+      "source_sha256": "a288d6f576bef5cd7431b07fd4e80205114d96691786bdbddcc4090d812f2e4e",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/132_54.npz",
+      "bytes": 49206,
+      "sha256": "eb9cdc0f855a53012f6bdace021424a9e1c35072823de6c41d82d8f79911e0ba",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/132_54.npz",
+      "source_sha256": "eb9cdc0f855a53012f6bdace021424a9e1c35072823de6c41d82d8f79911e0ba",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/135_07.npz",
+      "bytes": 48150,
+      "sha256": "07e963f09e2d52aefe725f1cabbbf75b6075eb567254666238917997034a030e",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/135_07.npz",
+      "source_sha256": "07e963f09e2d52aefe725f1cabbbf75b6075eb567254666238917997034a030e",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/135_09.npz",
+      "bytes": 45825,
+      "sha256": "2f178a9237fea48584ace27bcd6c07c9f620d356c9d66f2f60c7a8c315f625a4",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/135_09.npz",
+      "source_sha256": "2f178a9237fea48584ace27bcd6c07c9f620d356c9d66f2f60c7a8c315f625a4",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/13_13.npz",
+      "bytes": 30891,
+      "sha256": "768208061574d604e4627f6b7fd7361191a78ca225f9f167fa1b88467a968f11",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/13_13.npz",
+      "source_sha256": "768208061574d604e4627f6b7fd7361191a78ca225f9f167fa1b88467a968f11",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/144_26.npz",
+      "bytes": 41959,
+      "sha256": "70a98c1294cd3d030b1ba02426f99bff365bb4095e2e1848f8b471341a34676c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/144_26.npz",
+      "source_sha256": "70a98c1294cd3d030b1ba02426f99bff365bb4095e2e1848f8b471341a34676c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/144_28.npz",
+      "bytes": 37053,
+      "sha256": "30436ec409acfc383dfe07f95509767029f94325819d2a61c069868b1e0b8de3",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/144_28.npz",
+      "source_sha256": "30436ec409acfc383dfe07f95509767029f94325819d2a61c069868b1e0b8de3",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/144_30.npz",
+      "bytes": 57096,
+      "sha256": "bd5a49d8f336432216c5a0bbed8bc8f1a53fce1a20dd67f64d870aee58cd63a9",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/144_30.npz",
+      "source_sha256": "bd5a49d8f336432216c5a0bbed8bc8f1a53fce1a20dd67f64d870aee58cd63a9",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/26_11.npz",
+      "bytes": 38633,
+      "sha256": "d6298b8da65f02917daa6df2af22170d3497d2fcd58d7c52d0b91b560006f41c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/26_11.npz",
+      "source_sha256": "d6298b8da65f02917daa6df2af22170d3497d2fcd58d7c52d0b91b560006f41c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/40_12.npz",
+      "bytes": 41339,
+      "sha256": "d0554ec53b5583d5801d309e05198c6b5efb8a2f69fcf1ca65557e51f1f7a9d5",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/40_12.npz",
+      "source_sha256": "d0554ec53b5583d5801d309e05198c6b5efb8a2f69fcf1ca65557e51f1f7a9d5",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/46_01.npz",
+      "bytes": 42718,
+      "sha256": "99bcb4d81b728341dd3ba9192c81e778cb116791daa20a22bdcb29fb4a3d67fe",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/46_01.npz",
+      "source_sha256": "99bcb4d81b728341dd3ba9192c81e778cb116791daa20a22bdcb29fb4a3d67fe",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/49_04.npz",
+      "bytes": 18342,
+      "sha256": "db9018ebac7d203c87ae068f76e6608be77cba5a2a6510b9768db07c94f572b3",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/49_04.npz",
+      "source_sha256": "db9018ebac7d203c87ae068f76e6608be77cba5a2a6510b9768db07c94f572b3",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/54_24.npz",
+      "bytes": 58037,
+      "sha256": "acc219e15fb4753c813321a9e0d2bbe38f16767bba2cb34792f37be46884c095",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/54_24.npz",
+      "source_sha256": "acc219e15fb4753c813321a9e0d2bbe38f16767bba2cb34792f37be46884c095",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/55_12.npz",
+      "bytes": 42120,
+      "sha256": "04a073e3c35160d5db9cf76343848855afc6cca642604b24e2c8149ae3422f45",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/55_12.npz",
+      "source_sha256": "04a073e3c35160d5db9cf76343848855afc6cca642604b24e2c8149ae3422f45",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/63_25.npz",
+      "bytes": 42629,
+      "sha256": "16cbddbfe176ac1861993a6483ef09c3a77c000357167b07faf3fbc789038612",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/63_25.npz",
+      "source_sha256": "16cbddbfe176ac1861993a6483ef09c3a77c000357167b07faf3fbc789038612",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/73_09.npz",
+      "bytes": 41534,
+      "sha256": "79757fe6e56c74a3eecd1a9fee151cd547d6e356c9ac49d5c90c472b2fd7ddd3",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/73_09.npz",
+      "source_sha256": "79757fe6e56c74a3eecd1a9fee151cd547d6e356c9ac49d5c90c472b2fd7ddd3",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/76_05.npz",
+      "bytes": 58482,
+      "sha256": "b30dda49cf64ec0a85c65326fe48e70f3c0e92628fd897080c550b43111a8f4f",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/76_05.npz",
+      "source_sha256": "b30dda49cf64ec0a85c65326fe48e70f3c0e92628fd897080c550b43111a8f4f",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/76_11.npz",
+      "bytes": 35997,
+      "sha256": "4ac77ef549bcadb9b3bab40cd709b0df62d6cfe9973916da65be95e540e54233",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/76_11.npz",
+      "source_sha256": "4ac77ef549bcadb9b3bab40cd709b0df62d6cfe9973916da65be95e540e54233",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_12.npz",
+      "bytes": 53519,
+      "sha256": "204912603021d10ef7c5e789bfb0656b26f5a41286acd3661cd88fa3a1729304",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_12.npz",
+      "source_sha256": "204912603021d10ef7c5e789bfb0656b26f5a41286acd3661cd88fa3a1729304",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_19.npz",
+      "bytes": 49592,
+      "sha256": "96ebbf2ad332270951152943e8517eea416b0abf71e9aa2fdf86c885cb5d6a28",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_19.npz",
+      "source_sha256": "96ebbf2ad332270951152943e8517eea416b0abf71e9aa2fdf86c885cb5d6a28",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_33.npz",
+      "bytes": 55780,
+      "sha256": "ee986d3a0e450439d577c8f6505a8de407c4156e0d46efb9a18795270cd451d3",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_33.npz",
+      "source_sha256": "ee986d3a0e450439d577c8f6505a8de407c4156e0d46efb9a18795270cd451d3",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_36.npz",
+      "bytes": 41717,
+      "sha256": "77a9f92b179e468a5936cf534b1e5909ec23ea29d3b2404ab70c5687736c9d5c",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_36.npz",
+      "source_sha256": "77a9f92b179e468a5936cf534b1e5909ec23ea29d3b2404ab70c5687736c9d5c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_38.npz",
+      "bytes": 32067,
+      "sha256": "fbb25324459d60374f44ad82793c89a2a234933fbeb72610e2848c71aac052fa",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_38.npz",
+      "source_sha256": "fbb25324459d60374f44ad82793c89a2a234933fbeb72610e2848c71aac052fa",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_61.npz",
+      "bytes": 25786,
+      "sha256": "189e18379d69c44032f833f9d6a881fa5dcf870212878b87fd396cbad610f0b9",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_61.npz",
+      "source_sha256": "189e18379d69c44032f833f9d6a881fa5dcf870212878b87fd396cbad610f0b9",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/body_sequences/vto52/91_62.npz",
+      "bytes": 41704,
+      "sha256": "4acfdb7b31f22a01ca369c9319d498c501b827cd39c7841b70b679e7ec220aa5",
+      "source": "body_sequence/datasets/ContourCraft/motions/vto52/91_62.npz",
+      "source_sha256": "4acfdb7b31f22a01ca369c9319d498c501b827cd39c7841b70b679e7ec220aa5",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aaron_009::bottom.obj",
+      "bytes": 338984,
+      "sha256": "296750eeccb7a180bb25f31c307a367d9d1ca589f1424b142e847ef356cac99d",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aaron_009::bottom.obj",
+      "source_sha256": "296750eeccb7a180bb25f31c307a367d9d1ca589f1424b142e847ef356cac99d",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aaron_009::top.obj",
+      "bytes": 397068,
+      "sha256": "3cc7a66e32951677b758bbe316d75510f2d6fa4cbd266be4a13e811c4e55fbca",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aaron_009::top.obj",
+      "source_sha256": "3cc7a66e32951677b758bbe316d75510f2d6fa4cbd266be4a13e811c4e55fbca",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aaron_013::bottom.obj",
+      "bytes": 427453,
+      "sha256": "a6e522ab2ad9781ab65bdc8377ee35f1824e08d0f8a2c7ca6debfc3b26f7dad1",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aaron_013::bottom.obj",
+      "source_sha256": "a6e522ab2ad9781ab65bdc8377ee35f1824e08d0f8a2c7ca6debfc3b26f7dad1",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aaron_013::top.obj",
+      "bytes": 379733,
+      "sha256": "d6893c1b772942faf41c466bca92830f167c4d0cd42d63f866c18193c9075071",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aaron_013::top.obj",
+      "source_sha256": "d6893c1b772942faf41c466bca92830f167c4d0cd42d63f866c18193c9075071",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aneko_015::bottom.obj",
+      "bytes": 419074,
+      "sha256": "dbef4b115a8ac306db974a287cf1e51912d61abc619733033d346f785cc2a24a",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aneko_015::bottom.obj",
+      "source_sha256": "dbef4b115a8ac306db974a287cf1e51912d61abc619733033d346f785cc2a24a",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aneko_015::top_jacket.obj",
+      "bytes": 464599,
+      "sha256": "d0e3705451ecc0e75fe0175cee8a072853763c18773ea742d762b691f653c60b",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aneko_015::top_jacket.obj",
+      "source_sha256": "d0e3705451ecc0e75fe0175cee8a072853763c18773ea742d762b691f653c60b",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/aneko_015::top_shirt.obj",
+      "bytes": 270323,
+      "sha256": "de9f8f0b0d1bd7af13714a6873b12a88e6f011345cb6c0552f0ced00b7326913",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/aneko_015::top_shirt.obj",
+      "source_sha256": "de9f8f0b0d1bd7af13714a6873b12a88e6f011345cb6c0552f0ced00b7326913",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/beatrice_019::bottom.obj",
+      "bytes": 493428,
+      "sha256": "064467c2ae56119a516d808047844fb0a473e12e8fa1b15e24fc0b8e28c9e29a",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/beatrice_019::bottom.obj",
+      "source_sha256": "064467c2ae56119a516d808047844fb0a473e12e8fa1b15e24fc0b8e28c9e29a",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/beatrice_019::top_apron.obj",
+      "bytes": 454576,
+      "sha256": "f0117ccff76004de2633d4bf09b32e8ccb49aec30ded3b5581bbeab3fb2f4474",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/beatrice_019::top_apron.obj",
+      "source_sha256": "f0117ccff76004de2633d4bf09b32e8ccb49aec30ded3b5581bbeab3fb2f4474",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/beatrice_019::top_shirt.obj",
+      "bytes": 441091,
+      "sha256": "d6fb91b75af15514e7c7c4a0b61bcf44a896f3afdaa874f5060bbdf31f6f587a",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/beatrice_019::top_shirt.obj",
+      "source_sha256": "d6fb91b75af15514e7c7c4a0b61bcf44a896f3afdaa874f5060bbdf31f6f587a",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/ben_004::bottom.obj",
+      "bytes": 372312,
+      "sha256": "370e86fcf58a500b78c184e53985aae42e3b55d07e6aecab4b3744b78b8a8d27",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/ben_004::bottom.obj",
+      "source_sha256": "370e86fcf58a500b78c184e53985aae42e3b55d07e6aecab4b3744b78b8a8d27",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/ben_004::scarf.obj",
+      "bytes": 53178,
+      "sha256": "a2ca8b0e8c9c7d4ea87c83741ea6a80e251efa4e7ceffe867cbb1e337e624bb5",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/ben_004::scarf.obj",
+      "source_sha256": "a2ca8b0e8c9c7d4ea87c83741ea6a80e251efa4e7ceffe867cbb1e337e624bb5",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/ben_004::top_coat.obj",
+      "bytes": 469236,
+      "sha256": "d6bdc67148a7cbd2bb7ffae7fa9fcdab7b8c2c3d6b076b4ab7357ffcd2593787",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/ben_004::top_coat.obj",
+      "source_sha256": "d6bdc67148a7cbd2bb7ffae7fa9fcdab7b8c2c3d6b076b4ab7357ffcd2593787",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/ben_004::top_tshirt.obj",
+      "bytes": 402195,
+      "sha256": "4c5c54a74f98419a18cfbfd05776de3f74dfb99faadf2f44144104877b7fcf7a",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/ben_004::top_tshirt.obj",
+      "source_sha256": "4c5c54a74f98419a18cfbfd05776de3f74dfb99faadf2f44144104877b7fcf7a",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/ben_004::top_vest.obj",
+      "bytes": 549176,
+      "sha256": "a94db8c1d8f59d597e9a1f91e19a1983f75e83e06eac56bc6d945de5f87ccfe1",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/ben_004::top_vest.obj",
+      "source_sha256": "a94db8c1d8f59d597e9a1f91e19a1983f75e83e06eac56bc6d945de5f87ccfe1",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/dress.obj",
+      "bytes": 785077,
+      "sha256": "56c5ab6fa56b0998f87e96e683795b035335b914cc5fae1ff46af56fc7db10c8",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/dress.obj",
+      "source_sha256": "56c5ab6fa56b0998f87e96e683795b035335b914cc5fae1ff46af56fc7db10c8",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/dress_split.obj",
+      "bytes": 786919,
+      "sha256": "aea52e4e81ba360d62396228ea9269198e3d106c376de16fcc80887fae1111ad",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/dress_split.obj",
+      "source_sha256": "aea52e4e81ba360d62396228ea9269198e3d106c376de16fcc80887fae1111ad",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/hooded_tight_dress.obj",
+      "bytes": 434640,
+      "sha256": "c8050ffde75df3c2650bd5980b1fdf66b7837baae21d93119eed047d258cae53",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/hooded_tight_dress.obj",
+      "source_sha256": "c8050ffde75df3c2650bd5980b1fdf66b7837baae21d93119eed047d258cae53",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/longskirt.obj",
+      "bytes": 492585,
+      "sha256": "8428c675681cc8c97955142e4d8db6f216c71a99bc9b03dce75df6124e0fe421",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/longskirt.obj",
+      "source_sha256": "8428c675681cc8c97955142e4d8db6f216c71a99bc9b03dce75df6124e0fe421",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/longsleeve.obj",
+      "bytes": 267095,
+      "sha256": "98dfa2d0374f495f4b1c0d508283d078eb3c35163837b410b7820fd8d105eeed",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/longsleeve.obj",
+      "source_sha256": "98dfa2d0374f495f4b1c0d508283d078eb3c35163837b410b7820fd8d105eeed",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/novel_tank.obj",
+      "bytes": 486948,
+      "sha256": "43cf327e1ec0a762b6c0250acc2a0d285046831c664163c07ed6f49a29e1e264",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/novel_tank.obj",
+      "source_sha256": "43cf327e1ec0a762b6c0250acc2a0d285046831c664163c07ed6f49a29e1e264",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/novel_top.obj",
+      "bytes": 461819,
+      "sha256": "04b495244764272ecb85093791813c51c8152dfca46445d0175f4bef0d73f9a5",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/novel_top.obj",
+      "source_sha256": "04b495244764272ecb85093791813c51c8152dfca46445d0175f4bef0d73f9a5",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/pants.obj",
+      "bytes": 244596,
+      "sha256": "25252e00ce5504149c4407904205460bed49af0744659fb4531592fd6c111143",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/pants.obj",
+      "source_sha256": "25252e00ce5504149c4407904205460bed49af0744659fb4531592fd6c111143",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/pants_shorter.obj",
+      "bytes": 209102,
+      "sha256": "911d081bab00afba7511cf0ffc3470cad0cd61f429a4e54124f42c7ebfad90d5",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/pants_shorter.obj",
+      "source_sha256": "911d081bab00afba7511cf0ffc3470cad0cd61f429a4e54124f42c7ebfad90d5",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/shorts.obj",
+      "bytes": 136841,
+      "sha256": "bf78404dda18d054da5310e6811b6a777f22781e1592adcc11eaf61ddb2ab82c",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/shorts.obj",
+      "source_sha256": "bf78404dda18d054da5310e6811b6a777f22781e1592adcc11eaf61ddb2ab82c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/shortsleeve.obj",
+      "bytes": 216047,
+      "sha256": "418519c6e7249a4f81e528b2df98bae525822f1f3c0ff8696b55636e4275f242",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/shortsleeve.obj",
+      "source_sha256": "418519c6e7249a4f81e528b2df98bae525822f1f3c0ff8696b55636e4275f242",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/tank.obj",
+      "bytes": 184065,
+      "sha256": "2e0ae89f9de348c8f067c9ce7ef97d39b0cdf1a495e7dedf8c4284664c2baa2b",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/tank.obj",
+      "source_sha256": "2e0ae89f9de348c8f067c9ce7ef97d39b0cdf1a495e7dedf8c4284664c2baa2b",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/tank_and_skirt.obj",
+      "bytes": 687462,
+      "sha256": "dc5c34177bdd3532401ca91ad5c2853f861908d8c1467209c850f265c8c1723d",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/tank_and_skirt.obj",
+      "source_sha256": "dc5c34177bdd3532401ca91ad5c2853f861908d8c1467209c850f265c8c1723d",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/tight_dress.obj",
+      "bytes": 363045,
+      "sha256": "72b45d434c6fe683bd87d6e0f7e3d79a5119d87d5ec43ba84f85148075cd2732",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/tight_dress.obj",
+      "source_sha256": "72b45d434c6fe683bd87d6e0f7e3d79a5119d87d5ec43ba84f85148075cd2732",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/tshirt.obj",
+      "bytes": 275797,
+      "sha256": "99fa4555704a5c28472b40d710497e90f68b64113409898599a4743b5402f2fa",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/tshirt.obj",
+      "source_sha256": "99fa4555704a5c28472b40d710497e90f68b64113409898599a4743b5402f2fa",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/tshirt_unzipped.obj",
+      "bytes": 276605,
+      "sha256": "3d953586f3d4fe5ee1642d6188a0e9dd82229e3f10bbcff5634c03fff25380dc",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/tshirt_unzipped.obj",
+      "source_sha256": "3d953586f3d4fe5ee1642d6188a0e9dd82229e3f10bbcff5634c03fff25380dc",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smpl/tshirt_unzipped_dynamic.obj",
+      "bytes": 276605,
+      "sha256": "3d953586f3d4fe5ee1642d6188a0e9dd82229e3f10bbcff5634c03fff25380dc",
+      "source": "body_sequence/datasets/ContourCraft/garments/smpl/tshirt_unzipped_dynamic.obj",
+      "source_sha256": "3d953586f3d4fe5ee1642d6188a0e9dd82229e3f10bbcff5634c03fff25380dc",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_013::bottom_pants.obj",
+      "bytes": 428043,
+      "sha256": "cc624c2e2ddaabab13e4d85a0e04f1ba09425e6b9a8509e8bbb9a9ac947291c9",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_013::bottom_pants.obj",
+      "source_sha256": "cc624c2e2ddaabab13e4d85a0e04f1ba09425e6b9a8509e8bbb9a9ac947291c9",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_013::top_jacket.obj",
+      "bytes": 381535,
+      "sha256": "7e34fd7c1c633d2887d946497dc3a156ea12297cd7a366d9a13297045febb7b7",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_013::top_jacket.obj",
+      "source_sha256": "7e34fd7c1c633d2887d946497dc3a156ea12297cd7a366d9a13297045febb7b7",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_022::bottom_pants.obj",
+      "bytes": 298995,
+      "sha256": "84363bb2b925450b85a5d24b16ad5319d463ad35c5c3b8d7405a9d4dd626a7d6",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_022::bottom_pants.obj",
+      "source_sha256": "84363bb2b925450b85a5d24b16ad5319d463ad35c5c3b8d7405a9d4dd626a7d6",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_022::top_blouse.obj",
+      "bytes": 313581,
+      "sha256": "600013c8f171e7401dc19f45814b540604d8c097c1948f8a65ebbe43f83ce14e",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_022::top_blouse.obj",
+      "source_sha256": "600013c8f171e7401dc19f45814b540604d8c097c1948f8a65ebbe43f83ce14e",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_022::top_coat.obj",
+      "bytes": 508321,
+      "sha256": "9f30e93ef563249cf42162d90c78e07ce6f0ecdd9d4cc3eeac1ae294098cf789",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_022::top_coat.obj",
+      "source_sha256": "9f30e93ef563249cf42162d90c78e07ce6f0ecdd9d4cc3eeac1ae294098cf789",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_022::top_coat_buttoned.obj",
+      "bytes": 508231,
+      "sha256": "4555e8bbf83f49fc6851f6019d36946fb3a3acf956e4fd939d3796468d0d39ae",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_022::top_coat_buttoned.obj",
+      "source_sha256": "4555e8bbf83f49fc6851f6019d36946fb3a3acf956e4fd939d3796468d0d39ae",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/aaron_022_combined.obj",
+      "bytes": 2130067,
+      "sha256": "1489d1900822f5bbe04fc9f09eac8cf960857ebf32d1432a8d929818f28dc167",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/aaron_022_combined.obj",
+      "source_sha256": "1489d1900822f5bbe04fc9f09eac8cf960857ebf32d1432a8d929818f28dc167",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/ben_004::bottom_pants.obj",
+      "bytes": 558122,
+      "sha256": "200729d7abc8dd721f474620fb17d8561bbdd42dbd6fcca496d9d3bacb8b7f85",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/ben_004::bottom_pants.obj",
+      "source_sha256": "200729d7abc8dd721f474620fb17d8561bbdd42dbd6fcca496d9d3bacb8b7f85",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/ben_004::scarf.obj",
+      "bytes": 53253,
+      "sha256": "a49d5b0bb88625d31b0bc9fb543b546e902689f549fc88c8f19b97cd8c99c09d",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/ben_004::scarf.obj",
+      "source_sha256": "a49d5b0bb88625d31b0bc9fb543b546e902689f549fc88c8f19b97cd8c99c09d",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/ben_004::top_coat.obj",
+      "bytes": 513664,
+      "sha256": "b450148d0f87ea161b456d44c9ac1c60ee08860b262d914edcd86f75182be50a",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/ben_004::top_coat.obj",
+      "source_sha256": "b450148d0f87ea161b456d44c9ac1c60ee08860b262d914edcd86f75182be50a",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/ben_004::top_tshirt.obj",
+      "bytes": 313900,
+      "sha256": "89bd1ef069b0a3e38f1852c8e16cc23d17ef8368041d08e67e329ed9fd6034c8",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/ben_004::top_tshirt.obj",
+      "source_sha256": "89bd1ef069b0a3e38f1852c8e16cc23d17ef8368041d08e67e329ed9fd6034c8",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/ben_004::top_vest.obj",
+      "bytes": 919630,
+      "sha256": "f39c98e3f1b68716d7bce740a7fdc83a47a599324192d6eec737b703d213c431",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/ben_004::top_vest.obj",
+      "source_sha256": "f39c98e3f1b68716d7bce740a7fdc83a47a599324192d6eec737b703d213c431",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/ben_004_combined.obj",
+      "bytes": 4618760,
+      "sha256": "e6e161630f8e8cdbbb382fde58df4460173038ce49336b92e8c085f74ff1e894",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/ben_004_combined.obj",
+      "source_sha256": "e6e161630f8e8cdbbb382fde58df4460173038ce49336b92e8c085f74ff1e894",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/caren_008::dress.obj",
+      "bytes": 638028,
+      "sha256": "7aaa473b71ef910eafe64eeee6d880149c90f024af6f483eaa24b0f9a69655f3",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/caren_008::dress.obj",
+      "source_sha256": "7aaa473b71ef910eafe64eeee6d880149c90f024af6f483eaa24b0f9a69655f3",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/caren_008::top_overcoat.obj",
+      "bytes": 249301,
+      "sha256": "f1149e6951fddbe18afaaeae15eefaa30b2a7b89a8cb2de9d6a1ec4dc9345911",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/caren_008::top_overcoat.obj",
+      "source_sha256": "f1149e6951fddbe18afaaeae15eefaa30b2a7b89a8cb2de9d6a1ec4dc9345911",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/caren_008_combined.obj",
+      "bytes": 1658523,
+      "sha256": "4fdb29de35fc849f7e89dac1509ec495822e99b6ebff3f95faca6de6b09b2d60",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/caren_008_combined.obj",
+      "source_sha256": "4fdb29de35fc849f7e89dac1509ec495822e99b6ebff3f95faca6de6b09b2d60",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/celina_002::bottom_pants.obj",
+      "bytes": 458792,
+      "sha256": "e5ac37f68540dce66f551e73eeee7eb6ca6645cc3a52ecc769ece40954ff6481",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/celina_002::bottom_pants.obj",
+      "source_sha256": "e5ac37f68540dce66f551e73eeee7eb6ca6645cc3a52ecc769ece40954ff6481",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/celina_002::top_blouse.obj",
+      "bytes": 313913,
+      "sha256": "8ed056892a614801740a0e180cc2e3dee405bb753c5553d85c48de823f83e28d",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/celina_002::top_blouse.obj",
+      "source_sha256": "8ed056892a614801740a0e180cc2e3dee405bb753c5553d85c48de823f83e28d",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/celina_002::top_jacket.obj",
+      "bytes": 505811,
+      "sha256": "338c30daf43345598e5bdbf227d4480128c1dcf1d8bdc37a227d5d6355494ba3",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/celina_002::top_jacket.obj",
+      "source_sha256": "338c30daf43345598e5bdbf227d4480128c1dcf1d8bdc37a227d5d6355494ba3",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/celina_002_combined.obj",
+      "bytes": 2448094,
+      "sha256": "362384aa17123ad0a0a32c07d3556b07a0e3e2387c49470d31412f13e4ad68d4",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/celina_002_combined.obj",
+      "source_sha256": "362384aa17123ad0a0a32c07d3556b07a0e3e2387c49470d31412f13e4ad68d4",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/cindy_020::bottom_skirt.obj",
+      "bytes": 380379,
+      "sha256": "71ea523ab5d3a819a285d016914b206503a8a60405464d1587bf2d13e801ffce",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/cindy_020::bottom_skirt.obj",
+      "source_sha256": "71ea523ab5d3a819a285d016914b206503a8a60405464d1587bf2d13e801ffce",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/cindy_020::top_blouse.obj",
+      "bytes": 378791,
+      "sha256": "2398d5fc7622c3a5ab58f13a02ba77ba5bcdb984bfe77593882af2c37047ec61",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/cindy_020::top_blouse.obj",
+      "source_sha256": "2398d5fc7622c3a5ab58f13a02ba77ba5bcdb984bfe77593882af2c37047ec61",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/cindy_020_combined.obj",
+      "bytes": 1399609,
+      "sha256": "7ffa77570e7062592dcb24274a0ccfe5bcacbe7a758a04d272eeacf7d69adca4",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/cindy_020_combined.obj",
+      "source_sha256": "7ffa77570e7062592dcb24274a0ccfe5bcacbe7a758a04d272eeacf7d69adca4",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/cindy_020_combined_test.obj",
+      "bytes": 777359,
+      "sha256": "c111e268e2160d838b024208fa8058d1988f56cd846225e12258b624ff6cf11c",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/cindy_020_combined_test.obj",
+      "source_sha256": "c111e268e2160d838b024208fa8058d1988f56cd846225e12258b624ff6cf11c",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/garments/smplx/tank_and_shorts.obj",
+      "bytes": 1055905,
+      "sha256": "16558a3e6fd1b038d65c27ca84657dc3a06d5a76abf44aa2983ee14c16e7dc52",
+      "source": "body_sequence/datasets/ContourCraft/garments/smplx/tank_and_shorts.obj",
+      "source_sha256": "16558a3e6fd1b038d65c27ca84657dc3a06d5a76abf44aa2983ee14c16e7dc52",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/provenance/betas.pkl",
+      "bytes": 4003,
+      "sha256": "142599eeefa3e07654691eadb9925b0df25efc917e9c6a56e90d597a769c3eed",
+      "source": "body_sequence/datasets/ContourCraft/metadata/betas.pkl",
+      "source_sha256": "142599eeefa3e07654691eadb9925b0df25efc917e9c6a56e90d597a769c3eed",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/provenance/train.upstream.csv",
+      "bytes": 237487,
+      "sha256": "604e435b40fd8c627e8da8b7195f1657d8dd4559a7ce5a82eab67e8e5f87f588",
+      "source": "body_sequence/datasets/ContourCraft/metadata/train.upstream.csv",
+      "source_sha256": "604e435b40fd8c627e8da8b7195f1657d8dd4559a7ce5a82eab67e8e5f87f588",
+      "byte_identical": true
+    },
+    {
+      "path": "ContourCraft/provenance/vto52-manifest.json",
+      "bytes": 28165,
+      "sha256": "41defb6e48e5fe89c440e384bffa97e62ce377604f36f07595e75f269421b712",
+      "source": "body_sequence/datasets/ContourCraft/metadata/vto52-manifest.json",
+      "source_sha256": "41defb6e48e5fe89c440e384bffa97e62ce377604f36f07595e75f269421b712",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/06_13.pkl",
+      "bytes": 820608,
+      "sha256": "e1a68e85b43bf15870a1aa3516decded291243bec421f9b63732f0e2a91b5956",
+      "source": "body_sequence/data/D-LAYERS/ball_sports/sequence_011/data/06_13_poses.pkl",
+      "source_sha256": "e1a68e85b43bf15870a1aa3516decded291243bec421f9b63732f0e2a91b5956",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/102_21.pkl",
+      "bytes": 86864,
+      "sha256": "7a30352ef2c9a80475327415b97a430815b3a9687aae143b9d062855d8c35dba",
+      "source": "body_sequence/data/D-LAYERS/ball_sports/sequence_025/data/102_21_poses.pkl",
+      "source_sha256": "7a30352ef2c9a80475327415b97a430815b3a9687aae143b9d062855d8c35dba",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/127_05.pkl",
+      "bytes": 64844,
+      "sha256": "6ca48b4d0e46b478ab63d631a1e71308d351ef24453a0568456ba3fd6feba702",
+      "source": "body_sequence/data/D-LAYERS/running/sequence_008/data/127_05_poses.pkl",
+      "source_sha256": "6ca48b4d0e46b478ab63d631a1e71308d351ef24453a0568456ba3fd6feba702",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/127_19.pkl",
+      "bytes": 73524,
+      "sha256": "fa96034ea6b504000cf8c702d88328408b68f474b81068292f1ddf6ce2688b76",
+      "source": "body_sequence/data/D-LAYERS/running/sequence_019/data/127_19_poses.pkl",
+      "source_sha256": "fa96034ea6b504000cf8c702d88328408b68f474b81068292f1ddf6ce2688b76",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/12_04.pkl",
+      "bytes": 2977104,
+      "sha256": "78921e41e75bf43d0fa5de31988f2cb266ea46cdda161cd971fb358d0fa7fbde",
+      "source": "body_sequence/data/D-LAYERS/long_sequences/sequence_002/data/12_04_poses.pkl",
+      "source_sha256": "78921e41e75bf43d0fa5de31988f2cb266ea46cdda161cd971fb358d0fa7fbde",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/135_02.pkl",
+      "bytes": 870123,
+      "sha256": "c3b35c1edaf798f2fff15df2391d7742ec5c8b6d108edd8b2ba009f605cf8dfb",
+      "source": "body_sequence/data/D-LAYERS/martial_arts/sequence_010/data/135_02_poses.pkl",
+      "source_sha256": "c3b35c1edaf798f2fff15df2391d7742ec5c8b6d108edd8b2ba009f605cf8dfb",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/139_13.pkl",
+      "bytes": 463982,
+      "sha256": "b0486d18a73277ef9e9c04fc42da4715ef503f7e4d65ed3af82a8d5018480e27",
+      "source": "body_sequence/data/D-LAYERS/running/sequence_030/data/139_13_poses.pkl",
+      "source_sha256": "b0486d18a73277ef9e9c04fc42da4715ef503f7e4d65ed3af82a8d5018480e27",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/13_17.pkl",
+      "bytes": 809235,
+      "sha256": "af81eb3d7317fc05fc06d2913c8492667ac6e58e4f651edb52a04bd57b60f06f",
+      "source": "body_sequence/data/D-LAYERS/martial_arts/sequence_008/data/13_17_poses.pkl",
+      "source_sha256": "af81eb3d7317fc05fc06d2913c8492667ac6e58e4f651edb52a04bd57b60f06f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/141_12.pkl",
+      "bytes": 189647,
+      "sha256": "a65961dc465579b9782cfed1e958e8bc00692a2ef6934944bf1cc31dde4064d3",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_028/data/141_12_poses.pkl",
+      "source_sha256": "a65961dc465579b9782cfed1e958e8bc00692a2ef6934944bf1cc31dde4064d3",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/144_02.pkl",
+      "bytes": 388367,
+      "sha256": "0bfbbd7ef2bde912f4b621b7dd276de02e19c8c1b5d3e75a307a9496c9ba3b3d",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_002/data/144_02_poses.pkl",
+      "source_sha256": "0bfbbd7ef2bde912f4b621b7dd276de02e19c8c1b5d3e75a307a9496c9ba3b3d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/55_01.pkl",
+      "bytes": 302057,
+      "sha256": "6d3a24373a9559806ebbecb7a6c2e5bc12237cdc9abdd10b296798672326fd08",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_040/data/55_01_poses.pkl",
+      "source_sha256": "6d3a24373a9559806ebbecb7a6c2e5bc12237cdc9abdd10b296798672326fd08",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/55_25.pkl",
+      "bytes": 532898,
+      "sha256": "41f5021d6bdc8404f448ab1ccab8f9df247991d72402c4b6a7ccc581269fcef2",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_043/data/55_25_poses.pkl",
+      "source_sha256": "41f5021d6bdc8404f448ab1ccab8f9df247991d72402c4b6a7ccc581269fcef2",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/55_27.pkl",
+      "bytes": 836664,
+      "sha256": "521c3d271981c3d20066a4f1980bcca59445807a306846abb28dbdc522543332",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_044/data/55_27_poses.pkl",
+      "source_sha256": "521c3d271981c3d20066a4f1980bcca59445807a306846abb28dbdc522543332",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/60_01.pkl",
+      "bytes": 749685,
+      "sha256": "6e44c34d064db2bb3c5a347ff1c18215dc995304106ebf0841465570d3c575b7",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_045/data/60_01_poses.pkl",
+      "source_sha256": "6e44c34d064db2bb3c5a347ff1c18215dc995304106ebf0841465570d3c575b7",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/60_09.pkl",
+      "bytes": 861426,
+      "sha256": "964196e5d1481115f2256667f33f1479ae96e5a1177832d12968342250bce722",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_052/data/60_09_poses.pkl",
+      "source_sha256": "964196e5d1481115f2256667f33f1479ae96e5a1177832d12968342250bce722",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/85_04.pkl",
+      "bytes": 427178,
+      "sha256": "5cf06707bc8ebec4eb1ef3484021304b4fb12b2baa1667c77481a5cc7428d99c",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_009/data/85_04_poses.pkl",
+      "source_sha256": "5cf06707bc8ebec4eb1ef3484021304b4fb12b2baa1667c77481a5cc7428d99c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/85_12.pkl",
+      "bytes": 752361,
+      "sha256": "f6c82b40b6ab458e3cb703bc74eb91c51244c323d476da249ed2ef5069d8bd8d",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_015/data/85_12_poses.pkl",
+      "source_sha256": "f6c82b40b6ab458e3cb703bc74eb91c51244c323d476da249ed2ef5069d8bd8d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/88_09.pkl",
+      "bytes": 125550,
+      "sha256": "cf5cadf7d7f0b21f4d5589cefd48a0e5c4e7d163b4849ffbb69c28a0508da1b0",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_020/data/88_09_poses.pkl",
+      "source_sha256": "cf5cadf7d7f0b21f4d5589cefd48a0e5c4e7d163b4849ffbb69c28a0508da1b0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/90_08.pkl",
+      "bytes": 112877,
+      "sha256": "0e8280f1a25885b8c5f364b3d238aade6df86e1a0b9f7957f68c4fc1933d4560",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_027/data/90_08_poses.pkl",
+      "source_sha256": "0e8280f1a25885b8c5f364b3d238aade6df86e1a0b9f7957f68c4fc1933d4560",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/90_11.pkl",
+      "bytes": 60175,
+      "sha256": "be66e3a1f12ae2df84776bd2275d3712ad36210e10887a727d94ca17f9a35eb4",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_028/data/90_11_poses.pkl",
+      "source_sha256": "be66e3a1f12ae2df84776bd2275d3712ad36210e10887a727d94ca17f9a35eb4",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/90_12.pkl",
+      "bytes": 138232,
+      "sha256": "6909776b478766a35c48a727847ea3835c474485f3a299a4a7513a3fb8acb2f0",
+      "source": "body_sequence/data/D-LAYERS/acrobatics/sequence_029/data/90_12_poses.pkl",
+      "source_sha256": "6909776b478766a35c48a727847ea3835c474485f3a299a4a7513a3fb8acb2f0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/body_sequences/94_05.pkl",
+      "bytes": 881496,
+      "sha256": "c4f08da29c98bdeeb1deb316d055590f00a89c79d91956f6c76706f89d0e19d3",
+      "source": "body_sequence/data/D-LAYERS/dance/sequence_080/data/94_05_poses.pkl",
+      "source_sha256": "c4f08da29c98bdeeb1deb316d055590f00a89c79d91956f6c76706f89d0e19d3",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/collision_classification.snapshot.json",
+      "bytes": 112059,
+      "sha256": "a4c669f23c2bf133d1f5258be7636cf2e840fe94aa741081bc4aae2ebc304f2b",
+      "source": "cloth/D-LAYERS/selected_38_20260915/collision_classification.snapshot.json",
+      "source_sha256": "a4c669f23c2bf133d1f5258be7636cf2e840fe94aa741081bc4aae2ebc304f2b",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/collision_report.snapshot.json",
+      "bytes": 623480,
+      "sha256": "8dfb49beb9e26e92898b322a39f1a921833ad1d3ef4e89cdf225016ec3e61af0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/collision_report.snapshot.json",
+      "source_sha256": "8dfb49beb9e26e92898b322a39f1a921833ad1d3ef4e89cdf225016ec3e61af0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00030/binding.json",
+      "bytes": 3515,
+      "sha256": "00921497b3d787dab4f1f94d30946a33d90e57f15b690fff787f94ecdc773073",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00030/collision.json",
+      "bytes": 425,
+      "sha256": "c2a554e5fc193e31673389f6fa84bf08d8452676ec13207ecd6b1b71023f7b1e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00030/collision.json",
+      "source_sha256": "c2a554e5fc193e31673389f6fa84bf08d8452676ec13207ecd6b1b71023f7b1e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00030/garments/dress_sleeveless.npz",
+      "bytes": 287170,
+      "sha256": "ff74343c0b597a4f7c0734c7dd4c2eed473635a0e1e5b91999a3cec7d4c4103a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00030/garments/dress_sleeveless.npz",
+      "source_sha256": "ff74343c0b597a4f7c0734c7dd4c2eed473635a0e1e5b91999a3cec7d4c4103a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00030/garments/jacket_hood.npz",
+      "bytes": 297064,
+      "sha256": "bb6c6bd1c1989a4a3a08603bc42ef92228297fa04336c2026551828d95fb136f",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00030/garments/jacket_hood.npz",
+      "source_sha256": "bb6c6bd1c1989a4a3a08603bc42ef92228297fa04336c2026551828d95fb136f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00030/human.npz",
+      "bytes": 217593,
+      "sha256": "82491fc6baa36de8cde7aa4ad6581b6a29cf8ae5722ac309fe19f0a8b33f82b7",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00030/human.npz",
+      "source_sha256": "82491fc6baa36de8cde7aa4ad6581b6a29cf8ae5722ac309fe19f0a8b33f82b7",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00030/sample_meta.original.json",
+      "bytes": 545,
+      "sha256": "0da7d35e8b9e82fc5af4de7ba853feac24224228df2bd5a23e62d33024c9ff69",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00030/sample_meta.original.json",
+      "source_sha256": "0da7d35e8b9e82fc5af4de7ba853feac24224228df2bd5a23e62d33024c9ff69",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00100/binding.json",
+      "bytes": 3496,
+      "sha256": "2fdba89563398f6e73edba1b7cb7e41aeac0c206c54e74d7724f81a8863f32c7",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00100/collision.json",
+      "bytes": 421,
+      "sha256": "73d205bf861f4e5a58f8c38a16ab48ffe6fabf1ea98b5608a0d37d0cd06265df",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00100/collision.json",
+      "source_sha256": "73d205bf861f4e5a58f8c38a16ab48ffe6fabf1ea98b5608a0d37d0cd06265df",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00100/garments/jacket_hood.npz",
+      "bytes": 370042,
+      "sha256": "2fb144bb1ee93c7dad41332cafd5d10c5359efa13720486becc5247073588023",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00100/garments/jacket_hood.npz",
+      "source_sha256": "2fb144bb1ee93c7dad41332cafd5d10c5359efa13720486becc5247073588023",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00100/garments/tee_sleeveless.npz",
+      "bytes": 319944,
+      "sha256": "a034603f73e670a55d7d54d3685e52ba0dd65b19149d4dc11b08005eff337ae5",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00100/garments/tee_sleeveless.npz",
+      "source_sha256": "a034603f73e670a55d7d54d3685e52ba0dd65b19149d4dc11b08005eff337ae5",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00100/human.npz",
+      "bytes": 220877,
+      "sha256": "7ff770509bbbe02cc0f96d51d4e35b96b28a7d82713caff6a33f3d15106fcf04",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00100/human.npz",
+      "source_sha256": "7ff770509bbbe02cc0f96d51d4e35b96b28a7d82713caff6a33f3d15106fcf04",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00100/sample_meta.original.json",
+      "bytes": 539,
+      "sha256": "56493e278efebf5a316613d4f77f311596ed20592399d454f2b322d90f344e89",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00100/sample_meta.original.json",
+      "source_sha256": "56493e278efebf5a316613d4f77f311596ed20592399d454f2b322d90f344e89",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00114/binding.json",
+      "bytes": 3502,
+      "sha256": "895ce60fb35c9ae2a415d9bd1e33cf03bad85a4ec3878385054d6f58b3e683e6",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00114/collision.json",
+      "bytes": 423,
+      "sha256": "89e4a70feb0ab82a9c1b1ce3b35afd8dccffba3f1ec26cc003b83520a87f4ec2",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00114/collision.json",
+      "source_sha256": "89e4a70feb0ab82a9c1b1ce3b35afd8dccffba3f1ec26cc003b83520a87f4ec2",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00114/garments/jacket.npz",
+      "bytes": 269403,
+      "sha256": "90d66d7a03e9f91db409104d6f32fdb1630860ab98e6ae0af755f8be6159a771",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00114/garments/jacket.npz",
+      "source_sha256": "90d66d7a03e9f91db409104d6f32fdb1630860ab98e6ae0af755f8be6159a771",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00114/garments/wb_dress_sleeveless.npz",
+      "bytes": 668472,
+      "sha256": "67cc5ece23a8a1fe10e3594347d85d341f5fe65dabf050893d8a7ca8b5dd12fb",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00114/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "67cc5ece23a8a1fe10e3594347d85d341f5fe65dabf050893d8a7ca8b5dd12fb",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00114/human.npz",
+      "bytes": 218489,
+      "sha256": "3631e46ce3f025ee30cc3b5d2cedafd69a2897585003503cdf763fcf2a9c02d6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00114/human.npz",
+      "source_sha256": "3631e46ce3f025ee30cc3b5d2cedafd69a2897585003503cdf763fcf2a9c02d6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00114/sample_meta.original.json",
+      "bytes": 536,
+      "sha256": "417e1ddab73051450e4beaabfaae631a8b1958233fdad577c9248bae2cce060f",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00114/sample_meta.original.json",
+      "source_sha256": "417e1ddab73051450e4beaabfaae631a8b1958233fdad577c9248bae2cce060f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/binding.json",
+      "bytes": 4218,
+      "sha256": "93d22f2faf99ba6bb54c82b23af77b355babcd01a0ad4ff14d576e84b5f8952f",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/collision.json",
+      "bytes": 497,
+      "sha256": "1da9d2ef90d30d0f104a3764d90aac6811a26f1475932c1f26a528b09509618c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00212/collision.json",
+      "source_sha256": "1da9d2ef90d30d0f104a3764d90aac6811a26f1475932c1f26a528b09509618c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/garments/jacket.npz",
+      "bytes": 420505,
+      "sha256": "14d1b7dab3f58e958f684a91565a4de03ce25cc72b240de75350995512eeeded",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00212/garments/jacket.npz",
+      "source_sha256": "14d1b7dab3f58e958f684a91565a4de03ce25cc72b240de75350995512eeeded",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/garments/skirt_4_panels.npz",
+      "bytes": 126395,
+      "sha256": "0573f7743e74d9ffbe344fdc51606862dc5d091469c67088a73fe2d20c9817d8",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00212/garments/skirt_4_panels.npz",
+      "source_sha256": "0573f7743e74d9ffbe344fdc51606862dc5d091469c67088a73fe2d20c9817d8",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/garments/tee_sleeveless.npz",
+      "bytes": 207030,
+      "sha256": "1dc9429ec938b6a81ad6276f14a94b3784d89cac26acc0756eebccc2ca614305",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00212/garments/tee_sleeveless.npz",
+      "source_sha256": "1dc9429ec938b6a81ad6276f14a94b3784d89cac26acc0756eebccc2ca614305",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/human.npz",
+      "bytes": 218021,
+      "sha256": "d871b67fd954b59aeee4a85d84ffcdddeb6bb0e0868a50ebe1403aabec4d263b",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00212/human.npz",
+      "source_sha256": "d871b67fd954b59aeee4a85d84ffcdddeb6bb0e0868a50ebe1403aabec4d263b",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00212/sample_meta.original.json",
+      "bytes": 575,
+      "sha256": "a4ce1dfce90fdd1a034f323089458d98b5f9733bd30343bf368d81824c5cc73d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00212/sample_meta.original.json",
+      "source_sha256": "a4ce1dfce90fdd1a034f323089458d98b5f9733bd30343bf368d81824c5cc73d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/binding.json",
+      "bytes": 4246,
+      "sha256": "2974a985c8ce20f7f02d3a7b812248bd582a0a036b34bd7bf346fae203ee3480",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/collision.json",
+      "bytes": 502,
+      "sha256": "025f7ac271a86159673e5339046c9073ed7fa10a98d40df793a51adc17bb9f00",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00242/collision.json",
+      "source_sha256": "025f7ac271a86159673e5339046c9073ed7fa10a98d40df793a51adc17bb9f00",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/garments/jacket_hood.npz",
+      "bytes": 305446,
+      "sha256": "f477daa0c4ef4822b6dbbbcae02dcd5a86b07dad114d9a64e6e89d413718b084",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00242/garments/jacket_hood.npz",
+      "source_sha256": "f477daa0c4ef4822b6dbbbcae02dcd5a86b07dad114d9a64e6e89d413718b084",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/garments/skirt_8_panels.npz",
+      "bytes": 313290,
+      "sha256": "7f7e61988f081f5ffed9dc9e560a9f719fa69a18f482477e09c12ab3eaf32334",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00242/garments/skirt_8_panels.npz",
+      "source_sha256": "7f7e61988f081f5ffed9dc9e560a9f719fa69a18f482477e09c12ab3eaf32334",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/garments/tee_sleeveless.npz",
+      "bytes": 95883,
+      "sha256": "469634eb79f4a7ea89e33475e38d9200906cdd6ef0e51d13fd8f8a035b6d8bb0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00242/garments/tee_sleeveless.npz",
+      "source_sha256": "469634eb79f4a7ea89e33475e38d9200906cdd6ef0e51d13fd8f8a035b6d8bb0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/human.npz",
+      "bytes": 218687,
+      "sha256": "313ea2c97660d58ecb68b71ce714926f8474828102724730a575a3e58bb8e961",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00242/human.npz",
+      "source_sha256": "313ea2c97660d58ecb68b71ce714926f8474828102724730a575a3e58bb8e961",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00242/sample_meta.original.json",
+      "bytes": 591,
+      "sha256": "6545be4cfbae24bef77aa137e7edd690503ea3d5a0c413c073c4fb18d9390c7e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00242/sample_meta.original.json",
+      "source_sha256": "6545be4cfbae24bef77aa137e7edd690503ea3d5a0c413c073c4fb18d9390c7e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00276/binding.json",
+      "bytes": 3496,
+      "sha256": "1c22914da7c9cb10e2325d43cf981da2e4d72dea2bf9a39a939c8f189f2b48c5",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00276/collision.json",
+      "bytes": 421,
+      "sha256": "3911b784bf74a0f89ca2f71a6b8f343daa7b01ff56c60d029e98279691c21e8d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00276/collision.json",
+      "source_sha256": "3911b784bf74a0f89ca2f71a6b8f343daa7b01ff56c60d029e98279691c21e8d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00276/garments/jacket.npz",
+      "bytes": 709285,
+      "sha256": "9b23b57391d45cf274f522d0c07df245114bcae7cc630e33c3a4b4505f5aad17",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00276/garments/jacket.npz",
+      "source_sha256": "9b23b57391d45cf274f522d0c07df245114bcae7cc630e33c3a4b4505f5aad17",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00276/garments/jumpsuit_sleeveless.npz",
+      "bytes": 186150,
+      "sha256": "ca1d4bfab69ebd7ad1f606e3cd551290bfacf37d51dea1cde0d9baca6123ba8f",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00276/garments/jumpsuit_sleeveless.npz",
+      "source_sha256": "ca1d4bfab69ebd7ad1f606e3cd551290bfacf37d51dea1cde0d9baca6123ba8f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00276/human.npz",
+      "bytes": 220475,
+      "sha256": "c16585f1e277b6bb1b6fe10f77d3b207e1228aacb89116cd42c6a5fc9ca5d62a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00276/human.npz",
+      "source_sha256": "c16585f1e277b6bb1b6fe10f77d3b207e1228aacb89116cd42c6a5fc9ca5d62a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00276/sample_meta.original.json",
+      "bytes": 542,
+      "sha256": "09626bad0459665afdf62c568e389371d6b76f5df08c3c20ff5533fb62a2baa6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00276/sample_meta.original.json",
+      "source_sha256": "09626bad0459665afdf62c568e389371d6b76f5df08c3c20ff5533fb62a2baa6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00528/binding.json",
+      "bytes": 3511,
+      "sha256": "f01fdc6609a55d15ec497f92cd0e4207ea8b28ce9f632e8da94dedb932f91507",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00528/collision.json",
+      "bytes": 426,
+      "sha256": "4523450aa0b265339892ef5625e7c01f6073027715d853fd56617c0122575e83",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00528/collision.json",
+      "source_sha256": "4523450aa0b265339892ef5625e7c01f6073027715d853fd56617c0122575e83",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00528/garments/jacket_hood.npz",
+      "bytes": 479320,
+      "sha256": "9527cf56276971863ba0223be909f76e72497ed0c7f335d1f73e2d9e83c7f671",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00528/garments/jacket_hood.npz",
+      "source_sha256": "9527cf56276971863ba0223be909f76e72497ed0c7f335d1f73e2d9e83c7f671",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00528/garments/jumpsuit_sleeveless.npz",
+      "bytes": 185278,
+      "sha256": "a202f646e7d32a0e706cc4f66032d5edd2fa581beedad2f2b4dadb308118b382",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00528/garments/jumpsuit_sleeveless.npz",
+      "source_sha256": "a202f646e7d32a0e706cc4f66032d5edd2fa581beedad2f2b4dadb308118b382",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00528/human.npz",
+      "bytes": 220521,
+      "sha256": "35e3d8f7e9197e8d7bc0948bc8c8049abe1a53eb5f5002c8cc281e129daf88ac",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00528/human.npz",
+      "source_sha256": "35e3d8f7e9197e8d7bc0948bc8c8049abe1a53eb5f5002c8cc281e129daf88ac",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00528/sample_meta.original.json",
+      "bytes": 548,
+      "sha256": "77ab74838eab2ae7ff283a15d9ad8f7535b361b4c8b33c88270f214d274e36d0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00528/sample_meta.original.json",
+      "source_sha256": "77ab74838eab2ae7ff283a15d9ad8f7535b361b4c8b33c88270f214d274e36d0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00568/binding.json",
+      "bytes": 3516,
+      "sha256": "ffc8e2fefc9f5f6e3d44ff19a8d19e103460db057fee56aa2bb6e5e52d787c2b",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00568/collision.json",
+      "bytes": 428,
+      "sha256": "5a50de5dada469a7907df6defa5deec428e0549da9bd85be08a5827956cab750",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00568/collision.json",
+      "source_sha256": "5a50de5dada469a7907df6defa5deec428e0549da9bd85be08a5827956cab750",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00568/garments/jacket_hood.npz",
+      "bytes": 250688,
+      "sha256": "1aef5c8ec721cca5676436324033497cfbea9844c1c766328486fbb84072bc88",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00568/garments/jacket_hood.npz",
+      "source_sha256": "1aef5c8ec721cca5676436324033497cfbea9844c1c766328486fbb84072bc88",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00568/garments/wb_dress_sleeveless.npz",
+      "bytes": 479854,
+      "sha256": "9ce2c72eb80e92e0089f4e2b596b1ad3dcab3289282de1767be3edc3a3782f61",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00568/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "9ce2c72eb80e92e0089f4e2b596b1ad3dcab3289282de1767be3edc3a3782f61",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00568/human.npz",
+      "bytes": 220441,
+      "sha256": "e107505bb8fb0a6a87f2fc242347fbc64761968a8ce579dbb10e2da5f569862c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00568/human.npz",
+      "source_sha256": "e107505bb8fb0a6a87f2fc242347fbc64761968a8ce579dbb10e2da5f569862c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00568/sample_meta.original.json",
+      "bytes": 550,
+      "sha256": "f4ce45b1a2a080ad0ae674bc0e86b3cf3c06926420f0d7b32351d82dba51c8ae",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00568/sample_meta.original.json",
+      "source_sha256": "f4ce45b1a2a080ad0ae674bc0e86b3cf3c06926420f0d7b32351d82dba51c8ae",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00662/binding.json",
+      "bytes": 3502,
+      "sha256": "256981afa437ab182c27bd9e68e54c886fc3801306b372405c35b8f7aff5a0fb",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00662/collision.json",
+      "bytes": 423,
+      "sha256": "05350c2654dd8bc9e75078ef49f5c32c4d761e2a29a0086b2a20fe3e82ee90df",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00662/collision.json",
+      "source_sha256": "05350c2654dd8bc9e75078ef49f5c32c4d761e2a29a0086b2a20fe3e82ee90df",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00662/garments/jacket.npz",
+      "bytes": 168491,
+      "sha256": "7c2d32153f52c798eadf2bdf204b29d87e3880b7c392624d8cd04ebb34823d97",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00662/garments/jacket.npz",
+      "source_sha256": "7c2d32153f52c798eadf2bdf204b29d87e3880b7c392624d8cd04ebb34823d97",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00662/garments/wb_dress_sleeveless.npz",
+      "bytes": 927138,
+      "sha256": "323466f0d5809fb3364949eb088ca439321b6cfa3b687b5fb6b4e6f9b708d6e8",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00662/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "323466f0d5809fb3364949eb088ca439321b6cfa3b687b5fb6b4e6f9b708d6e8",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00662/human.npz",
+      "bytes": 218494,
+      "sha256": "dd807a6ff9f57353e7ad8f735d93a988d5f1903c504aa0a195827fe3efa5958d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00662/human.npz",
+      "source_sha256": "dd807a6ff9f57353e7ad8f735d93a988d5f1903c504aa0a195827fe3efa5958d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00662/sample_meta.original.json",
+      "bytes": 538,
+      "sha256": "6a2404459727e592140d20c7b39a9952f160c201e1adbd3d4ea315f662a95f21",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00662/sample_meta.original.json",
+      "source_sha256": "6a2404459727e592140d20c7b39a9952f160c201e1adbd3d4ea315f662a95f21",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/binding.json",
+      "bytes": 4208,
+      "sha256": "b48cd38f97da4a310a2bded845b3afa52bed364bdbf37c86b7e1dac2ca9f250e",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/collision.json",
+      "bytes": 495,
+      "sha256": "1a9dc4c0f5aa2ceb6b2fb360703908a571156a388981d9fd6aea43a2df8b32c2",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/collision.json",
+      "source_sha256": "1a9dc4c0f5aa2ceb6b2fb360703908a571156a388981d9fd6aea43a2df8b32c2",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/garments/jacket.npz",
+      "bytes": 254703,
+      "sha256": "14d1eff7491dc85f6f80eb13d6c635dfa245e85f3b99d49e8b23d64f3bfb880a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/garments/jacket.npz",
+      "source_sha256": "14d1eff7491dc85f6f80eb13d6c635dfa245e85f3b99d49e8b23d64f3bfb880a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/garments/skirt_4_panels.npz",
+      "bytes": 185480,
+      "sha256": "2819da884afc3d456b0e22bf2cd5dcbe52b1933ebd42a50e22998a7c09980e0b",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/garments/skirt_4_panels.npz",
+      "source_sha256": "2819da884afc3d456b0e22bf2cd5dcbe52b1933ebd42a50e22998a7c09980e0b",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/garments/tee_sleeveless.npz",
+      "bytes": 143607,
+      "sha256": "0ae723bd6e19fd0e29ecb662053797e92cd8158f8e7e138816715eb3146a4034",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/garments/tee_sleeveless.npz",
+      "source_sha256": "0ae723bd6e19fd0e29ecb662053797e92cd8158f8e7e138816715eb3146a4034",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/human.npz",
+      "bytes": 219712,
+      "sha256": "e7ea558df6143a8209ee95534bf07fd53c03079aef8a93e18534824e95b5b7f5",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/human.npz",
+      "source_sha256": "e7ea558df6143a8209ee95534bf07fd53c03079aef8a93e18534824e95b5b7f5",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00703/sample_meta.original.json",
+      "bytes": 577,
+      "sha256": "bff0b4a621db3d5ea7f38459f31cfe4c15ffce753f4f9d67cae4c8c344b82be8",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/sample_meta.original.json",
+      "source_sha256": "bff0b4a621db3d5ea7f38459f31cfe4c15ffce753f4f9d67cae4c8c344b82be8",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00800/binding.json",
+      "bytes": 3503,
+      "sha256": "223564203d0ea31d1ff42324b0415807b7ae228eceb9c802d597235626797438",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00800/collision.json",
+      "bytes": 423,
+      "sha256": "dc4138135dd6a2599ae953262469cca85c598f738cd0e4154c9a41c376db9295",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00800/collision.json",
+      "source_sha256": "dc4138135dd6a2599ae953262469cca85c598f738cd0e4154c9a41c376db9295",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00800/garments/dress_sleeveless.npz",
+      "bytes": 168913,
+      "sha256": "c24379f3e3db0bc9f9f94e2975d0a8794689e6265494378d9f93ea1d284b127e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00800/garments/dress_sleeveless.npz",
+      "source_sha256": "c24379f3e3db0bc9f9f94e2975d0a8794689e6265494378d9f93ea1d284b127e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00800/garments/jacket_hood.npz",
+      "bytes": 252554,
+      "sha256": "12c2365bb7e4a5fd9925d2a643ebba5c3b262d2a2dc74fc9030ab73252ce0d89",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00800/garments/jacket_hood.npz",
+      "source_sha256": "12c2365bb7e4a5fd9925d2a643ebba5c3b262d2a2dc74fc9030ab73252ce0d89",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00800/human.npz",
+      "bytes": 221100,
+      "sha256": "003967782dd4a828e931eb745f3e179dd6950b86d17482eef7ba74a2c9c56c5d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00800/human.npz",
+      "source_sha256": "003967782dd4a828e931eb745f3e179dd6950b86d17482eef7ba74a2c9c56c5d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00800/sample_meta.original.json",
+      "bytes": 546,
+      "sha256": "2b47086fecd8f58c7813de9c8b126861dc4e19c417157d5d4cbe23734dd5a610",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00800/sample_meta.original.json",
+      "source_sha256": "2b47086fecd8f58c7813de9c8b126861dc4e19c417157d5d4cbe23734dd5a610",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00887/binding.json",
+      "bytes": 3515,
+      "sha256": "354cfb5619e486acc274f258de510753b65bde91797e00306322a2d59e234a7a",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00887/collision.json",
+      "bytes": 425,
+      "sha256": "b1a7c34c8ac3841295ac530903e4c8e5a222648565ed37c1508a4ce7c3d5c1a3",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00887/collision.json",
+      "source_sha256": "b1a7c34c8ac3841295ac530903e4c8e5a222648565ed37c1508a4ce7c3d5c1a3",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00887/garments/dress_sleeveless.npz",
+      "bytes": 287059,
+      "sha256": "64b139529bc79ac10f7c915ff2cddef8157a19e619abc341c4192282425c7163",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00887/garments/dress_sleeveless.npz",
+      "source_sha256": "64b139529bc79ac10f7c915ff2cddef8157a19e619abc341c4192282425c7163",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00887/garments/jacket_hood.npz",
+      "bytes": 517971,
+      "sha256": "142eb39c09bc3b6c9061926d2609d3468cdfbcea9a31c98d3185474d78d30cf9",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00887/garments/jacket_hood.npz",
+      "source_sha256": "142eb39c09bc3b6c9061926d2609d3468cdfbcea9a31c98d3185474d78d30cf9",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00887/human.npz",
+      "bytes": 218622,
+      "sha256": "8e72d84212c17dabd137282581d0a94adc726fa9e09a2ccede55daea5914fabd",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00887/human.npz",
+      "source_sha256": "8e72d84212c17dabd137282581d0a94adc726fa9e09a2ccede55daea5914fabd",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00887/sample_meta.original.json",
+      "bytes": 544,
+      "sha256": "aae1d4f4aed2d67c071ebc67dd2e7f1860608f4a92c02bbc2f061e82023f5c4c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00887/sample_meta.original.json",
+      "source_sha256": "aae1d4f4aed2d67c071ebc67dd2e7f1860608f4a92c02bbc2f061e82023f5c4c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00980/binding.json",
+      "bytes": 3517,
+      "sha256": "445cf3f1a1740ad72135295431bdf7a6d51c4b48c98f454f6c5b149ca4e3c61e",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00980/collision.json",
+      "bytes": 425,
+      "sha256": "93af871e0f8a3f390a1df6b2a83bf973170c2e9ad12e4d85cd1f577256ec4a33",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00980/collision.json",
+      "source_sha256": "93af871e0f8a3f390a1df6b2a83bf973170c2e9ad12e4d85cd1f577256ec4a33",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00980/garments/dress_sleeveless.npz",
+      "bytes": 262917,
+      "sha256": "61b93e89ddda5b409f946fba4881a5854fdb1644da20bae868b9e7817ed4b24e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00980/garments/dress_sleeveless.npz",
+      "source_sha256": "61b93e89ddda5b409f946fba4881a5854fdb1644da20bae868b9e7817ed4b24e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00980/garments/jacket_hood.npz",
+      "bytes": 370147,
+      "sha256": "0e5159a3745435d12e8cca25c20fa53ce71a6c63592d9cd6c04b226ea83ae03c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00980/garments/jacket_hood.npz",
+      "source_sha256": "0e5159a3745435d12e8cca25c20fa53ce71a6c63592d9cd6c04b226ea83ae03c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00980/human.npz",
+      "bytes": 217436,
+      "sha256": "b7e838ddf38b43c0de21e63d674be86a17576e979101c2b4e8efca24c7b23d8b",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00980/human.npz",
+      "source_sha256": "b7e838ddf38b43c0de21e63d674be86a17576e979101c2b4e8efca24c7b23d8b",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00980/sample_meta.original.json",
+      "bytes": 542,
+      "sha256": "08c0ef163aa6ef20e019e10589ad9cfb5ce2e538dcb5ab267828e3b4251d4031",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00980/sample_meta.original.json",
+      "source_sha256": "08c0ef163aa6ef20e019e10589ad9cfb5ce2e538dcb5ab267828e3b4251d4031",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/binding.json",
+      "bytes": 4156,
+      "sha256": "7baead62eee84d32636944d6f482015a0013cb4f44d97f83d30de4fde3b01f75",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/collision.json",
+      "bytes": 484,
+      "sha256": "4c4fb71524cb772f4e74839bbd9f4794de5aec9ea30ad67462a7ab49810d44fe",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01306/collision.json",
+      "source_sha256": "4c4fb71524cb772f4e74839bbd9f4794de5aec9ea30ad67462a7ab49810d44fe",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/garments/jacket.npz",
+      "bytes": 422920,
+      "sha256": "df00993fdfab3924dcf69689db765194a53e1808139b427b9351be817a849422",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01306/garments/jacket.npz",
+      "source_sha256": "df00993fdfab3924dcf69689db765194a53e1808139b427b9351be817a849422",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/garments/skirt_8_panels.npz",
+      "bytes": 123275,
+      "sha256": "b8b02b859da55502fd2aa069db43e87f74a59c21f0b85c7a813b33b28535cc84",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01306/garments/skirt_8_panels.npz",
+      "source_sha256": "b8b02b859da55502fd2aa069db43e87f74a59c21f0b85c7a813b33b28535cc84",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/garments/tee.npz",
+      "bytes": 229278,
+      "sha256": "9618cab1a461db5a4e1d817b5a2db73765c7575485e97dc1003e4ae92bd6db22",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01306/garments/tee.npz",
+      "source_sha256": "9618cab1a461db5a4e1d817b5a2db73765c7575485e97dc1003e4ae92bd6db22",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/human.npz",
+      "bytes": 219210,
+      "sha256": "8f03d57e9f70e1e23be08adfaf18e44ad73fbb7fca876ed737c6a3cc87611fea",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01306/human.npz",
+      "source_sha256": "8f03d57e9f70e1e23be08adfaf18e44ad73fbb7fca876ed737c6a3cc87611fea",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01306/sample_meta.original.json",
+      "bytes": 557,
+      "sha256": "0f91f5130a086ef0b7f0a3aa58f792b825cae6000a9f3fddc276b52fd0ef66fa",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01306/sample_meta.original.json",
+      "source_sha256": "0f91f5130a086ef0b7f0a3aa58f792b825cae6000a9f3fddc276b52fd0ef66fa",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01456/binding.json",
+      "bytes": 3512,
+      "sha256": "77c06743b16d298a98918629d8297a533371965c1448f05a8b01d7891bf4c8f1",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01456/collision.json",
+      "bytes": 425,
+      "sha256": "64ef10711f51920d7e8ca907c66ac69d352b1268b0f24633e874b29861d94f59",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01456/collision.json",
+      "source_sha256": "64ef10711f51920d7e8ca907c66ac69d352b1268b0f24633e874b29861d94f59",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01456/garments/dress_sleeveless.npz",
+      "bytes": 159216,
+      "sha256": "4f9f741960d499531df1214254bc661b9e71aaf333210172c8446ff856131c4d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01456/garments/dress_sleeveless.npz",
+      "source_sha256": "4f9f741960d499531df1214254bc661b9e71aaf333210172c8446ff856131c4d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01456/garments/jacket_hood.npz",
+      "bytes": 345589,
+      "sha256": "d9e8585bb2b200c5f8d841824b7c72c2ae8177a7a39d79589aec64b2a2d98c8f",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01456/garments/jacket_hood.npz",
+      "source_sha256": "d9e8585bb2b200c5f8d841824b7c72c2ae8177a7a39d79589aec64b2a2d98c8f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01456/human.npz",
+      "bytes": 218821,
+      "sha256": "a078eb75db154eb98e64baa3fe0ac7cde5fe99c6a670537b74347f7cca5634d2",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01456/human.npz",
+      "source_sha256": "a078eb75db154eb98e64baa3fe0ac7cde5fe99c6a670537b74347f7cca5634d2",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01456/sample_meta.original.json",
+      "bytes": 542,
+      "sha256": "85a7e50327e54ea34fea7c605c6147ae0bd6346252ef0fa47f6736a06979ddb5",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01456/sample_meta.original.json",
+      "source_sha256": "85a7e50327e54ea34fea7c605c6147ae0bd6346252ef0fa47f6736a06979ddb5",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/binding.json",
+      "bytes": 4252,
+      "sha256": "806192fcbde7acdfce6549a1f0513ffe2c876bafac278642f14c3fd93613a561",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/collision.json",
+      "bytes": 502,
+      "sha256": "71317bd21543757b8d3b6528c94986ef8904ddddcc972152ae9f26eb0b7128e0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01479/collision.json",
+      "source_sha256": "71317bd21543757b8d3b6528c94986ef8904ddddcc972152ae9f26eb0b7128e0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/garments/jacket_hood.npz",
+      "bytes": 308672,
+      "sha256": "b41799e1b23ec34ec04f513e8edf7762565198dc1440114c54579547b0fcf3c3",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01479/garments/jacket_hood.npz",
+      "source_sha256": "b41799e1b23ec34ec04f513e8edf7762565198dc1440114c54579547b0fcf3c3",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/garments/skirt_4_panels.npz",
+      "bytes": 505572,
+      "sha256": "d70543066f6156e264b7a5b25a73a2f2009b42d55654c0d7184b3bb22defc033",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01479/garments/skirt_4_panels.npz",
+      "source_sha256": "d70543066f6156e264b7a5b25a73a2f2009b42d55654c0d7184b3bb22defc033",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/garments/tee_sleeveless.npz",
+      "bytes": 131838,
+      "sha256": "7fbe662a6d6eaf8aec7ec0317e1ec2b5d0b896fdca706a3d365ac5295c30789a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01479/garments/tee_sleeveless.npz",
+      "source_sha256": "7fbe662a6d6eaf8aec7ec0317e1ec2b5d0b896fdca706a3d365ac5295c30789a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/human.npz",
+      "bytes": 218006,
+      "sha256": "dafc5755a84c665f2a52d28d13b72ceff74363ec21f86a5ef6dd0fe51328bb66",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01479/human.npz",
+      "source_sha256": "dafc5755a84c665f2a52d28d13b72ceff74363ec21f86a5ef6dd0fe51328bb66",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01479/sample_meta.original.json",
+      "bytes": 591,
+      "sha256": "cc1f42f84f58ee9c655f83f186622e5bec567ebf5e778bb01a1694f1342f815e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01479/sample_meta.original.json",
+      "source_sha256": "cc1f42f84f58ee9c655f83f186622e5bec567ebf5e778bb01a1694f1342f815e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01799/binding.json",
+      "bytes": 3424,
+      "sha256": "0a68423648ca2757aa3dc66f110e96b95144b362c0c86c64b9ca50bc063b3be6",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01799/collision.json",
+      "bytes": 407,
+      "sha256": "e5fe305045dbffa70f071ab692717f64fc07eb60c599ee40726a7ed996e45f46",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01799/collision.json",
+      "source_sha256": "e5fe305045dbffa70f071ab692717f64fc07eb60c599ee40726a7ed996e45f46",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01799/garments/jacket.npz",
+      "bytes": 615095,
+      "sha256": "ff59061c252dc5a9d3138143e4e47373ba0dd53a11dd504073bebeeb54e07600",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01799/garments/jacket.npz",
+      "source_sha256": "ff59061c252dc5a9d3138143e4e47373ba0dd53a11dd504073bebeeb54e07600",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01799/garments/tee.npz",
+      "bytes": 713549,
+      "sha256": "3e0379c7d419358df758ea0351eb12f18513db11c6fe93e14d5e15801ae10b01",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01799/garments/tee.npz",
+      "source_sha256": "3e0379c7d419358df758ea0351eb12f18513db11c6fe93e14d5e15801ae10b01",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01799/human.npz",
+      "bytes": 216812,
+      "sha256": "42bf5017009394e1dc68f90f1901ef3f2981d3e1c257a398a62e17145fd8aaa6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01799/human.npz",
+      "source_sha256": "42bf5017009394e1dc68f90f1901ef3f2981d3e1c257a398a62e17145fd8aaa6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01799/sample_meta.original.json",
+      "bytes": 508,
+      "sha256": "9dfd59c967f9fc590fcbc17eaa07d81d6887a68dfb67a9e3fa9240a2ce75c930",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01799/sample_meta.original.json",
+      "source_sha256": "9dfd59c967f9fc590fcbc17eaa07d81d6887a68dfb67a9e3fa9240a2ce75c930",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01957/binding.json",
+      "bytes": 3518,
+      "sha256": "fce6a32e72ee005124a8e2a8fcacdee8cfe607afd75c03602e567984934769e9",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01957/collision.json",
+      "bytes": 425,
+      "sha256": "e752d8910960ee673832ae586e7baa7054fcc6e2cd0bf3d7ddeafbd32b45fbff",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01957/collision.json",
+      "source_sha256": "e752d8910960ee673832ae586e7baa7054fcc6e2cd0bf3d7ddeafbd32b45fbff",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01957/garments/dress_sleeveless.npz",
+      "bytes": 464709,
+      "sha256": "b8405090b16ce066b20783823cf944a9aa891e41b29b918949ba35c2fecb6f0e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01957/garments/dress_sleeveless.npz",
+      "source_sha256": "b8405090b16ce066b20783823cf944a9aa891e41b29b918949ba35c2fecb6f0e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01957/garments/jacket_hood.npz",
+      "bytes": 525512,
+      "sha256": "ed60c9fd86c0ae1903c901b6d7ec985ba8e0c4acb44c991741b70d6119f6bef9",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01957/garments/jacket_hood.npz",
+      "source_sha256": "ed60c9fd86c0ae1903c901b6d7ec985ba8e0c4acb44c991741b70d6119f6bef9",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01957/human.npz",
+      "bytes": 218909,
+      "sha256": "72f6ff34526bfdb441f7a8857303ee7e61ff2155eec09dad50f33aaddbdb10ae",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01957/human.npz",
+      "source_sha256": "72f6ff34526bfdb441f7a8857303ee7e61ff2155eec09dad50f33aaddbdb10ae",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01957/sample_meta.original.json",
+      "bytes": 544,
+      "sha256": "fdee9e1d92106453578eb5e05883f50eff264c8c45ceb355ce6a5373b96ee87d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01957/sample_meta.original.json",
+      "source_sha256": "fdee9e1d92106453578eb5e05883f50eff264c8c45ceb355ce6a5373b96ee87d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/binding.json",
+      "bytes": 4230,
+      "sha256": "b45a953dcc1e2994008f8146e7ed1c2f5e31be8d07d51c512988e541456bc20c",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/collision.json",
+      "bytes": 499,
+      "sha256": "8fdacbb3a960e59345966ed2888c2984b3b3923a6847349b7fa1e8ef77e0459d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01990/collision.json",
+      "source_sha256": "8fdacbb3a960e59345966ed2888c2984b3b3923a6847349b7fa1e8ef77e0459d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/garments/jacket.npz",
+      "bytes": 452835,
+      "sha256": "c20ebaaa1e60957afde58137e9f91593a4a805e636a45cc5d3d1eedf1e1349d0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01990/garments/jacket.npz",
+      "source_sha256": "c20ebaaa1e60957afde58137e9f91593a4a805e636a45cc5d3d1eedf1e1349d0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/garments/skirt_4_panels.npz",
+      "bytes": 134337,
+      "sha256": "329dda1b54670f599f25a18fa5b24e47c3549abffdeb4f9489042fdca1d4d84d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01990/garments/skirt_4_panels.npz",
+      "source_sha256": "329dda1b54670f599f25a18fa5b24e47c3549abffdeb4f9489042fdca1d4d84d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/garments/tee_sleeveless.npz",
+      "bytes": 223191,
+      "sha256": "54054222a8f87be5e3104e864221380e6991f5f98ff2f8b0e5187945c5fd8b88",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01990/garments/tee_sleeveless.npz",
+      "source_sha256": "54054222a8f87be5e3104e864221380e6991f5f98ff2f8b0e5187945c5fd8b88",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/human.npz",
+      "bytes": 217868,
+      "sha256": "37cf7768be26fce66efe2d949fd94f49900f2f9e63bf7c2c9a8ea430e609ffa5",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01990/human.npz",
+      "source_sha256": "37cf7768be26fce66efe2d949fd94f49900f2f9e63bf7c2c9a8ea430e609ffa5",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/01990/sample_meta.original.json",
+      "bytes": 581,
+      "sha256": "2cef523511e7e4b3b7252a87ea924938764145b40e6d5a94fd013d8cda1c5bf6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/01990/sample_meta.original.json",
+      "source_sha256": "2cef523511e7e4b3b7252a87ea924938764145b40e6d5a94fd013d8cda1c5bf6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02085/binding.json",
+      "bytes": 3476,
+      "sha256": "a27bb6cbde22932e337dde57361c9c330dd2cba9e20a9045abd6b4d7cdeada3d",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02085/collision.json",
+      "bytes": 420,
+      "sha256": "51a546430981d381e64555093785565cb65ce1999815dbbd27c32d3e7dcd083d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02085/collision.json",
+      "source_sha256": "51a546430981d381e64555093785565cb65ce1999815dbbd27c32d3e7dcd083d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02085/garments/dress_sleeveless.npz",
+      "bytes": 189441,
+      "sha256": "de1d28e4322063ca688da47927363c67391c906163ce3af569aa5e3022fd4994",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02085/garments/dress_sleeveless.npz",
+      "source_sha256": "de1d28e4322063ca688da47927363c67391c906163ce3af569aa5e3022fd4994",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02085/garments/jacket.npz",
+      "bytes": 493553,
+      "sha256": "5f71cc7b2814967d4391b367de69ccb6994048b42701638a40c39d785ba9637f",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02085/garments/jacket.npz",
+      "source_sha256": "5f71cc7b2814967d4391b367de69ccb6994048b42701638a40c39d785ba9637f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02085/human.npz",
+      "bytes": 220150,
+      "sha256": "44eb094058f09e225c5f21a168592886d91ec13c5e8de0f02e2089d3f81e3f02",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02085/human.npz",
+      "source_sha256": "44eb094058f09e225c5f21a168592886d91ec13c5e8de0f02e2089d3f81e3f02",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02085/sample_meta.original.json",
+      "bytes": 534,
+      "sha256": "1a063883660d06574b9b009825d2488c79e63575ec30587340a7c6b8904639f2",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02085/sample_meta.original.json",
+      "source_sha256": "1a063883660d06574b9b009825d2488c79e63575ec30587340a7c6b8904639f2",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/binding.json",
+      "bytes": 4260,
+      "sha256": "670dbf69b4cb3781aa47827c0faaf6a152dbc765a92c2bc221e0f14cb85b8131",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/collision.json",
+      "bytes": 506,
+      "sha256": "c3818ad1169f64f3b44bad9a4280a6da2213f8bb55cac7fe01f0cd00b254dbd1",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02807/collision.json",
+      "source_sha256": "c3818ad1169f64f3b44bad9a4280a6da2213f8bb55cac7fe01f0cd00b254dbd1",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/garments/jacket_hood.npz",
+      "bytes": 624216,
+      "sha256": "93d5032df7b5a28958d716d22df521594e8e610e45e8be2ade9c90a651f0bd90",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02807/garments/jacket_hood.npz",
+      "source_sha256": "93d5032df7b5a28958d716d22df521594e8e610e45e8be2ade9c90a651f0bd90",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/garments/pants_straight_sides.npz",
+      "bytes": 124416,
+      "sha256": "3efba3c4eaea226d95fa771ea5a79bc61d3a4e4d37e59aa9a144d9bc4b2cb9c9",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02807/garments/pants_straight_sides.npz",
+      "source_sha256": "3efba3c4eaea226d95fa771ea5a79bc61d3a4e4d37e59aa9a144d9bc4b2cb9c9",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/garments/tee_sleeveless.npz",
+      "bytes": 172329,
+      "sha256": "0598bbdab14627a1677e6cc52081a4ee5e0b8b9d7bfbfc6833e94624a347432a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02807/garments/tee_sleeveless.npz",
+      "source_sha256": "0598bbdab14627a1677e6cc52081a4ee5e0b8b9d7bfbfc6833e94624a347432a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/human.npz",
+      "bytes": 218926,
+      "sha256": "9da436b76999da91eb898a01ee335aae2ef9f6f68fc38da64b2ec85f6814adf8",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02807/human.npz",
+      "source_sha256": "9da436b76999da91eb898a01ee335aae2ef9f6f68fc38da64b2ec85f6814adf8",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02807/sample_meta.original.json",
+      "bytes": 602,
+      "sha256": "7c4b8e0658a45e664b99535532f738b94833bc6ddacce94f45735e9a875eb230",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02807/sample_meta.original.json",
+      "source_sha256": "7c4b8e0658a45e664b99535532f738b94833bc6ddacce94f45735e9a875eb230",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02860/binding.json",
+      "bytes": 3480,
+      "sha256": "a7ebdadb62fe07bd1f41970b8d8bbac5ecf15fc805666d4b619c3b5e91f081ec",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02860/collision.json",
+      "bytes": 423,
+      "sha256": "c72feace7029fb736c3ad3c9ee508ea0c2a6245f33a148a4d5025bb17653fa34",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02860/collision.json",
+      "source_sha256": "c72feace7029fb736c3ad3c9ee508ea0c2a6245f33a148a4d5025bb17653fa34",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02860/garments/jacket.npz",
+      "bytes": 238219,
+      "sha256": "25f294c7e65973735355a45515dbd680cf510cc7c6ad5540decceb318b55369a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02860/garments/jacket.npz",
+      "source_sha256": "25f294c7e65973735355a45515dbd680cf510cc7c6ad5540decceb318b55369a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02860/garments/wb_dress_sleeveless.npz",
+      "bytes": 225196,
+      "sha256": "6ff7414d4bd2fd7d78fbcd569315e12a05c63078119c15202ebc1bcfaf134f27",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02860/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "6ff7414d4bd2fd7d78fbcd569315e12a05c63078119c15202ebc1bcfaf134f27",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02860/human.npz",
+      "bytes": 219994,
+      "sha256": "28d2341fd1320d0a9015c25e21d621f2b6d18839c8aa97e3fb3760371108b092",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02860/human.npz",
+      "source_sha256": "28d2341fd1320d0a9015c25e21d621f2b6d18839c8aa97e3fb3760371108b092",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02860/sample_meta.original.json",
+      "bytes": 537,
+      "sha256": "7ac76f14e783039d979d3dd18eb6d51734e6f309515df493c061e5f41792338b",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02860/sample_meta.original.json",
+      "source_sha256": "7ac76f14e783039d979d3dd18eb6d51734e6f309515df493c061e5f41792338b",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/binding.json",
+      "bytes": 4210,
+      "sha256": "994ba15d950e9cb38b660750c2875bdce1211f6fd7512066b2d44fc793348d9a",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/collision.json",
+      "bytes": 495,
+      "sha256": "7358515cf7952683406479fc5e1265e47b962133ec500f16eceb8b8722380264",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02871/collision.json",
+      "source_sha256": "7358515cf7952683406479fc5e1265e47b962133ec500f16eceb8b8722380264",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/garments/jacket.npz",
+      "bytes": 294677,
+      "sha256": "04cf5731aacc402549640a642ecb954d4ec4e4407e99c9f432d402c710d8b542",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02871/garments/jacket.npz",
+      "source_sha256": "04cf5731aacc402549640a642ecb954d4ec4e4407e99c9f432d402c710d8b542",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/garments/skirt_4_panels.npz",
+      "bytes": 190838,
+      "sha256": "0044e96bb4b61bd907b03348bbf0a01d55aa3326bed4b1310dcd416903c7dd6e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02871/garments/skirt_4_panels.npz",
+      "source_sha256": "0044e96bb4b61bd907b03348bbf0a01d55aa3326bed4b1310dcd416903c7dd6e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/garments/tee_sleeveless.npz",
+      "bytes": 102218,
+      "sha256": "718cb4c6e532688711c9848648d7356ebbc311a59bc62b6737c2cd9f648501eb",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02871/garments/tee_sleeveless.npz",
+      "source_sha256": "718cb4c6e532688711c9848648d7356ebbc311a59bc62b6737c2cd9f648501eb",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/human.npz",
+      "bytes": 220522,
+      "sha256": "6705617dc703bbd361ea288f2396744758624534b6662b794c6cfcca2c882fac",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02871/human.npz",
+      "source_sha256": "6705617dc703bbd361ea288f2396744758624534b6662b794c6cfcca2c882fac",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02871/sample_meta.original.json",
+      "bytes": 576,
+      "sha256": "18d09054cb0ecb9c01d18530e87e13aba4cf01ebf5d035b110cdafd4f0770760",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02871/sample_meta.original.json",
+      "source_sha256": "18d09054cb0ecb9c01d18530e87e13aba4cf01ebf5d035b110cdafd4f0770760",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02944/binding.json",
+      "bytes": 3486,
+      "sha256": "5e7577fc17c56a801fc4c13c874dc6bfa1857ce47b7ef9e905e3c2ff756b4fec",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02944/collision.json",
+      "bytes": 421,
+      "sha256": "23b048ce7cd42dba922dbaf1c9bba97fba90994d7d1f9edeabebc2a2cdb08709",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02944/collision.json",
+      "source_sha256": "23b048ce7cd42dba922dbaf1c9bba97fba90994d7d1f9edeabebc2a2cdb08709",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02944/garments/jacket.npz",
+      "bytes": 422738,
+      "sha256": "1444673f0cff3ea91cd693dbfe70931d70d095def730e8f96752ccd6335d1bca",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02944/garments/jacket.npz",
+      "source_sha256": "1444673f0cff3ea91cd693dbfe70931d70d095def730e8f96752ccd6335d1bca",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02944/garments/wb_dress_sleeveless.npz",
+      "bytes": 436068,
+      "sha256": "b6d1c66a8455568725f29ec4134dc54a2fb1b1e835441e7ea282eca983494460",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02944/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "b6d1c66a8455568725f29ec4134dc54a2fb1b1e835441e7ea282eca983494460",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02944/human.npz",
+      "bytes": 220573,
+      "sha256": "f8eeeec753c02f318e3825d2a0e2d8c84ad95994a352d8805869228f95820ad6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02944/human.npz",
+      "source_sha256": "f8eeeec753c02f318e3825d2a0e2d8c84ad95994a352d8805869228f95820ad6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/02944/sample_meta.original.json",
+      "bytes": 538,
+      "sha256": "ebb5c51936a7668539faa73abce7b16dcc897ed8277bc2b4979119165bd39da1",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/02944/sample_meta.original.json",
+      "source_sha256": "ebb5c51936a7668539faa73abce7b16dcc897ed8277bc2b4979119165bd39da1",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03223/binding.json",
+      "bytes": 3508,
+      "sha256": "a0bf6e9e14133cfb691b1cb847be60846d40fb28350fcee735bbb79aab9cadf5",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03223/collision.json",
+      "bytes": 423,
+      "sha256": "c854d0ace357ee418563c77fc10a788fe7129d9e6fdffebd7627fcb4764bf46c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03223/collision.json",
+      "source_sha256": "c854d0ace357ee418563c77fc10a788fe7129d9e6fdffebd7627fcb4764bf46c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03223/garments/jacket.npz",
+      "bytes": 479953,
+      "sha256": "9afb08d39bf13f846aa4df9ba51db02b5380a16f676c272f7eb48c54589f93bf",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03223/garments/jacket.npz",
+      "source_sha256": "9afb08d39bf13f846aa4df9ba51db02b5380a16f676c272f7eb48c54589f93bf",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03223/garments/wb_dress_sleeveless.npz",
+      "bytes": 955015,
+      "sha256": "f5842c5fa75327f7366baf24a6e19477fd7eea9a83c611265e4f05a2a9849358",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03223/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "f5842c5fa75327f7366baf24a6e19477fd7eea9a83c611265e4f05a2a9849358",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03223/human.npz",
+      "bytes": 217653,
+      "sha256": "1a48c976887e5a35a16a197d0d38c9f744b225e2e914ecaec832c1a0738b4858",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03223/human.npz",
+      "source_sha256": "1a48c976887e5a35a16a197d0d38c9f744b225e2e914ecaec832c1a0738b4858",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03223/sample_meta.original.json",
+      "bytes": 539,
+      "sha256": "d811676ab3f1929671d254337c7a058c57661b470a15a37bd3f4e7ca23a1f1c1",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03223/sample_meta.original.json",
+      "source_sha256": "d811676ab3f1929671d254337c7a058c57661b470a15a37bd3f4e7ca23a1f1c1",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03337/binding.json",
+      "bytes": 3526,
+      "sha256": "99d37271b82cab4249f0bd7e6c7668e47fd28dfc8b48df36c50fcb3ac17fd5cb",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03337/collision.json",
+      "bytes": 430,
+      "sha256": "7ab9221069e6e42a4eb23ac9196a904bde20508afc8df8211a6e5991c2189b06",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03337/collision.json",
+      "source_sha256": "7ab9221069e6e42a4eb23ac9196a904bde20508afc8df8211a6e5991c2189b06",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03337/garments/jacket_hood.npz",
+      "bytes": 256419,
+      "sha256": "d1780c5d88f80fb304058c38f3eb5387c079ba1e8e65d1b894fbac2d42e8d1db",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03337/garments/jacket_hood.npz",
+      "source_sha256": "d1780c5d88f80fb304058c38f3eb5387c079ba1e8e65d1b894fbac2d42e8d1db",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03337/garments/wb_dress_sleeveless.npz",
+      "bytes": 372645,
+      "sha256": "df4aad19ed81c7a9975f15e98521da09fda9e6ae7a260819a6a6d6d312b22b5c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03337/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "df4aad19ed81c7a9975f15e98521da09fda9e6ae7a260819a6a6d6d312b22b5c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03337/human.npz",
+      "bytes": 219020,
+      "sha256": "12d4c7b43d7c37e09ee8781c107a9980b841822abf37e697844ba5675f226c34",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03337/human.npz",
+      "source_sha256": "12d4c7b43d7c37e09ee8781c107a9980b841822abf37e697844ba5675f226c34",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03337/sample_meta.original.json",
+      "bytes": 549,
+      "sha256": "8f5838b499ab7f0df79f0d8513a44cd467b43b255526ea3e85aaf89eda1c3627",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03337/sample_meta.original.json",
+      "source_sha256": "8f5838b499ab7f0df79f0d8513a44cd467b43b255526ea3e85aaf89eda1c3627",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03496/binding.json",
+      "bytes": 3504,
+      "sha256": "064e59d048495ef473128e6d4d9db4281e5fc35a68b9edcee0f681f4ac970096",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03496/collision.json",
+      "bytes": 423,
+      "sha256": "a1867f0e79d0c91b9dadb0de7d21a463a1c3bd9fd47be75316673abcd49eb200",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03496/collision.json",
+      "source_sha256": "a1867f0e79d0c91b9dadb0de7d21a463a1c3bd9fd47be75316673abcd49eb200",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03496/garments/jacket.npz",
+      "bytes": 331191,
+      "sha256": "e6ae53330e6ec8a60d936380d0921f9643e558473cd840671d71e60c9d4395b3",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03496/garments/jacket.npz",
+      "source_sha256": "e6ae53330e6ec8a60d936380d0921f9643e558473cd840671d71e60c9d4395b3",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03496/garments/wb_dress_sleeveless.npz",
+      "bytes": 425314,
+      "sha256": "018360cf9fb6e0689ddee1b18f2db1594a6079ba40267e996d9f5a3faaf7147c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03496/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "018360cf9fb6e0689ddee1b18f2db1594a6079ba40267e996d9f5a3faaf7147c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03496/human.npz",
+      "bytes": 216861,
+      "sha256": "c5a105592d7cf33f9f5b26883845cc3c0f2748a69072f2c19bb8aba06e1fb5bf",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03496/human.npz",
+      "source_sha256": "c5a105592d7cf33f9f5b26883845cc3c0f2748a69072f2c19bb8aba06e1fb5bf",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03496/sample_meta.original.json",
+      "bytes": 537,
+      "sha256": "dca3475c48ecce5df18b27d20921f318126c56688e97753f2cb4f4c7b29e9a65",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03496/sample_meta.original.json",
+      "source_sha256": "dca3475c48ecce5df18b27d20921f318126c56688e97753f2cb4f4c7b29e9a65",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03804/binding.json",
+      "bytes": 3509,
+      "sha256": "35b5536e2c1d67863dcc1acc4fe2e87f2b23478034a92ebdc2baa41651d9072e",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03804/collision.json",
+      "bytes": 425,
+      "sha256": "20c29478e8f4dae553512a4471d6eae7fe7f280c1fde5471328df03904722e54",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03804/collision.json",
+      "source_sha256": "20c29478e8f4dae553512a4471d6eae7fe7f280c1fde5471328df03904722e54",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03804/garments/jacket.npz",
+      "bytes": 184885,
+      "sha256": "eb10f5f89a3affb9c7b23686ba84f4899c555ae2b4c445ff22a4740aabec56c1",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03804/garments/jacket.npz",
+      "source_sha256": "eb10f5f89a3affb9c7b23686ba84f4899c555ae2b4c445ff22a4740aabec56c1",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03804/garments/wb_dress_sleeveless.npz",
+      "bytes": 631861,
+      "sha256": "91f66f334254564b462d629ad1bc0d4c4d9f72caaed415e5c5eb6f5b2f3f97cf",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03804/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "91f66f334254564b462d629ad1bc0d4c4d9f72caaed415e5c5eb6f5b2f3f97cf",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03804/human.npz",
+      "bytes": 218911,
+      "sha256": "090b5633d89726ab3fd9d2a868387054c2893bd9b2d412ef8c10222960282e61",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03804/human.npz",
+      "source_sha256": "090b5633d89726ab3fd9d2a868387054c2893bd9b2d412ef8c10222960282e61",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03804/sample_meta.original.json",
+      "bytes": 541,
+      "sha256": "f574f8abb809e486fd1db7e3d0772c73f580e8606d6abf74cafc2599339f70ce",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03804/sample_meta.original.json",
+      "source_sha256": "f574f8abb809e486fd1db7e3d0772c73f580e8606d6abf74cafc2599339f70ce",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03826/binding.json",
+      "bytes": 3488,
+      "sha256": "48b43f74b7151e7ec551a021ae0e569ac1eb242c2468c43d610a8ee1d25f9d33",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03826/collision.json",
+      "bytes": 423,
+      "sha256": "9f308e4d5dcffadbe06f18a80762c94f5fddf0c1f26eeb56b5e30f7aa108591d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03826/collision.json",
+      "source_sha256": "9f308e4d5dcffadbe06f18a80762c94f5fddf0c1f26eeb56b5e30f7aa108591d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03826/garments/jacket.npz",
+      "bytes": 177696,
+      "sha256": "be585f356aa94fd3b23dcc562e46cd7e7bd169ff406f243b000a8abe15dd2002",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03826/garments/jacket.npz",
+      "source_sha256": "be585f356aa94fd3b23dcc562e46cd7e7bd169ff406f243b000a8abe15dd2002",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03826/garments/jumpsuit_sleeveless.npz",
+      "bytes": 285730,
+      "sha256": "40b8d5500ecb666337ea39ecc47d30677eedf2135c9d29c3191e47520b5ed6b0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03826/garments/jumpsuit_sleeveless.npz",
+      "source_sha256": "40b8d5500ecb666337ea39ecc47d30677eedf2135c9d29c3191e47520b5ed6b0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03826/human.npz",
+      "bytes": 218519,
+      "sha256": "a6e84473ff9a9f8c75a75d0ce0c6177258fffb66714efeb0afc0ca4bdbdd0e60",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03826/human.npz",
+      "source_sha256": "a6e84473ff9a9f8c75a75d0ce0c6177258fffb66714efeb0afc0ca4bdbdd0e60",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03826/sample_meta.original.json",
+      "bytes": 539,
+      "sha256": "cb7a5b232de7430b23c30d1341e2f0f2583de9653000bbdb585f5ef507cf22e5",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03826/sample_meta.original.json",
+      "source_sha256": "cb7a5b232de7430b23c30d1341e2f0f2583de9653000bbdb585f5ef507cf22e5",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/binding.json",
+      "bytes": 4246,
+      "sha256": "cf3872da539f15c66c0808603bfb674d66b81a26cb01298b9c6477d5e234b88b",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/collision.json",
+      "bytes": 502,
+      "sha256": "949d90a4ff1cb5c8117422b7ff64189faf47e6ae4c93af2130b620282c9edee6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03961/collision.json",
+      "source_sha256": "949d90a4ff1cb5c8117422b7ff64189faf47e6ae4c93af2130b620282c9edee6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/garments/jacket_hood.npz",
+      "bytes": 424260,
+      "sha256": "4efeccff009ad623f5233d309fb81eed02752bafb4a52339d220da57b05d93f0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03961/garments/jacket_hood.npz",
+      "source_sha256": "4efeccff009ad623f5233d309fb81eed02752bafb4a52339d220da57b05d93f0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/garments/skirt_4_panels.npz",
+      "bytes": 212488,
+      "sha256": "6af0a01e67ac86b9da7b242abba8dabb637491d987afcd7bc278e8b8f2b35351",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03961/garments/skirt_4_panels.npz",
+      "source_sha256": "6af0a01e67ac86b9da7b242abba8dabb637491d987afcd7bc278e8b8f2b35351",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/garments/tee_sleeveless.npz",
+      "bytes": 216811,
+      "sha256": "9227462044f4e16871330d6fcab4404e3c48baef84672b59896ddc07c33baa95",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03961/garments/tee_sleeveless.npz",
+      "source_sha256": "9227462044f4e16871330d6fcab4404e3c48baef84672b59896ddc07c33baa95",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/human.npz",
+      "bytes": 217424,
+      "sha256": "b4eda5aa62fb10bef6de4d118e5aa81ae82586e4eb381b02f210f11e45d26903",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03961/human.npz",
+      "source_sha256": "b4eda5aa62fb10bef6de4d118e5aa81ae82586e4eb381b02f210f11e45d26903",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/03961/sample_meta.original.json",
+      "bytes": 586,
+      "sha256": "4a049c03a8812f8611cdf3ddbff0a916c859c6152f811daf6499038973693834",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/03961/sample_meta.original.json",
+      "source_sha256": "4a049c03a8812f8611cdf3ddbff0a916c859c6152f811daf6499038973693834",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04018/binding.json",
+      "bytes": 3470,
+      "sha256": "f959911ecb2aea50363da24521981bd29418f738110c923c86372c8fdfb7ccc1",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04018/collision.json",
+      "bytes": 420,
+      "sha256": "b28a00ff1a60a8c610cd8930d009f04e2afae1be2a1e3454e9f1826f709d8b7f",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04018/collision.json",
+      "source_sha256": "b28a00ff1a60a8c610cd8930d009f04e2afae1be2a1e3454e9f1826f709d8b7f",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04018/garments/dress_sleeveless.npz",
+      "bytes": 171074,
+      "sha256": "b0bb210b56fb9367bd513fe6a30f410c71fb7671a19ef9b97359b94acffcf6dd",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04018/garments/dress_sleeveless.npz",
+      "source_sha256": "b0bb210b56fb9367bd513fe6a30f410c71fb7671a19ef9b97359b94acffcf6dd",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04018/garments/jacket.npz",
+      "bytes": 239478,
+      "sha256": "b12c44600214db07a25d85ca760bbea424275e77e4b6c1cc17df266802c6b75c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04018/garments/jacket.npz",
+      "source_sha256": "b12c44600214db07a25d85ca760bbea424275e77e4b6c1cc17df266802c6b75c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04018/human.npz",
+      "bytes": 219187,
+      "sha256": "5fe8cbdf5fb4b6bf5ac72cd2df4b99681353142949515e849456862a5e3ab510",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04018/human.npz",
+      "source_sha256": "5fe8cbdf5fb4b6bf5ac72cd2df4b99681353142949515e849456862a5e3ab510",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04018/sample_meta.original.json",
+      "bytes": 533,
+      "sha256": "c4385b67e26f12cb79856223fc0aaa1c82a25d409f729fb159fd11ef095fa4d6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04018/sample_meta.original.json",
+      "source_sha256": "c4385b67e26f12cb79856223fc0aaa1c82a25d409f729fb159fd11ef095fa4d6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04173/binding.json",
+      "bytes": 3510,
+      "sha256": "b6e0a0de481b15848228eb62bded2afa8b51d5fe54157e9d0c894516e688084a",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04173/collision.json",
+      "bytes": 425,
+      "sha256": "3ba64eb72802d289cf9217683156424e06c96f8c9f13e5172803eead501e0dcd",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04173/collision.json",
+      "source_sha256": "3ba64eb72802d289cf9217683156424e06c96f8c9f13e5172803eead501e0dcd",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04173/garments/dress_sleeveless.npz",
+      "bytes": 270822,
+      "sha256": "21071cab2541d28120ba9b240d80902cbdcb94921b46fdd39434b5e34c33ce65",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04173/garments/dress_sleeveless.npz",
+      "source_sha256": "21071cab2541d28120ba9b240d80902cbdcb94921b46fdd39434b5e34c33ce65",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04173/garments/jacket_hood.npz",
+      "bytes": 412751,
+      "sha256": "387b17e8360a0bfc402629737577e64ade844c43dd99567da19f892d1ace11de",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04173/garments/jacket_hood.npz",
+      "source_sha256": "387b17e8360a0bfc402629737577e64ade844c43dd99567da19f892d1ace11de",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04173/human.npz",
+      "bytes": 216781,
+      "sha256": "07fae3e430ffd62df1ddd0246995f4d7b6771622afdc3842c1098a76c56f01b6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04173/human.npz",
+      "source_sha256": "07fae3e430ffd62df1ddd0246995f4d7b6771622afdc3842c1098a76c56f01b6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04173/sample_meta.original.json",
+      "bytes": 540,
+      "sha256": "f2448ab167a1ae2e74967be92580beae53c724675954297ed95f5bd8b9c5393d",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04173/sample_meta.original.json",
+      "source_sha256": "f2448ab167a1ae2e74967be92580beae53c724675954297ed95f5bd8b9c5393d",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04258/binding.json",
+      "bytes": 3510,
+      "sha256": "c433f1701fc181daaa612d6a783aad22f02c71267c76662672a27c410befaf1b",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04258/collision.json",
+      "bytes": 425,
+      "sha256": "0357f82d4747b9c3da342fcf1c54550765169669ce634fa28e992272ee028d68",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04258/collision.json",
+      "source_sha256": "0357f82d4747b9c3da342fcf1c54550765169669ce634fa28e992272ee028d68",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04258/garments/jacket.npz",
+      "bytes": 449904,
+      "sha256": "163b533d4a91e4a867f3186889047e6518c6f614b86f783672631dd2a86f8add",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04258/garments/jacket.npz",
+      "source_sha256": "163b533d4a91e4a867f3186889047e6518c6f614b86f783672631dd2a86f8add",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04258/garments/wb_dress_sleeveless.npz",
+      "bytes": 514209,
+      "sha256": "290450a0aaba3a084a6b60754c991751cfcb885a1835ff542a436ca11df9fa23",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04258/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "290450a0aaba3a084a6b60754c991751cfcb885a1835ff542a436ca11df9fa23",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04258/human.npz",
+      "bytes": 218204,
+      "sha256": "058b516de4f2261bd387911557268c3c31cd700cd1c7d6fb0c9acbe87c69bc4c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04258/human.npz",
+      "source_sha256": "058b516de4f2261bd387911557268c3c31cd700cd1c7d6fb0c9acbe87c69bc4c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04258/sample_meta.original.json",
+      "bytes": 541,
+      "sha256": "2d2f13425cecb4d44d117afb8f31fd2a17950bb98c8d1cab53653b2c61b2dabe",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04258/sample_meta.original.json",
+      "source_sha256": "2d2f13425cecb4d44d117afb8f31fd2a17950bb98c8d1cab53653b2c61b2dabe",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04527/binding.json",
+      "bytes": 3488,
+      "sha256": "258c4079eeeab650c6d6ea5939240dca7ed76f4573aa5004d9ec30f5e41451a9",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04527/collision.json",
+      "bytes": 421,
+      "sha256": "4e13e047c78008ba1b7c43ea97cd1b24e2fb443d94b2fa1499d0332dff758fc6",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04527/collision.json",
+      "source_sha256": "4e13e047c78008ba1b7c43ea97cd1b24e2fb443d94b2fa1499d0332dff758fc6",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04527/garments/jacket.npz",
+      "bytes": 408274,
+      "sha256": "5a582418253850b94f556be582e43285bdb3f9e35e275464b84ab4100794969b",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04527/garments/jacket.npz",
+      "source_sha256": "5a582418253850b94f556be582e43285bdb3f9e35e275464b84ab4100794969b",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04527/garments/wb_dress_sleeveless.npz",
+      "bytes": 398246,
+      "sha256": "fb237cd86498ce4397092559aee68b7636f35c8bfb360c713826b0eb10c306df",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04527/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "fb237cd86498ce4397092559aee68b7636f35c8bfb360c713826b0eb10c306df",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04527/human.npz",
+      "bytes": 219467,
+      "sha256": "0ef468c3aa6b1361788746c283dfc6924024e8c7a14a7f52351814239fba3b69",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04527/human.npz",
+      "source_sha256": "0ef468c3aa6b1361788746c283dfc6924024e8c7a14a7f52351814239fba3b69",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04527/sample_meta.original.json",
+      "bytes": 541,
+      "sha256": "d471100bbc39f88ae74073105beb87405dfcb59e2673e4849077568ab39ea82a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04527/sample_meta.original.json",
+      "source_sha256": "d471100bbc39f88ae74073105beb87405dfcb59e2673e4849077568ab39ea82a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04649/binding.json",
+      "bytes": 3514,
+      "sha256": "3f37bf8449a65eee2275cf11e688a2bc60ca20e310803b68af9daf62d294ce96",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04649/collision.json",
+      "bytes": 426,
+      "sha256": "fb5cf7273a7cc476e5be281b595354f4e86b608c38ede12786cca08fb6a69887",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04649/collision.json",
+      "source_sha256": "fb5cf7273a7cc476e5be281b595354f4e86b608c38ede12786cca08fb6a69887",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04649/garments/jacket_hood.npz",
+      "bytes": 277137,
+      "sha256": "379754f374b7fb1b637ebfaa34e8ad6c97660eefdeef7a0ab0f70fac3a48530a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04649/garments/jacket_hood.npz",
+      "source_sha256": "379754f374b7fb1b637ebfaa34e8ad6c97660eefdeef7a0ab0f70fac3a48530a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04649/garments/wb_dress_sleeveless.npz",
+      "bytes": 363543,
+      "sha256": "dacc26049b07df7a8df6085536e392afff5425c6ffd4756eebe6d2c72e089106",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04649/garments/wb_dress_sleeveless.npz",
+      "source_sha256": "dacc26049b07df7a8df6085536e392afff5425c6ffd4756eebe6d2c72e089106",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04649/human.npz",
+      "bytes": 218748,
+      "sha256": "20d73fda7481d51de1e45ee8679e0874ffa5884a0d83abf6d0353493f9ac674c",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04649/human.npz",
+      "source_sha256": "20d73fda7481d51de1e45ee8679e0874ffa5884a0d83abf6d0353493f9ac674c",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04649/sample_meta.original.json",
+      "bytes": 549,
+      "sha256": "196093c6becaa11b77f07f4f3e289ad9a76394961184f650fa63911f4b8299a0",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04649/sample_meta.original.json",
+      "source_sha256": "196093c6becaa11b77f07f4f3e289ad9a76394961184f650fa63911f4b8299a0",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04847/binding.json",
+      "bytes": 3491,
+      "sha256": "c28d1a10590c06a91047a3911f95e6ea21b06bee6deb036428be5e324c1a8936",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04847/collision.json",
+      "bytes": 423,
+      "sha256": "8a4b911299b7f4b87484b225a434fd8faab9bd3da7afe5d230dfb4395cc52c17",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04847/collision.json",
+      "source_sha256": "8a4b911299b7f4b87484b225a434fd8faab9bd3da7afe5d230dfb4395cc52c17",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04847/garments/dress_sleeveless.npz",
+      "bytes": 248580,
+      "sha256": "eb517a24a3546440e6d07e697f70537cf3051bc7f6dab78a81d6786da3fb8d62",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04847/garments/dress_sleeveless.npz",
+      "source_sha256": "eb517a24a3546440e6d07e697f70537cf3051bc7f6dab78a81d6786da3fb8d62",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04847/garments/jacket_hood.npz",
+      "bytes": 238891,
+      "sha256": "9c2b4dfbf9716b7ac15c1314c8a5a26f7552c41faa66f3921ff2de9c44489b3a",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04847/garments/jacket_hood.npz",
+      "source_sha256": "9c2b4dfbf9716b7ac15c1314c8a5a26f7552c41faa66f3921ff2de9c44489b3a",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04847/human.npz",
+      "bytes": 219891,
+      "sha256": "972125e914281b29c2863f9b419d7520202372e234e1dc2f94572919f8a98b6e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04847/human.npz",
+      "source_sha256": "972125e914281b29c2863f9b419d7520202372e234e1dc2f94572919f8a98b6e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04847/sample_meta.original.json",
+      "bytes": 538,
+      "sha256": "5b165ce05791afc5e2b8cc24bb914ffc8fcf7c95fd4d19f7001fa9dd5c30fa56",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04847/sample_meta.original.json",
+      "source_sha256": "5b165ce05791afc5e2b8cc24bb914ffc8fcf7c95fd4d19f7001fa9dd5c30fa56",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04855/binding.json",
+      "bytes": 3473,
+      "sha256": "1fe138ba7784d902aaa4b1a2265b4dd16a5f91f28165c4cc87d2c25c74884568",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04855/collision.json",
+      "bytes": 418,
+      "sha256": "d9a737c326ae713962ebce4b63c3a892058d01718646586de4fae7dcd937653e",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04855/collision.json",
+      "source_sha256": "d9a737c326ae713962ebce4b63c3a892058d01718646586de4fae7dcd937653e",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04855/garments/dress_sleeveless.npz",
+      "bytes": 202390,
+      "sha256": "d52a3075d93b6f65ec074578c806ac445f0d44f3dc24f0437c89379eccceff14",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04855/garments/dress_sleeveless.npz",
+      "source_sha256": "d52a3075d93b6f65ec074578c806ac445f0d44f3dc24f0437c89379eccceff14",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04855/garments/jacket.npz",
+      "bytes": 472251,
+      "sha256": "88d3f46961cafeee62f7d0d1e500d03306effa85870c2ab9cd524386dd204011",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04855/garments/jacket.npz",
+      "source_sha256": "88d3f46961cafeee62f7d0d1e500d03306effa85870c2ab9cd524386dd204011",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04855/human.npz",
+      "bytes": 219724,
+      "sha256": "84bf45ba3a5e0abb8ffc7464fdbb131fa9118f55121fae9e0f7e6adeb7809272",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04855/human.npz",
+      "source_sha256": "84bf45ba3a5e0abb8ffc7464fdbb131fa9118f55121fae9e0f7e6adeb7809272",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04855/sample_meta.original.json",
+      "bytes": 537,
+      "sha256": "86b27b358e2204855b70c88d46ae4bd8661c8329be153810ace5bd119acd5d82",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04855/sample_meta.original.json",
+      "source_sha256": "86b27b358e2204855b70c88d46ae4bd8661c8329be153810ace5bd119acd5d82",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04869/binding.json",
+      "bytes": 3510,
+      "sha256": "86ed04d98d9969361759f30b607b3cc4f77d64c81f27a418559ca0570572abde",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04869/collision.json",
+      "bytes": 423,
+      "sha256": "a0ee035133294c17422f8739f735310089f2999f027c846226404242a164da79",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04869/collision.json",
+      "source_sha256": "a0ee035133294c17422f8739f735310089f2999f027c846226404242a164da79",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04869/garments/jacket_hood.npz",
+      "bytes": 504463,
+      "sha256": "c2b7559572b6e2e932d0e86201eed4a86b478ed99471f397fbf2db262c059281",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04869/garments/jacket_hood.npz",
+      "source_sha256": "c2b7559572b6e2e932d0e86201eed4a86b478ed99471f397fbf2db262c059281",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04869/garments/tee_sleeveless.npz",
+      "bytes": 358567,
+      "sha256": "a623d6d346971966fa683659e22058ae594d9e7c4c8300c899413183f1a9cfcd",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04869/garments/tee_sleeveless.npz",
+      "source_sha256": "a623d6d346971966fa683659e22058ae594d9e7c4c8300c899413183f1a9cfcd",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04869/human.npz",
+      "bytes": 219424,
+      "sha256": "308925896dc583bfddce182d2cfd775e4c6fb2ec973382aa028b092caeba3788",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04869/human.npz",
+      "source_sha256": "308925896dc583bfddce182d2cfd775e4c6fb2ec973382aa028b092caeba3788",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/04869/sample_meta.original.json",
+      "bytes": 541,
+      "sha256": "cf869ec870348f2f41cb13b0f092a60ed00f76a96431e984e88d73117f8b7f21",
+      "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/04869/sample_meta.original.json",
+      "source_sha256": "cf869ec870348f2f41cb13b0f092a60ed00f76a96431e984e88d73117f8b7f21",
+      "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials.json",
+      "bytes": 14955,
+      "sha256": "f6a493935ce2be8c84cfa627bbe8abed90b9b9777e23567057e1f2d4a116f0eb",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "D-LAYERS/selection.original.json",
+      "bytes": 7078,
+      "sha256": "7deffefc35fa668249913d74bb94cd38ba41fc5ac218c099ae5fe1eee458c966",
+      "source": "cloth/D-LAYERS/selected_38_20260915/selection.original.json",
+      "source_sha256": "7deffefc35fa668249913d74bb94cd38ba41fc5ac218c099ae5fe1eee458c966",
+      "byte_identical": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 4366,
+      "sha256": "bfbf61c9f58edccb94afa9225571ebbb69e43617eb347ae5189662a5b1332739",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "body_sequences.json",
+      "bytes": 32203,
+      "sha256": "2803cb1bc7eb068202cc93d20ba2b804fae7d467654ac20710a0dc2dac9ebadc",
+      "role": "curated metadata or documentation"
+    },
+    {
+      "path": "garments.json",
+      "bytes": 11276,
+      "sha256": "ba501e188cc7d4fa5527092dff2293f1a56cff7d4b02a429fd72f372c8ccdca3",
+      "role": "curated metadata or documentation"
+    }
+  ]
+}

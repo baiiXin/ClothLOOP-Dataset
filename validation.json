@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_files_sha256_verified": 353,
+  "body_sequences": 89,
+  "static_garment_objs": 59,
+  "bound_samples": 38,
+  "bound_meshes": 123,
+  "ct_smpl_version": "joint_plausibility_repair",
+  "ct_selected_clothes": [
+    "CT-sim_00000",
+    "CT-sim_00002"
+  ],
+  "raw_mesh_and_pose_arrays_unchanged": true,
+  "symlinks": 0,
+  "binding_paths_self_contained": true,
+  "contains_previews": false,
+  "contains_full_CT_simulations": false,
+  "contains_SMPL_models": false,
+  "device": "CPU",
+  "cuda_used": false,
+  "final_split_assigned": false
+}

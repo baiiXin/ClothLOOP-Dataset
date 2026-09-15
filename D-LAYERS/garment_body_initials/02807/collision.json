@@ -1,0 +1,26 @@
+{
+  "sample": "02807",
+  "state": "frame0",
+  "mesh_order": {
+    "1": "human",
+    "2": "pants_straight_sides",
+    "3": "tee_sleeveless",
+    "4": "jacket_hood"
+  },
+  "counts": {
+    "11": 84,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "33": 0,
+    "34": 0,
+    "44": 0
+  },
+  "clothing_related_all_zero": true,
+  "human_self_intersections": 84,
+  "source_report_sha256": "8dfb49beb9e26e92898b322a39f1a921833ad1d3ef4e89cdf225016ec3e61af0",
+  "recomputed": false
+}
