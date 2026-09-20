@@ -1,0 +1,33 @@
+{
+  "dataset": "D-LAYERS",
+  "id": "00396",
+  "file": "D-LAYERS/body_sequences/sample_clips/00396.pkl",
+  "frames": 405,
+  "fps": 30.0,
+  "fps_status": "assumed_playback",
+  "duration_seconds": 13.5,
+  "category": "来源样本动作",
+  "description": "D-LAYERS sample 00396: CMU 114_07, source frames 0–404",
+  "upstream_group": "sample_original_clip",
+  "source_sequence_id": "114_07",
+  "source_segment": {
+    "source_sequence_id": "114_07",
+    "source_path": "human/114/114_07_poses.pkl",
+    "source_sha256": "aca6947edd0ad9113064f675f9577b29862dda82be84baf4da3bc4d15e488517",
+    "source_frames": 405,
+    "start_inclusive": 0,
+    "end_exclusive": 405,
+    "frame_index_base": 0,
+    "output_frame_to_source": "source_frame = output_frame + 0",
+    "arrays_equal_to_source_slice": true,
+    "max_parameter_error": 0.0,
+    "resampled": false,
+    "translation_preserved": true,
+    "byte_identical_to_full_source": true
+  },
+  "gender": "male",
+  "gender_source": "D-LAYERS sample metadata",
+  "betas_status": "not supplied by source motion PKL; initial binding preserves exact source mesh",
+  "initial_binding": "D-LAYERS/garment_body_initials/00396/binding.json",
+  "split": "test"
+}

@@ -1,0 +1,470 @@
+{
+  "schema": "ClothLOOP.body-splits.v1",
+  "selection_date": "2026-09-20",
+  "scope": "body sequences only; garments and initial states have no train/test assignment",
+  "unassigned_policy": "retained, excluded from current training and testing",
+  "source_identity_policy": "CMU sequence ID across ContourCraft and D-LAYERS; sample clips inherit source motion ID",
+  "splits": {
+    "train": [
+      {
+        "key": "ContourCraft/02_04",
+        "file": "ContourCraft/body_sequences/vto52/02_04.npz",
+        "sha256": "847faf2d74e9bcbef478e5d227e3869b82da0a72b2e865c575e86c158a224b48"
+      },
+      {
+        "key": "ContourCraft/02_05",
+        "file": "ContourCraft/body_sequences/vto52/02_05.npz",
+        "sha256": "0df754f54869a3e60dbad72b9510994e01f4fbcd9ac4a32a53c5f3455d31dc43"
+      },
+      {
+        "key": "ContourCraft/05_20",
+        "file": "ContourCraft/body_sequences/vto52/05_20.npz",
+        "sha256": "caae4b8584288d7b264fe7e5eb673ec6f317772e4ea867f401b7f84727ac4543"
+      },
+      {
+        "key": "ContourCraft/104_04",
+        "file": "ContourCraft/body_sequences/vto52/104_04.npz",
+        "sha256": "113294ff56437ff24e5b3666f31149fc5eb719b137b76d41347d4362841dc32f"
+      },
+      {
+        "key": "ContourCraft/104_11",
+        "file": "ContourCraft/body_sequences/vto52/104_11.npz",
+        "sha256": "4a11079c0f99e548bf3b05c2821a009d68c546964988c8dd4d39ca0e6501a9b2"
+      },
+      {
+        "key": "ContourCraft/104_17",
+        "file": "ContourCraft/body_sequences/vto52/104_17.npz",
+        "sha256": "9fa2357e1c1225a5a87ebd90bfdbdb8ef73545abec5a108177499854897b3b22"
+      },
+      {
+        "key": "ContourCraft/104_53",
+        "file": "ContourCraft/body_sequences/vto52/104_53.npz",
+        "sha256": "a54528d0afc1f95befb62a0670a5ac2d6caf9b9d77dcd0723179ac2162c1354c"
+      },
+      {
+        "key": "ContourCraft/105_05",
+        "file": "ContourCraft/body_sequences/vto52/105_05.npz",
+        "sha256": "b734be98d66d8202a11392f24c5a3a07bfe865dfbfbf388fe7ee66787539e57c"
+      },
+      {
+        "key": "ContourCraft/108_11",
+        "file": "ContourCraft/body_sequences/vto52/108_11.npz",
+        "sha256": "396ac14bba447961f9ec1bdf0b83e864292a1f5aed4bd3cf5fde9a5cdab5a128"
+      },
+      {
+        "key": "ContourCraft/108_12",
+        "file": "ContourCraft/body_sequences/vto52/108_12.npz",
+        "sha256": "37346eef86929a7c5d620d35f7a12e57ad8876776fa9d45e145776ea7f1c9b6b"
+      },
+      {
+        "key": "ContourCraft/108_16",
+        "file": "ContourCraft/body_sequences/vto52/108_16.npz",
+        "sha256": "48d5216fbad874fcafbcbcd31318e89e1658508be4f94e80224969998760ddcd"
+      },
+      {
+        "key": "ContourCraft/108_17",
+        "file": "ContourCraft/body_sequences/vto52/108_17.npz",
+        "sha256": "857cda9a6ba9dc1649bebad8229ae305c6ccadb3f6ac2ec57e4170badab41a0f"
+      },
+      {
+        "key": "ContourCraft/108_18",
+        "file": "ContourCraft/body_sequences/vto52/108_18.npz",
+        "sha256": "a1a5accccd46e40bee118b07cf44c0dfa684cd221575611ecb8553a06111252c"
+      },
+      {
+        "key": "ContourCraft/108_20",
+        "file": "ContourCraft/body_sequences/vto52/108_20.npz",
+        "sha256": "9a999cdec879ff7d41ad2ce639cee3fb19bd1d59282eb2813fedf4278c2cd755"
+      },
+      {
+        "key": "ContourCraft/108_22",
+        "file": "ContourCraft/body_sequences/vto52/108_22.npz",
+        "sha256": "8a0f41df9b9b52115424387899ede2e09c1658e2ed8c378f82b6a9801294460f"
+      },
+      {
+        "key": "ContourCraft/108_27",
+        "file": "ContourCraft/body_sequences/vto52/108_27.npz",
+        "sha256": "7a16440b0e28f060553463ef026b0af86c14a0238817070f88be4f544cf346c0"
+      },
+      {
+        "key": "ContourCraft/111_02",
+        "file": "ContourCraft/body_sequences/vto52/111_02.npz",
+        "sha256": "598d76acda9873fa732b2890c04187f5b834e042a461d7319fa25af0900b7a9e"
+      },
+      {
+        "key": "ContourCraft/111_05",
+        "file": "ContourCraft/body_sequences/vto52/111_05.npz",
+        "sha256": "67eef2ea041370aa0ecca25ae2221250cb2c01f90ba6a2acbb3e0231c9cf0311"
+      },
+      {
+        "key": "ContourCraft/111_14",
+        "file": "ContourCraft/body_sequences/vto52/111_14.npz",
+        "sha256": "0b4da989184588c8668883842199bfbf5bd701b93f0a1aab162c59cf4d70e290"
+      },
+      {
+        "key": "ContourCraft/111_20",
+        "file": "ContourCraft/body_sequences/vto52/111_20.npz",
+        "sha256": "4c277406084ba5d4d0a221ebac7dff9b44069437a99704c744d9d07493872b87"
+      },
+      {
+        "key": "ContourCraft/111_37",
+        "file": "ContourCraft/body_sequences/vto52/111_37.npz",
+        "sha256": "af06bfaf8531c9e31dd674976b148ab94d0ba9e9b06937446dfe30c531312f33"
+      },
+      {
+        "key": "ContourCraft/128_02",
+        "file": "ContourCraft/body_sequences/vto52/128_02.npz",
+        "sha256": "ddb8f4330bfb40a840d055cef8bb2c7aa05ae478fb7685fbc522c6a2299bb4b7"
+      },
+      {
+        "key": "ContourCraft/128_03",
+        "file": "ContourCraft/body_sequences/vto52/128_03.npz",
+        "sha256": "17092725b8e851ca4dd583eb4c8169c86f8af3188c04a71a494555dcbba5afc0"
+      },
+      {
+        "key": "ContourCraft/128_04",
+        "file": "ContourCraft/body_sequences/vto52/128_04.npz",
+        "sha256": "12963e5dfbd75b13fa430c7615af1e7d8a1791aab6826a741a8f73eb7d6b78e6"
+      },
+      {
+        "key": "ContourCraft/128_05",
+        "file": "ContourCraft/body_sequences/vto52/128_05.npz",
+        "sha256": "616c2ab2f0fb16c51282b2446b37646d15f667262d6fb77eb4e1031737816819"
+      },
+      {
+        "key": "ContourCraft/128_06",
+        "file": "ContourCraft/body_sequences/vto52/128_06.npz",
+        "sha256": "1f3cbdccf11f2c2d64cd28b9298bb289b31ea1b2c73e94109ab3e66a67c4c09c"
+      },
+      {
+        "key": "ContourCraft/128_07",
+        "file": "ContourCraft/body_sequences/vto52/128_07.npz",
+        "sha256": "c3aac55ce789c0c3253ddcd4e8b3765f06e0c2f2522619c99f9b94d2f44b5642"
+      },
+      {
+        "key": "ContourCraft/131_03",
+        "file": "ContourCraft/body_sequences/vto52/131_03.npz",
+        "sha256": "a288d6f576bef5cd7431b07fd4e80205114d96691786bdbddcc4090d812f2e4e"
+      },
+      {
+        "key": "ContourCraft/132_54",
+        "file": "ContourCraft/body_sequences/vto52/132_54.npz",
+        "sha256": "eb9cdc0f855a53012f6bdace021424a9e1c35072823de6c41d82d8f79911e0ba"
+      },
+      {
+        "key": "ContourCraft/135_07",
+        "file": "ContourCraft/body_sequences/vto52/135_07.npz",
+        "sha256": "07e963f09e2d52aefe725f1cabbbf75b6075eb567254666238917997034a030e"
+      },
+      {
+        "key": "ContourCraft/135_09",
+        "file": "ContourCraft/body_sequences/vto52/135_09.npz",
+        "sha256": "2f178a9237fea48584ace27bcd6c07c9f620d356c9d66f2f60c7a8c315f625a4"
+      },
+      {
+        "key": "ContourCraft/13_13",
+        "file": "ContourCraft/body_sequences/vto52/13_13.npz",
+        "sha256": "768208061574d604e4627f6b7fd7361191a78ca225f9f167fa1b88467a968f11"
+      },
+      {
+        "key": "ContourCraft/144_26",
+        "file": "ContourCraft/body_sequences/vto52/144_26.npz",
+        "sha256": "70a98c1294cd3d030b1ba02426f99bff365bb4095e2e1848f8b471341a34676c"
+      },
+      {
+        "key": "ContourCraft/144_28",
+        "file": "ContourCraft/body_sequences/vto52/144_28.npz",
+        "sha256": "30436ec409acfc383dfe07f95509767029f94325819d2a61c069868b1e0b8de3"
+      },
+      {
+        "key": "ContourCraft/144_30",
+        "file": "ContourCraft/body_sequences/vto52/144_30.npz",
+        "sha256": "bd5a49d8f336432216c5a0bbed8bc8f1a53fce1a20dd67f64d870aee58cd63a9"
+      },
+      {
+        "key": "ContourCraft/26_11",
+        "file": "ContourCraft/body_sequences/vto52/26_11.npz",
+        "sha256": "d6298b8da65f02917daa6df2af22170d3497d2fcd58d7c52d0b91b560006f41c"
+      },
+      {
+        "key": "ContourCraft/40_12",
+        "file": "ContourCraft/body_sequences/vto52/40_12.npz",
+        "sha256": "d0554ec53b5583d5801d309e05198c6b5efb8a2f69fcf1ca65557e51f1f7a9d5"
+      },
+      {
+        "key": "ContourCraft/46_01",
+        "file": "ContourCraft/body_sequences/vto52/46_01.npz",
+        "sha256": "99bcb4d81b728341dd3ba9192c81e778cb116791daa20a22bdcb29fb4a3d67fe"
+      },
+      {
+        "key": "ContourCraft/49_04",
+        "file": "ContourCraft/body_sequences/vto52/49_04.npz",
+        "sha256": "db9018ebac7d203c87ae068f76e6608be77cba5a2a6510b9768db07c94f572b3"
+      },
+      {
+        "key": "ContourCraft/54_24",
+        "file": "ContourCraft/body_sequences/vto52/54_24.npz",
+        "sha256": "acc219e15fb4753c813321a9e0d2bbe38f16767bba2cb34792f37be46884c095"
+      },
+      {
+        "key": "ContourCraft/55_12",
+        "file": "ContourCraft/body_sequences/vto52/55_12.npz",
+        "sha256": "04a073e3c35160d5db9cf76343848855afc6cca642604b24e2c8149ae3422f45"
+      },
+      {
+        "key": "ContourCraft/63_25",
+        "file": "ContourCraft/body_sequences/vto52/63_25.npz",
+        "sha256": "16cbddbfe176ac1861993a6483ef09c3a77c000357167b07faf3fbc789038612"
+      },
+      {
+        "key": "ContourCraft/73_09",
+        "file": "ContourCraft/body_sequences/vto52/73_09.npz",
+        "sha256": "79757fe6e56c74a3eecd1a9fee151cd547d6e356c9ac49d5c90c472b2fd7ddd3"
+      },
+      {
+        "key": "ContourCraft/76_05",
+        "file": "ContourCraft/body_sequences/vto52/76_05.npz",
+        "sha256": "b30dda49cf64ec0a85c65326fe48e70f3c0e92628fd897080c550b43111a8f4f"
+      },
+      {
+        "key": "ContourCraft/76_11",
+        "file": "ContourCraft/body_sequences/vto52/76_11.npz",
+        "sha256": "4ac77ef549bcadb9b3bab40cd709b0df62d6cfe9973916da65be95e540e54233"
+      },
+      {
+        "key": "ContourCraft/91_12",
+        "file": "ContourCraft/body_sequences/vto52/91_12.npz",
+        "sha256": "204912603021d10ef7c5e789bfb0656b26f5a41286acd3661cd88fa3a1729304"
+      },
+      {
+        "key": "ContourCraft/91_19",
+        "file": "ContourCraft/body_sequences/vto52/91_19.npz",
+        "sha256": "96ebbf2ad332270951152943e8517eea416b0abf71e9aa2fdf86c885cb5d6a28"
+      },
+      {
+        "key": "ContourCraft/91_33",
+        "file": "ContourCraft/body_sequences/vto52/91_33.npz",
+        "sha256": "ee986d3a0e450439d577c8f6505a8de407c4156e0d46efb9a18795270cd451d3"
+      },
+      {
+        "key": "ContourCraft/91_36",
+        "file": "ContourCraft/body_sequences/vto52/91_36.npz",
+        "sha256": "77a9f92b179e468a5936cf534b1e5909ec23ea29d3b2404ab70c5687736c9d5c"
+      },
+      {
+        "key": "ContourCraft/91_38",
+        "file": "ContourCraft/body_sequences/vto52/91_38.npz",
+        "sha256": "fbb25324459d60374f44ad82793c89a2a234933fbeb72610e2848c71aac052fa"
+      },
+      {
+        "key": "ContourCraft/91_61",
+        "file": "ContourCraft/body_sequences/vto52/91_61.npz",
+        "sha256": "189e18379d69c44032f833f9d6a881fa5dcf870212878b87fd396cbad610f0b9"
+      },
+      {
+        "key": "ContourCraft/91_62",
+        "file": "ContourCraft/body_sequences/vto52/91_62.npz",
+        "sha256": "4acfdb7b31f22a01ca369c9319d498c501b827cd39c7841b70b679e7ec220aa5"
+      }
+    ],
+    "test": [
+      {
+        "key": "ClothTransformer/sim_00004",
+        "file": "ClothTransformer/body_sequences/sim_00004.npz",
+        "sha256": "42cc6dbd8922b692d2bda6648483e882820ee97aed203b24894128376e0d917b"
+      },
+      {
+        "key": "ClothTransformer/sim_00018",
+        "file": "ClothTransformer/body_sequences/sim_00018.npz",
+        "sha256": "aa258318ff008418bf1b45d96b013e2b8127d684aaca5e05d9025b4bf7f553f5"
+      },
+      {
+        "key": "ContourCraft/01_01",
+        "file": "ContourCraft/body_sequences/validation8/01_01.npz",
+        "sha256": "1ee0e2864ac593160ed5e00fde2b5eb5145344795819868379fddf9adbdfd4d9"
+      },
+      {
+        "key": "ContourCraft/05_06",
+        "file": "ContourCraft/body_sequences/validation8/05_06.npz",
+        "sha256": "9f48fe3073397af6cb7e0274b3f6949e0727611a8ac7bbeb268be52a47104b13"
+      },
+      {
+        "key": "ContourCraft/05_08",
+        "file": "ContourCraft/body_sequences/validation8/05_08.npz",
+        "sha256": "0eb5675a7fa24fbc471c81de65743774ef306c4eccf9199332a97cae8a793ddd"
+      },
+      {
+        "key": "ContourCraft/05_16",
+        "file": "ContourCraft/body_sequences/validation8/05_16.npz",
+        "sha256": "18f853ccef3c803e62b92177cbff40a09f58a1967fc563f481afbe2821b9ace5"
+      },
+      {
+        "key": "ContourCraft/144_02",
+        "file": "ContourCraft/body_sequences/validation8/144_02.npz",
+        "sha256": "c1163d84f1aed726d39ba48d55f9128d82b2340067016f62cccf3f313fb5c157"
+      },
+      {
+        "key": "ContourCraft/55_27",
+        "file": "ContourCraft/body_sequences/validation8/55_27.npz",
+        "sha256": "48784f1b5955981fa738c78fe71b73012442228b5a99e90ae5fb61b931368d2f"
+      },
+      {
+        "key": "D-LAYERS/06_13",
+        "file": "D-LAYERS/body_sequences/06_13.pkl",
+        "sha256": "e1a68e85b43bf15870a1aa3516decded291243bec421f9b63732f0e2a91b5956"
+      },
+      {
+        "key": "D-LAYERS/85_12",
+        "file": "D-LAYERS/body_sequences/85_12.pkl",
+        "sha256": "f6c82b40b6ab458e3cb703bc74eb91c51244c323d476da249ed2ef5069d8bd8d"
+      },
+      {
+        "key": "D-LAYERS/00396",
+        "file": "D-LAYERS/body_sequences/sample_clips/00396.pkl",
+        "sha256": "aca6947edd0ad9113064f675f9577b29862dda82be84baf4da3bc4d15e488517"
+      },
+      {
+        "key": "D-LAYERS/00756",
+        "file": "D-LAYERS/body_sequences/sample_clips/00756.pkl",
+        "sha256": "baca421fae65c947ee17b0d53ea33eada54844a1ede0b539fee3af319f807a99"
+      }
+    ],
+    "unassigned": [
+      {
+        "key": "ClothTransformer/sim_00000",
+        "file": "ClothTransformer/body_sequences/sim_00000.npz",
+        "sha256": "2e4b1677860b3b91429cfc4b8c8d41f7d22f63fe0309b32d6314534861dcfb8a"
+      },
+      {
+        "key": "ClothTransformer/sim_00003",
+        "file": "ClothTransformer/body_sequences/sim_00003.npz",
+        "sha256": "916e7a200f432553c83d0daa5ef303097729924e5323495c55faacba60b54b2c"
+      },
+      {
+        "key": "ClothTransformer/sim_00007",
+        "file": "ClothTransformer/body_sequences/sim_00007.npz",
+        "sha256": "a0eadd57fe58b8c5567b55d6efcd48683a39ad7c5c3a515785731cbda005cff7"
+      },
+      {
+        "key": "ClothTransformer/sim_00009",
+        "file": "ClothTransformer/body_sequences/sim_00009.npz",
+        "sha256": "cbb99586481d6e727086feeb4aaa05dd77b43ca6553d817ebf0f854cbba42b09"
+      },
+      {
+        "key": "ClothTransformer/sim_00028",
+        "file": "ClothTransformer/body_sequences/sim_00028.npz",
+        "sha256": "2d9856bbd5e09cc198e336fac43b2973548d1b09123bf6dd8dd3c434c66872dc"
+      },
+      {
+        "key": "ContourCraft/07_02",
+        "file": "ContourCraft/body_sequences/validation8/07_02.npz",
+        "sha256": "826d03f664d0d02a95dae47ebc9ef560d3bed2da4f2b3a9aef61ab58b13fa919"
+      },
+      {
+        "key": "ContourCraft/104_54",
+        "file": "ContourCraft/body_sequences/validation8/104_54.npz",
+        "sha256": "f92fc686554d7689e42b58f90588198c312336111159998fb991bc87dfc94f3f"
+      },
+      {
+        "key": "D-LAYERS/141_12",
+        "file": "D-LAYERS/body_sequences/141_12.pkl",
+        "sha256": "a65961dc465579b9782cfed1e958e8bc00692a2ef6934944bf1cc31dde4064d3"
+      },
+      {
+        "key": "D-LAYERS/55_01",
+        "file": "D-LAYERS/body_sequences/55_01.pkl",
+        "sha256": "6d3a24373a9559806ebbecb7a6c2e5bc12237cdc9abdd10b296798672326fd08"
+      },
+      {
+        "key": "D-LAYERS/55_25",
+        "file": "D-LAYERS/body_sequences/55_25.pkl",
+        "sha256": "41f5021d6bdc8404f448ab1ccab8f9df247991d72402c4b6a7ccc581269fcef2"
+      },
+      {
+        "key": "D-LAYERS/55_27",
+        "file": "D-LAYERS/body_sequences/55_27.pkl",
+        "sha256": "521c3d271981c3d20066a4f1980bcca59445807a306846abb28dbdc522543332"
+      },
+      {
+        "key": "D-LAYERS/60_01",
+        "file": "D-LAYERS/body_sequences/60_01.pkl",
+        "sha256": "6e44c34d064db2bb3c5a347ff1c18215dc995304106ebf0841465570d3c575b7"
+      },
+      {
+        "key": "D-LAYERS/60_09",
+        "file": "D-LAYERS/body_sequences/60_09.pkl",
+        "sha256": "964196e5d1481115f2256667f33f1479ae96e5a1177832d12968342250bce722"
+      },
+      {
+        "key": "D-LAYERS/94_05",
+        "file": "D-LAYERS/body_sequences/94_05.pkl",
+        "sha256": "c4f08da29c98bdeeb1deb316d055590f00a89c79d91956f6c76706f89d0e19d3"
+      },
+      {
+        "key": "D-LAYERS/102_21",
+        "file": "D-LAYERS/body_sequences/102_21.pkl",
+        "sha256": "7a30352ef2c9a80475327415b97a430815b3a9687aae143b9d062855d8c35dba"
+      },
+      {
+        "key": "D-LAYERS/13_17",
+        "file": "D-LAYERS/body_sequences/13_17.pkl",
+        "sha256": "af81eb3d7317fc05fc06d2913c8492667ac6e58e4f651edb52a04bd57b60f06f"
+      },
+      {
+        "key": "D-LAYERS/135_02",
+        "file": "D-LAYERS/body_sequences/135_02.pkl",
+        "sha256": "c3b35c1edaf798f2fff15df2391d7742ec5c8b6d108edd8b2ba009f605cf8dfb"
+      },
+      {
+        "key": "D-LAYERS/12_04",
+        "file": "D-LAYERS/body_sequences/12_04.pkl",
+        "sha256": "78921e41e75bf43d0fa5de31988f2cb266ea46cdda161cd971fb358d0fa7fbde"
+      },
+      {
+        "key": "D-LAYERS/144_02",
+        "file": "D-LAYERS/body_sequences/144_02.pkl",
+        "sha256": "0bfbbd7ef2bde912f4b621b7dd276de02e19c8c1b5d3e75a307a9496c9ba3b3d"
+      },
+      {
+        "key": "D-LAYERS/85_04",
+        "file": "D-LAYERS/body_sequences/85_04.pkl",
+        "sha256": "5cf06707bc8ebec4eb1ef3484021304b4fb12b2baa1667c77481a5cc7428d99c"
+      },
+      {
+        "key": "D-LAYERS/90_08",
+        "file": "D-LAYERS/body_sequences/90_08.pkl",
+        "sha256": "0e8280f1a25885b8c5f364b3d238aade6df86e1a0b9f7957f68c4fc1933d4560"
+      },
+      {
+        "key": "D-LAYERS/88_09",
+        "file": "D-LAYERS/body_sequences/88_09.pkl",
+        "sha256": "cf5cadf7d7f0b21f4d5589cefd48a0e5c4e7d163b4849ffbb69c28a0508da1b0"
+      },
+      {
+        "key": "D-LAYERS/90_12",
+        "file": "D-LAYERS/body_sequences/90_12.pkl",
+        "sha256": "6909776b478766a35c48a727847ea3835c474485f3a299a4a7513a3fb8acb2f0"
+      },
+      {
+        "key": "D-LAYERS/90_11",
+        "file": "D-LAYERS/body_sequences/90_11.pkl",
+        "sha256": "be66e3a1f12ae2df84776bd2275d3712ad36210e10887a727d94ca17f9a35eb4"
+      },
+      {
+        "key": "D-LAYERS/127_05",
+        "file": "D-LAYERS/body_sequences/127_05.pkl",
+        "sha256": "6ca48b4d0e46b478ab63d631a1e71308d351ef24453a0568456ba3fd6feba702"
+      },
+      {
+        "key": "D-LAYERS/127_19",
+        "file": "D-LAYERS/body_sequences/127_19.pkl",
+        "sha256": "fa96034ea6b504000cf8c702d88328408b68f474b81068292f1ddf6ce2688b76"
+      },
+      {
+        "key": "D-LAYERS/139_13",
+        "file": "D-LAYERS/body_sequences/139_13.pkl",
+        "sha256": "b0486d18a73277ef9e9c04fc42da4715ef503f7e4d65ed3af82a8d5018480e27"
+      }
+    ]
+  }
+}

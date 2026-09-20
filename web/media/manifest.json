@@ -4157,6 +4157,80 @@
           "source_sha256": "3c0a0037a9f5b33a0a046b4c1fef2ca4815c31b94e4e1d06a35537f34140083b"
         }
       }
+    },
+    "body/D-LAYERS/00396": {
+      "note": "按原样本片段重建的人体预览；30 FPS为播放假定。性别来自样本，betas=0仅供显示，不等同于绑定初值的原人体体型。",
+      "files": {
+        "thumbnail": {
+          "path": "media/body/D-LAYERS/00396/thumbnail.webp",
+          "sha256": "41b53cd8a30af3e19c85f68c2cc21f8f3f5e02ef60c0987dc64cb9201c7c47a6",
+          "bytes": 4862
+        },
+        "video": {
+          "path": "media/body/D-LAYERS/00396/video.mp4",
+          "sha256": "f7bdfc565ff7ec508949786d0f7a41be932f40432a608bd7fee4ac8a516d32fd",
+          "bytes": 196245
+        }
+      },
+      "generation": {
+        "script": "scripts/preview_sample_clips.py",
+        "input_sha256": "aca6947edd0ad9113064f675f9577b29862dda82be84baf4da3bc4d15e488517",
+        "model_sha256": "0e8c0bbbbc635dcb166ed29c303fb4bef16ea5f623e5a89263495a9e403575bd",
+        "model_gender": "male",
+        "betas": "zero; preview only",
+        "decoded_frames": 405,
+        "fps_status": "assumed_playback",
+        "device": "CPU OSMesa"
+      }
+    },
+    "initials/D-LAYERS/00396": {
+      "note": "原样本frame0人体与整套服装；保留原网格和共同显示变换。",
+      "files": {
+        "thumbnail": {
+          "path": "media/initials/D-LAYERS/00396/thumbnail.webp",
+          "sha256": "1d5ec6379e48cf0b8f690caf9e23f3ecc869517995f7b338cc41ed8e38fbed17",
+          "bytes": 6348,
+          "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00396/frame0.png",
+          "source_sha256": "efaf462d32e029e1f2ccacd456018c77540de49e6ea9bd82554e0244ce9414d6"
+        }
+      }
+    },
+    "body/D-LAYERS/00756": {
+      "note": "按原样本片段重建的人体预览；30 FPS为播放假定。性别来自样本，betas=0仅供显示，不等同于绑定初值的原人体体型。",
+      "files": {
+        "thumbnail": {
+          "path": "media/body/D-LAYERS/00756/thumbnail.webp",
+          "sha256": "01cd767e3ea23bed5152d6b8b19a841af8c23410fac46b63356d2f2f67b004fa",
+          "bytes": 6286
+        },
+        "video": {
+          "path": "media/body/D-LAYERS/00756/video.mp4",
+          "sha256": "b76b8a3b1709d8c1c9382f3acf5a348d011dbe0b70111346dd9568de606c979c",
+          "bytes": 239833
+        }
+      },
+      "generation": {
+        "script": "scripts/preview_sample_clips.py",
+        "input_sha256": "baca421fae65c947ee17b0d53ea33eada54844a1ede0b539fee3af319f807a99",
+        "model_sha256": "a583c1b98e4afc19042641f1bae5cd8a1f712a6724886291a7627ec07acd408d",
+        "model_gender": "female",
+        "betas": "zero; preview only",
+        "decoded_frames": 265,
+        "fps_status": "assumed_playback",
+        "device": "CPU OSMesa"
+      }
+    },
+    "initials/D-LAYERS/00756": {
+      "note": "原样本frame0人体与整套服装；保留原网格和共同显示变换。",
+      "files": {
+        "thumbnail": {
+          "path": "media/initials/D-LAYERS/00756/thumbnail.webp",
+          "sha256": "c6307898a65d3f541a53312a5de825d72ea7e26be965d2c2c7790cccb6b8092a",
+          "bytes": 8200,
+          "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00756/frame0.png",
+          "source_sha256": "839dcf57f36505a0cc3a8acc0882f0567f306f6efc43ed6859cc9b3352fa01cd"
+        }
+      }
     }
   },
   "images": "Display-only WebP derivatives. Motion videos copied byte-for-byte.",

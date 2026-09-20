@@ -80,6 +80,20 @@
     "source": "uploaded collision report; not recomputed"
   },
   {
+    "sample": "00396",
+    "state": "frame0",
+    "garments": [
+      "tee_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00396/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00396/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 17,
+    "source": "uploaded collision counts plus independent CPU static intersection check",
+    "body_sequence_key": "D-LAYERS/00396"
+  },
+  {
     "sample": "00528",
     "state": "frame0",
     "garments": [
@@ -131,6 +145,20 @@
     "clothing_related_all_zero": true,
     "human_self_intersections": 64,
     "source": "uploaded collision report; not recomputed"
+  },
+  {
+    "sample": "00756",
+    "state": "frame0",
+    "garments": [
+      "tee_sleeveless",
+      "jacket"
+    ],
+    "binding": "D-LAYERS/garment_body_initials/00756/binding.json",
+    "body": "D-LAYERS/garment_body_initials/00756/human.npz",
+    "clothing_related_all_zero": true,
+    "human_self_intersections": 145,
+    "source": "uploaded collision counts plus independent CPU static intersection check",
+    "body_sequence_key": "D-LAYERS/00756"
   },
   {
     "sample": "00800",

@@ -5,15 +5,15 @@
   "body_sequences": {
     "ClothTransformer": 7,
     "ContourCraft": 60,
-    "D-LAYERS": 22
+    "D-LAYERS": 24
   },
   "ct_selected_clothes": [
     "CT-sim_00000",
     "CT-sim_00002"
   ],
   "contourcraft_cloth_objs": 57,
-  "dlayers_initial_samples": 38,
-  "dlayers_initial_garments": 85,
+  "dlayers_initial_samples": 40,
+  "dlayers_initial_garments": 89,
   "files": [
     {
       "path": "ClothTransformer/body_sequences/sim_00000.json",
@@ -1272,6 +1272,36 @@
       "byte_identical": true
     },
     {
+      "path": "D-LAYERS/body_sequences/sample_clips/00396.json",
+      "role": "curated metadata or documentation",
+      "bytes": 1198,
+      "sha256": "ca26365fabd5c4476e3187fbdb960c8380d0c1b0b7585d57645453f2530db22d"
+    },
+    {
+      "path": "D-LAYERS/body_sequences/sample_clips/00396.pkl",
+      "source": "body_sequence/datasets/D-LAYERS/human/114/114_07_poses.pkl",
+      "source_sha256": "aca6947edd0ad9113064f675f9577b29862dda82be84baf4da3bc4d15e488517",
+      "byte_identical": true,
+      "processing": "Lossless frame selection, reindexed to zero; no numeric changes or resampling",
+      "bytes": 270614,
+      "sha256": "aca6947edd0ad9113064f675f9577b29862dda82be84baf4da3bc4d15e488517"
+    },
+    {
+      "path": "D-LAYERS/body_sequences/sample_clips/00756.json",
+      "role": "curated metadata or documentation",
+      "bytes": 1215,
+      "sha256": "6a0dafb92334d83d542d7b579b9c2ed769d3855958207e78dfe75b3f08a04f01"
+    },
+    {
+      "path": "D-LAYERS/body_sequences/sample_clips/00756.pkl",
+      "source": "body_sequence/datasets/D-LAYERS/human/01/01_10_poses.pkl",
+      "source_sha256": "c43d7cbb1064f5b1940f8f2f0a365b38ed447942b07151f2b022a58a62975d21",
+      "byte_identical": false,
+      "processing": "Lossless frame selection, reindexed to zero; no numeric changes or resampling",
+      "bytes": 176937,
+      "sha256": "baca421fae65c947ee17b0d53ea33eada54844a1ede0b539fee3af319f807a99"
+    },
+    {
       "path": "D-LAYERS/collision_classification.snapshot.json",
       "bytes": 112059,
       "sha256": "a4c669f23c2bf133d1f5258be7636cf2e840fe94aa741081bc4aae2ebc304f2b",
@@ -1580,6 +1610,48 @@
       "byte_identical": true
     },
     {
+      "path": "D-LAYERS/garment_body_initials/00396/binding.json",
+      "role": "curated metadata or documentation",
+      "bytes": 4024,
+      "sha256": "3dc2876e9a05eed8349c01020ad60989e8d2002fe25236de24182512c617339c"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00396/collision.json",
+      "role": "curated metadata or documentation",
+      "bytes": 704,
+      "sha256": "33f77a22797803016ce005f185e4e7e313a1b92f8708d0c8e61ee084e954919a"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00396/garments/jacket.npz",
+      "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00396/meshes/jacket_frame000.npz",
+      "source_sha256": "7ed2e61eaa67e861ea8c71e69970a21b7c60b9f872da27aae8005258d408e354",
+      "byte_identical": true,
+      "bytes": 273501,
+      "sha256": "7ed2e61eaa67e861ea8c71e69970a21b7c60b9f872da27aae8005258d408e354"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00396/garments/tee_sleeveless.npz",
+      "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00396/meshes/tee_sleeveless_frame000.npz",
+      "source_sha256": "96eeb91e9e0b5d9120f4b4ba900ecd7f93febb3b91d09b37b68df47643399d5f",
+      "byte_identical": true,
+      "bytes": 276084,
+      "sha256": "96eeb91e9e0b5d9120f4b4ba900ecd7f93febb3b91d09b37b68df47643399d5f"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00396/human.npz",
+      "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00396/meshes/human_frame000.npz",
+      "source_sha256": "0802e58c8323e92f5635cd9a70d7296a18336df5281781d620fd2c71b8970205",
+      "byte_identical": true,
+      "bytes": 218515,
+      "sha256": "0802e58c8323e92f5635cd9a70d7296a18336df5281781d620fd2c71b8970205"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00396/sample_meta.original.json",
+      "role": "curated metadata or documentation",
+      "bytes": 528,
+      "sha256": "9648466487c80ecc33b28436c1279e6d118768e3be66fbd5c9927a3acc6df42e"
+    },
+    {
       "path": "D-LAYERS/garment_body_initials/00528/binding.json",
       "bytes": 3511,
       "sha256": "f01fdc6609a55d15ec497f92cd0e4207ea8b28ce9f632e8da94dedb932f91507",
@@ -1770,6 +1842,48 @@
       "source": "cloth/D-LAYERS/selected_38_20260915/bound_samples/00703/sample_meta.original.json",
       "source_sha256": "bff0b4a621db3d5ea7f38459f31cfe4c15ffce753f4f9d67cae4c8c344b82be8",
       "byte_identical": true
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00756/binding.json",
+      "role": "curated metadata or documentation",
+      "bytes": 4030,
+      "sha256": "b5d25030a9284b78d8052d236e9a58f943d94b229297a0d574aeaed18bb6ca30"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00756/collision.json",
+      "role": "curated metadata or documentation",
+      "bytes": 706,
+      "sha256": "82efad9b862efea6f0aca8c1c952605522935f7120c418002a2e70a2067a5414"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00756/garments/jacket.npz",
+      "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00756/meshes/jacket_frame000.npz",
+      "source_sha256": "bba71847062ae0ebac076f6503e0c230f72b67489aee51b51358c38b17809179",
+      "byte_identical": true,
+      "bytes": 546279,
+      "sha256": "bba71847062ae0ebac076f6503e0c230f72b67489aee51b51358c38b17809179"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00756/garments/tee_sleeveless.npz",
+      "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00756/meshes/tee_sleeveless_frame000.npz",
+      "source_sha256": "dc54e257f5bfbe9a56fc3c483a77e4831dcd5c6c00ffd395aee5e7c93cb9f5bf",
+      "byte_identical": true,
+      "bytes": 390704,
+      "sha256": "dc54e257f5bfbe9a56fc3c483a77e4831dcd5c6c00ffd395aee5e7c93cb9f5bf"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00756/human.npz",
+      "source": "cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/00756/meshes/human_frame000.npz",
+      "source_sha256": "c93edc233df8ddd01788d08948e88f595cec9dde34a701b70fd50a950d4d734b",
+      "byte_identical": true,
+      "bytes": 220841,
+      "sha256": "c93edc233df8ddd01788d08948e88f595cec9dde34a701b70fd50a950d4d734b"
+    },
+    {
+      "path": "D-LAYERS/garment_body_initials/00756/sample_meta.original.json",
+      "role": "curated metadata or documentation",
+      "bytes": 530,
+      "sha256": "a49c50c45496cdf189deab216763c0dc294b50a1f84f7d1f675094e03830d4e0"
     },
     {
       "path": "D-LAYERS/garment_body_initials/00800/binding.json",
@@ -3109,8 +3223,8 @@
     },
     {
       "path": "D-LAYERS/garment_body_initials.json",
-      "bytes": 14955,
-      "sha256": "f6a493935ce2be8c84cfa627bbe8abed90b9b9777e23567057e1f2d4a116f0eb",
+      "bytes": 15868,
+      "sha256": "0e334d7a7918f59f0ed7bceab1ee08576b1984a07f8c7e47b0939f0ac341b764",
       "role": "curated metadata or documentation"
     },
     {
@@ -3123,14 +3237,14 @@
     },
     {
       "path": "README.md",
-      "bytes": 5326,
-      "sha256": "917ca4ba814434c2d985ba1201b9fe41662bf28db9724bf1fb5953b6dd6edc59",
+      "bytes": 7786,
+      "sha256": "541c5123ac8e0f4c90f7537ad999a96d6e7dad17c98ac696ab9eb82d1c388403",
       "role": "curated metadata or documentation"
     },
     {
       "path": "body_sequences.json",
-      "bytes": 32203,
-      "sha256": "2803cb1bc7eb068202cc93d20ba2b804fae7d467654ac20710a0dc2dac9ebadc",
+      "bytes": 38094,
+      "sha256": "bde9348303ce214edfa40eb410f944f73d2669e0794182892c78a3fe4d07d97f",
       "role": "curated metadata or documentation"
     },
     {
@@ -3138,7 +3252,37 @@
       "bytes": 11276,
       "sha256": "ba501e188cc7d4fa5527092dff2293f1a56cff7d4b02a429fd72f372c8ccdca3",
       "role": "curated metadata or documentation"
+    },
+    {
+      "path": "splits/body_sequences.json",
+      "role": "curated metadata or documentation",
+      "bytes": 18723,
+      "sha256": "f022f076fa9b9f22244bb487c5daa155d33630fa85822798a1ae5f8698f9c237"
+    },
+    {
+      "path": "splits/test.txt",
+      "role": "curated metadata or documentation",
+      "bytes": 555,
+      "sha256": "ca4743e2f00026013337cf3978bb10323b8083888c1ca3f8823c5fc2cf963b31"
+    },
+    {
+      "path": "splits/train.txt",
+      "role": "curated metadata or documentation",
+      "bytes": 2319,
+      "sha256": "f97d9e7e18459ecc3500b72cea54e2c53eec45b7a370e3e7f944dae68ed01f87"
+    },
+    {
+      "path": "splits/unassigned.txt",
+      "role": "curated metadata or documentation",
+      "bytes": 1018,
+      "sha256": "164c65baa2dadd831787d8f95981693c84c36617d36dfac81fe2aaa833a49976"
     }
   ],
-  "scope": "Curated scientific payload and indexed documentation only; excludes web/, scripts/, workflows and Git files."
+  "scope": "Curated scientific payload and indexed documentation only; excludes web/, scripts/, workflows and Git files.",
+  "updated_at": "2026-09-20T08:02:23.733103+00:00",
+  "body_splits": {
+    "train": 52,
+    "test": 12,
+    "unassigned": 27
+  }
 }

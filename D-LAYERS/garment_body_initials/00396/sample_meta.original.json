@@ -1,0 +1,27 @@
+{
+  "sample": "00396",
+  "num_frame": 405,
+  "seq_start": 0,
+  "seq_end": 405,
+  "gender": "male",
+  "motion_path": "human/114/114_07_poses.pkl",
+  "num_garments": 2,
+  "garments": [
+    "tee_sleeveless",
+    "jacket"
+  ],
+  "mesh_order": {
+    "1": "human",
+    "2": "tee_sleeveless",
+    "3": "jacket"
+  },
+  "coordinate_convention": {
+    "restpose": "canonical Y-up",
+    "frame0": "world Z-up"
+  },
+  "outputs": {
+    "restpose_image": "restpose.png",
+    "frame0_image": "frame0.png",
+    "mesh_directory": "meshes"
+  }
+}

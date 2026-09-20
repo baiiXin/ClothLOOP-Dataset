@@ -7,7 +7,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ClothTransformer",
@@ -17,7 +18,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ClothTransformer",
@@ -27,7 +29,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ClothTransformer",
@@ -37,7 +40,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ClothTransformer",
@@ -47,7 +51,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ClothTransformer",
@@ -57,7 +62,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ClothTransformer",
@@ -67,7 +73,8 @@
     "fps": 60.0,
     "duration_seconds": 4.0,
     "version": "joint_plausibility_repair",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ContourCraft",
@@ -80,7 +87,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 02_04",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -93,7 +101,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 02_05",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -106,7 +115,8 @@
     "fps_status": "verified",
     "category": "Dancing",
     "description": "Dancing; CMU motion 05_20",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -119,7 +129,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 104_04",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -132,7 +143,8 @@
     "fps_status": "verified",
     "category": "Others",
     "description": "Others; CMU motion 104_11",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -145,7 +157,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 104_17",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -158,7 +171,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 104_53",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -171,7 +185,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 105_05",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -184,7 +199,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 108_11",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -197,7 +213,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 108_12",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -210,7 +227,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 108_16",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -223,7 +241,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 108_17",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -236,7 +255,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 108_18",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -249,7 +269,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 108_20",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -262,7 +283,8 @@
     "fps_status": "verified",
     "category": "Torso movements",
     "description": "Torso movements; CMU motion 108_22",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -275,7 +297,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 108_27",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -288,7 +311,8 @@
     "fps_status": "verified",
     "category": "Torso movements",
     "description": "Torso movements; CMU motion 111_02",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -301,7 +325,8 @@
     "fps_status": "verified",
     "category": "Dancing",
     "description": "Dancing; CMU motion 111_05",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -314,7 +339,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 111_14",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -327,7 +353,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 111_20",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -340,7 +367,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 111_37",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -353,7 +381,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 128_02",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -366,7 +395,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 128_03",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -379,7 +409,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 128_04",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -392,7 +423,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 128_05",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -405,7 +437,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 128_06",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -418,7 +451,8 @@
     "fps_status": "verified",
     "category": "Running",
     "description": "Running; CMU motion 128_07",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -431,7 +465,8 @@
     "fps_status": "verified",
     "category": "Dancing",
     "description": "Dancing; CMU motion 131_03",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -444,7 +479,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 132_54",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -457,7 +493,8 @@
     "fps_status": "verified",
     "category": "Torso movements",
     "description": "Torso movements; CMU motion 135_07",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -470,7 +507,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 135_09",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -483,7 +521,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 13_13",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -496,7 +535,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 144_26",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -509,7 +549,8 @@
     "fps_status": "verified",
     "category": "Torso movements",
     "description": "Torso movements; CMU motion 144_28",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -522,7 +563,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 144_30",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -535,7 +577,8 @@
     "fps_status": "verified",
     "category": "Torso movements",
     "description": "Torso movements; CMU motion 26_11",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -548,7 +591,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 40_12",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -561,7 +605,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 46_01",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -574,7 +619,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 49_04",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -587,7 +633,8 @@
     "fps_status": "verified",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 54_24",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -600,7 +647,8 @@
     "fps_status": "verified",
     "category": "Dancing",
     "description": "Dancing; CMU motion 55_12",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -613,7 +661,8 @@
     "fps_status": "verified",
     "category": "Torso movements",
     "description": "Torso movements; CMU motion 63_25",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -626,7 +675,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 73_09",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -639,7 +689,8 @@
     "fps_status": "verified",
     "category": "Others",
     "description": "Others; CMU motion 76_05",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -652,7 +703,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 76_11",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -665,7 +717,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 91_12",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -678,7 +731,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 91_19",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -691,7 +745,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 91_33",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -704,7 +759,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 91_36",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -717,7 +773,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 91_38",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -730,7 +787,8 @@
     "fps_status": "verified",
     "category": "Jumping",
     "description": "Jumping; CMU motion 91_61",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -743,7 +801,8 @@
     "fps_status": "verified",
     "category": "Walking",
     "description": "Walking; CMU motion 91_62",
-    "split": "unassigned"
+    "split": "train",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -756,7 +815,8 @@
     "fps_status": "project_defined",
     "category": "Jumping",
     "description": "Jumping; CMU motion 01_01",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -769,7 +829,8 @@
     "fps_status": "project_defined",
     "category": "Dancing",
     "description": "舞蹈：侧手翻式起始、旋转和跳跃",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -782,7 +843,8 @@
     "fps_status": "project_defined",
     "category": "Dancing",
     "description": "舞蹈：空中划腿、跳跃和转身",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -795,7 +857,8 @@
     "fps_status": "project_defined",
     "category": "Dancing",
     "description": "舞蹈：换脚步与转体跳跃",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -808,7 +871,8 @@
     "fps_status": "project_defined",
     "category": "Walking",
     "description": "Walking; CMU motion 07_02",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ContourCraft",
@@ -821,7 +885,8 @@
     "fps_status": "project_defined",
     "category": "Running",
     "description": "Running; CMU motion 104_54",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "ContourCraft",
@@ -834,7 +899,8 @@
     "fps_status": "project_defined",
     "category": "Acrobatics",
     "description": "侧手翻（CMU 标签 Cartwheels001）",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "ContourCraft",
@@ -847,7 +913,8 @@
     "fps_status": "project_defined",
     "category": "Arm movements",
     "description": "Arm movements; CMU motion 55_27",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "D-LAYERS",
@@ -861,7 +928,8 @@
     "description": "Dance, Twist",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -875,7 +943,8 @@
     "description": "dance, whirl",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -889,7 +958,8 @@
     "description": "dancing animal (human subject)",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -903,7 +973,8 @@
     "description": "dancing ant (human subject)",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -917,7 +988,8 @@
     "description": "salsa dance",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -931,7 +1003,8 @@
     "description": "salsa dance",
     "selection_emphasized": true,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -945,7 +1018,8 @@
     "description": "",
     "selection_emphasized": true,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -959,7 +1033,8 @@
     "description": "basketball - low, fast free style dribble, dribble through legs",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "D-LAYERS",
@@ -973,7 +1048,8 @@
     "description": "FakeShotBreakLeft",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -987,7 +1063,8 @@
     "description": "boxing",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1001,7 +1078,8 @@
     "description": "Empi",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1015,7 +1093,8 @@
     "description": "tai chi",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1029,7 +1108,8 @@
     "description": "Cartwheels001",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1043,7 +1123,8 @@
     "description": "FancyFootWork",
     "selection_emphasized": true,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1057,7 +1138,8 @@
     "description": "LongSequenceGood",
     "selection_emphasized": true,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "test",
+    "split_status": "user_selected"
   },
   {
     "dataset": "D-LAYERS",
@@ -1071,7 +1153,8 @@
     "description": "side flip",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1085,7 +1168,8 @@
     "description": "stretch and cartwheel",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1099,7 +1183,8 @@
     "description": "bck flp twst fall",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1113,7 +1198,8 @@
     "description": "hand spring",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1127,7 +1213,8 @@
     "description": "Run to Quick Stop",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1141,7 +1228,8 @@
     "description": "Run Quick Stop Run",
     "selection_emphasized": false,
     "original_duration_bucket": "short",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
   },
   {
     "dataset": "D-LAYERS",
@@ -1155,6 +1243,75 @@
     "description": "Run in Circles",
     "selection_emphasized": false,
     "original_duration_bucket": "long",
-    "split": "unassigned"
+    "split": "unassigned",
+    "split_status": "not_in_current_selection"
+  },
+  {
+    "dataset": "D-LAYERS",
+    "id": "00396",
+    "file": "D-LAYERS/body_sequences/sample_clips/00396.pkl",
+    "frames": 405,
+    "fps": 30.0,
+    "fps_status": "assumed_playback",
+    "duration_seconds": 13.5,
+    "category": "来源样本动作",
+    "description": "D-LAYERS sample 00396: CMU 114_07, source frames 0–404",
+    "upstream_group": "sample_original_clip",
+    "source_sequence_id": "114_07",
+    "source_segment": {
+      "source_sequence_id": "114_07",
+      "source_path": "human/114/114_07_poses.pkl",
+      "source_sha256": "aca6947edd0ad9113064f675f9577b29862dda82be84baf4da3bc4d15e488517",
+      "source_frames": 405,
+      "start_inclusive": 0,
+      "end_exclusive": 405,
+      "frame_index_base": 0,
+      "output_frame_to_source": "source_frame = output_frame + 0",
+      "arrays_equal_to_source_slice": true,
+      "max_parameter_error": 0.0,
+      "resampled": false,
+      "translation_preserved": true,
+      "byte_identical_to_full_source": true
+    },
+    "gender": "male",
+    "gender_source": "D-LAYERS sample metadata",
+    "betas_status": "not supplied by source motion PKL; initial binding preserves exact source mesh",
+    "initial_binding": "D-LAYERS/garment_body_initials/00396/binding.json",
+    "split": "test",
+    "split_status": "user_selected"
+  },
+  {
+    "dataset": "D-LAYERS",
+    "id": "00756",
+    "file": "D-LAYERS/body_sequences/sample_clips/00756.pkl",
+    "frames": 265,
+    "fps": 30.0,
+    "fps_status": "assumed_playback",
+    "duration_seconds": 8.833333333333334,
+    "category": "来源样本动作",
+    "description": "D-LAYERS sample 00756: CMU 01_10, source frames 508–772",
+    "upstream_group": "sample_original_clip",
+    "source_sequence_id": "01_10",
+    "source_segment": {
+      "source_sequence_id": "01_10",
+      "source_path": "human/01/01_10_poses.pkl",
+      "source_sha256": "c43d7cbb1064f5b1940f8f2f0a365b38ed447942b07151f2b022a58a62975d21",
+      "source_frames": 817,
+      "start_inclusive": 508,
+      "end_exclusive": 773,
+      "frame_index_base": 0,
+      "output_frame_to_source": "source_frame = output_frame + 508",
+      "arrays_equal_to_source_slice": true,
+      "max_parameter_error": 0.0,
+      "resampled": false,
+      "translation_preserved": true,
+      "byte_identical_to_full_source": false
+    },
+    "gender": "female",
+    "gender_source": "D-LAYERS sample metadata",
+    "betas_status": "not supplied by source motion PKL; initial binding preserves exact source mesh",
+    "initial_binding": "D-LAYERS/garment_body_initials/00756/binding.json",
+    "split": "test",
+    "split_status": "user_selected"
   }
 ]

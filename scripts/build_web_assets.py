@@ -169,12 +169,18 @@ def main():
 
     for x in read(ROOT / 'body_sequences.json'):
         key = f'body/{x["dataset"]}/{x["id"]}'
-        row = common(key, x['dataset'], x['id'], 'body', [x['file']])
+        files = [x['file']]
+        if x.get('source_segment'):
+            files.append(str(Path(x['file']).with_suffix('.json')))
+        row = common(key, x['dataset'], x['id'], 'body', files)
         row.update({'frames': x['frames'], 'fps': x['fps'], 'fps_status': x.get('fps_status', 'verified'),
                     'duration': x['duration_seconds'], 'category': x.get('category', '未提供'),
                     'description': x.get('description', ''), 'split': x.get('split', 'unassigned'),
                     'processing': x.get('version', 'source_parameters'),
                     'group': x.get('upstream_group', ''), 'metadata': x})
+        if x.get('source_segment'):
+            row['source_segment'] = x['source_segment']
+            row['related_url'] = f'initials/D-LAYERS/{x["id"]}/'
         if x['dataset'] == 'ClothTransformer':
             row['model'] = read((ROOT / x['file']).with_suffix('.json'))
             row['processing_label'] = 'SMPL 反求 · 关节修复'
@@ -212,6 +218,8 @@ def main():
                     'body_bound': True, 'garment_count': len(x['garments']), 'collision': binding['collision'],
                     'source_sequence': binding.get('source_sequence'), 'metadata': binding,
                     'coordinate_convention': binding['source_coordinate_convention']})
+        if x.get('body_sequence_key'):
+            row['related_url'] = f'body/{x["body_sequence_key"]}/'
         assert binding['state'] == x['state'] and binding['sample'] == x['sample']
         assert binding['collision']['state'] == x['state']
         scene = build_glb(key, parts, binding['display_transform']['matrix'])
@@ -228,6 +236,7 @@ def main():
                'sources': sorted({x['source'] for x in motions + garments + initials}),
                'missing_previews': sum('thumbnail' not in x for x in motions + garments + initials),
                'missing_motion_categories': sum(x['category'] == '未提供' for x in motions)}
+    summary['body_splits'] = {s: sum(x['split'] == s for x in motions) for s in ['train', 'test', 'unassigned']}
     catalog = {'schema': 'ClothLOOP.explorer.v1', 'commit': commit, 'repository': REPO, 'summary': summary,
                'body': motions, 'cloth': garments, 'initials': initials}
     write_json(OUT / 'catalog.json', catalog)

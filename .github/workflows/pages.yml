@@ -42,7 +42,9 @@ jobs:
           python -m pip install -r ../scripts/requirements-web.txt
           npx playwright install --with-deps --only-shell chromium
       - name: Build and verify scientific-to-display conversion
-        run: npm run build
+        run: |
+          python ../scripts/validate_dataset.py
+          npm run build
       - name: Exercise the website in Chromium
         run: npm test
       - name: Retain browser test and mesh validation evidence

@@ -1,0 +1,12 @@
+ClothTransformer/body_sequences/sim_00004.npz
+ClothTransformer/body_sequences/sim_00018.npz
+ContourCraft/body_sequences/validation8/01_01.npz
+ContourCraft/body_sequences/validation8/05_06.npz
+ContourCraft/body_sequences/validation8/05_08.npz
+ContourCraft/body_sequences/validation8/05_16.npz
+ContourCraft/body_sequences/validation8/144_02.npz
+ContourCraft/body_sequences/validation8/55_27.npz
+D-LAYERS/body_sequences/06_13.pkl
+D-LAYERS/body_sequences/85_12.pkl
+D-LAYERS/body_sequences/sample_clips/00396.pkl
+D-LAYERS/body_sequences/sample_clips/00756.pkl

@@ -19,7 +19,7 @@ test('home loads only the catalogue and thumbnails; all real routes exist', asyn
   await page.goto('./');
   await expect(page.getByRole('heading', { name: '从人体动作， 到服装与初始状态。' })).toBeVisible();
   await expect(page.locator('.collection-card')).toHaveCount(3);
-  await expect(page.locator('.stats')).toContainText('31,439');
+  await expect(page.locator('.stats')).toContainText(catalog.summary.frames.toLocaleString('en-US'));
   expect(requests.filter(x => /\.(glb|mp4)(\?|$)/.test(x))).toEqual([]);
   for (const row of [...catalog.body, ...catalog.cloth, ...catalog.initials]) {
     const response = await request.get(row.url);
@@ -39,7 +39,7 @@ test('body filters, pagination, query persistence, selection and export', async 
   await page.getByLabel('数据来源').selectOption('D-LAYERS');
   await page.getByLabel('序列时长').selectOption('long');
   const rows = catalog.body.filter((x: any) => x.source === 'D-LAYERS' && x.duration >= 10);
-  await expect(page.locator('#result-count')).toContainText(`符合筛选 ${rows.length} / 89`);
+  await expect(page.locator('#result-count')).toContainText(`符合筛选 ${rows.length} / ${catalog.body.length}`);
   await page.reload();
   await expect(page.getByLabel('数据来源')).toHaveValue('D-LAYERS');
   await expect(page.getByLabel('序列时长')).toHaveValue('long');
@@ -128,10 +128,10 @@ test('mobile layout and initial-state filters', async ({ page }) => {
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
   await page.getByLabel('选定姿态').selectOption('restpose');
-  await expect(page.locator('#result-count')).toContainText('20 / 38');
+  await expect(page.locator('#result-count')).toContainText(`${catalog.summary.restpose} / ${catalog.initials.length}`);
   await page.getByLabel('服装件数').selectOption('3');
   const rows = catalog.initials.filter((x: any) => x.state === 'restpose' && x.garment_count === 3);
-  await expect(page.locator('#result-count')).toContainText(`${rows.length} / 38`);
+  await expect(page.locator('#result-count')).toContainText(`${rows.length} / ${catalog.initials.length}`);
   await page.goto('./');
   await page.screenshot({ path: 'test-results/home-mobile.png', fullPage: true });
 });
@@ -149,4 +149,43 @@ test('fallback states for missing catalogue, image and mesh', async ({ page }) =
   await page.goto('cloth/ClothTransformer/CT-sim_00000/');
   await expect(page.locator('.viewer')).toHaveAttribute('data-state', 'error', { timeout: 30000 });
   await expect(page.locator('[data-viewer-status]')).toContainText('三维网格加载失败');
+});
+
+test('approved body splits filter, persist and export without reassigning garments', async ({ page }) => {
+  await page.goto('body/?split=train');
+  await expect(page.getByLabel('训练 / 测试划分')).toHaveValue('train');
+  await expect(page.locator('#result-count')).toContainText('52 / 91');
+  await page.getByLabel('训练 / 测试划分').selectOption('test');
+  await expect(page.locator('.asset-card')).toHaveCount(12);
+  await page.reload();
+  await expect(page.getByLabel('训练 / 测试划分')).toHaveValue('test');
+  await page.getByLabel('数据来源').selectOption('D-LAYERS');
+  await expect(page.locator('.asset-card')).toHaveCount(4);
+  await page.getByLabel('选择 00756', { exact: true }).check();
+  const download = page.waitForEvent('download');
+  await page.getByRole('button', { name: '导出选择 JSON' }).click();
+  const exported = JSON.parse(await readFile((await (await download).path())!, 'utf8'));
+  expect(exported.records[0].split).toBe('test');
+  await page.goto('body/?split=unassigned');
+  await expect(page.locator('#result-count')).toContainText('27 / 91');
+  await page.goto('cloth/');
+  await expect(page.getByLabel('训练 / 测试划分')).toHaveCount(0);
+});
+
+test('sample clips expose exact ranges, play and link to same-sample initial meshes', async ({ page }) => {
+  for (const [sid, range, frames] of [['00396', '0–404', '405'], ['00756', '508–772', '265']]) {
+    await page.goto(`body/D-LAYERS/${sid}/`);
+    await expect(page.locator('.facts-list')).toContainText(range);
+    await expect(page.locator('.facts-list')).toContainText(frames);
+    await expect(page.locator('.facts-list')).toContainText('测试集');
+    const video = page.locator('video');
+    await video.evaluate(async (e: HTMLVideoElement) => { e.muted = true; await e.play(); });
+    await expect.poll(() => video.evaluate((e: HTMLVideoElement) => e.currentTime)).toBeGreaterThan(0.1);
+    await page.getByRole('link', { name: '查看对应服装初值' }).click();
+    await expect(page).toHaveURL(new RegExp(`initials/D-LAYERS/${sid}/`));
+    await expect(page.locator('.viewer')).toHaveAttribute('data-state', 'ready', { timeout: 30000 });
+    await expect(page.locator('.viewer')).toHaveAttribute('data-mesh-count', '3');
+    await page.getByRole('link', { name: '查看对应人体片段' }).click();
+    await expect(page).toHaveURL(new RegExp(`body/D-LAYERS/${sid}/`));
+  }
 });

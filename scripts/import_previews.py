@@ -26,6 +26,7 @@ def main():
     source = args.source_workspace.resolve()
     output = ROOT / 'web/media'
     entries = {}
+    existing = json.loads((output / 'manifest.json').read_text())['records'] if (output / 'manifest.json').exists() else {}
 
     def add(key, folder, thumbnail, contact=None, video=None, note=''):
         target = output / key
@@ -58,6 +59,13 @@ def main():
     for motion in motions:
         dataset, name = motion['dataset'], motion['id']
         key = f'body/{dataset}/{name}'
+        if motion.get('source_segment'):
+            if key not in existing:
+                raise FileNotFoundError(f'{key}: generate the sample clip preview with scripts/preview_sample_clips.py first')
+            entries[key] = existing[key]
+            for asset in entries[key]['files'].values():
+                assert sha(ROOT / 'web' / asset['path']) == asset['sha256']
+            continue
         if dataset == 'ClothTransformer':
             folder = source / f'body_sequence/ours/body/smpl_recovery/joint_repair/motions/{name}'
             add(key, folder, 'thumbnail.jpg', 'contact.jpg', 'comparison.mp4',
@@ -82,6 +90,11 @@ def main():
     initials = json.loads((ROOT / 'D-LAYERS/garment_body_initials.json').read_text())
     for item in initials:
         name = item['sample']
+        if item.get('body_sequence_key'):
+            folder = source / f'cloth/D-LAYERS/processed_p0_p2_20260809/processed/samples/{name}'
+            add(f'initials/D-LAYERS/{name}', folder, 'frame0.png',
+                note='原样本frame0人体与整套服装；保留原网格和共同显示变换。')
+            continue
         add(f'initials/D-LAYERS/{name}', source / f'cloth/D-LAYERS/selected_38_20260915/items/{name}',
             'thumbnail.jpg', 'contact.jpg', note='人体与全部服装来自同一 sample、同一选定状态。')
     manifest = {'schema': 'ClothLOOP.web-media.v1', 'records': entries,

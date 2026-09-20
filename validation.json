@@ -1,23 +1,37 @@
 {
   "passed": true,
-  "source_files_sha256_verified": 353,
-  "body_sequences": 89,
+  "manifest_files_sha256_verified": 423,
+  "source_files_sha256_verified": 360,
+  "body_sequences": 91,
+  "body_splits": {
+    "train": 52,
+    "test": 12,
+    "unassigned": 27
+  },
   "static_garment_objs": 59,
-  "bound_samples": 38,
-  "bound_meshes": 123,
+  "bound_samples": 40,
+  "bound_meshes": 129,
   "ct_smpl_version": "joint_plausibility_repair",
   "ct_selected_clothes": [
     "CT-sim_00000",
     "CT-sim_00002"
   ],
-  "raw_mesh_and_pose_arrays_unchanged": true,
+  "raw_mesh_and_pose_values_unchanged": true,
+  "new_clip_processing": "sample-specific slicing and local frame reindexing; no numeric resampling",
+  "new_clip_frames": {
+    "00396": 405,
+    "00756": 265
+  },
+  "train_test_cmu_id_overlap": [],
+  "split_assignment_complete_for_user_selection": true,
+  "unselected_sequences_retained": 27,
   "symlinks": 0,
   "binding_paths_self_contained": true,
   "contains_previews": false,
   "contains_full_CT_simulations": false,
+  "contains_dlayers_cloth_ground_truth_sequences": false,
   "contains_SMPL_models": false,
   "device": "CPU",
   "cuda_used": false,
-  "final_split_assigned": false,
-  "scope": "Curated scientific payload only; excludes the website and build tools."
+  "scope": "Curated scientific payload only; excludes website and build tools."
 }

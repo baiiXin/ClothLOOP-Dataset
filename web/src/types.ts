@@ -16,11 +16,14 @@ export interface Entry {
   state?: string; state_label?: string; body_bound?: boolean; garment_count?: number;
   collision?: Collision | null; metadata: unknown; model?: Record<string, unknown>;
   files: DataFile[]; source_sequence?: Record<string, unknown>;
+  related_url?: string;
+  source_segment?: { source_sequence_id: string; start_inclusive: number; end_exclusive: number };
 }
 export interface Catalog {
   schema: string; commit: string; repository: string;
   summary: { motions: number; garments: number; initials: number; bound_garments: number;
     frames: number; duration: number; assumed_fps_motions: number; restpose: number; frame0: number;
-    sources: string[]; missing_previews: number; missing_motion_categories: number };
+    sources: string[]; missing_previews: number; missing_motion_categories: number;
+    body_splits: Record<string, number> };
   body: Entry[]; cloth: Entry[]; initials: Entry[];
 }

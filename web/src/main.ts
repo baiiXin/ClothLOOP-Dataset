@@ -13,6 +13,7 @@ const time = (seconds?: number) => {
 };
 const sizes = (bytes: number) => bytes < 1e6 ? `${(bytes / 1000).toFixed(1)} KB` : `${(bytes / 1e6).toFixed(2)} MB`;
 const fpsNote = (item: Entry) => item.fps_status === 'assumed_playback' ? '（假定）' : item.fps_status === 'project_defined' ? '（项目设定）' : '';
+const splitLabel = (split?: string) => ({ train: '训练集', test: '测试集', unassigned: '未纳入本轮划分' }[split || 'unassigned'] || '未纳入本轮划分');
 const labels: Record<Section, string> = { body: '人体动作', cloth: '服装资产', initials: '绑定初始状态' };
 const descriptions: Record<Section, string> = {
   body: '查看动作内容、序列长度与参数来源，找到适合仿真的运动。',
@@ -79,7 +80,9 @@ function home() {
     <div class="panel notes-panel"><div class="eyebrow">阅读数据前</div><h2>保留差异，明确依据。</h2>
       <p>ClothTransformer 的 ${count('body', 'ClothTransformer')} 条序列为近似反求并修复后的 SMPL 参数。其余动作保留已有参数。</p>
       <p>D-LAYERS 的 ${count('body', 'D-LAYERS')} 条动作按假定的 30 FPS 播放，时长会明确标注。初值报告只描述所选静态状态。</p>
-      <div class="note-footer">全部 ${summary.motions} 条动作已有预览 · ${summary.missing_motion_categories} 条动作类别未提供<br>最终训练 / 测试划分尚未指定。</div>
+      <div class="note-footer">全部 ${summary.motions} 条动作已有预览 · ${summary.missing_motion_categories} 条动作类别未提供<br>
+      <a href="${url('body/?split=train')}">训练集 ${summary.body_splits.train} 条</a> · <a href="${url('body/?split=test')}">测试集 ${summary.body_splits.test} 条</a><br>
+      未纳入本轮划分 ${summary.body_splits.unassigned} 条，保留供后续选择。</div>
     </div></section>`);
 }
 
@@ -92,7 +95,7 @@ function exportSelection() {
   const all = [...data.body, ...data.cloth, ...data.initials];
   const payload = { schema: 'ClothLOOP.explorer-selection.v1', dataset_commit: data.commit,
     exported_at: new Date().toISOString(), records: all.filter(x => selected.has(x.key)).map(x => ({
-      key: x.key, source: x.source, id: x.id, kind: x.kind, state: x.state ?? null,
+      key: x.key, source: x.source, id: x.id, kind: x.kind, state: x.state ?? null, split: x.split ?? null,
       files: x.files.map(f => ({ path: f.path, sha256: f.sha256 })) })) };
   const objectUrl = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' }));
   const link = document.createElement('a'); link.href = objectUrl; link.download = 'clothloop-selection.json'; link.click();
@@ -110,7 +113,7 @@ function card(item: Entry) {
   return `<article class="asset-card"><a class="asset-image" href="${url(item.url)}" tabindex="-1" aria-hidden="true">${image(item)}<span class="image-tag">${esc(tag)}</span>${item.kind === 'body' ? '<span class="play-icon" aria-hidden="true">▶</span>' : '<span class="mesh-tag">3D</span>'}</a>
     <div class="asset-copy"><div class="asset-topline"><span class="source-label">${esc(item.source)}</span><label class="selection-label" title="加入本地选择"><input type="checkbox" data-select="${esc(item.key)}" aria-label="选择 ${esc(item.id)}" ${selected.has(item.key) ? 'checked' : ''}><span>选择</span></label></div>
     <h3><a href="${url(item.url)}">${esc(item.id)}</a></h3><p class="asset-category">${esc(item.category)}</p><div class="asset-facts">${details}</div>
-    <div class="asset-status">${badge(item.kind === 'body' ? item.processing_label : item.kind === 'initials' ? `${item.garment_count} 件服装 · 已绑定人体` : '独立资产', item.kind === 'initials' ? 'green' : '')}</div></div></article>`;
+    <div class="asset-status">${item.kind === 'body' ? badge(splitLabel(item.split), item.split === 'train' ? 'green' : '') : ''}${badge(item.kind === 'body' ? item.processing_label : item.kind === 'initials' ? `${item.garment_count} 件服装 · 已绑定人体` : '独立资产', item.kind === 'initials' ? 'green' : '')}</div></div></article>`;
 }
 
 function listing(kind: Section) {
@@ -123,6 +126,7 @@ function listing(kind: Section) {
     ${kind === 'initials' ? `<div class="context-note">当前 ${rows.length} 套所选状态中，${rows.filter(x => x.collision?.clothing_related_all_zero).length} 套的<strong>服装相关碰撞计数为零</strong>；人体自相交另列，检查来源见详情报告。</div>` : kind === 'body' ? `<div class="context-note">按 <strong>10 秒</strong>划分短 / 长序列。带“≈”的时长基于 D-LAYERS 假定的 30 FPS。ClothTransformer 显示最新关节修复对比预览。</div>` : ''}
     <form class="filters" id="filters" role="search"><label class="search-label">搜索<input name="q" type="search" placeholder="序列 ID、名称、类别或来源" autocomplete="off"></label>
     ${selectField('source', '数据来源', sources.map(x => [x, x]))}
+    ${kind === 'body' ? selectField('split', '训练 / 测试划分', [['train', '训练集'], ['test', '测试集'], ['unassigned', '未纳入本轮划分']]) : ''}
     ${selectField('category', '类别', categories.map(x => [x, x]))}
     ${kind === 'body' ? selectField('duration', '序列时长', [['short', '短序列 < 10 s'], ['long', '长序列 ≥ 10 s']]) + selectField('fps', '播放帧率', [['30', '30 FPS'], ['60', '60 FPS']]) + selectField('processing', '处理状态', [['repaired', 'SMPL 反求 / 修复'], ['source', '来源参数']]) : ''}
     ${kind === 'initials' ? selectField('state', '选定姿态', [['restpose', 'restpose · 静止姿态'], ['frame0', 'frame0 · 动作首帧']]) + selectField('layers', '服装件数', [['2', '2 件'], ['3', '3 件']]) : ''}
@@ -147,6 +151,7 @@ function listing(kind: Section) {
     currentRows = rows.filter(x => {
       if (q && ![x.id, x.source, x.category, x.description || ''].join(' ').toLocaleLowerCase().includes(q)) return false;
       if (values.get('source') && x.source !== values.get('source')) return false;
+      if (values.get('split') && x.split !== values.get('split')) return false;
       if (values.get('category') && !(x.categories || [x.category]).includes(String(values.get('category')))) return false;
       if (values.get('duration') === 'short' && !(x.duration! < 10)) return false;
       if (values.get('duration') === 'long' && !(x.duration! >= 10)) return false;
@@ -208,10 +213,11 @@ async function detail(item: Entry) {
   if (item.kind === 'body') meta.push(['动作类别', item.category], ['帧数', num(item.frames)],
     ['播放帧率', `${item.fps} FPS${fpsNote(item)}`],
     ['序列时长', `${item.fps_status === 'assumed_playback' ? '≈ ' : ''}${time(item.duration)}`],
-    ['处理状态', item.processing_label], ['来源分组', item.group || '未指定'], ['最终划分', item.split === 'unassigned' ? '尚未指定' : item.split]);
+    ['处理状态', item.processing_label], ['来源分组', item.group || '未指定'], ['本轮划分', splitLabel(item.split)]);
   else meta.push(['类别', item.category], ['姿态', item.state_label], ['顶点数', num(item.vertices)],
     ['三角面数', num(item.triangles)], ['人体绑定', item.body_bound ? '已绑定 · 同样本同状态' : '未绑定'],
     ...(item.garment_count ? [['服装件数', item.garment_count] as [string, unknown]] : []));
+  if (item.source_segment) meta.push(['原动作', item.source_segment.source_sequence_id], ['原动作帧号（从0计）', `${item.source_segment.start_inclusive}–${item.source_segment.end_exclusive - 1}`]);
   const media = item.kind === 'body' ? `<div class="video-panel"><video controls playsinline preload="none" poster="${url(item.thumbnail || '')}" aria-label="${esc(item.id)} 动作视频"><source src="${url(item.video || '')}" type="video/mp4"></video><p class="video-error" hidden>视频加载失败，请使用下方链接单独打开。</p><p>${esc(item.preview_note)} <a href="${url(item.video || '')}" target="_blank" rel="noopener">单独打开视频 ↗</a></p></div>` : viewerMarkup();
   frame(`<div class="breadcrumbs"><a href="${url()}">总览</a><span>/</span><a href="${url(item.kind + '/')}">${labels[item.kind]}</a><span>/</span><span>${esc(item.id)}</span></div>
     <section class="detail-heading"><div><div class="eyebrow">${esc(item.source)}</div><h1>${esc(item.id)}</h1><p>${esc(item.description || (item.kind === 'initials' ? item.category : item.category_basis || ''))}</p></div>
@@ -220,7 +226,7 @@ async function detail(item: Entry) {
     ${item.kind === 'body' ? (item.processing === 'joint_plausibility_repair' ? '<div class="context-note">本序列由原始人体网格反求 SMPL 后进行关节合理性修复，属于近似重建；参数与修复后网格的一致性不等于对原网格的逐点拟合误差。</div>' : '') : collisionPanel(item)}
     ${item.contact ? `<details class="panel contact-panel"><summary>多视角 / 时间采样预览</summary><img src="${url(item.contact)}" loading="lazy" alt="${esc(item.id)} 多视角或时间采样预览"></details>` : ''}
     <details class="panel"><summary>完整元数据与来源记录</summary><pre>${esc(JSON.stringify(item.metadata, null, 2))}</pre></details></div>
-    <aside class="detail-sidebar"><section class="panel"><h2>资产信息</h2>${facts(meta)}${item.category_basis ? `<p class="small-note">${esc(item.category_basis)}</p>` : ''}</section>
+    <aside class="detail-sidebar"><section class="panel"><h2>资产信息</h2>${facts(meta)}${item.category_basis ? `<p class="small-note">${esc(item.category_basis)}</p>` : ''}${item.related_url ? `<a class="button secondary" href="${url(item.related_url)}">${item.kind === 'body' ? '查看对应服装初值' : '查看对应人体片段'}</a>` : ''}</section>
     ${item.model ? `<section class="panel"><h2>SMPL 重建信息</h2>${facts([['模型性别', item.model.gender], ['模型文件', item.model.required_model_filename], ['缩放', item.model.scale], ['模型是否随数据提供', '未打包']])}<p class="small-note">坐标沿用来源单位，不能默认视为米。模型选择性别为拟合结果。</p></section>` : ''}
     <section class="panel"><h2>数据文件</h2><p class="small-note">原始精度数据 · 链接固定到本版提交</p><ul class="file-list">${item.files.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.path.split('/').slice(-2).join('/'))} ↗</a><div><span>${sizes(f.bytes)}</span><a href="${esc(f.raw_url)}" target="_blank" rel="noopener">原文件 ↓</a></div><details><summary>SHA-256</summary><code>${f.sha256}</code></details></li>`).join('')}</ul></section></aside></div>`);
   app.querySelector<HTMLButtonElement>('#detail-select')!.onclick = event => {

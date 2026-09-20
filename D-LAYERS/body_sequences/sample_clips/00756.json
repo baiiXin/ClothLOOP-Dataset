@@ -1,0 +1,33 @@
+{
+  "dataset": "D-LAYERS",
+  "id": "00756",
+  "file": "D-LAYERS/body_sequences/sample_clips/00756.pkl",
+  "frames": 265,
+  "fps": 30.0,
+  "fps_status": "assumed_playback",
+  "duration_seconds": 8.833333333333334,
+  "category": "来源样本动作",
+  "description": "D-LAYERS sample 00756: CMU 01_10, source frames 508–772",
+  "upstream_group": "sample_original_clip",
+  "source_sequence_id": "01_10",
+  "source_segment": {
+    "source_sequence_id": "01_10",
+    "source_path": "human/01/01_10_poses.pkl",
+    "source_sha256": "c43d7cbb1064f5b1940f8f2f0a365b38ed447942b07151f2b022a58a62975d21",
+    "source_frames": 817,
+    "start_inclusive": 508,
+    "end_exclusive": 773,
+    "frame_index_base": 0,
+    "output_frame_to_source": "source_frame = output_frame + 508",
+    "arrays_equal_to_source_slice": true,
+    "max_parameter_error": 0.0,
+    "resampled": false,
+    "translation_preserved": true,
+    "byte_identical_to_full_source": false
+  },
+  "gender": "female",
+  "gender_source": "D-LAYERS sample metadata",
+  "betas_status": "not supplied by source motion PKL; initial binding preserves exact source mesh",
+  "initial_binding": "D-LAYERS/garment_body_initials/00756/binding.json",
+  "split": "test"
+}
