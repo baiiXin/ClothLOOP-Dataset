@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>14 组 / 15 份首帧检查台 · ClothLOOP Task9</title>
+  <style>:root{--ink:#172b34;--muted:#63747c;--line:#dce4e6;--green:#08715e;--red:#b73736;--blue:#315eb8;--paper:#f4f6f5;--amber:#865619;font-family:Inter,"Noto Sans CJK SC","Microsoft YaHei",system-ui,sans-serif;color:var(--ink);background:var(--paper);font-size:14px}
+*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}button,a,input,textarea,select{-webkit-tap-highlight-color:transparent}button,a,summary{touch-action:manipulation}button{cursor:pointer;border:1px solid var(--line);background:white;border-radius:8px;padding:9px 13px;color:var(--ink)}button:hover{border-color:#8ca6a6;background:#f5faf8}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #39a593;outline-offset:3px}button:disabled{cursor:default;opacity:.4}a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}[hidden]{display:none!important}
+.topbar{height:76px;background:white;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 4vw;gap:16px}.brand{display:flex;align-items:center;gap:12px;color:var(--ink);font-size:19px;font-weight:750;white-space:nowrap}.brand:hover{text-decoration:none}.brand-icon{display:grid;place-items:center;background:var(--ink);color:white;border-radius:10px;width:35px;height:35px;font-size:24px}.divider{color:#b7c3c7;font-weight:300;margin:0 4px}.task{font-size:12px;letter-spacing:1.7px;color:var(--muted)}.top-actions{display:flex;gap:20px;align-items:center;font-size:12px;color:var(--muted)}button.dark{background:var(--ink);color:white;border-color:var(--ink)}button.dark:hover{background:#2b464e}main{max-width:1800px;margin:auto;padding:38px 4vw 22px}.intro{display:flex;align-items:center;justify-content:space-between;gap:30px;margin:0 0 27px}.eyebrow{font-size:11px;font-weight:750;letter-spacing:1.3px;color:var(--muted)}h1{font-size:clamp(25px,2.7vw,39px);letter-spacing:-1px;margin:10px 0 12px;font-weight:750}.intro p{color:var(--muted);margin:0;line-height:1.8}.totals{display:flex;gap:36px;padding-left:35px;border-left:1px solid var(--line);flex:none}.totals>div{display:flex;flex-direction:column;gap:4px}.totals b{font-size:46px;letter-spacing:-2px;line-height:1.1;font-weight:650}.totals span{font-size:12px;color:var(--muted)}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px}.pass-dot{background:var(--green)}.fail-dot{background:var(--red)}.notice{background:#e8efed;border:1px solid #d8e3df;border-radius:10px;padding:14px 17px;display:flex;align-items:flex-start;gap:14px;font-size:12px;line-height:1.8}.notice b{white-space:nowrap;color:var(--green)}.notice span{flex:1}.notice a{white-space:nowrap}.toolbar{margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.filters{display:flex;gap:4px;padding:4px;background:#e8edeb;border-radius:10px}.filters button{border:0;background:transparent;font-size:12px;padding:9px 13px;white-space:nowrap}.filters button.active{background:white;box-shadow:0 1px 4px #163b2810;color:var(--green);font-weight:750}.search{display:flex;align-items:center;gap:10px;background:white;border:1px solid var(--line);border-radius:9px;padding:0 12px;height:43px;min-width:270px}.search span{font-size:24px;color:var(--muted)}.search input{border:0;outline:none;width:100%;min-width:0;font-size:12px}.list-heading{display:flex;justify-content:space-between;margin:21px 0 12px;gap:12px;color:var(--muted);font-size:11px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{background:white;border:1px solid var(--line);border-radius:13px;overflow:hidden;transition:box-shadow .16s,border-color .16s}.card:hover{box-shadow:0 7px 25px #1d382910;border-color:#adbfb8}.card.failed{border-color:#e7b5b4}.card-top{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:14px 16px 12px}.card-number{font-size:11px;color:var(--muted);letter-spacing:.5px}.badge{display:inline-flex;align-items:center;border-radius:6px;padding:5px 8px;font-size:11px;font-weight:750;white-space:nowrap;background:#e7f3ee;color:var(--green)}.badge.failed{background:#fcebea;color:var(--red)}.badge.substitute{background:#eaf0ff;color:var(--blue)}.preview{display:block;padding:0;border:0;border-radius:0;background:#eaf0f4;width:100%;position:relative;overflow:hidden}.preview img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain}.preview .zoom-hint{position:absolute;bottom:10px;right:10px;background:#ffffffed;border-radius:6px;padding:6px 8px;font-size:11px;box-shadow:0 1px 5px #0001}.card-body{padding:15px 17px 16px}.card-title-row{display:flex;justify-content:space-between;align-items:center;gap:10px}.card h2{font-size:22px;line-height:1.2;margin:0}.review-chip{color:var(--muted);font-size:10px;padding:4px 6px;background:#f1f4f4;border-radius:5px}.review-chip.ok{background:#e8f4ee;color:var(--green)}.review-chip.issue{background:#fff0d9;color:var(--amber)}.outfit{font-size:12px;line-height:1.6;color:var(--muted);margin:10px 0 12px}.card-metrics{display:flex;gap:6px;flex-wrap:wrap;font-size:11px}.card-metrics span{border:1px solid #e5ebe8;border-radius:5px;padding:5px 7px;background:#f8faf9}.card-metrics b{font-variant-numeric:tabular-nums;color:var(--green);margin-left:4px}.failed .card-metrics b{color:var(--red)}.card-caution{line-height:1.7;font-size:11px;color:var(--muted);margin:12px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:37px}#empty{text-align:center;padding:80px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:23px 0 8px;margin-top:32px;display:flex;flex-wrap:wrap;gap:10px 25px;color:var(--muted);font-size:11px;line-height:1.7}
+dialog{padding:0;border:1px solid var(--line);border-radius:15px;width:min(1500px,96vw);max-width:none;height:min(930px,94dvh);max-height:none;box-shadow:0 20px 100px #0004;color:var(--ink);background:#fff}dialog::backdrop{background:#132329b8;backdrop-filter:blur(3px)}.viewer-shell{height:100%;display:flex;flex-direction:column}.viewer-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 22px;border-bottom:1px solid var(--line);flex:none}.viewer-header h2{margin:4px 0 0;font-size:21px}.viewer-nav{display:flex;gap:7px}.viewer-nav button{font-size:12px}.viewer-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;min-height:0;flex:1}.image-panel{display:flex;flex-direction:column;min-width:0;min-height:0;background:#f1f4f5}.image-tools{padding:13px 17px;display:flex;gap:12px;align-items:center;font-size:11px;flex-wrap:wrap;flex:none;border-bottom:1px solid var(--line)}.image-tools>span{margin-right:auto;color:var(--muted)}.image-tools button{padding:6px 9px;font-size:11px}.image-tools input{width:95px;accent-color:var(--green)}.viewport{position:relative;display:flex;align-items:center;justify-content:center;flex:1;min-height:200px;overflow:hidden;touch-action:none}.viewport img{width:100%;height:100%;object-fit:contain;transform-origin:center;user-select:none;will-change:transform;position:absolute;inset:0;pointer-events:none}.viewport.zoomed{cursor:grab}.viewport.dragging{cursor:grabbing}#image-error{background:#fff4e5;padding:20px;z-index:2}.image-help{text-align:center;font-size:10px;color:var(--muted);padding:12px;margin:0;flex:none}.details-panel{padding:20px;overflow:auto;min-height:0;border-left:1px solid var(--line);font-size:12px;line-height:1.75}.details-panel h3{font-size:12px;margin:17px 0 6px}.details-panel p{margin:6px 0 12px}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.metrics>div{padding:8px;background:#f2f6f4;border:1px solid #e4ece7;border-radius:7px;display:flex;flex-direction:column}.metrics span{font-size:10px;color:var(--muted)}.metrics b{font-size:21px;color:var(--green)}.metrics.failed b{color:var(--red)}.metric-note{font-size:10px;color:var(--muted);line-height:1.6}.caution{background:#fff8eb;border:1px solid #f0e4c9;border-radius:8px;padding:0 12px 2px;color:#725426;margin:14px 0}.caution h3{margin-top:10px}.caution p{font-size:11px}.human-review{border-top:1px solid var(--line);padding-top:1px;margin-top:16px}.human-review small{font-weight:400;color:var(--muted);font-size:10px;display:block}.human-review label{display:block;margin:8px 0 5px;font-size:11px}.human-review select,.human-review textarea{width:100%;padding:9px;border:1px solid var(--line);border-radius:6px;background:white;color:var(--ink);font-size:12px}.human-review textarea{resize:vertical}#save-status{font-size:10px;color:var(--muted)}details{margin-top:20px;border-top:1px solid var(--line);padding-top:12px}summary{cursor:pointer;font-size:12px;font-weight:650}.data-links{display:flex;flex-direction:column;gap:6px;margin-top:12px}.hash-label{font-size:10px;color:var(--muted);margin-top:15px!important}code{font-size:10px;word-break:break-all;line-height:1.5;color:var(--muted)}
+.preview img{height:auto}
+@media(min-width:1750px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1050px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.viewer-layout{grid-template-columns:minmax(0,1fr) 295px}.topbar{padding:0 3vw}main{padding:30px 3vw}.notice{gap:10px}.notice a{display:none}.image-tools{gap:8px}.image-tools>span{display:none}}
+@media(max-width:680px){.topbar{height:auto;min-height:68px;padding:14px 16px;flex-wrap:wrap}.brand{font-size:17px}.top-actions{gap:12px;margin-left:auto}.top-actions>span{display:none}.top-actions button{font-size:11px;padding:9px}.task{font-size:10px}.divider{margin:0}.brand{gap:8px}main{padding:25px 16px}.intro{align-items:flex-start;gap:16px}.intro p{font-size:12px}.eyebrow{font-size:9px;letter-spacing:.6px}h1{font-size:25px;line-height:1.4;letter-spacing:-.4px}.totals{gap:13px;padding-left:13px;margin-top:20px}.totals b{font-size:31px}.totals span{font-size:9px}.notice{font-size:11px;display:block}.notice b{display:block;margin-bottom:4px}.toolbar{margin-top:20px}.filters{width:100%;overflow:auto}.filters button{font-size:11px;padding:8px 10px}.search{width:100%;min-width:0}.grid{grid-template-columns:1fr;gap:18px}.list-heading{font-size:10px}.card-caution{min-height:0}.card h2{font-size:23px}dialog{width:100vw;height:100dvh;border:0;border-radius:0;margin:0}.viewer-header{padding:13px 15px}.viewer-header h2{font-size:18px}.viewer-nav{gap:4px}.viewer-nav button{padding:8px 10px}.viewer-layout{display:block;overflow:auto}.image-panel{height:44dvh;min-height:270px}.image-tools{padding:8px 12px;gap:8px}.viewport{min-height:130px}.image-help{padding:8px;font-size:9px}.details-panel{overflow:visible;border-left:0;border-top:1px solid var(--line);padding:18px}.metrics{max-width:450px}.human-review textarea{min-height:90px}footer{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-icon">C</span> ClothLOOP <span class="divider">/</span> <span class="task">TASK 09</span></a>
+    <div class="top-actions"><span id="review-progress">人工检查 0 / 15</span><button id="export" class="dark">导出检查意见 ↓</button></div>
+  </header>
+  <main>
+    <section class="intro">
+      <div><div class="eyebrow">FIRST-FRAME INSPECTION · 首帧几何检查</div><h1>14 组测试，15 份穿衣首帧。</h1><p>点击正背面图放大，逐组查看、标记和记录问题。全部图像对应实际交付网格。</p></div>
+      <div class="totals"><div><b>14</b><span><i class="dot pass-dot"></i>几何无穿</span></div><div><b>01</b><span><i class="dot fail-dot"></i>有穿候选</span></div></div>
+    </section>
+    <div class="notice"><b>验收范围</b><span>85_12 短裤 / 裙子同时保留；CT018 采用确认的新 v1.1 体型；CT004 仅供失败检查。无穿不等于动力学就绪，局部形变、缝合与替代体型限制均保留。</span><a href="README.md" target="_blank" rel="noopener">完整说明 ↗</a></div>
+    <section class="toolbar" aria-label="筛选结果">
+      <div class="filters" role="group" aria-label="几何状态">
+        <button data-filter="all" class="active" aria-pressed="true">全部 15</button>
+        <button data-filter="pass" aria-pressed="false">无穿 14</button>
+        <button data-filter="failed" aria-pressed="false">有穿 1</button>
+        <button data-filter="substitute" aria-pressed="false">新体型 1</button>
+        <button data-filter="pending" aria-pressed="false">待人工检查</button>
+      </div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索动作、衣服或数据集…" aria-label="搜索动作、衣服或数据集"></label>
+    </section>
+    <div class="list-heading"><span id="visible-count" aria-live="polite">显示 15 份</span><span>左：人体正面　右：人体背面 · 点击放大</span></div>
+    <section id="grid" class="grid" aria-label="首帧结果列表"></section>
+    <p id="empty" hidden>没有匹配结果，试试其他筛选或关键词。</p>
+    <noscript>请启用 JavaScript 以显示检查台；也可打开 <a href="README.md">静态预览总览</a>。</noscript>
+    <footer><div>只读结果 · 不上传数据 · 不修改原验收报告</div><div id="storage-status" role="status">备注仅保存在此浏览器，请导出留存。</div><div><a href="manifest.json" target="_blank">全部文件 SHA256 清单</a> · <a href="docs/QUALITY_SUMMARY.md" target="_blank">原 12 组质量说明</a></div></footer>
+  </main>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-shell">
+      <header class="viewer-header"><div><span id="viewer-number" class="eyebrow"></span><h2 id="viewer-title"></h2></div><div class="viewer-nav"><button id="previous" aria-label="上一组">←</button><button id="next" aria-label="下一组">→</button><button id="close" aria-label="关闭放大图">关闭 ✕</button></div></header>
+      <div class="viewer-layout">
+        <section class="image-panel">
+          <div class="image-tools"><span>正背面原始渲染</span><label for="zoom">缩放 <output id="zoom-value">100%</output></label><input id="zoom" type="range" min="100" max="400" step="10" value="100"><button id="reset">复位</button><a id="original-image" target="_blank" rel="noopener">原图 ↗</a></div>
+          <div id="viewport" class="viewport"><img id="large-image" draggable="false" alt="当前结果的正背面渲染"><div id="image-error" hidden>图像无法加载，请检查页面与原结果目录的相对位置。</div></div>
+          <p class="image-help">放大后拖动查看局部 · ← / → 切换筛选中的结果 · Esc 关闭</p>
+        </section>
+        <aside class="details-panel">
+          <div id="viewer-status"></div><p id="viewer-outfit" class="outfit"></p>
+          <div id="metrics" class="metrics"></div>
+          <p class="metric-note">CC：衣物自身 / 层间相交事件；CB：衣物—人体相交事件。内部点为独立包含检查，不是接触距离证书。</p>
+          <h3>来源与处理</h3><p id="method"></p>
+          <div class="caution"><h3>检查时请注意</h3><p id="caution"></p><p id="stretch"></p></div>
+          <a id="closeup" target="_blank" rel="noopener" hidden>查看最大缝隙特写 ↗</a>
+          <section class="human-review"><h3>你的检查意见 <small>独立于几何验收</small></h3>
+            <label for="review-state">人工标记</label><select id="review-state"><option value="pending">未检查</option><option value="ok">已看 · 外观可接受</option><option value="issue">已看 · 需要修改</option></select>
+            <label for="notes">备注</label><textarea id="notes" rows="3" maxlength="10000" placeholder="例如：右侧腋下、裙腰、背面衣褶…"></textarea><span id="save-status" role="status"></span>
+          </section>
+          <details><summary>数据与原始检查报告</summary><div id="data-links" class="data-links"></div><p class="hash-label">首帧 NPZ · SHA256</p><code id="hash"></code></details>
+        </aside>
+      </div>
+    </div>
+  </dialog>
+  <script id="case-data" type="application/json">{"created_at": "2026-09-22T21:25:11.497558+08:00", "cases": [{"group": "Cloth Transformer", "title": "CT 004", "outfit": "ct000 T-shirt + aaron009 bottom", "method": "SMPL v1.1 目标首帧的直接蒙皮候选，未通过。", "caution": "仍有衣物自交及人体穿透。本卡不是后续源姿态清理的 31 个自交候选；后者尚未迁移到目标首帧。原版 v1.0 人体未恢复。", "id": "ct_00004", "number": 1, "passed": false, "kind": "failed", "counts": [954, 1957, 424], "sha256": "364cbef4580333c9b7a3e00f3856755399b22a08268bddda3059b367c6311939", "image": "cases/ct_00004/default/media/preview_front_back.png", "stretch": null, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/ct_00004/default/firstframe.npz", "人体参数 / 体型": "cases/ct_00004/default/body_parameters.json", "当前归档状态": "cases/ct_00004/default/state.json", "衣物 OBJ": "cases/ct_00004/default/cloth.obj", "人体 OBJ": "cases/ct_00004/default/body.obj", "严格相交检查": "cases/ct_00004/default/reports/geometry.json", "内部点检查": "cases/ct_00004/default/reports/containment.json", "网格质量": "cases/ct_00004/default/reports/quality.json", "来源 / 修改记录": "cases/ct_00004/default/reports/provenance.json", "部件映射": "cases/ct_00004/default/components.json"}}, {"group": "Cloth Transformer", "title": "CT 018", "outfit": "ct000 T-shirt + ct002 skirt", "method": "用户选择此 SMPL v1.1 女性新体型；900 步 IPC 穿衣后的实际目标首帧。", "caution": "原版 v1.0 人体未恢复。裙子原小孔边缘最大主伸长 6.132，末速 1.601 m/s；几何无穿，但不是静态平衡或统一应变屏障初态。", "id": "ct_00018", "number": 2, "passed": true, "kind": "substitute", "counts": [0, 0, 0], "sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493", "image": "cases/ct_00018/default/media/preview_front_back.png", "stretch": {"minimum": 0.7384600989556253, "maximum": 6.132014643704146, "max_per_face_quantiles": [0.971435334427462, 1.0303577388380547, 1.1553102359535279, 1.2197985945174592, 6.132014643704146]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/ct_00018/default/firstframe.npz", "人体参数 / 体型": "cases/ct_00018/default/body_parameters.json", "当前归档状态": "cases/ct_00018/default/state.json", "衣物 OBJ": "cases/ct_00018/default/cloth.obj", "人体 OBJ": "cases/ct_00018/default/body.obj", "严格相交检查": "cases/ct_00018/default/reports/geometry.json", "内部点检查": "cases/ct_00018/default/reports/containment.json", "网格质量": "cases/ct_00018/default/reports/quality.json", "来源 / 修改记录": "cases/ct_00018/default/reports/provenance.json", "部件映射": "cases/ct_00018/default/components.json"}}, {"group": "CounterCraft", "title": "05_06", "outfit": "00276 · 仅内层连体衣", "method": "IPC 从绑定姿态连续迁移到官网目标首帧。", "caution": "局部源修复改变了代理 rest 小面的面积；相对实际求解 rest 最大主伸长 4.066。原参考另存，未事后重置 rest。", "id": "cc_05_06", "number": 3, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641", "image": "cases/cc_05_06/default/media/preview_front_back.png", "stretch": {"minimum": 0.7199506755746707, "maximum": 4.066242107266303, "max_per_face_quantiles": [0.9862588365013808, 1.0371904771881049, 1.0898535518508115, 1.1111740810021393, 4.066242107266303]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cc_05_06/default/firstframe.npz", "人体参数 / 体型": "cases/cc_05_06/default/body_parameters.json", "当前归档状态": "cases/cc_05_06/default/state.json", "衣物 OBJ": "cases/cc_05_06/default/cloth.obj", "人体 OBJ": "cases/cc_05_06/default/body.obj", "严格相交检查": "cases/cc_05_06/default/reports/geometry.json", "内部点检查": "cases/cc_05_06/default/reports/containment.json", "网格质量": "cases/cc_05_06/default/reports/quality.json", "来源 / 修改记录": "cases/cc_05_06/default/reports/provenance.json", "部件映射": "cases/cc_05_06/default/components.json"}}, {"group": "CounterCraft", "title": "05_08", "outfit": "04847 · 无袖内裙 + 连帽外套", "method": "IPC 从绑定姿态连续迁移，保留两层衣物。", "caution": "颈部局部最大主伸长 1.645，来自本次迁移形变；不是统一 1.5 应变屏障可行初态。", "id": "cc_05_08", "number": 4, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "7b3749f8908a8e13328793a147b98c26cfbc46c8146bf29b16313d5f34baa616", "image": "cases/cc_05_08/default/media/preview_front_back.png", "stretch": {"minimum": 0.8663717853302967, "maximum": 1.6450328367591127, "max_per_face_quantiles": [0.9837955407059129, 1.0093503171528386, 1.0384320913535232, 1.0608141348831874, 1.6450328367591127]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cc_05_08/default/firstframe.npz", "人体参数 / 体型": "cases/cc_05_08/default/body_parameters.json", "当前归档状态": "cases/cc_05_08/default/state.json", "衣物 OBJ": "cases/cc_05_08/default/cloth.obj", "人体 OBJ": "cases/cc_05_08/default/body.obj", "严格相交检查": "cases/cc_05_08/default/reports/geometry.json", "内部点检查": "cases/cc_05_08/default/reports/containment.json", "网格质量": "cases/cc_05_08/default/reports/quality.json", "来源 / 修改记录": "cases/cc_05_08/default/reports/provenance.json", "部件映射": "cases/cc_05_08/default/components.json"}}, {"group": "CounterCraft", "title": "05_16", "outfit": "04855 · 仅内层无袖裙", "method": "IPC 从绑定姿态连续迁移，仅保留指定内层。", "caution": "最大主伸长 1.308。此处认证首帧几何，尚未验证完整动作的稳定性。", "id": "cc_05_16", "number": 5, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "87e4edc70072c196e1f9ce57f3bac55a7dc0a3993707e5f50747108a76e8df07", "image": "cases/cc_05_16/default/media/preview_front_back.png", "stretch": {"minimum": 0.9341903931251104, "maximum": 1.308432533805747, "max_per_face_quantiles": [0.9944611367596228, 1.0146697625950143, 1.057173313650595, 1.0781754133520909, 1.308432533805747]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cc_05_16/default/firstframe.npz", "人体参数 / 体型": "cases/cc_05_16/default/body_parameters.json", "当前归档状态": "cases/cc_05_16/default/state.json", "衣物 OBJ": "cases/cc_05_16/default/cloth.obj", "人体 OBJ": "cases/cc_05_16/default/body.obj", "严格相交检查": "cases/cc_05_16/default/reports/geometry.json", "内部点检查": "cases/cc_05_16/default/reports/containment.json", "网格质量": "cases/cc_05_16/default/reports/quality.json", "来源 / 修改记录": "cases/cc_05_16/default/reports/provenance.json", "部件映射": "cases/cc_05_16/default/components.json"}}, {"group": "CounterCraft", "title": "01_01", "outfit": "01799 · 内搭 + 外套", "method": "原 restpose 体型适配、蒙皮与局部几何去穿透；没有物理求解。", "caution": "派生代理 rest 的个别小面造成最大主伸长 13.013；原参考另存。几何通过，不可直接当作动力学就绪初值。", "id": "cc_01_01", "number": 6, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "8418a581449d1486fe6c043530e2b936d7c0419d2929753ade3ec1e1e10e5262", "image": "cases/cc_01_01/default/media/preview_front_back.png", "stretch": {"minimum": 0.1535278512306959, "maximum": 13.013065132656875, "max_per_face_quantiles": [0.8608023955094352, 1.0000000000000075, 1.0000000000000249, 1.0000000000000375, 13.013065132656875]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cc_01_01/default/firstframe.npz", "人体参数 / 体型": "cases/cc_01_01/default/body_parameters.json", "当前归档状态": "cases/cc_01_01/default/state.json", "衣物 OBJ": "cases/cc_01_01/default/cloth.obj", "人体 OBJ": "cases/cc_01_01/default/body.obj", "严格相交检查": "cases/cc_01_01/default/reports/geometry.json", "内部点检查": "cases/cc_01_01/default/reports/containment.json", "网格质量": "cases/cc_01_01/default/reports/quality.json", "来源 / 修改记录": "cases/cc_01_01/default/reports/provenance.json", "部件映射": "cases/cc_01_01/default/components.json"}}, {"group": "CounterCraft", "title": "55_27", "outfit": "01957 · 无袖内裙 + 连帽外套", "method": "原 restpose 体型适配、蒙皮与局部几何去穿透；没有物理求解。", "caution": "派生代理 rest 的个别小面造成最大主伸长 27.667；原参考另存。几何通过，不可直接当作动力学就绪初值。", "id": "cc_55_27", "number": 7, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37", "image": "cases/cc_55_27/default/media/preview_front_back.png", "stretch": {"minimum": 0.026205735497416505, "maximum": 27.666675418044957, "max_per_face_quantiles": [0.8807528171097657, 1.0000000000000062, 1.0000000000000233, 1.0000000000000362, 27.666675418044957]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cc_55_27/default/firstframe.npz", "人体参数 / 体型": "cases/cc_55_27/default/body_parameters.json", "当前归档状态": "cases/cc_55_27/default/state.json", "衣物 OBJ": "cases/cc_55_27/default/cloth.obj", "人体 OBJ": "cases/cc_55_27/default/body.obj", "严格相交检查": "cases/cc_55_27/default/reports/geometry.json", "内部点检查": "cases/cc_55_27/default/reports/containment.json", "网格质量": "cases/cc_55_27/default/reports/quality.json", "来源 / 修改记录": "cases/cc_55_27/default/reports/provenance.json", "部件映射": "cases/cc_55_27/default/components.json"}}, {"group": "CounterCraft", "title": "144_02", "outfit": "00100 · 无袖内搭 + 连帽外套", "method": "IPC 从绑定姿态连续迁移到官网目标首帧。", "caution": "局部最大主伸长 1.620；后续求解需核对材料参考与应变限制。", "id": "cc_144_02", "number": 8, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "70465974a047cd15212c1b48f04d752172d95f3c9da099bd4be430727b530493", "image": "cases/cc_144_02/default/media/preview_front_back.png", "stretch": {"minimum": 0.7865177631962998, "maximum": 1.6197850979852972, "max_per_face_quantiles": [0.9831645142053953, 1.0076994731171904, 1.033357811601207, 1.0522833275054881, 1.6197850979852972]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cc_144_02/default/firstframe.npz", "人体参数 / 体型": "cases/cc_144_02/default/body_parameters.json", "当前归档状态": "cases/cc_144_02/default/state.json", "衣物 OBJ": "cases/cc_144_02/default/cloth.obj", "人体 OBJ": "cases/cc_144_02/default/body.obj", "严格相交检查": "cases/cc_144_02/default/reports/geometry.json", "内部点检查": "cases/cc_144_02/default/reports/containment.json", "网格质量": "cases/cc_144_02/default/reports/quality.json", "来源 / 修改记录": "cases/cc_144_02/default/reports/provenance.json", "部件映射": "cases/cc_144_02/default/components.json"}}, {"group": "D-LAYERS", "title": "00396", "outfit": "原生无袖内搭 + 外套", "method": "复用原生首帧，重新独立检查；没有几何修改。", "caution": "保留原生 rest，最大主伸长 1.399。此处仅列首帧验收范围。", "id": "dlayers_00396", "number": 9, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "59c864af9a93e92884e12facc16f42d5271555c1803d9d96dbae177d4e644d88", "image": "cases/dlayers_00396/default/media/preview_front_back.png", "stretch": {"minimum": 0.8173711734015969, "maximum": 1.3992438295919707, "max_per_face_quantiles": [0.9711485752850294, 1.0130408656966352, 1.062031366996481, 1.0977574886948638, 1.3992438295919707]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/dlayers_00396/default/firstframe.npz", "人体参数 / 体型": "cases/dlayers_00396/default/body_parameters.json", "当前归档状态": "cases/dlayers_00396/default/state.json", "衣物 OBJ": "cases/dlayers_00396/default/cloth.obj", "人体 OBJ": "cases/dlayers_00396/default/body.obj", "严格相交检查": "cases/dlayers_00396/default/reports/geometry.json", "内部点检查": "cases/dlayers_00396/default/reports/containment.json", "网格质量": "cases/dlayers_00396/default/reports/quality.json", "来源 / 修改记录": "cases/dlayers_00396/default/reports/provenance.json", "部件映射": "cases/dlayers_00396/default/components.json"}}, {"group": "D-LAYERS", "title": "00756", "outfit": "原生无袖内搭 + 外套", "method": "复用原生首帧，重新独立检查；没有几何修改。", "caution": "保留原生宽松外套、低背领口和最大主伸长 2.204，未通过更改 rest 隐藏。", "id": "dlayers_00756", "number": 10, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "d97cbe214f0db09c86a388a63e10ed9252a1db868f64da0559932d9aba487afd", "image": "cases/dlayers_00756/default/media/preview_front_back.png", "stretch": {"minimum": 0.4258804081239349, "maximum": 2.203821431465606, "max_per_face_quantiles": [0.8763496121539763, 1.0170109827572154, 1.1286109575116121, 1.2796108964166286, 2.203821431465606]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/dlayers_00756/default/firstframe.npz", "人体参数 / 体型": "cases/dlayers_00756/default/body_parameters.json", "当前归档状态": "cases/dlayers_00756/default/state.json", "衣物 OBJ": "cases/dlayers_00756/default/cloth.obj", "人体 OBJ": "cases/dlayers_00756/default/body.obj", "严格相交检查": "cases/dlayers_00756/default/reports/geometry.json", "内部点检查": "cases/dlayers_00756/default/reports/containment.json", "网格质量": "cases/dlayers_00756/default/reports/quality.json", "来源 / 修改记录": "cases/dlayers_00756/default/reports/provenance.json", "部件映射": "cases/dlayers_00756/default/components.json"}}, {"group": "D-LAYERS 添加", "title": "06_13", "outfit": "00242 · 裙子 + 无袖内搭 + 连帽外套", "method": "复用 Task8 已验收的 IPC 穿衣首帧，保留 00242 绑定体型。", "caution": "首帧最大主伸长 1.391；本检查台仅展示初态，不替代 Task8 全序列报告。", "id": "added_06_13", "number": 11, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0", "image": "cases/added_06_13/default/media/preview_front_back.png", "stretch": {"minimum": 0.4881978307600031, "maximum": 1.3907845921191102, "max_per_face_quantiles": [0.9780277698394014, 1.0029635737241986, 1.0925827023133576, 1.1966599995952947, 1.3907845921191102]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/added_06_13/default/firstframe.npz", "人体参数 / 体型": "cases/added_06_13/default/body_parameters.json", "当前归档状态": "cases/added_06_13/default/state.json", "衣物 OBJ": "cases/added_06_13/default/cloth.obj", "人体 OBJ": "cases/added_06_13/default/body.obj", "严格相交检查": "cases/added_06_13/default/reports/geometry.json", "内部点检查": "cases/added_06_13/default/reports/containment.json", "网格质量": "cases/added_06_13/default/reports/quality.json", "来源 / 修改记录": "cases/added_06_13/default/reports/provenance.json", "部件映射": "cases/added_06_13/default/components.json"}}, {"group": "D-LAYERS 添加", "title": "85_12 · 短裤", "outfit": "00242 内搭 + 外套 + CC shorts（替换裙子）", "method": "保留上衣与人体，仅对适配短裤进行局部几何修复。", "caution": "短裤最大修复 22.998 mm，主伸长 0.01968–3.00689；腰部附着仅提供可选元数据，未施加物理松弛。", "id": "added_85_12", "number": 12, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0", "image": "cases/added_85_12/shorts/media/preview_front_back.png", "stretch": {"minimum": 0.01967590114122483, "maximum": 3.006894309103032, "max_per_face_quantiles": [0.6045847731411087, 1.027007239153676, 1.2878153254733906, 1.3743720048527637, 3.006894309103032]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/added_85_12/shorts/firstframe.npz", "人体参数 / 体型": "cases/added_85_12/shorts/body_parameters.json", "当前归档状态": "cases/added_85_12/shorts/state.json", "衣物 OBJ": "cases/added_85_12/shorts/cloth.obj", "人体 OBJ": "cases/added_85_12/shorts/body.obj", "严格相交检查": "cases/added_85_12/shorts/reports/geometry.json", "内部点检查": "cases/added_85_12/shorts/reports/containment.json", "网格质量": "cases/added_85_12/shorts/reports/quality.json", "来源 / 修改记录": "cases/added_85_12/shorts/reports/provenance.json", "部件映射": "cases/added_85_12/shorts/components.json"}}, {"group": "D-LAYERS 添加", "title": "85_12 · 裙子", "outfit": "00242 · 原八片裙 + 无袖内搭 + 连帽外套", "method": "保留 Task8 已验收转移首帧；实际衣物/人体/rest/速度均未改变。", "caution": "与短裤版并存、共享同一人体和上衣。最大主伸长 1.443；只展示穿衣初态，不是全序列验收。", "id": "added_85_12_skirt", "number": 13, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "0d323060ca1b6b6e3a4770f24c433305cee2c21db4ead5fdba4bd9c7bf18a285", "image": "cases/added_85_12/skirt/media/preview_front_back.png", "stretch": {"minimum": 0.41387807092861867, "maximum": 1.4429235696388842, "max_per_face_quantiles": [0.9405865081157045, 1.0044071353283301, 1.239323283116096, 1.3429067856862908, 1.4429235696388842]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/added_85_12/skirt/firstframe.npz", "人体参数 / 体型": "cases/added_85_12/skirt/body_parameters.json", "当前归档状态": "cases/added_85_12/skirt/state.json", "衣物 OBJ": "cases/added_85_12/skirt/cloth.obj", "人体 OBJ": "cases/added_85_12/skirt/body.obj", "严格相交检查": "cases/added_85_12/skirt/reports/geometry.json", "内部点检查": "cases/added_85_12/skirt/reports/containment.json", "网格质量": "cases/added_85_12/skirt/reports/quality.json", "来源 / 修改记录": "cases/added_85_12/skirt/reports/provenance.json", "部件映射": "cases/added_85_12/skirt/components.json"}}, {"group": "C-IPC", "title": "单层扭动", "outfit": "Rumba Dancing · dress_knife", "method": "保留原拓扑、UV rest 和 851 条缝合，局部几何修复。", "caution": "最大修复 5.039 mm，仍有 3.541 mm 缝合开口及局部高压缩；包含未收敛 IPC 试验的几何种子，不是收敛平衡。", "id": "cipc_dress_knife", "number": 14, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24", "image": "cases/cipc_dress_knife/default/media/preview_front_back.png", "stretch": {"minimum": 0.003065341472679028, "maximum": 1.4752127553355983, "max_per_face_quantiles": [0.2854637537756964, 1.0260372894767344, 1.072637838933915, 1.1041251325891452, 1.4752127553355983]}, "closeup": "cases/cipc_dress_knife/default/media/maximum_stitch_gap_closeup.png", "links": {"衣物 + 人体 NPZ": "cases/cipc_dress_knife/default/firstframe.npz", "人体参数 / 体型": "cases/cipc_dress_knife/default/body_parameters.json", "当前归档状态": "cases/cipc_dress_knife/default/state.json", "衣物 OBJ": "cases/cipc_dress_knife/default/cloth.obj", "人体 OBJ": "cases/cipc_dress_knife/default/body.obj", "严格相交检查": "cases/cipc_dress_knife/default/reports/geometry.json", "内部点检查": "cases/cipc_dress_knife/default/reports/containment.json", "网格质量": "cases/cipc_dress_knife/default/reports/quality.json", "来源 / 修改记录": "cases/cipc_dress_knife/default/reports/provenance.json", "部件映射": "cases/cipc_dress_knife/default/components.json"}}, {"group": "C-IPC", "title": "多层踢腿", "outfit": "Kick · 原生多层衣物", "method": "原生初态局部微调 0.045 mm，保留 UV rest 和 791 条缝合。", "caution": "最大原生缝合间隙 0.300874 mm 保持不变；严格检查没有使用缝合区域碰撞豁免。", "id": "cipc_multilayer", "number": 15, "passed": true, "kind": "original", "counts": [0, 0, 0], "sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b", "image": "cases/cipc_multilayer/default/media/preview_front_back.png", "stretch": {"minimum": 0.4959535579170651, "maximum": 1.1321879755817237, "max_per_face_quantiles": [0.995817447109901, 1.0324386658645148, 1.086637479039977, 1.106957094451275, 1.1321879755817237]}, "closeup": null, "links": {"衣物 + 人体 NPZ": "cases/cipc_multilayer/default/firstframe.npz", "人体参数 / 体型": "cases/cipc_multilayer/default/body_parameters.json", "当前归档状态": "cases/cipc_multilayer/default/state.json", "衣物 OBJ": "cases/cipc_multilayer/default/cloth.obj", "人体 OBJ": "cases/cipc_multilayer/default/body.obj", "严格相交检查": "cases/cipc_multilayer/default/reports/geometry.json", "内部点检查": "cases/cipc_multilayer/default/reports/containment.json", "网格质量": "cases/cipc_multilayer/default/reports/quality.json", "来源 / 修改记录": "cases/cipc_multilayer/default/reports/provenance.json", "部件映射": "cases/cipc_multilayer/default/components.json"}}]}</script>
+  <script>(() => {
+  'use strict';
+  const data = JSON.parse(document.getElementById('case-data').textContent);
+  const cases = data.cases;
+  const byId = new Map(cases.map(c => [c.id, c]));
+  const $ = id => document.getElementById(id);
+  const storageKey = 'clothloop-task9-release-20260922-v1';
+  const labels = {original: '无穿 · 原方案', substitute: '无穿 · v1.1 新体型', failed: '有穿 · 未通过'};
+  const reviewLabels = {pending: '未检查', ok: '已看 · 可接受', issue: '已看 · 需修改'};
+  const esc = text => String(text).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  let reviews = {}, filter = 'all', current = null, viewerIds = [], storageAvailable = true;
+  let scale = 1, tx = 0, ty = 0, drag = null, lastOpener = null;
+  try {
+    const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+    for (const c of cases) {
+      const r = saved[c.id];
+      if (r && r.sha256 === c.sha256 && Object.hasOwn(reviewLabels, r.state)) {
+        reviews[c.id] = {sha256: c.sha256, state: r.state, notes: String(r.notes || '').slice(0, 10000), updated_at: r.updated_at || null};
+      }
+    }
+  } catch (_) { storageAvailable = false; }
+  const review = c => reviews[c.id] || {sha256: c.sha256, state: 'pending', notes: '', updated_at: null};
+  const badge = c => `<span class="badge ${c.kind}">${labels[c.kind]}</span>`;
+
+  function matches(c) {
+    const stateMatches = filter === 'all' || (filter === 'pass' && c.passed) ||
+      (filter === 'failed' && !c.passed) || (filter === 'substitute' && c.kind === 'substitute') ||
+      (filter === 'pending' && review(c).state === 'pending');
+    const query = $('search').value.trim().toLowerCase();
+    return stateMatches && `${c.id} ${c.group} ${c.title} ${c.outfit}`.toLowerCase().includes(query);
+  }
+
+  function updateProgress() {
+    $('review-progress').textContent = `人工检查 ${cases.filter(c => review(c).state !== 'pending').length} / 15`;
+    $('storage-status').textContent = storageAvailable ? '备注仅保存在此浏览器，请导出留存。' : '浏览器无法持久保存；当前备注仍在页面内，请导出后再关闭。';
+  }
+
+  function renderGrid() {
+    const visible = cases.filter(matches);
+    $('grid').innerHTML = visible.map(c => {
+      const r = review(c);
+      return `<article class="card ${c.kind}" data-case="${c.id}">
+        <div class="card-top"><span class="card-number">${String(c.number).padStart(2, '0')} / ${esc(c.group)}</span>${badge(c)}</div>
+        <button class="preview" data-open="${c.id}" aria-label="放大检查 ${esc(c.title)}">
+          <img src="${c.image}" alt="${esc(c.title)} 正背面实际渲染" width="1600" height="900" loading="lazy">
+          <span class="zoom-hint">放大检查 ↗</span>
+        </button>
+        <div class="card-body"><div class="card-title-row"><h2>${esc(c.title)}</h2><span class="review-chip ${r.state}">${reviewLabels[r.state]}</span></div>
+          <p class="outfit">${esc(c.outfit)}</p><div class="card-metrics"><span>衣物 CC <b>${c.counts[0]}</b></span><span>人体 CB <b>${c.counts[1]}</b></span><span>内部点 <b>${c.counts[2]}</b></span></div>
+          <p class="card-caution">${esc(c.caution)}</p>
+        </div></article>`;
+    }).join('');
+    $('visible-count').textContent = `显示 ${visible.length} / 15 份`;
+    $('empty').hidden = visible.length !== 0;
+    updateProgress();
+  }
+
+  function applyTransform() {
+    const vp = $('viewport');
+    tx = Math.max(-vp.clientWidth * (scale - 1) / 2, Math.min(vp.clientWidth * (scale - 1) / 2, tx));
+    ty = Math.max(-vp.clientHeight * (scale - 1) / 2, Math.min(vp.clientHeight * (scale - 1) / 2, ty));
+    $('large-image').style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    $('zoom').value = Math.round(scale * 100);
+    $('zoom-value').textContent = `${Math.round(scale * 100)}%`;
+    vp.classList.toggle('zoomed', scale > 1);
+  }
+
+  function resetZoom() { scale = 1; tx = 0; ty = 0; applyTransform(); }
+
+  function populate(id) {
+    const c = byId.get(id);
+    if (!c) return;
+    current = c;
+    const r = review(c), position = viewerIds.indexOf(id);
+    $('viewer-number').textContent = `${String(c.number).padStart(2, '0')} / 15 · ${c.group} · 当前筛选 ${position + 1}/${viewerIds.length}`;
+    $('viewer-title').textContent = c.title;
+    $('viewer-status').innerHTML = badge(c);
+    $('viewer-outfit').textContent = c.outfit;
+    $('metrics').className = `metrics ${c.kind}`;
+    $('metrics').innerHTML = ['衣物 CC', '人体 CB', '内部点'].map((label, i) => `<div><span>${label}</span><b>${c.counts[i]}</b></div>`).join('');
+    $('method').textContent = c.method;
+    $('caution').textContent = c.caution;
+    $('stretch').textContent = c.stretch ? `相对交付 rest 的主伸长：${c.stretch.minimum.toPrecision(4)} – ${c.stretch.maximum.toPrecision(4)}。参考来源不同，不可简单横向比较。` : '此有穿候选没有统一 rest 伸长验收；不可作为已完成的穿衣初态。';
+    $('review-state').value = r.state;
+    $('notes').value = r.notes;
+    $('save-status').textContent = r.updated_at ? '已载入本浏览器的检查意见' : '备注不会改变已有几何验收状态';
+    $('large-image').alt = `${c.title} 正背面实际渲染；${labels[c.kind]}`;
+    $('image-error').hidden = true;
+    $('large-image').src = c.image;
+    $('original-image').href = c.image;
+    $('closeup').hidden = !c.closeup;
+    if (c.closeup) $('closeup').href = c.closeup;
+    $('hash').textContent = c.sha256;
+    $('data-links').innerHTML = Object.entries(c.links).map(([label, href]) => `<a target="_blank" rel="noopener" href="${href}">${esc(label)} ↗</a>`).join('');
+    $('previous').disabled = position <= 0;
+    $('next').disabled = position >= viewerIds.length - 1;
+    document.querySelector('.details-panel').scrollTop = 0;
+    resetZoom();
+  }
+
+  function openViewer(id, opener) {
+    viewerIds = cases.filter(matches).map(c => c.id);
+    if (!viewerIds.includes(id)) viewerIds = cases.map(c => c.id);
+    lastOpener = opener || null;
+    populate(id);
+    $('viewer').showModal();
+    document.body.style.overflow = 'hidden';
+    $('close').focus();
+  }
+
+  function navigate(direction) {
+    if (!current) return;
+    const index = viewerIds.indexOf(current.id) + direction;
+    if (index >= 0 && index < viewerIds.length) populate(viewerIds[index]);
+  }
+
+  function saveReview() {
+    if (!current) return;
+    reviews[current.id] = {sha256: current.sha256, state: $('review-state').value,
+      notes: $('notes').value, updated_at: new Date().toISOString()};
+    try { localStorage.setItem(storageKey, JSON.stringify(reviews)); storageAvailable = true; }
+    catch (_) { storageAvailable = false; }
+    $('save-status').textContent = storageAvailable ? '已保存到本浏览器 · 建议导出留存' : '暂存在页面内 · 请导出留存';
+    updateProgress();
+  }
+
+  $('grid').addEventListener('click', e => {
+    const button = e.target.closest('[data-open]');
+    if (button) openViewer(button.dataset.open, button);
+  });
+  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+    filter = button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
+    renderGrid();
+  }));
+  $('search').addEventListener('input', renderGrid);
+  $('review-state').addEventListener('change', saveReview);
+  $('notes').addEventListener('input', saveReview);
+  $('close').addEventListener('click', () => $('viewer').close());
+  $('viewer').addEventListener('click', e => { if (e.target === $('viewer')) $('viewer').close(); });
+  $('viewer').addEventListener('close', () => {
+    const focusId = lastOpener?.dataset.open;
+    document.body.style.overflow = '';
+    renderGrid();
+    const replacement = focusId && document.querySelector(`[data-open="${focusId}"]`);
+    if (replacement) replacement.focus({preventScroll: true});
+  });
+  $('previous').addEventListener('click', () => navigate(-1));
+  $('next').addEventListener('click', () => navigate(1));
+  $('viewer').addEventListener('keydown', e => {
+    if (['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { e.preventDefault(); navigate(e.key === 'ArrowLeft' ? -1 : 1); }
+  });
+  $('large-image').addEventListener('error', () => { $('image-error').hidden = false; });
+  $('zoom').addEventListener('input', () => { scale = Number($('zoom').value) / 100; applyTransform(); });
+  $('reset').addEventListener('click', resetZoom);
+  $('viewport').addEventListener('wheel', e => {
+    e.preventDefault(); scale = Math.max(1, Math.min(4, scale + (e.deltaY < 0 ? .1 : -.1))); applyTransform();
+  }, {passive: false});
+  $('viewport').addEventListener('pointerdown', e => {
+    if (scale <= 1 || e.button !== 0) return;
+    drag = {x: e.clientX - tx, y: e.clientY - ty};
+    $('viewport').setPointerCapture(e.pointerId);
+    $('viewport').classList.add('dragging');
+  });
+  $('viewport').addEventListener('pointermove', e => {
+    if (drag) { tx = e.clientX - drag.x; ty = e.clientY - drag.y; applyTransform(); }
+  });
+  for (const event of ['pointerup', 'pointercancel', 'lostpointercapture']) $('viewport').addEventListener(event, () => { drag = null; $('viewport').classList.remove('dragging'); });
+  window.addEventListener('resize', applyTransform);
+  $('export').addEventListener('click', () => {
+    const report = {task: 9, scope: 'User visual inspection only; does not overwrite geometric acceptance.',
+      exported_at: new Date().toISOString(), source_page_created_at: data.created_at,
+      cases: cases.map(c => ({case: c.id, label: c.title, displayed_variant: c.kind,
+        firstframe_sha256: c.sha256, geometry_passed: c.passed,
+        strict_cloth_cloth: c.counts[0], strict_cloth_body: c.counts[1], contained_vertices: c.counts[2],
+        review: review(c)}))};
+    const url = URL.createObjectURL(new Blob([JSON.stringify(report, null, 2)], {type: 'application/json;charset=utf-8'}));
+    const link = document.createElement('a');
+    link.href = url; link.download = `task9-inspection-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
+    document.body.appendChild(link); link.click(); link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  });
+  renderGrid();
+})();
+</script>
+</body>
+</html>

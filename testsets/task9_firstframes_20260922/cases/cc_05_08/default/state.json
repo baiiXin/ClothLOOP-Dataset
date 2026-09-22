@@ -1,0 +1,36 @@
+{
+  "id": "cc_05_08",
+  "case_id": "cc_05_08",
+  "variant": "default",
+  "directory": "cases/cc_05_08/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "7b3749f8908a8e13328793a147b98c26cfbc46c8146bf29b16313d5f34baa616",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "CounterCraft",
+    "title": "05_08",
+    "outfit": "04847 · 无袖内裙 + 连帽外套",
+    "method": "IPC 从绑定姿态连续迁移，保留两层衣物。",
+    "caution": "颈部局部最大主伸长 1.645，来自本次迁移形变；不是统一 1.5 应变屏障可行初态。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "7b3749f8908a8e13328793a147b98c26cfbc46c8146bf29b16313d5f34baa616",
+  "source_evidence_report_sha256": {
+    "geometry": "7765d64f7d8a09b4b01d0ae08e5cd55885a0232f37a02581a5550d16902e5c81",
+    "containment": "343e02a38892ea14766caeda1971dc518090f15826d1661f6e7f5ec34c9ac273",
+    "quality": "e1f6eaff04254665e676275d2cdc07a24089c63055c19cc09fb7ae0d4ca9cac0",
+    "provenance": "3c457aa6d5da15a103bf29129beab2302babc62e598422d5bbee820bfe3ca5fe",
+    "render": "c4c335d6b1ced04237426901afd790503f93decdd874e5d75be1c1da0242ff35",
+    "status": "e494c50da11af9d9e2e366719cfae0a8733b94b4dfa58ad74466ed92800b70ff",
+    "visual_review": "054dd32f343dd9df30566fdbf54e205073ea61ad59ae595c8f06ced9a2dc891a"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "reviewed_images": [
+    "preview_front_back.png",
+    "maximum_stitch_gap_closeup.png"
+  ],
+  "review": "Actual front/back and magnified maximum-gap seam views inspected. The native short-sleeved fitted bodice, waist and knife-pleated skirt remain dressed; all original material panels and point-edge relations are retained, without a detached panel, gross collapse, spike or visual body crossing. Original strict 528 events are archived and final raw CC=0/CB=0 plus inside-vertex count=0 pass with no seam exemptions. The largest finite stitch gap is visibly a localized 3.541 mm opening at the left sleeve/bodice seam; this is disclosed and is not called exact seam closure. Maximum cloth correction is 5.039 mm, body/rest/topology are unchanged. Accepted only as an intersection-free geometric first frame, not a converged dynamics state, exact-sewn equilibrium, strain-barrier-feasible initial state or complete sequence. The IPC attempt that contributed its final geometry seed failed its Newton convergence test and remains explicitly failed in DYNAMICS_LIMITATION.md."
+}

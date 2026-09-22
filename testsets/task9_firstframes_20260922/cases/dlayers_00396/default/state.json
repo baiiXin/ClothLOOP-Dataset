@@ -1,0 +1,36 @@
+{
+  "id": "dlayers_00396",
+  "case_id": "dlayers_00396",
+  "variant": "default",
+  "directory": "cases/dlayers_00396/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "59c864af9a93e92884e12facc16f42d5271555c1803d9d96dbae177d4e644d88",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "D-LAYERS",
+    "title": "00396",
+    "outfit": "原生无袖内搭 + 外套",
+    "method": "复用原生首帧，重新独立检查；没有几何修改。",
+    "caution": "保留原生 rest，最大主伸长 1.399。此处仅列首帧验收范围。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "59c864af9a93e92884e12facc16f42d5271555c1803d9d96dbae177d4e644d88",
+  "source_evidence_report_sha256": {
+    "geometry": "d0d6b40f20d40b78fdb733b42f62a66702d14a04e00ed9da4eb4c870f509b6c8",
+    "containment": "61302770fc0cac4412e6c26a61fec10d75af8d2a74a1b4cd53f278ffdcc262c6",
+    "quality": "8e133a58af3568cabd92f926abb0741e0643705cc2ae7ad43228712565458bdd",
+    "provenance": "a2b242afea5560ef5e06064e639a946ff7d0698ba4198654228c7b1e6b1429d2",
+    "render": "739f893d5b62370e5f2827abbec26c14163fb3768e885d0e5fe153634f4b0eee",
+    "status": "b7c1bf856449ae77317a1f2db05fa766a1fc295d98833f0ceace3e57fc27f792",
+    "visual_review": "83224888b69fc452ba778dd9767cbaa567376c2532857964f043ebadb180a5ca"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

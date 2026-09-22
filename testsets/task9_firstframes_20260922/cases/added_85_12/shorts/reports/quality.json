@@ -1,0 +1,61 @@
+{
+  "finite": true,
+  "minimum_triangle_area_m2": 1.8251723886821045e-06,
+  "degenerate_faces": [],
+  "body_repair_max_m": 0.0,
+  "principal_stretch_vs_preserved_rest": {
+    "minimum": 0.01967590114122483,
+    "maximum": 3.006894309103032,
+    "max_per_face_quantiles": [
+      0.6045847731411087,
+      1.027007239153676,
+      1.2878153254733906,
+      1.3743720048527637,
+      3.006894309103032
+    ]
+  },
+  "principal_stretch_per_component": [
+    {
+      "component": "tee_sleeveless",
+      "minimum": 0.7626495193378957,
+      "maximum": 1.2622473668041412,
+      "minimum_face_id": 501,
+      "maximum_face_id": 1118,
+      "max_per_face_quantiles": [
+        0.9405865081157045,
+        1.0329080966470392,
+        1.1183665457229965,
+        1.1781142786183725,
+        1.2622473668041412
+      ]
+    },
+    {
+      "component": "jacket_hood",
+      "minimum": 0.41387807092861867,
+      "maximum": 1.4429235696388842,
+      "minimum_face_id": 22590,
+      "maximum_face_id": 7898,
+      "max_per_face_quantiles": [
+        0.9691836481468779,
+        1.0227308996361923,
+        1.3104882938665021,
+        1.3653536820309045,
+        1.4429235696388842
+      ]
+    },
+    {
+      "component": "shorts",
+      "minimum": 0.01967590114122483,
+      "maximum": 3.006894309103032,
+      "minimum_face_id": 23567,
+      "maximum_face_id": 24731,
+      "max_per_face_quantiles": [
+        0.6045847731411087,
+        1.0255256720108434,
+        1.2648546554409665,
+        1.7085803539573365,
+        3.006894309103032
+      ]
+    }
+  ]
+}

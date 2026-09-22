@@ -1,0 +1,9 @@
+{
+  "state": "accepted_firstframe",
+  "scope": "one frame only; no complete sequence claim",
+  "firstframe_sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0",
+  "strict_cloth_cloth": 0,
+  "strict_cloth_body": 0,
+  "contained_cloth_vertices": 0,
+  "visual_review": true
+}

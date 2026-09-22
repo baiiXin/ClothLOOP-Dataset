@@ -1,0 +1,12 @@
+{
+  "firstframe_sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24",
+  "stitch_id": 704,
+  "gap_m": 0.0035405342221734542,
+  "stitch_indices": [
+    73,
+    995,
+    71
+  ],
+  "ratio": 1.0,
+  "image_sha256": "d3ea46cea376b02081a008f06d22d44bbbbdfc71c60667e010b8a0c7a9f4c56a"
+}

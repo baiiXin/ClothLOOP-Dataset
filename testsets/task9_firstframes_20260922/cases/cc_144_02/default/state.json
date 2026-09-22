@@ -1,0 +1,36 @@
+{
+  "id": "cc_144_02",
+  "case_id": "cc_144_02",
+  "variant": "default",
+  "directory": "cases/cc_144_02/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "70465974a047cd15212c1b48f04d752172d95f3c9da099bd4be430727b530493",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "CounterCraft",
+    "title": "144_02",
+    "outfit": "00100 · 无袖内搭 + 连帽外套",
+    "method": "IPC 从绑定姿态连续迁移到官网目标首帧。",
+    "caution": "局部最大主伸长 1.620；后续求解需核对材料参考与应变限制。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "70465974a047cd15212c1b48f04d752172d95f3c9da099bd4be430727b530493",
+  "source_evidence_report_sha256": {
+    "geometry": "234d304732b6058b942127ad2fd40d41cc2dda498850d708f4f34f7d92f31b24",
+    "containment": "1a96c043a66a0013b4cdd0115fac4868cf5fd39b5b66719da9b67f80e73b215a",
+    "quality": "dcba5f8bc09b75623c75635e43ae2e656cde98c0674c7b27561b006584ae89cc",
+    "provenance": "77eac6f907b4fa1dc3975abdf77f4b5ef78575bc0bc8d5de8afca23a8c8f4fef",
+    "render": "d3f36f9aec61715ca5390533d8fdf35089aff7875b709f0d4e76a0f543f83079",
+    "status": "8bd7c59c11a02e1b312f00ed0301b8eb1c76d202600783168111f622d28b3251",
+    "visual_review": "1b57609399e9b54bc402f6609512051fe0dc2fcc91959fcc9c80f39dc9ae3403"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

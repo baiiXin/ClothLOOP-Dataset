@@ -1,0 +1,26 @@
+{
+  "method": "Lossless reuse of the previously accepted Task8 skirt transfer; no new solve or geometry repair",
+  "source": "local-evidence:task8/results/ipc/85_12/transfer_v13_collar_support/final.npz",
+  "source_sha256": "08670668ff44dedf786e581ebfc4a3a758f4c81680797d05da29a5e153f702f7",
+  "source_frame": 0,
+  "source_validation": "local-evidence:task8/results/ipc/85_12/transfer_v13_collar_support/visual_review.json",
+  "body_repair_max_m": 0.0,
+  "rest_change_max_m": 0.0,
+  "cloth_repair_max_m": 0.0,
+  "gender": "female",
+  "betas": [
+    2.6669766902923575,
+    0.3537134528160097,
+    3.2216537093415085e-15,
+    1.1701557260723394e-14,
+    3.625547106395514e-15,
+    8.205493442562125e-15,
+    1.888205892790892e-14,
+    3.8337076630015204e-15,
+    -1.553224734482786e-14,
+    1.7272269633565616e-15
+  ],
+  "constraints": "Original 3 hard + 5 soft waist and 5 soft collar; temporary guide/support absent",
+  "firstframe_sha256": "0d323060ca1b6b6e3a4770f24c433305cee2c21db4ead5fdba4bd9c7bf18a285",
+  "scope": "one actual first frame only; no rollout"
+}

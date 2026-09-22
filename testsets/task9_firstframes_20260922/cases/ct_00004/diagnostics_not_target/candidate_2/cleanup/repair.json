@@ -1,0 +1,1305 @@
+{
+  "passed": false,
+  "scope": "bounded source-construction local repair only; independent generalized winding/visual review still required",
+  "input": "local-evidence:task9/results/alternatives/ct_00004_v11_dressing/candidate_2/source_initial/firstframe.npz",
+  "input_sha256": "d97a742362fa959fe52008838b1d7c99b6a8c6d4c064a3486aadf6e639b789ff",
+  "iterations_limit": 100,
+  "updates_performed": 100,
+  "method": "body signed-distance and true triangle-plane clearance; same-component local fairing; shirt-over-bottom anatomical radial layer ordering",
+  "self_intersection_method": "bounded segment-triangle separation plus mild fairing",
+  "body_repair_max_m": 0.0,
+  "rest_changed_during_cleanup": false,
+  "maximum_displacement_m": 0.02230649395852789,
+  "records": [
+    {
+      "iteration": 0,
+      "cc": 149,
+      "cb": 1161,
+      "vtk_negative_vertices": 183,
+      "minimum_signed_distance_m": -0.009917248667366306,
+      "maximum_displacement_m": 0.0,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 1,
+      "cc": 137,
+      "cb": 217,
+      "vtk_negative_vertices": 9,
+      "minimum_signed_distance_m": -0.005610318816211513,
+      "maximum_displacement_m": 0.006900713819190126,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 2,
+      "cc": 114,
+      "cb": 141,
+      "vtk_negative_vertices": 7,
+      "minimum_signed_distance_m": -0.0019136052700796783,
+      "maximum_displacement_m": 0.009442188864444569,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 3,
+      "cc": 89,
+      "cb": 62,
+      "vtk_negative_vertices": 6,
+      "minimum_signed_distance_m": -0.0027835701586329813,
+      "maximum_displacement_m": 0.01264709038987233,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 4,
+      "cc": 65,
+      "cb": 76,
+      "vtk_negative_vertices": 4,
+      "minimum_signed_distance_m": -0.0017267066117989131,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 5,
+      "cc": 79,
+      "cb": 31,
+      "vtk_negative_vertices": 3,
+      "minimum_signed_distance_m": -0.0015951851540906515,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 6,
+      "cc": 54,
+      "cb": 47,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.0015040377899033519,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 7,
+      "cc": 67,
+      "cb": 29,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.0013836205877536644,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 8,
+      "cc": 57,
+      "cb": 45,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.001301963315620538,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 9,
+      "cc": 63,
+      "cb": 41,
+      "vtk_negative_vertices": 3,
+      "minimum_signed_distance_m": -0.0014670743565014968,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 10,
+      "cc": 60,
+      "cb": 45,
+      "vtk_negative_vertices": 3,
+      "minimum_signed_distance_m": -0.0010742500441286496,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 11,
+      "cc": 57,
+      "cb": 41,
+      "vtk_negative_vertices": 3,
+      "minimum_signed_distance_m": -0.000958688138582522,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 12,
+      "cc": 67,
+      "cb": 48,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.0008619279529634504,
+      "maximum_displacement_m": 0.015128171754099095,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 13,
+      "cc": 62,
+      "cb": 34,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.000760205020480697,
+      "maximum_displacement_m": 0.01573059959013581,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 14,
+      "cc": 63,
+      "cb": 44,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.0006765270568836043,
+      "maximum_displacement_m": 0.016506379465663086,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 15,
+      "cc": 64,
+      "cb": 32,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.0005824699535750329,
+      "maximum_displacement_m": 0.01719027958028885,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 16,
+      "cc": 61,
+      "cb": 44,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.0005038187160001954,
+      "maximum_displacement_m": 0.017874985396982682,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 17,
+      "cc": 58,
+      "cb": 32,
+      "vtk_negative_vertices": 2,
+      "minimum_signed_distance_m": -0.00035745126923856916,
+      "maximum_displacement_m": 0.018560618360801584,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 18,
+      "cc": 68,
+      "cb": 38,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.00022405805237747138,
+      "maximum_displacement_m": 0.019358346412387394,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 19,
+      "cc": 48,
+      "cb": 22,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -9.829995255309825e-05,
+      "maximum_displacement_m": 0.02005411350811142,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 20,
+      "cc": 60,
+      "cb": 24,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 3.654846601572827e-05,
+      "maximum_displacement_m": 0.020176493712524172,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 21,
+      "cc": 52,
+      "cb": 32,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.00014767976775807078,
+      "maximum_displacement_m": 0.020299723792611978,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 22,
+      "cc": 43,
+      "cb": 18,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0002906098937728424,
+      "maximum_displacement_m": 0.020443150932598502,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 23,
+      "cc": 48,
+      "cb": 26,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.00042467862938138246,
+      "maximum_displacement_m": 0.020587495395004148,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 24,
+      "cc": 41,
+      "cb": 28,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0005534750296425953,
+      "maximum_displacement_m": 0.020732873442755064,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 25,
+      "cc": 41,
+      "cb": 18,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0006699330139239666,
+      "maximum_displacement_m": 0.020879174955052572,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 26,
+      "cc": 37,
+      "cb": 26,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0008330701863034079,
+      "maximum_displacement_m": 0.021026345063474432,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 27,
+      "cc": 47,
+      "cb": 28,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0009402127295206157,
+      "maximum_displacement_m": 0.021174460009503078,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 28,
+      "cc": 35,
+      "cb": 18,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0010375753747788685,
+      "maximum_displacement_m": 0.02132336958946468,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 29,
+      "cc": 45,
+      "cb": 26,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0011999081971541075,
+      "maximum_displacement_m": 0.021472933956282206,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 30,
+      "cc": 43,
+      "cb": 32,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001290724870413415,
+      "maximum_displacement_m": 0.021623142381196572,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 31,
+      "cc": 54,
+      "cb": 22,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0013667219124766062,
+      "maximum_displacement_m": 0.021773883285718918,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 32,
+      "cc": 54,
+      "cb": 30,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0015445099521966222,
+      "maximum_displacement_m": 0.021925103132596543,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 33,
+      "cc": 63,
+      "cb": 32,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0016107039226642963,
+      "maximum_displacement_m": 0.02201744039729258,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 34,
+      "cc": 46,
+      "cb": 20,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0016704474873572783,
+      "maximum_displacement_m": 0.022110565246608933,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 35,
+      "cc": 62,
+      "cb": 30,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0017690383136285143,
+      "maximum_displacement_m": 0.022204035111995722,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 36,
+      "cc": 42,
+      "cb": 32,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018146603589477034,
+      "maximum_displacement_m": 0.022299357003730067,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 37,
+      "cc": 54,
+      "cb": 20,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018669501574279277,
+      "maximum_displacement_m": 0.022394658601940835,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 38,
+      "cc": 48,
+      "cb": 30,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001896980570971893,
+      "maximum_displacement_m": 0.022489899312395464,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 39,
+      "cc": 59,
+      "cb": 20,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019444975688259402,
+      "maximum_displacement_m": 0.022585121361365288,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 40,
+      "cc": 44,
+      "cb": 20,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019709319959890317,
+      "maximum_displacement_m": 0.022680262461341798,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 41,
+      "cc": 59,
+      "cb": 26,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019911820686398045,
+      "maximum_displacement_m": 0.022775377070126505,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 42,
+      "cc": 53,
+      "cb": 26,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001999999999999968,
+      "maximum_displacement_m": 0.02287047586377952,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 43,
+      "cc": 64,
+      "cb": 30,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019999999999999736,
+      "maximum_displacement_m": 0.02296553030537087,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 44,
+      "cc": 52,
+      "cb": 30,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.001991786245309507,
+      "maximum_displacement_m": 0.023060549368839525,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 45,
+      "cc": 62,
+      "cb": 22,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0018160280233540757,
+      "maximum_displacement_m": 0.023367059113050797,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 46,
+      "cc": 61,
+      "cb": 20,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0016508778000588057,
+      "maximum_displacement_m": 0.023207236466818233,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 47,
+      "cc": 47,
+      "cb": 22,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0015118217930069158,
+      "maximum_displacement_m": 0.023126608309914174,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 48,
+      "cc": 68,
+      "cb": 24,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0014597806182328605,
+      "maximum_displacement_m": 0.023369290153751367,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 49,
+      "cc": 62,
+      "cb": 18,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0013469356164121054,
+      "maximum_displacement_m": 0.023278946119110952,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 50,
+      "cc": 66,
+      "cb": 18,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.001268766949813347,
+      "maximum_displacement_m": 0.023544297377225222,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 51,
+      "cc": 49,
+      "cb": 18,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0011649537814326712,
+      "maximum_displacement_m": 0.02344779327109004,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 52,
+      "cc": 68,
+      "cb": 20,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0011005550574252154,
+      "maximum_displacement_m": 0.023761914684675475,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 53,
+      "cc": 54,
+      "cb": 16,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.001006477570297963,
+      "maximum_displacement_m": 0.023657242881947184,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 54,
+      "cc": 64,
+      "cb": 20,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0009376712413752294,
+      "maximum_displacement_m": 0.02372234026447863,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 55,
+      "cc": 46,
+      "cb": 16,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0008467932883368384,
+      "maximum_displacement_m": 0.023588886303776913,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 56,
+      "cc": 61,
+      "cb": 18,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0007868770157601554,
+      "maximum_displacement_m": 0.023840751083103247,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 57,
+      "cc": 75,
+      "cb": 20,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0006978179238188383,
+      "maximum_displacement_m": 0.023882770506549706,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 58,
+      "cc": 47,
+      "cb": 14,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0006181299634228254,
+      "maximum_displacement_m": 0.02375039394680461,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 59,
+      "cc": 58,
+      "cb": 20,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0005564610092185804,
+      "maximum_displacement_m": 0.02398274640205365,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 60,
+      "cc": 57,
+      "cb": 18,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.00039420213285379667,
+      "maximum_displacement_m": 0.024045669211977854,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 61,
+      "cc": 49,
+      "cb": 12,
+      "vtk_negative_vertices": 1,
+      "minimum_signed_distance_m": -0.0002117955973166576,
+      "maximum_displacement_m": 0.023908277839042792,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 62,
+      "cc": 38,
+      "cb": 10,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 3.3441284235501374e-05,
+      "maximum_displacement_m": 0.02402591803553443,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 63,
+      "cc": 62,
+      "cb": 20,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.000268503697296334,
+      "maximum_displacement_m": 0.02397120534019454,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 64,
+      "cc": 53,
+      "cb": 8,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.000554582706269463,
+      "maximum_displacement_m": 0.023838126376022246,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 65,
+      "cc": 47,
+      "cb": 6,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0006272798267696527,
+      "maximum_displacement_m": 0.02380206448004161,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 66,
+      "cc": 42,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0006495994910341367,
+      "maximum_displacement_m": 0.023771605856016117,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 67,
+      "cc": 39,
+      "cb": 8,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0008333422858012331,
+      "maximum_displacement_m": 0.023742415616125417,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 68,
+      "cc": 39,
+      "cb": 4,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0011257148739672038,
+      "maximum_displacement_m": 0.023618241795374726,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 69,
+      "cc": 43,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0013248179567946087,
+      "maximum_displacement_m": 0.023494746614060313,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 70,
+      "cc": 44,
+      "cb": 6,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0014064056624885524,
+      "maximum_displacement_m": 0.023388827139092003,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 71,
+      "cc": 44,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0014368709302170618,
+      "maximum_displacement_m": 0.023357287479970436,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 72,
+      "cc": 40,
+      "cb": 4,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0015080401316997177,
+      "maximum_displacement_m": 0.02331337031603413,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 73,
+      "cc": 39,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0016779735433152404,
+      "maximum_displacement_m": 0.02321151997897532,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 74,
+      "cc": 36,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0017107182671254806,
+      "maximum_displacement_m": 0.02301024096036007,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 75,
+      "cc": 36,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0017401608458337367,
+      "maximum_displacement_m": 0.022819800634855263,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 76,
+      "cc": 36,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0017644450769497002,
+      "maximum_displacement_m": 0.022639177721727126,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 77,
+      "cc": 33,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0017857301927773992,
+      "maximum_displacement_m": 0.022468367111819782,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 78,
+      "cc": 34,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0017791958010171698,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 79,
+      "cc": 24,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018109553192032443,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 80,
+      "cc": 34,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018381466860586055,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 81,
+      "cc": 32,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018614269646551132,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 82,
+      "cc": 29,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018813587089625528,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 83,
+      "cc": 29,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0018984235576279416,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 84,
+      "cc": 34,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019130338724845316,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 85,
+      "cc": 27,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019255427030281716,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 86,
+      "cc": 30,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019362523176467122,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 87,
+      "cc": 29,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019454215077542591,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 88,
+      "cc": 32,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019532718413304653,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 89,
+      "cc": 31,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019599930169779526,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 90,
+      "cc": 29,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001965747447875145,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 91,
+      "cc": 32,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001970674186393439,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 92,
+      "cc": 26,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019748922842142934,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 93,
+      "cc": 34,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001978503669141653,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 94,
+      "cc": 31,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019815956081263683,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 95,
+      "cc": 35,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019842428160196405,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 96,
+      "cc": 26,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001986509261012486,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 97,
+      "cc": 30,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001988449710388848,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 98,
+      "cc": 31,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001990111053944104,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 99,
+      "cc": 32,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.001991533437048912,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    },
+    {
+      "iteration": 100,
+      "cc": 31,
+      "cb": 0,
+      "vtk_negative_vertices": 0,
+      "minimum_signed_distance_m": 0.0019927512307378933,
+      "maximum_displacement_m": 0.02230649395852789,
+      "minimum_area_m2": 6.305408939818943e-07
+    }
+  ],
+  "final_geometry": {
+    "cloth_cloth": 31,
+    "cloth_body": 0,
+    "count_definition": "exact edge-face intersections excluding shared endpoints only; body self intersections excluded",
+    "cloth_pairs": [
+      {
+        "edge": [
+          1243,
+          1416
+        ],
+        "face_id": 3856,
+        "face": [
+          1995,
+          1994,
+          1864
+        ]
+      },
+      {
+        "edge": [
+          1294,
+          1416
+        ],
+        "face_id": 3856,
+        "face": [
+          1995,
+          1994,
+          1864
+        ]
+      },
+      {
+        "edge": [
+          1297,
+          1319
+        ],
+        "face_id": 3561,
+        "face": [
+          1868,
+          1895,
+          1882
+        ]
+      },
+      {
+        "edge": [
+          1297,
+          1341
+        ],
+        "face_id": 3500,
+        "face": [
+          1867,
+          1895,
+          1914
+        ]
+      },
+      {
+        "edge": [
+          1297,
+          1415
+        ],
+        "face_id": 3857,
+        "face": [
+          1914,
+          1994,
+          1867
+        ]
+      },
+      {
+        "edge": [
+          1298,
+          1308
+        ],
+        "face_id": 3647,
+        "face": [
+          1882,
+          1880,
+          1868
+        ]
+      },
+      {
+        "edge": [
+          1298,
+          1309
+        ],
+        "face_id": 3634,
+        "face": [
+          1868,
+          1880,
+          1881
+        ]
+      },
+      {
+        "edge": [
+          1298,
+          1319
+        ],
+        "face_id": 3637,
+        "face": [
+          1868,
+          1970,
+          1895
+        ]
+      },
+      {
+        "edge": [
+          1298,
+          1335
+        ],
+        "face_id": 3809,
+        "face": [
+          1910,
+          1970,
+          1868
+        ]
+      },
+      {
+        "edge": [
+          1298,
+          1389
+        ],
+        "face_id": 3637,
+        "face": [
+          1868,
+          1970,
+          1895
+        ]
+      },
+      {
+        "edge": [
+          1308,
+          1310
+        ],
+        "face_id": 3497,
+        "face": [
+          1880,
+          1882,
+          1246
+        ]
+      },
+      {
+        "edge": [
+          1310,
+          1319
+        ],
+        "face_id": 3561,
+        "face": [
+          1868,
+          1895,
+          1882
+        ]
+      },
+      {
+        "edge": [
+          1410,
+          1416
+        ],
+        "face_id": 3856,
+        "face": [
+          1995,
+          1994,
+          1864
+        ]
+      },
+      {
+        "edge": [
+          1415,
+          1416
+        ],
+        "face_id": 3510,
+        "face": [
+          1995,
+          1867,
+          1994
+        ]
+      },
+      {
+        "edge": [
+          1867,
+          1895
+        ],
+        "face_id": 2447,
+        "face": [
+          1297,
+          1319,
+          1341
+        ]
+      },
+      {
+        "edge": [
+          1867,
+          1914
+        ],
+        "face_id": 2642,
+        "face": [
+          1341,
+          1415,
+          1297
+        ]
+      },
+      {
+        "edge": [
+          1867,
+          1994
+        ],
+        "face_id": 2314,
+        "face": [
+          1416,
+          1297,
+          1415
+        ]
+      },
+      {
+        "edge": [
+          1867,
+          1995
+        ],
+        "face_id": 2293,
+        "face": [
+          1244,
+          1416,
+          1243
+        ]
+      },
+      {
+        "edge": [
+          1868,
+          1880
+        ],
+        "face_id": 2427,
+        "face": [
+          1298,
+          1308,
+          1309
+        ]
+      },
+      {
+        "edge": [
+          1868,
+          1881
+        ],
+        "face_id": 2355,
+        "face": [
+          1309,
+          1335,
+          1298
+        ]
+      },
+      {
+        "edge": [
+          1868,
+          1895
+        ],
+        "face_id": 2359,
+        "face": [
+          1298,
+          1319,
+          1310
+        ]
+      },
+      {
+        "edge": [
+          1868,
+          1910
+        ],
+        "face_id": 2355,
+        "face": [
+          1309,
+          1335,
+          1298
+        ]
+      },
+      {
+        "edge": [
+          1868,
+          1970
+        ],
+        "face_id": 2590,
+        "face": [
+          1335,
+          1389,
+          1298
+        ]
+      },
+      {
+        "edge": [
+          1880,
+          1882
+        ],
+        "face_id": 2424,
+        "face": [
+          1310,
+          1308,
+          1298
+        ]
+      },
+      {
+        "edge": [
+          1882,
+          1895
+        ],
+        "face_id": 2447,
+        "face": [
+          1297,
+          1319,
+          1341
+        ]
+      },
+      {
+        "edge": [
+          1994,
+          1995
+        ],
+        "face_id": 2293,
+        "face": [
+          1244,
+          1416,
+          1243
+        ]
+      },
+      {
+        "edge": [
+          1994,
+          1995
+        ],
+        "face_id": 2641,
+        "face": [
+          1416,
+          1415,
+          1294
+        ]
+      },
+      {
+        "edge": [
+          2038,
+          2039
+        ],
+        "face_id": 8264,
+        "face": [
+          2050,
+          4261,
+          2049
+        ]
+      },
+      {
+        "edge": [
+          2038,
+          2039
+        ],
+        "face_id": 8283,
+        "face": [
+          4262,
+          4261,
+          2050
+        ]
+      },
+      {
+        "edge": [
+          2039,
+          2040
+        ],
+        "face_id": 8264,
+        "face": [
+          2050,
+          4261,
+          2049
+        ]
+      },
+      {
+        "edge": [
+          2041,
+          2042
+        ],
+        "face_id": 8269,
+        "face": [
+          2048,
+          4258,
+          2047
+        ]
+      }
+    ],
+    "body_pairs": [],
+    "geometry_sha256": "db589d64e84667539bf707305d19f53ed69b180beddd99b88d7f8c9cf87a5224"
+  }
+}

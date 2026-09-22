@@ -1,0 +1,36 @@
+{
+  "id": "added_85_12",
+  "case_id": "added_85_12",
+  "variant": "shorts",
+  "directory": "cases/added_85_12/shorts",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "D-LAYERS 添加",
+    "title": "85_12 · 短裤",
+    "outfit": "00242 内搭 + 外套 + CC shorts（替换裙子）",
+    "method": "保留上衣与人体，仅对适配短裤进行局部几何修复。",
+    "caution": "短裤最大修复 22.998 mm，主伸长 0.01968–3.00689；腰部附着仅提供可选元数据，未施加物理松弛。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0",
+  "source_evidence_report_sha256": {
+    "geometry": "ef1a979bacde880e30a9bd4b0e0e656bc0cf6e572669af26fb0833ec8ddbe8a3",
+    "containment": "ef4e54dd9f3c5d84585d9a233d19c91449761b8b008882cafff0b8c67538562e",
+    "quality": "9a4b62f97a08f30517968bb37cedd2b47682806fec2170fb6d45c8e1ec582318",
+    "provenance": "ae8a428a730e8ff493de2057bac364f6c88dffa84d4f1ad72720c92bcfd8792a",
+    "render": "1745fcd67f59aa10ab57180393516ea217fc2f32abe16222f3771d39262894d7",
+    "status": "784f4a75036ab3493d25b066065aeb21b61aff0c18ebea59668101e84b2d1076",
+    "visual_review": "76172447c5830c0b6aab2bbb91ff04a1001d2e6d3ac8541a5942bf1aac51acec"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

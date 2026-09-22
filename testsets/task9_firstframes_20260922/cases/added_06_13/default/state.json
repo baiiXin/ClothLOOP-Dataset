@@ -1,0 +1,36 @@
+{
+  "id": "added_06_13",
+  "case_id": "added_06_13",
+  "variant": "default",
+  "directory": "cases/added_06_13/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "D-LAYERS 添加",
+    "title": "06_13",
+    "outfit": "00242 · 裙子 + 无袖内搭 + 连帽外套",
+    "method": "复用 Task8 已验收的 IPC 穿衣首帧，保留 00242 绑定体型。",
+    "caution": "首帧最大主伸长 1.391；本检查台仅展示初态，不替代 Task8 全序列报告。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0",
+  "source_evidence_report_sha256": {
+    "geometry": "dc232ab5d0352d920557dedddd35cffeb3df9992f48d28bf5f4c4161308ae070",
+    "containment": "3b8f8f04728802279e15f424d579c03134e268f84c422fdbce6867c763e9ea89",
+    "quality": "5c5bbc1e0ff32ca2fa3bb81f564cd443fe8486f0e601f1d03a9f1cf59778ebdf",
+    "provenance": "6db2aba6f6acc0417fcc11001e563c112093e25681b8baaf7e69dc49a633b63a",
+    "render": "3d85604bb80fc4ef7b853011e00978908098de80141134475fe0ae6971314373",
+    "status": "c8e6397f50bbddc327f8ef65a96e787ebc0a0769b4f4e7a45a70e3fa34086513",
+    "visual_review": "7a758a3c4de1dcfa09eacb24e834147817c1834eaf1eb66891244a9d62c91719"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

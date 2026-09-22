@@ -1,0 +1,61 @@
+{
+  "finite": true,
+  "minimum_triangle_area_m2": 8.868366104215347e-06,
+  "degenerate_faces": [],
+  "body_repair_max_m": 0.0,
+  "principal_stretch_vs_preserved_rest": {
+    "minimum": 0.41387807092861867,
+    "maximum": 1.4429235696388842,
+    "max_per_face_quantiles": [
+      0.9405865081157045,
+      1.0044071353283301,
+      1.239323283116096,
+      1.3429067856862908,
+      1.4429235696388842
+    ]
+  },
+  "principal_stretch_per_component": [
+    {
+      "component": "skirt_8_panels",
+      "minimum": 0.9863080980254461,
+      "maximum": 1.0579672930791924,
+      "minimum_face_id": 9186,
+      "maximum_face_id": 16240,
+      "max_per_face_quantiles": [
+        0.9976578223656346,
+        1.0013795765287563,
+        1.0060708173358204,
+        1.0097715501016151,
+        1.0579672930791924
+      ]
+    },
+    {
+      "component": "tee_sleeveless",
+      "minimum": 0.7626495193378957,
+      "maximum": 1.2622473668041412,
+      "minimum_face_id": 18565,
+      "maximum_face_id": 19182,
+      "max_per_face_quantiles": [
+        0.9405865081157045,
+        1.0329080966470392,
+        1.1183665457229965,
+        1.1781142786183725,
+        1.2622473668041412
+      ]
+    },
+    {
+      "component": "jacket_hood",
+      "minimum": 0.41387807092861867,
+      "maximum": 1.4429235696388842,
+      "minimum_face_id": 40654,
+      "maximum_face_id": 25962,
+      "max_per_face_quantiles": [
+        0.9691836481468779,
+        1.0227308996361923,
+        1.3104882938665021,
+        1.3653536820309045,
+        1.4429235696388842
+      ]
+    }
+  ]
+}

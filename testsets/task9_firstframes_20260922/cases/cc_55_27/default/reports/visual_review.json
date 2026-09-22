@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "reviewed_image": "preview_front_back.png",
+  "review": "Actual final body-front/back images inspected. Sleeveless dress and hooded jacket remain correctly placed; the source hood is worn over the head, broad sleeves and skirt silhouette are intentional. Official female-SMPL target retained, with shape-aware rest adaptation. No gross looseness requiring fallback to bound body, no spiking, detached components or collapse observed. 50 local cloth vertices repaired by at most 3.242 mm without body/rest/topology edits during repair; strict geometry and containment independently pass."
+}

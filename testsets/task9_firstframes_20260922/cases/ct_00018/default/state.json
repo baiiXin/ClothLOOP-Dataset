@@ -1,0 +1,36 @@
+{
+  "id": "ct_00018",
+  "case_id": "ct_00018",
+  "variant": "default",
+  "directory": "cases/ct_00018/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493",
+  "selected_body_policy": "user_selected_smpl_v1.1",
+  "display_kind": "substitute",
+  "display": {
+    "group": "Cloth Transformer",
+    "title": "CT 018",
+    "outfit": "ct000 T-shirt + ct002 skirt",
+    "method": "用户选择此 SMPL v1.1 女性新体型；900 步 IPC 穿衣后的实际目标首帧。",
+    "caution": "原版 v1.0 人体未恢复。裙子原小孔边缘最大主伸长 6.132，末速 1.601 m/s；几何无穿，但不是静态平衡或统一应变屏障初态。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493",
+  "source_evidence_report_sha256": {
+    "geometry": "4a600646d2059dca78eaacacd8e78c24083dc512cda09654534c9eff6e66e3da",
+    "containment": "86e47ff441a1797f4601699ae0a8e63630f9fde495a0de548d70e729ebb815de",
+    "quality": "926aaad52dd621e6b112dfd57464574ddfd7ffa342ce6a8de469968893797735",
+    "provenance": "f9905fc4db509900cdfa4f4b197f31aa9160e5c6c5af3bf1b4bb0b56c10c715c",
+    "render": "4f0a1729fa4a9dfa2dc4be761d849c7deb70c8533df80356f5af4560050e4d81",
+    "status": "f0bb69dd1e5a541299b3d543942a31ebf41f7f31a3780dbc520f5c2a1bb11012",
+    "visual_review": "2014dbf5626a7194f5714e9026562c7162bb71663ff6939b67faef41c11158b0"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

@@ -1,0 +1,129 @@
+{
+  "case": "cc_05_06",
+  "source": "local-evidence:task9/data/prepared/source_repaired_00276.npz",
+  "source_sha256": "e0ec925fc78ebc8d5c20afd722e12f6f53062dd978a0d0ca3ae07ca5b2caecb3",
+  "accepted_firstframe_sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641",
+  "optional_reference_kind": "unrepaired bound source frame0, rigidly aligned to actual solver rest; proxy 3D reference, not original UV",
+  "used_in_completed_simulation": false,
+  "actual_exported_rest_unchanged": true,
+  "physical_solver_used": true,
+  "physical_solver_note": "900-step IPC transfer with the repaired frame0 proxy rest",
+  "future_use_requires": "select and validate a material reference, then independently revalidate geometry/strain and any dynamical solve; this optional reference is not certified dynamics-ready",
+  "quantiles": [
+    0,
+    0.01,
+    0.05,
+    0.5,
+    0.95,
+    0.99,
+    1
+  ],
+  "actual_reference": {
+    "principal_minimum": 0.7199506755746707,
+    "principal_maximum": 4.066242107266652,
+    "maximum_principal_quantiles": [
+      0.9862588365013807,
+      1.0028539920982575,
+      1.0098725802929478,
+      1.0371904771881049,
+      1.0898535518508115,
+      1.1111740810021395,
+      4.066242107266652
+    ],
+    "minimum_principal_quantiles": [
+      0.7199506755746707,
+      0.9527812614540268,
+      0.9683340867684073,
+      0.991362118856834,
+      1.0174754499102465,
+      1.0299443565133393,
+      1.061646805414508
+    ],
+    "rest_area_quantiles_m2": [
+      1.3911305252848066e-06,
+      4.002687144109955e-05,
+      4.541437536552386e-05,
+      6.944539231733022e-05,
+      0.00010265487270086425,
+      0.00011322933600413341,
+      0.0001487542788209319
+    ],
+    "final_to_rest_area_ratio_quantiles": [
+      0.8238979073512107,
+      0.9854757463304942,
+      0.9978296717496805,
+      1.0282382725563897,
+      1.0916249366960225,
+      1.117154903532812,
+      3.974851318186841
+    ],
+    "rest_total_area_m2": 1.1024011134038512,
+    "final_total_area_m2": 1.1393182786375933
+  },
+  "original_reference": {
+    "principal_minimum": 0.2500355312886055,
+    "principal_maximum": 1.7372422538499825,
+    "maximum_principal_quantiles": [
+      0.8713692686207739,
+      1.0026432508928544,
+      1.0098655036273687,
+      1.0372229530311288,
+      1.0899420313728712,
+      1.112077909075762,
+      1.7372422538499825
+    ],
+    "minimum_principal_quantiles": [
+      0.2500355312886055,
+      0.9496651588918394,
+      0.9680647272443367,
+      0.9913579543861846,
+      1.0174754499102436,
+      1.0299443565133357,
+      1.0616468054145058
+    ],
+    "rest_area_quantiles_m2": [
+      9.500560369367235e-06,
+      4.004680943244666e-05,
+      4.5435923945820116e-05,
+      6.946950602627345e-05,
+      0.00010265487270086407,
+      0.00011322933600413333,
+      0.0001487542788209328
+    ],
+    "final_to_rest_area_ratio_quantiles": [
+      0.2826306894321402,
+      0.9838818343631694,
+      0.9977410560179087,
+      1.0282382725563963,
+      1.0918326129709852,
+      1.1172322422956926,
+      1.3400557411323097
+    ],
+    "rest_total_area_m2": 1.1027100384464354,
+    "final_total_area_m2": 1.1393182786375933
+  },
+  "actual_maximum_face": {
+    "face_id": 10813,
+    "vertex_ids": [
+      5438,
+      5749,
+      5625
+    ],
+    "actual_rest_area_m2": 1.3911305252848066e-06,
+    "original_rest_area_m2": 1.9564531414858652e-05,
+    "actual_to_original_rest_area_ratio": 0.07110471985177658,
+    "final_area_m2": 5.529537002198266e-06,
+    "stretches_against_actual": [
+      4.066242107266652,
+      0.9775245087063968
+    ],
+    "stretches_against_original": [
+      1.1303621048398576,
+      0.2500355312886055
+    ]
+  },
+  "reference_rigid_fit_error_m": 3.062686598583602e-15,
+  "maximum_reference_vertex_difference_m": 0.00377532687628318,
+  "optional_reference_file": "local-evidence:task9/results/firstframes/cc_05_06/rest_reference_original.npz",
+  "optional_reference_sha256": "d2b454481233c3dec618c1b9adace143285bef2fb526378dadb34e2c6734172d"
+}

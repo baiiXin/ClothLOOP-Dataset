@@ -1,0 +1,2130 @@
+{
+  "passed": false,
+  "penetrating_vertices": [
+    {
+      "vertex_id": 148,
+      "winding": 1.0,
+      "distance_to_body_m": 8.621767489645336e-06
+    },
+    {
+      "vertex_id": 164,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0006234522556119
+    },
+    {
+      "vertex_id": 167,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0014072556500100066
+    },
+    {
+      "vertex_id": 168,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0018022195121943346
+    },
+    {
+      "vertex_id": 184,
+      "winding": 1.0,
+      "distance_to_body_m": 0.005861169930892113
+    },
+    {
+      "vertex_id": 194,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00354521804392603
+    },
+    {
+      "vertex_id": 195,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0030712677001017152
+    },
+    {
+      "vertex_id": 197,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0034030336781040262
+    },
+    {
+      "vertex_id": 199,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002718971936159406
+    },
+    {
+      "vertex_id": 200,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0024895659925282163
+    },
+    {
+      "vertex_id": 201,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0036360351666705295
+    },
+    {
+      "vertex_id": 209,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00033195843927191125
+    },
+    {
+      "vertex_id": 215,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004936018904965079
+    },
+    {
+      "vertex_id": 226,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00507164466779007
+    },
+    {
+      "vertex_id": 245,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0013117920835728476
+    },
+    {
+      "vertex_id": 263,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00218881051794359
+    },
+    {
+      "vertex_id": 281,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0006384510852824905
+    },
+    {
+      "vertex_id": 283,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.00964003400659557
+    },
+    {
+      "vertex_id": 297,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0008187336601998212
+    },
+    {
+      "vertex_id": 298,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0026573400718682377
+    },
+    {
+      "vertex_id": 300,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004693299134449871
+    },
+    {
+      "vertex_id": 329,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0020763422749849017
+    },
+    {
+      "vertex_id": 341,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0013154537003532165
+    },
+    {
+      "vertex_id": 353,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.001648964136173855
+    },
+    {
+      "vertex_id": 355,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0016635759225002856
+    },
+    {
+      "vertex_id": 358,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0033089073534952884
+    },
+    {
+      "vertex_id": 370,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002206541648181159
+    },
+    {
+      "vertex_id": 418,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.001557013742160622
+    },
+    {
+      "vertex_id": 425,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0004499016277044726
+    },
+    {
+      "vertex_id": 429,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0034688594572494405
+    },
+    {
+      "vertex_id": 435,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001970614001544117
+    },
+    {
+      "vertex_id": 438,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0001381949173221769
+    },
+    {
+      "vertex_id": 455,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001579389154676035
+    },
+    {
+      "vertex_id": 468,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006489042830737395
+    },
+    {
+      "vertex_id": 470,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002143290116205287
+    },
+    {
+      "vertex_id": 519,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0022034336510646465
+    },
+    {
+      "vertex_id": 532,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0005087118092212191
+    },
+    {
+      "vertex_id": 560,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003798846403593687
+    },
+    {
+      "vertex_id": 589,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0007228836778393016
+    },
+    {
+      "vertex_id": 635,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0007520339500159753
+    },
+    {
+      "vertex_id": 654,
+      "winding": 1.0,
+      "distance_to_body_m": 0.000342259098555835
+    },
+    {
+      "vertex_id": 698,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00010959968143671617
+    },
+    {
+      "vertex_id": 711,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0005039392496304881
+    },
+    {
+      "vertex_id": 721,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0031740826008545275
+    },
+    {
+      "vertex_id": 742,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00016055841623220988
+    },
+    {
+      "vertex_id": 752,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0007386907931248521
+    },
+    {
+      "vertex_id": 762,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0005306598785873502
+    },
+    {
+      "vertex_id": 793,
+      "winding": 1.0000000000000004,
+      "distance_to_body_m": 0.00021830754141887671
+    },
+    {
+      "vertex_id": 811,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0009970483173700642
+    },
+    {
+      "vertex_id": 855,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0006009123049462776
+    },
+    {
+      "vertex_id": 867,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004269882392975145
+    },
+    {
+      "vertex_id": 883,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0034816921381448053
+    },
+    {
+      "vertex_id": 898,
+      "winding": 1.0,
+      "distance_to_body_m": 4.689517234198663e-05
+    },
+    {
+      "vertex_id": 920,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004941227445879123
+    },
+    {
+      "vertex_id": 958,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.003409586282349374
+    },
+    {
+      "vertex_id": 1030,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003237335668425003
+    },
+    {
+      "vertex_id": 1059,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0020395591313010306
+    },
+    {
+      "vertex_id": 1070,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0034909249867709404
+    },
+    {
+      "vertex_id": 1085,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0003158375906789189
+    },
+    {
+      "vertex_id": 1187,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002212752589059544
+    },
+    {
+      "vertex_id": 1188,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0016732127068597065
+    },
+    {
+      "vertex_id": 1191,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0003737581598915742
+    },
+    {
+      "vertex_id": 1199,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0003579766071310515
+    },
+    {
+      "vertex_id": 1200,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00011704460922267712
+    },
+    {
+      "vertex_id": 1201,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0001399159196576274
+    },
+    {
+      "vertex_id": 1202,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0001377846168268382
+    },
+    {
+      "vertex_id": 1220,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0012980816620015818
+    },
+    {
+      "vertex_id": 1221,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.002747108974242975
+    },
+    {
+      "vertex_id": 1222,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.00265666063834854
+    },
+    {
+      "vertex_id": 1442,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002525303927199178
+    },
+    {
+      "vertex_id": 1443,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0023356682258377083
+    },
+    {
+      "vertex_id": 1444,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0015335102485456722
+    },
+    {
+      "vertex_id": 1541,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00048032405732043965
+    },
+    {
+      "vertex_id": 1547,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0009041353872519864
+    },
+    {
+      "vertex_id": 1548,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0027168188908048498
+    },
+    {
+      "vertex_id": 1549,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001927701507773918
+    },
+    {
+      "vertex_id": 1568,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0013199189822035613
+    },
+    {
+      "vertex_id": 1590,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00245810354318706
+    },
+    {
+      "vertex_id": 1895,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0009145789167075804
+    },
+    {
+      "vertex_id": 1907,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00020251248410776054
+    },
+    {
+      "vertex_id": 1914,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0014305115650083933
+    },
+    {
+      "vertex_id": 1956,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0005741565794847593
+    },
+    {
+      "vertex_id": 1970,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 2.950650052451075e-05
+    },
+    {
+      "vertex_id": 1984,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0015457911516337853
+    },
+    {
+      "vertex_id": 1987,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0005437273482472537
+    },
+    {
+      "vertex_id": 1994,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0015204583153930187
+    },
+    {
+      "vertex_id": 2005,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0026371844428166686
+    },
+    {
+      "vertex_id": 2006,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0014016845204710658
+    },
+    {
+      "vertex_id": 2007,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0015435524476965427
+    },
+    {
+      "vertex_id": 2008,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0014920491959780921
+    },
+    {
+      "vertex_id": 2009,
+      "winding": 1.0,
+      "distance_to_body_m": 6.65217041009853e-05
+    },
+    {
+      "vertex_id": 2019,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0005480560813838674
+    },
+    {
+      "vertex_id": 2119,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0014548451851879775
+    },
+    {
+      "vertex_id": 2120,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004790327559097563
+    },
+    {
+      "vertex_id": 2121,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006659438430531287
+    },
+    {
+      "vertex_id": 2122,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0049649020951039145
+    },
+    {
+      "vertex_id": 2123,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.001728201127496989
+    },
+    {
+      "vertex_id": 2125,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002748590312225782
+    },
+    {
+      "vertex_id": 2126,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0017652213835634462
+    },
+    {
+      "vertex_id": 2141,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00013720117872036914
+    },
+    {
+      "vertex_id": 2147,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.00028947370427046405
+    },
+    {
+      "vertex_id": 2247,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.016524716262407767
+    },
+    {
+      "vertex_id": 2256,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0027726494072201286
+    },
+    {
+      "vertex_id": 2257,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00585692273899752
+    },
+    {
+      "vertex_id": 2290,
+      "winding": 1.0,
+      "distance_to_body_m": 0.008250234491059076
+    },
+    {
+      "vertex_id": 2295,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003983432847181002
+    },
+    {
+      "vertex_id": 2296,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004581323920890252
+    },
+    {
+      "vertex_id": 2297,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004432145517680737
+    },
+    {
+      "vertex_id": 2298,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004822195718969163
+    },
+    {
+      "vertex_id": 2322,
+      "winding": 1.0,
+      "distance_to_body_m": 0.007732148272253012
+    },
+    {
+      "vertex_id": 2323,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00498675880433716
+    },
+    {
+      "vertex_id": 2324,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0036010215138085966
+    },
+    {
+      "vertex_id": 2328,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0052937195458246915
+    },
+    {
+      "vertex_id": 2359,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01181004373730492
+    },
+    {
+      "vertex_id": 2360,
+      "winding": 1.0,
+      "distance_to_body_m": 0.016437124669766448
+    },
+    {
+      "vertex_id": 2378,
+      "winding": 1.0000000000000095,
+      "distance_to_body_m": 0.00013297907951800007
+    },
+    {
+      "vertex_id": 2397,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012667322539364851
+    },
+    {
+      "vertex_id": 2398,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0073719054447051605
+    },
+    {
+      "vertex_id": 2399,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.019656130591260642
+    },
+    {
+      "vertex_id": 2400,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01045092922185514
+    },
+    {
+      "vertex_id": 2401,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.016396995961637836
+    },
+    {
+      "vertex_id": 2402,
+      "winding": 1.0,
+      "distance_to_body_m": 0.018549009801115082
+    },
+    {
+      "vertex_id": 2403,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.016519894661683715
+    },
+    {
+      "vertex_id": 2404,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01662197854768099
+    },
+    {
+      "vertex_id": 2406,
+      "winding": 1.0,
+      "distance_to_body_m": 0.02050824580102314
+    },
+    {
+      "vertex_id": 2407,
+      "winding": 1.0,
+      "distance_to_body_m": 0.020692030396183014
+    },
+    {
+      "vertex_id": 2408,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.02089392907597911
+    },
+    {
+      "vertex_id": 2409,
+      "winding": 1.0,
+      "distance_to_body_m": 0.009728129346791365
+    },
+    {
+      "vertex_id": 2411,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.008651711100963213
+    },
+    {
+      "vertex_id": 2412,
+      "winding": 1.0,
+      "distance_to_body_m": 0.005538046784850114
+    },
+    {
+      "vertex_id": 2414,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.001790767436967876
+    },
+    {
+      "vertex_id": 2426,
+      "winding": 1.0000000000000007,
+      "distance_to_body_m": 0.0007161311971087579
+    },
+    {
+      "vertex_id": 2433,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0030833590242819423
+    },
+    {
+      "vertex_id": 2434,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.008138881196123153
+    },
+    {
+      "vertex_id": 2470,
+      "winding": 1.0000000000000009,
+      "distance_to_body_m": 0.0011618067732082533
+    },
+    {
+      "vertex_id": 2473,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003911030301289798
+    },
+    {
+      "vertex_id": 2475,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.001275995719216269
+    },
+    {
+      "vertex_id": 2476,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.004264000532714645
+    },
+    {
+      "vertex_id": 2503,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004546055795689995
+    },
+    {
+      "vertex_id": 2526,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0018369199442328796
+    },
+    {
+      "vertex_id": 2527,
+      "winding": 1.0,
+      "distance_to_body_m": 0.014889474514175079
+    },
+    {
+      "vertex_id": 2528,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004732974911974836
+    },
+    {
+      "vertex_id": 2529,
+      "winding": 1.0,
+      "distance_to_body_m": 0.009595055310519539
+    },
+    {
+      "vertex_id": 2530,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0029670324754847532
+    },
+    {
+      "vertex_id": 2531,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.014794924192004679
+    },
+    {
+      "vertex_id": 2532,
+      "winding": 1.0,
+      "distance_to_body_m": 0.010040314245279758
+    },
+    {
+      "vertex_id": 2533,
+      "winding": 1.0,
+      "distance_to_body_m": 0.019694579919882386
+    },
+    {
+      "vertex_id": 2534,
+      "winding": 1.0,
+      "distance_to_body_m": 0.013808515597976145
+    },
+    {
+      "vertex_id": 2536,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012852139948034837
+    },
+    {
+      "vertex_id": 2537,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0005389959541992538
+    },
+    {
+      "vertex_id": 2538,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.013039355871959254
+    },
+    {
+      "vertex_id": 2539,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012238736362915191
+    },
+    {
+      "vertex_id": 2540,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003995527448450611
+    },
+    {
+      "vertex_id": 2543,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0009330427478293915
+    },
+    {
+      "vertex_id": 2544,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0044095346017755934
+    },
+    {
+      "vertex_id": 2545,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004751423423025751
+    },
+    {
+      "vertex_id": 2546,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.005133957914702679
+    },
+    {
+      "vertex_id": 2547,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.009652265115754463
+    },
+    {
+      "vertex_id": 2548,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.008979151158780951
+    },
+    {
+      "vertex_id": 2549,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004308006380368291
+    },
+    {
+      "vertex_id": 2550,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003937996299924725
+    },
+    {
+      "vertex_id": 2551,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0015510141541002858
+    },
+    {
+      "vertex_id": 2552,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.010327774189755966
+    },
+    {
+      "vertex_id": 2583,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002039425231965987
+    },
+    {
+      "vertex_id": 2584,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006714472562860712
+    },
+    {
+      "vertex_id": 2606,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01828595061013643
+    },
+    {
+      "vertex_id": 2607,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.006679880509626306
+    },
+    {
+      "vertex_id": 2610,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.003501239909793713
+    },
+    {
+      "vertex_id": 2611,
+      "winding": 1.0000000000000004,
+      "distance_to_body_m": 0.0011857539280493378
+    },
+    {
+      "vertex_id": 2612,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0009654153674560096
+    },
+    {
+      "vertex_id": 2644,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004377789772702557
+    },
+    {
+      "vertex_id": 2645,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0032807978657263303
+    },
+    {
+      "vertex_id": 2679,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0011235357768922562
+    },
+    {
+      "vertex_id": 2680,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.006393090044201588
+    },
+    {
+      "vertex_id": 2681,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.006004183617955703
+    },
+    {
+      "vertex_id": 2682,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0034687467463464495
+    },
+    {
+      "vertex_id": 2684,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0019561241261443056
+    },
+    {
+      "vertex_id": 2718,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.004053883436906147
+    },
+    {
+      "vertex_id": 2719,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01032365653561675
+    },
+    {
+      "vertex_id": 2721,
+      "winding": 1.0,
+      "distance_to_body_m": 0.005730261633698921
+    },
+    {
+      "vertex_id": 2722,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002285059997092374
+    },
+    {
+      "vertex_id": 2723,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001146867972595351
+    },
+    {
+      "vertex_id": 2724,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002666977894391671
+    },
+    {
+      "vertex_id": 2725,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0031193337769976097
+    },
+    {
+      "vertex_id": 2726,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0064355634591988856
+    },
+    {
+      "vertex_id": 2727,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0024192015685039698
+    },
+    {
+      "vertex_id": 2766,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003700008365485241
+    },
+    {
+      "vertex_id": 2767,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.014767117758611874
+    },
+    {
+      "vertex_id": 2768,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006269200046023942
+    },
+    {
+      "vertex_id": 2771,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.00884813126156904
+    },
+    {
+      "vertex_id": 2772,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.017596255752094437
+    },
+    {
+      "vertex_id": 2773,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0030827294419325563
+    },
+    {
+      "vertex_id": 2784,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0011821221832764362
+    },
+    {
+      "vertex_id": 2785,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0020826328341055963
+    },
+    {
+      "vertex_id": 2787,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0003108877643189606
+    },
+    {
+      "vertex_id": 2788,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0007160257780883988
+    },
+    {
+      "vertex_id": 2789,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0025255251455320554
+    },
+    {
+      "vertex_id": 2790,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00665945322323596
+    },
+    {
+      "vertex_id": 2791,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0024306041445631165
+    },
+    {
+      "vertex_id": 2807,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0075816279671578266
+    },
+    {
+      "vertex_id": 2808,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00783168744538939
+    },
+    {
+      "vertex_id": 2894,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.006553989124834891
+    },
+    {
+      "vertex_id": 2895,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0045849695480393495
+    },
+    {
+      "vertex_id": 3078,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0036611557220578065
+    },
+    {
+      "vertex_id": 3116,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004738882292598382
+    },
+    {
+      "vertex_id": 3123,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002137898547838723
+    },
+    {
+      "vertex_id": 3155,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004174324844934967
+    },
+    {
+      "vertex_id": 3158,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.003134266355717422
+    },
+    {
+      "vertex_id": 3160,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0030128993406456335
+    },
+    {
+      "vertex_id": 3167,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.003940154049101874
+    },
+    {
+      "vertex_id": 3168,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0026374962803579344
+    },
+    {
+      "vertex_id": 3169,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.000760070902094902
+    },
+    {
+      "vertex_id": 3246,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002561941159697467
+    },
+    {
+      "vertex_id": 3358,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0031911324821276405
+    },
+    {
+      "vertex_id": 3360,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0022874814488239538
+    },
+    {
+      "vertex_id": 3362,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00388175327999197
+    },
+    {
+      "vertex_id": 3372,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0005583161345424721
+    },
+    {
+      "vertex_id": 3375,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0012977812383963116
+    },
+    {
+      "vertex_id": 3437,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0014239725530270971
+    },
+    {
+      "vertex_id": 3438,
+      "winding": 0.999999999999998,
+      "distance_to_body_m": 0.00021991801496749728
+    },
+    {
+      "vertex_id": 4238,
+      "winding": 1.0,
+      "distance_to_body_m": 0.007832394429256963
+    },
+    {
+      "vertex_id": 4239,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.013572778141489647
+    },
+    {
+      "vertex_id": 4240,
+      "winding": 1.0,
+      "distance_to_body_m": 0.011289219266061207
+    },
+    {
+      "vertex_id": 4241,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006134420326114614
+    },
+    {
+      "vertex_id": 4251,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.000775501741955297
+    },
+    {
+      "vertex_id": 4252,
+      "winding": 0.9999999999999989,
+      "distance_to_body_m": 0.0010135494561737226
+    },
+    {
+      "vertex_id": 4253,
+      "winding": 1.0,
+      "distance_to_body_m": 7.32746199275772e-05
+    },
+    {
+      "vertex_id": 4254,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 2.3844214305798907e-05
+    },
+    {
+      "vertex_id": 4302,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00041322296319598823
+    },
+    {
+      "vertex_id": 4323,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0009321381737178384
+    },
+    {
+      "vertex_id": 4350,
+      "winding": 1.0000000000000007,
+      "distance_to_body_m": 0.0009089861160767827
+    },
+    {
+      "vertex_id": 4370,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0004271438660984165
+    },
+    {
+      "vertex_id": 4413,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00047220054109312824
+    },
+    {
+      "vertex_id": 4417,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00031585311892412635
+    },
+    {
+      "vertex_id": 4426,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0002364997874675527
+    },
+    {
+      "vertex_id": 4499,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00012684172821156425
+    },
+    {
+      "vertex_id": 4503,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004016643116848601
+    },
+    {
+      "vertex_id": 4504,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0037418982728532005
+    },
+    {
+      "vertex_id": 4546,
+      "winding": 0.9999999999999996,
+      "distance_to_body_m": 0.00041224348736391037
+    },
+    {
+      "vertex_id": 4596,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0027734808838733816
+    },
+    {
+      "vertex_id": 4601,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.008523812459749031
+    },
+    {
+      "vertex_id": 4602,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.005761303176662759
+    },
+    {
+      "vertex_id": 4603,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003109486224601314
+    },
+    {
+      "vertex_id": 4612,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.004800014919079709
+    },
+    {
+      "vertex_id": 4657,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.00011764822356201071
+    },
+    {
+      "vertex_id": 4661,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0009127571921837147
+    },
+    {
+      "vertex_id": 4715,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002197876328144091
+    },
+    {
+      "vertex_id": 4727,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.006951810934591122
+    },
+    {
+      "vertex_id": 4752,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0005207804454099585
+    },
+    {
+      "vertex_id": 4753,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0014505744189751203
+    },
+    {
+      "vertex_id": 4798,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0005337136907163413
+    },
+    {
+      "vertex_id": 4809,
+      "winding": 0.9999999999999994,
+      "distance_to_body_m": 0.00033888413618616403
+    },
+    {
+      "vertex_id": 4829,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0007697222269067624
+    },
+    {
+      "vertex_id": 4832,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0007413591922109195
+    },
+    {
+      "vertex_id": 4833,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0020039912171975036
+    },
+    {
+      "vertex_id": 4888,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0019608273948901692
+    },
+    {
+      "vertex_id": 4907,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0016106296877254251
+    },
+    {
+      "vertex_id": 4936,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0002138391957662948
+    },
+    {
+      "vertex_id": 4949,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0024600490518543066
+    },
+    {
+      "vertex_id": 4976,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0020580550557796453
+    },
+    {
+      "vertex_id": 5005,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.002120153877971087
+    },
+    {
+      "vertex_id": 5033,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00045329671189357345
+    },
+    {
+      "vertex_id": 5255,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00278425823308916
+    },
+    {
+      "vertex_id": 5256,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 2.444850725429318e-05
+    },
+    {
+      "vertex_id": 5264,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0009884297273661231
+    },
+    {
+      "vertex_id": 5267,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0012183724143746363
+    },
+    {
+      "vertex_id": 5294,
+      "winding": 1.0,
+      "distance_to_body_m": 5.618688527599656e-05
+    },
+    {
+      "vertex_id": 5375,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 4.529647310705417e-05
+    },
+    {
+      "vertex_id": 5378,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0006506987843453043
+    },
+    {
+      "vertex_id": 5397,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0003797828603124105
+    },
+    {
+      "vertex_id": 5509,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0071662406767060835
+    },
+    {
+      "vertex_id": 5510,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.005412324524107527
+    },
+    {
+      "vertex_id": 5511,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01329999642408591
+    },
+    {
+      "vertex_id": 5515,
+      "winding": 1.0,
+      "distance_to_body_m": 2.6583964130766163e-05
+    },
+    {
+      "vertex_id": 5518,
+      "winding": 1.0000000000000004,
+      "distance_to_body_m": 0.0016941355902356935
+    },
+    {
+      "vertex_id": 5597,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.005008362316705131
+    },
+    {
+      "vertex_id": 5599,
+      "winding": 1.0,
+      "distance_to_body_m": 0.014360218100344697
+    },
+    {
+      "vertex_id": 5600,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01762528484734989
+    },
+    {
+      "vertex_id": 5603,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0004278496870535422
+    },
+    {
+      "vertex_id": 5605,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012083211320574537
+    },
+    {
+      "vertex_id": 5607,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00609814128474878
+    },
+    {
+      "vertex_id": 5611,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00525224540222178
+    },
+    {
+      "vertex_id": 5655,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0008172870398334037
+    },
+    {
+      "vertex_id": 5673,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004390495597443654
+    },
+    {
+      "vertex_id": 5674,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01695776623133816
+    },
+    {
+      "vertex_id": 5677,
+      "winding": 1.0,
+      "distance_to_body_m": 0.016634446556705984
+    },
+    {
+      "vertex_id": 5680,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.002817089915526991
+    },
+    {
+      "vertex_id": 5681,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006451067598521205
+    },
+    {
+      "vertex_id": 5724,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.009833236859349684
+    },
+    {
+      "vertex_id": 5731,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001241009943531502
+    },
+    {
+      "vertex_id": 5733,
+      "winding": 1.0,
+      "distance_to_body_m": 0.011336314338789026
+    },
+    {
+      "vertex_id": 5734,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0026315818746511428
+    },
+    {
+      "vertex_id": 5735,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004702037166877171
+    },
+    {
+      "vertex_id": 5739,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01467862285137513
+    },
+    {
+      "vertex_id": 5740,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.015453204544063003
+    },
+    {
+      "vertex_id": 5741,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006645543628868427
+    },
+    {
+      "vertex_id": 5742,
+      "winding": 1.0,
+      "distance_to_body_m": 0.019703314509194887
+    },
+    {
+      "vertex_id": 5743,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.01174068462828092
+    },
+    {
+      "vertex_id": 5745,
+      "winding": 1.0,
+      "distance_to_body_m": 0.009303642308572039
+    },
+    {
+      "vertex_id": 5747,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012652774052637577
+    },
+    {
+      "vertex_id": 5798,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003996282235191209
+    },
+    {
+      "vertex_id": 5799,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004429012699189488
+    },
+    {
+      "vertex_id": 5800,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.007279208865798744
+    },
+    {
+      "vertex_id": 5801,
+      "winding": 1.0000000000000004,
+      "distance_to_body_m": 0.00281142559107843
+    },
+    {
+      "vertex_id": 5803,
+      "winding": 1.0,
+      "distance_to_body_m": 0.007150889375645294
+    },
+    {
+      "vertex_id": 5804,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01476821346453436
+    },
+    {
+      "vertex_id": 5805,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.00851392766288615
+    },
+    {
+      "vertex_id": 5806,
+      "winding": 1.0,
+      "distance_to_body_m": 0.009837305230937027
+    },
+    {
+      "vertex_id": 5807,
+      "winding": 1.0,
+      "distance_to_body_m": 0.011027101256580324
+    },
+    {
+      "vertex_id": 5808,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.011042682228414553
+    },
+    {
+      "vertex_id": 5809,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012378728886458131
+    },
+    {
+      "vertex_id": 5810,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01730354462558792
+    },
+    {
+      "vertex_id": 5819,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.018776038368287312
+    },
+    {
+      "vertex_id": 5820,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.014660222541856067
+    },
+    {
+      "vertex_id": 5821,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0139847739981117
+    },
+    {
+      "vertex_id": 5822,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.02177850136150029
+    },
+    {
+      "vertex_id": 5823,
+      "winding": 1.0,
+      "distance_to_body_m": 0.022581316707823238
+    },
+    {
+      "vertex_id": 5824,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01952155390645773
+    },
+    {
+      "vertex_id": 5825,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.023540331166915795
+    },
+    {
+      "vertex_id": 5826,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.011779972259407696
+    },
+    {
+      "vertex_id": 5827,
+      "winding": 1.0,
+      "distance_to_body_m": 0.023341403889806055
+    },
+    {
+      "vertex_id": 5828,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0066931028387185836
+    },
+    {
+      "vertex_id": 5829,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01625704910741927
+    },
+    {
+      "vertex_id": 5830,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0025387073195793906
+    },
+    {
+      "vertex_id": 5831,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.021926726095413556
+    },
+    {
+      "vertex_id": 5832,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0224213190249661
+    },
+    {
+      "vertex_id": 5833,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.016173696054712486
+    },
+    {
+      "vertex_id": 5835,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012914695550822154
+    },
+    {
+      "vertex_id": 5836,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0034865235830274536
+    },
+    {
+      "vertex_id": 5839,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0015125745191033682
+    },
+    {
+      "vertex_id": 5863,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002520354587563473
+    },
+    {
+      "vertex_id": 5865,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0055264523346872235
+    },
+    {
+      "vertex_id": 5866,
+      "winding": 1.0,
+      "distance_to_body_m": 0.011648228129246563
+    },
+    {
+      "vertex_id": 5867,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006039954242033286
+    },
+    {
+      "vertex_id": 5868,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006003803427181516
+    },
+    {
+      "vertex_id": 5869,
+      "winding": 1.0,
+      "distance_to_body_m": 0.014659780234358
+    },
+    {
+      "vertex_id": 5870,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.005379504954313465
+    },
+    {
+      "vertex_id": 5871,
+      "winding": 1.0,
+      "distance_to_body_m": 0.014839695060954155
+    },
+    {
+      "vertex_id": 5872,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01849598214046455
+    },
+    {
+      "vertex_id": 5873,
+      "winding": 1.0,
+      "distance_to_body_m": 0.014693618789398417
+    },
+    {
+      "vertex_id": 5874,
+      "winding": 1.0,
+      "distance_to_body_m": 0.013944659495883131
+    },
+    {
+      "vertex_id": 5886,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01629873195878441
+    },
+    {
+      "vertex_id": 5887,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.018573234016213667
+    },
+    {
+      "vertex_id": 5888,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.007715481020679163
+    },
+    {
+      "vertex_id": 5889,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.009359886966128597
+    },
+    {
+      "vertex_id": 5890,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.021845171841642558
+    },
+    {
+      "vertex_id": 5891,
+      "winding": 1.0,
+      "distance_to_body_m": 0.021295714315052318
+    },
+    {
+      "vertex_id": 5892,
+      "winding": 1.0,
+      "distance_to_body_m": 0.010228132233563997
+    },
+    {
+      "vertex_id": 5893,
+      "winding": 1.0,
+      "distance_to_body_m": 0.005483189909242723
+    },
+    {
+      "vertex_id": 5895,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0005900519720356636
+    },
+    {
+      "vertex_id": 5896,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0003618825169420061
+    },
+    {
+      "vertex_id": 5897,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0035112580023708424
+    },
+    {
+      "vertex_id": 5903,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.0023820159907298796
+    },
+    {
+      "vertex_id": 5905,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006290587485941992
+    },
+    {
+      "vertex_id": 5914,
+      "winding": 1.0,
+      "distance_to_body_m": 8.699542406298746e-05
+    },
+    {
+      "vertex_id": 5915,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001958680982243738
+    },
+    {
+      "vertex_id": 5917,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0002806021591281258
+    },
+    {
+      "vertex_id": 5919,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0035243529759746337
+    },
+    {
+      "vertex_id": 5921,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.005557393029586734
+    },
+    {
+      "vertex_id": 5922,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.006242464855474106
+    },
+    {
+      "vertex_id": 5923,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.016697639065897912
+    },
+    {
+      "vertex_id": 5924,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01372533383304374
+    },
+    {
+      "vertex_id": 5925,
+      "winding": 1.0,
+      "distance_to_body_m": 0.02077925361299235
+    },
+    {
+      "vertex_id": 5926,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012901906702164392
+    },
+    {
+      "vertex_id": 5927,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01264403659918345
+    },
+    {
+      "vertex_id": 5928,
+      "winding": 1.0,
+      "distance_to_body_m": 0.018314262829957285
+    },
+    {
+      "vertex_id": 5929,
+      "winding": 1.0,
+      "distance_to_body_m": 0.011030740801572637
+    },
+    {
+      "vertex_id": 5930,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01577909546780787
+    },
+    {
+      "vertex_id": 5931,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012862800747892674
+    },
+    {
+      "vertex_id": 5932,
+      "winding": 1.0,
+      "distance_to_body_m": 0.017494787151633405
+    },
+    {
+      "vertex_id": 5933,
+      "winding": 1.0,
+      "distance_to_body_m": 0.013529714779133745
+    },
+    {
+      "vertex_id": 5953,
+      "winding": 1.0,
+      "distance_to_body_m": 0.009772930646456145
+    },
+    {
+      "vertex_id": 5954,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.009984413811767071
+    },
+    {
+      "vertex_id": 5963,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006676086848286854
+    },
+    {
+      "vertex_id": 5971,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.007270984232062024
+    },
+    {
+      "vertex_id": 5972,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.011914531453967479
+    },
+    {
+      "vertex_id": 5973,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00302005768060478
+    },
+    {
+      "vertex_id": 5974,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.010449936567590051
+    },
+    {
+      "vertex_id": 5975,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.021404595810912763
+    },
+    {
+      "vertex_id": 5976,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.012267734009595356
+    },
+    {
+      "vertex_id": 5977,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.015718530980309137
+    },
+    {
+      "vertex_id": 5978,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0052130739922632615
+    },
+    {
+      "vertex_id": 5979,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.016574229088321322
+    },
+    {
+      "vertex_id": 5980,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.005752999466772499
+    },
+    {
+      "vertex_id": 5981,
+      "winding": 1.0,
+      "distance_to_body_m": 0.015934492586549387
+    },
+    {
+      "vertex_id": 5991,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0035693867134015443
+    },
+    {
+      "vertex_id": 6005,
+      "winding": 1.0,
+      "distance_to_body_m": 0.001496773069801407
+    },
+    {
+      "vertex_id": 6032,
+      "winding": 1.0,
+      "distance_to_body_m": 0.004334460600302926
+    },
+    {
+      "vertex_id": 6035,
+      "winding": 1.0,
+      "distance_to_body_m": 0.002020985532220764
+    },
+    {
+      "vertex_id": 6036,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0034427857086325488
+    },
+    {
+      "vertex_id": 6040,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.0011299390058973288
+    },
+    {
+      "vertex_id": 6042,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0035760305775121366
+    },
+    {
+      "vertex_id": 6043,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0004534403040386338
+    },
+    {
+      "vertex_id": 6051,
+      "winding": 1.0,
+      "distance_to_body_m": 0.005396094660586332
+    },
+    {
+      "vertex_id": 6052,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01860480579171354
+    },
+    {
+      "vertex_id": 6061,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.003527261973291878
+    },
+    {
+      "vertex_id": 6062,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0018526971815629209
+    },
+    {
+      "vertex_id": 6063,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.011529656649634753
+    },
+    {
+      "vertex_id": 6076,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0022828905394897134
+    },
+    {
+      "vertex_id": 6087,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.010711605825229177
+    },
+    {
+      "vertex_id": 6118,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0017669600596791032
+    },
+    {
+      "vertex_id": 6122,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.002458944610762761
+    },
+    {
+      "vertex_id": 6123,
+      "winding": 1.0,
+      "distance_to_body_m": 0.006480976652158828
+    },
+    {
+      "vertex_id": 6170,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0001534127181296173
+    },
+    {
+      "vertex_id": 6171,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.006829354780024544
+    },
+    {
+      "vertex_id": 6173,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.00019073927132293115
+    },
+    {
+      "vertex_id": 6175,
+      "winding": 1.0,
+      "distance_to_body_m": 0.003673714119803946
+    },
+    {
+      "vertex_id": 6176,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.021577080332457414
+    },
+    {
+      "vertex_id": 6177,
+      "winding": 1.0,
+      "distance_to_body_m": 0.01943650540200755
+    },
+    {
+      "vertex_id": 6178,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.0067624290099541195
+    },
+    {
+      "vertex_id": 6179,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.0015171170637433475
+    },
+    {
+      "vertex_id": 6180,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.017783758388666845
+    },
+    {
+      "vertex_id": 6209,
+      "winding": 1.0,
+      "distance_to_body_m": 0.014833654305039239
+    },
+    {
+      "vertex_id": 6210,
+      "winding": 1.0,
+      "distance_to_body_m": 0.0175402834115708
+    },
+    {
+      "vertex_id": 6222,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.003588507335539983
+    },
+    {
+      "vertex_id": 6224,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.006996586340329718
+    },
+    {
+      "vertex_id": 6241,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01669563460513596
+    },
+    {
+      "vertex_id": 6242,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.01216199451587723
+    },
+    {
+      "vertex_id": 6245,
+      "winding": 1.0,
+      "distance_to_body_m": 0.00022102990088596655
+    },
+    {
+      "vertex_id": 6246,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.0070626334327985275
+    },
+    {
+      "vertex_id": 6281,
+      "winding": 0.9999999999999999,
+      "distance_to_body_m": 0.016004723599160227
+    },
+    {
+      "vertex_id": 6316,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.010632352930508635
+    },
+    {
+      "vertex_id": 6317,
+      "winding": 0.9999999999999997,
+      "distance_to_body_m": 0.0004925844720589983
+    },
+    {
+      "vertex_id": 6340,
+      "winding": 1.0000000000000002,
+      "distance_to_body_m": 0.004132275739490498
+    }
+  ],
+  "near_surface_candidates": [],
+  "maximum_abs_winding": 1.0000000000000095,
+  "contact_tolerance_m": 1e-07,
+  "scope": "final first-frame vertices; not a full-body self-intersection certificate",
+  "geometry_sha256": "24898170326f0ae098d6df98ac24cc9b3304862a6e6cb36171f75e3b760b0b11"
+}

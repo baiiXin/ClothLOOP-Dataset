@@ -1,0 +1,36 @@
+{
+  "id": "cc_01_01",
+  "case_id": "cc_01_01",
+  "variant": "default",
+  "directory": "cases/cc_01_01/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "8418a581449d1486fe6c043530e2b936d7c0419d2929753ade3ec1e1e10e5262",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "CounterCraft",
+    "title": "01_01",
+    "outfit": "01799 · 内搭 + 外套",
+    "method": "原 restpose 体型适配、蒙皮与局部几何去穿透；没有物理求解。",
+    "caution": "派生代理 rest 的个别小面造成最大主伸长 13.013；原参考另存。几何通过，不可直接当作动力学就绪初值。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "8418a581449d1486fe6c043530e2b936d7c0419d2929753ade3ec1e1e10e5262",
+  "source_evidence_report_sha256": {
+    "geometry": "64900725c2f8f71edb1881fd079664794ecc0865b455055a41044ed5091b1ee4",
+    "containment": "2707b8d8ac55012640913bb43a87ed37d0a896cfd81e17d538ba24996bc05831",
+    "quality": "3573388334491a3314adcd4a727d327540cfdd8368f674d6e28cdb852d71ff2d",
+    "provenance": "145224664eb5d7b8e389a2840f66651ff08ae1000912cc000085f1faf844b343",
+    "render": "4bd796a57a79e0872da118ea4f85a0824cb5213cfa565d77d5ba6ede9cebe0dd",
+    "status": "7ac25d7a69e51ac005bdf170847d910cb77f2989488ef2889411b3bc614bdae1",
+    "visual_review": "554565abffae9b8b21679ec9c291c877eb3fbc5db1c7599f0e6e0a152ea20e24"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cipc_multilayer",
+  "case_id": "cipc_multilayer",
+  "variant": "default",
+  "directory": "cases/cipc_multilayer/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "C-IPC",
+    "title": "多层踢腿",
+    "outfit": "Kick · 原生多层衣物",
+    "method": "原生初态局部微调 0.045 mm，保留 UV rest 和 791 条缝合。",
+    "caution": "最大原生缝合间隙 0.300874 mm 保持不变；严格检查没有使用缝合区域碰撞豁免。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b",
+  "source_evidence_report_sha256": {
+    "geometry": "4c50ad40691784ce119750eb16e85550bcef84ac570315a6862c24baeb7e5382",
+    "containment": "944b7a8d6d88135e234d743ae69487a82a11edc8c075e5fe923246364734862f",
+    "quality": "4be76f81922c6fa86c0298cfb33fc45bca51eb77ba1900d338e8ba88ce35a47c",
+    "provenance": "a775b9f22acccb0f0361912597452b8f95ff4e0ca750bcba077c147ba0064b5d",
+    "render": "e5fb31174cd5b8ef2cf7195c39ff33acfefe60221717972aea28a4a428623fb2",
+    "status": "c828c7a2dbda119278b41d297e873eedb0c1e1d2eb231963ede052ec26e9d558",
+    "visual_review": "b6e810692276b2dbe4bbfb291a7cdb32f4e274d7bea7978b4be3b8c23919270d"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

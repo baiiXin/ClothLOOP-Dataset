@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "reviewed_at": "2026-09-22 21:12:00 +08:00",
+  "reviewed_images": [
+    "preview_front_back.png"
+  ],
+  "scope": "The exported 85_12 skirt target first frame only, not a rollout or equilibrium certificate.",
+  "observations": "实际正背图已查看：裙子围绕双腿、腰缘保持穿着，内搭和外套覆盖躯干/肩部，未见整件脱落；保留原松弛褶皱与腰部露肤。",
+  "source": "Task8 accepted transfer_v13_collar_support final state, cloth/body/rest/topology arrays exactly unchanged."
+}

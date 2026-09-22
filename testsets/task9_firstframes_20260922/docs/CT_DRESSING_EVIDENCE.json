@@ -1,0 +1,238 @@
+{
+  "scope": "bounded continuation: original-v1.0 reconstruction remains unavailable; v1.1 algorithm branch independently assessed",
+  "formal_accepted": 12,
+  "formal_total": 14,
+  "formal_npz_unchanged": [
+    {
+      "case": "cc_05_06",
+      "firstframe_sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641"
+    },
+    {
+      "case": "cc_05_08",
+      "firstframe_sha256": "7b3749f8908a8e13328793a147b98c26cfbc46c8146bf29b16313d5f34baa616"
+    },
+    {
+      "case": "cc_05_16",
+      "firstframe_sha256": "87e4edc70072c196e1f9ce57f3bac55a7dc0a3993707e5f50747108a76e8df07"
+    },
+    {
+      "case": "cc_01_01",
+      "firstframe_sha256": "8418a581449d1486fe6c043530e2b936d7c0419d2929753ade3ec1e1e10e5262"
+    },
+    {
+      "case": "cc_55_27",
+      "firstframe_sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37"
+    },
+    {
+      "case": "cc_144_02",
+      "firstframe_sha256": "70465974a047cd15212c1b48f04d752172d95f3c9da099bd4be430727b530493"
+    },
+    {
+      "case": "dlayers_00396",
+      "firstframe_sha256": "59c864af9a93e92884e12facc16f42d5271555c1803d9d96dbae177d4e644d88"
+    },
+    {
+      "case": "dlayers_00756",
+      "firstframe_sha256": "d97cbe214f0db09c86a388a63e10ed9252a1db868f64da0559932d9aba487afd"
+    },
+    {
+      "case": "added_06_13",
+      "firstframe_sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0"
+    },
+    {
+      "case": "added_85_12",
+      "firstframe_sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0"
+    },
+    {
+      "case": "cipc_dress_knife",
+      "firstframe_sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24"
+    },
+    {
+      "case": "cipc_multilayer",
+      "firstframe_sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b"
+    }
+  ],
+  "candidate_budget_per_case": 2,
+  "cleanup_budget_per_candidate": 100,
+  "candidates": [
+    {
+      "case": "ct_00004",
+      "candidate": 1,
+      "passed_source_local_geometry": false,
+      "updates": 100,
+      "last": {
+        "iteration": 100,
+        "cc": 43,
+        "cb": 0,
+        "vtk_negative_vertices": 0,
+        "minimum_signed_distance_m": 0.0019999940376412835,
+        "maximum_displacement_m": 0.024629035586423917,
+        "minimum_area_m2": 1.2395455962089804e-06
+      },
+      "maximum_cloth_displacement_m": 0.024629035586423917,
+      "repair_report": "local-evidence:task9/results/alternatives/ct_00004_v11_dressing/candidate_1/cleanup/repair.json"
+    },
+    {
+      "case": "ct_00004",
+      "candidate": 2,
+      "passed_source_local_geometry": false,
+      "updates": 100,
+      "last": {
+        "iteration": 100,
+        "cc": 31,
+        "cb": 0,
+        "vtk_negative_vertices": 0,
+        "minimum_signed_distance_m": 0.0019927512307378933,
+        "maximum_displacement_m": 0.02230649395852789,
+        "minimum_area_m2": 6.305408939818943e-07
+      },
+      "maximum_cloth_displacement_m": 0.02230649395852789,
+      "repair_report": "local-evidence:task9/results/alternatives/ct_00004_v11_dressing/candidate_2/cleanup/repair.json"
+    },
+    {
+      "case": "ct_00018",
+      "candidate": 1,
+      "passed_source_local_geometry": true,
+      "updates": 75,
+      "last": {
+        "iteration": 75,
+        "cc": 0,
+        "cb": 0,
+        "vtk_negative_vertices": 0,
+        "minimum_signed_distance_m": 0.0019999999999999875,
+        "maximum_displacement_m": 0.12600000000000006,
+        "minimum_area_m2": 1.2392056324343278e-06
+      },
+      "maximum_cloth_displacement_m": 0.12600000000000006,
+      "repair_report": "local-evidence:task9/results/alternatives/ct_00018_v11_dressing/candidate_1/cleanup/repair.json"
+    },
+    {
+      "case": "ct_00018",
+      "candidate": 2,
+      "passed_source_local_geometry": false,
+      "updates": 77,
+      "last": {
+        "iteration": 77,
+        "cc": 135,
+        "cb": 0,
+        "vtk_negative_vertices": 0,
+        "minimum_signed_distance_m": 0.0019999999999999875,
+        "maximum_displacement_m": 0.1500000000000001,
+        "minimum_area_m2": 1.1739160632311191e-06
+      },
+      "maximum_cloth_displacement_m": 0.1500000000000001,
+      "repair_report": "local-evidence:task9/results/alternatives/ct_00018_v11_dressing/candidate_2/cleanup/repair.json"
+    }
+  ],
+  "ct_00004_ipc_attempts": 0,
+  "ct_00018_ipc_attempts": 1,
+  "ct_00018_ipc_steps": 900,
+  "target_status": {
+    "state": "verified_v11_substitute_firstframe",
+    "original_case_accepted": false,
+    "parent_visual_review_completed": true,
+    "parent_acceptance_record": "local-evidence:task9/results/PARENT_REVIEW_20260922_1258.md",
+    "parent_acceptance_record_sha256": "bbf6bbc3bdaeb5e3281c5bacde1522738e0882e2e9d796832d606de8d29e9bdb",
+    "counts_towards_formal_original_14": false,
+    "delivery_label": "12 original-scheme first frames plus 1 explicitly verified v1.1 substitute",
+    "firstframe_sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493",
+    "strict_cloth_cloth": 0,
+    "strict_cloth_body": 0,
+    "contained_vertices": 0,
+    "exact_target_v11_body_and_parameters": true,
+    "formal_12_npz_unchanged": true
+  },
+  "target_quality": {
+    "finite": true,
+    "minimum_triangle_area_m2": 5.4904303247283055e-06,
+    "degenerate_faces": [],
+    "body_repair_max_m": 0.0,
+    "principal_stretch_vs_preserved_rest": {
+      "minimum": 0.7384600989556253,
+      "maximum": 6.132014643704146,
+      "max_per_face_quantiles": [
+        0.971435334427462,
+        1.0303577388380547,
+        1.1553102359535279,
+        1.2197985945174592,
+        6.132014643704146
+      ]
+    },
+    "maximum_speed_m_s": 1.6007889258649268,
+    "maximum_face_localization": {
+      "face_id": 8355,
+      "vertex_ids": [
+        3166,
+        3204,
+        3240
+      ],
+      "component": "CT-sim_00002",
+      "rest_area_m2": 1.2392056324343278e-06,
+      "source_repaired_area_m2": 1.2392056324343278e-06,
+      "target_area_m2": 8.663944407463941e-06,
+      "source_stretches": [
+        1.0,
+        0.9999999999998939
+      ],
+      "target_stretches": [
+        6.132014643704146,
+        1.1401686485229974
+      ],
+      "elastic_retention_vertex_ids_on_face": [],
+      "rest_centroid": [
+        -0.13147277902146248,
+        0.9372800193333334,
+        0.09064585653359941
+      ],
+      "target_centroid": [
+        -0.18934767524281937,
+        0.8392999897925978,
+        0.019653402661076264
+      ],
+      "original_reference_area_m2": 1.0812719610330688e-06,
+      "physical_to_original_reference_area_ratio": 1.146062856610437,
+      "physical_reference_stretches_vs_original": [
+        1.1445396227485132,
+        1.001330870361257
+      ],
+      "target_stretches_vs_original": [
+        6.140870457410355,
+        1.3048205254439333
+      ],
+      "touching_source_boundary_loops": [
+        {
+          "vertex_count": 3,
+          "face_vertices_on_boundary": [
+            3166,
+            3240
+          ],
+          "boundary_vertex_ids": [
+            3166,
+            3240,
+            3133
+          ]
+        }
+      ]
+    },
+    "principal_stretch_per_component": [
+      {
+        "component": "CT-sim_00000",
+        "minimum": 0.8705898851983885,
+        "maximum": 1.4834478112265437,
+        "maximum_principal_p99": 1.209547626192297
+      },
+      {
+        "component": "CT-sim_00002",
+        "minimum": 0.7384600989556253,
+        "maximum": 6.132014643704146,
+        "maximum_principal_p99": 1.2321970274346086
+      }
+    ],
+    "dynamics_limitation": "completed prescribed 900-step dressing, not static equilibrium or a uniform strain-barrier certificate; no source-rest reset",
+    "last_step_retention_error_m": 0.00019485207648578412,
+    "last_newton_displacement_residual_m": 4.819914441216478e-05,
+    "convergence_criterion": "semi_implicit_cumulative_step"
+  },
+  "physical_rest_matches_pre_cleanup_reference": true,
+  "body_surface_repair_maximum_m": 0.0
+}

@@ -1,0 +1,554 @@
+{
+  "case": "cipc_dress_knife",
+  "firstframe": {
+    "local_path": "local-evidence:task9/results/firstframes/cipc_dress_knife/firstframe.npz",
+    "workspace_relative_path": "TASKs/task9/results/firstframes/cipc_dress_knife/firstframe.npz",
+    "sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24"
+  },
+  "frame_index": 0,
+  "body_vertex_count": 12811,
+  "units": "m",
+  "coordinate_system": "right-handed Y-up",
+  "body_vertices_key": "body",
+  "geometry_status": "validated_geometric_firstframe",
+  "body_surface_repair_applied": false,
+  "model": {
+    "family": "native_mesh",
+    "version": null,
+    "gender": null,
+    "betas": null,
+    "smpl_compatible": false
+  },
+  "parameters": null,
+  "reconstruction": {
+    "method": "exact stored native body mesh; no SMPL parameters supplied or inferred",
+    "canonical_body_array_equal": true
+  },
+  "coordinate_transform": {
+    "source_drape_to_final": "identity",
+    "source_shell_to_final_translation": [
+      0.0,
+      -0.75,
+      0.0
+    ],
+    "uniform_scale": 1.0
+  },
+  "original_motion": {
+    "repository": "https://github.com/ipc-sim/Codim-IPC",
+    "commit": "9c6cbe3a5bef09a967ca8d420056adfafdf1fc9a",
+    "repository_relative_directory": "Projects/FEMShell/input/Rumba_Dancing",
+    "files": [
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell0.obj",
+        "sha256": "1dcd74a94b08d5cc1d0c8c062bf718dd71678f94b14d50af9e149cc24954cc93"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell1.obj",
+        "sha256": "8b9c08596d2f4a726eb805c7407144462061a5f171a6e11534be2e10820308e9"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell2.obj",
+        "sha256": "ed69cc952c68a07c1767880630e437587205c4126d5db4ba8b6e97a99f474226"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell3.obj",
+        "sha256": "027c24d74f64706ec8189f9a217a3c284f8f5805019b7d81994467ac58cf882c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell4.obj",
+        "sha256": "84d497ec1d82fd3edae7f97bdcd62ab5da149daafb168c8a85cabc3b409a7b95"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell5.obj",
+        "sha256": "064817242508818a10bb6229dd61f9f54e45875945617d794eca6fa97badb682"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell6.obj",
+        "sha256": "8a9393e0910ad9d064ef5fb9fac17350732226c1015cb4406960d211748ee1f6"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell7.obj",
+        "sha256": "4b7915387f924e04a0dc051304df2047d6bd5f54bca3ae508c7ece5da0cecf3c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell8.obj",
+        "sha256": "8bb9a496265f84a883f5a95af9242609408b4ba047fc97edf93f5409d2a645e2"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell9.obj",
+        "sha256": "425a9d73b051712fa3d18a047265bece3bd2a6655eb55a7eda599a517c468fdf"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell10.obj",
+        "sha256": "4599fab60c0ceae492ada2d34f98898e0081e74b42f695cf79e77edb304f2015"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell11.obj",
+        "sha256": "f94bbe97c05c651dfaef762163e1d7eb4e4aff55b32026ab6b9f59832d724836"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell12.obj",
+        "sha256": "bad96a8e51cf672068204afa87e9cc66f8f3cc7c173494a4a64a7d4a88b495e8"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell13.obj",
+        "sha256": "88af7f398e2164430d63100ff318955a8c7e122b8cab164df462e7ab2be81915"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell14.obj",
+        "sha256": "e40ea1982319dea816bc7aff1ffcb75d384bda4907180829fdac4ca785befd85"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell15.obj",
+        "sha256": "42f29c5bc283f53c1e1fa62b0acc4873bafa22c48a7a7495556d14a03d254c2e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell16.obj",
+        "sha256": "224b72bd080db2193a3eaffb717b6ae241c5576ac0d33bd079eb9a78574a8f7d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell17.obj",
+        "sha256": "6a64e5a93596e7e612cefa4cc698c968d29004c21cc66879f4be85fccf7d9563"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell18.obj",
+        "sha256": "5a30fbd33f83d55718e75fb1c25746380541e311d86051b2f4d0765dd75f6032"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell19.obj",
+        "sha256": "6da4a7b44dfc3d17dedefa3eaa0bccfc71069c1f92a18cadbee1e0b117b2e44e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell20.obj",
+        "sha256": "dfd5da6026687b01d86e7d7abbcfbc8586a5a912028ec6db5a72685d32cf2ffa"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell21.obj",
+        "sha256": "4a26e92ce2d2c868cbfe3ca30cd63c2601290c8608a17ee1858ef539aa029fcc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell22.obj",
+        "sha256": "7e5e14aa47c94725683b2e5e16d02795d0d11069f22c4f33ad798935d1e1f0df"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell23.obj",
+        "sha256": "15c5472f1fd8823f90a59d95a844a39c2ef494f19b816320f733969949855eb0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell24.obj",
+        "sha256": "429f8367933d15b035ec73478747eb826475155635cda44b253b45bb4ba66c9a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell25.obj",
+        "sha256": "c4d17dcdf1909177b2813b599dcf588559fbb036133244065ea12e32411c95fc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell26.obj",
+        "sha256": "130aa1184c28a639d0ada35f6920f737acee7576b26efcf5db3193308a76934d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell27.obj",
+        "sha256": "31b39b9249dbacac8e28c680dec4f5edcface7a0160e13877454e3eec14a2caf"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell28.obj",
+        "sha256": "58759e0df62073153cc8a8648f3e53a56c0bca57bd49748dd2252eff7f921523"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell29.obj",
+        "sha256": "1d79e2464fa11b5016a1aa67b95aa31a7b3b3cc3ef37cabca8c4d73a74a077e6"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell30.obj",
+        "sha256": "46dc07cf5e4dd8ca7959c02edd299b89bfe04576e7b9daf68fd32bf464394bea"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell31.obj",
+        "sha256": "6c2e4783e1af201b204b7bd6f691e1f6461016a2dfc2206164aa8b731bec5f25"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell32.obj",
+        "sha256": "5911be0a0dc971b33cb71dfc7b32c0599e4d026769771bd2a749eed7e6eb0e27"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell33.obj",
+        "sha256": "99c25d1494f917741378acf3bc845fc2778fd766cd0e03ebb2f3ffd5e6773eea"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell34.obj",
+        "sha256": "0adb5e40299bda17d42cdbb87dd2bec6b6722a44806d138d866dce0dcb19a5b4"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell35.obj",
+        "sha256": "3c65e8e3076975c5bf772a9500f70d8fa38461e658119ad93aac4bad4c54801b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell36.obj",
+        "sha256": "3ee653c02db768e6eed895490f382352fedfacf5f56bce1346262356325da706"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell37.obj",
+        "sha256": "5c41d5ac650966725944f42439e1415bbf77c9f12dfd87870156632b561bfaa5"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell38.obj",
+        "sha256": "98564f481f587f4fc3882dc569cd9b8238c0ffc50b938b60534ae49af9c396e5"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell39.obj",
+        "sha256": "86d710ceb521e351a5776377f9d7d8a2e07b3fa180324c9c100946844fa7303d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell40.obj",
+        "sha256": "824e95802079f27d63278b4557588675f4afdaf8b04a9de2d1e2973d08f14eb1"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell41.obj",
+        "sha256": "63abec7923fadb30cf2d170d5a120e2953f73b0960682040d620a64fa3dfb1f8"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell42.obj",
+        "sha256": "73e07716e24a13660c0eb2e7e6ce40751764c9b508d46bf62f524332aee6fb60"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell43.obj",
+        "sha256": "d9e6bebc6f60a91c0e13498a16fb6c930f90777f5ffd243b1273b16290ef707e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell44.obj",
+        "sha256": "8fa894a3c6a4f74a027185b34b438fde783fc671c3fc2eb9cc79003642483394"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell45.obj",
+        "sha256": "5239598f21eb1884a0ee497c69c093ac3be95c22cc8e50c6d82b61ca13ce9f87"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell46.obj",
+        "sha256": "639fed047663a2fe1fe3e25fc5d7b3341d99d3a7cd52f303baef08c88d14c9eb"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell47.obj",
+        "sha256": "d319618c0571c72835ebe46c230f0c763ef62789eb05a15c9e2e618e78365164"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell48.obj",
+        "sha256": "09f0884d1ecd05c165b74e0e76d54b91bf8ee572be26f4b654b36b05aca3ff59"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell49.obj",
+        "sha256": "09f2b9892a6a8bcd0de91eaa690cfee5a0be6f91a0350d02a737536cf6b8dadc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell50.obj",
+        "sha256": "08738ca2e10e4daf0637c01bc8598b1dada0c02b4e1caa250f40c7a8dabb8bc7"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell51.obj",
+        "sha256": "19053c4975983c2ec7c729f8917bf4906f50c8777afe600495fbd0b12441ea82"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell52.obj",
+        "sha256": "28bbeb4f4a7dfeeb9b3be9f45d3f5726dc71ed64119169b64823c4250a3c3636"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell53.obj",
+        "sha256": "7d04b43bc0f0a45c220778597f5894c518308719089bf8c5203023cebbdb7f56"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell54.obj",
+        "sha256": "e6074d4e7510bd75e075aa879b8adcddc205c44d3be1a21a951fa948bae01999"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell55.obj",
+        "sha256": "f8eec7426395259ac596edea8881ead1a941f85b2b3c5d13d7074163baaa4d02"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell56.obj",
+        "sha256": "b600d6f1cabd748268061ed99b7b3befad9478c42e3aa394d926e6fa05b1ec2f"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell57.obj",
+        "sha256": "9951b4ab5b77ccfc6552eef5678ad78ba8794002e5a8d02ce473fcc8b87a385b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell58.obj",
+        "sha256": "aafcc346be85ca36acda29e651063c8d75e9e26c3914617ec9b3c08308d2f8c8"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell59.obj",
+        "sha256": "7f9f59538bb9dedd4471091a80eb5bc671b6ca5f32167b8d2bb0031baaa67a04"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell60.obj",
+        "sha256": "35f609ab31ae24e4972837a0f1b0ac6fe93c1afebdf2f2dce51cec8602322c75"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell61.obj",
+        "sha256": "01a1f57b123e7aa612603f147b72e7471302ad44a904688ea81e609c9022b45e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell62.obj",
+        "sha256": "12273f8d33011da56fda4c17b3bf853f02361fcd89177e15c6055030e379cab2"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell63.obj",
+        "sha256": "6088410a97b9b0d95551e3cf90e24fd7db4899f1a43bf5edbd0fa8028137e4b8"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell64.obj",
+        "sha256": "b3a51cd4b60c0d0e72acd8d88890c4dfa23adee035068af9513685c2ac01003c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell65.obj",
+        "sha256": "18c74de573af467b97d05f02ef51f2a06e0832ed69cf836b8866a355e9a2b408"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell66.obj",
+        "sha256": "be22a9c58ff5fca2cea62b42ac1c5ce9b63071d5868e82096f9e3e2a1485a746"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell67.obj",
+        "sha256": "0498823a5814283f70d4a8deb677318ab67471d0151b150d3359ec3a53d70554"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell68.obj",
+        "sha256": "6eba4b24e7931d49a74949f031a12cff82cd0c85fbecb3d3463b0f094310b6bc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell69.obj",
+        "sha256": "a6e66d1fdad63e058fc8187aba7733850c847f843d36d807c5f790d23f23423a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell70.obj",
+        "sha256": "7a7b1252b39b3e07afbf08afac1090da5e639342e3e0987e77629ead4a46f6ae"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell71.obj",
+        "sha256": "21e7a280f7451468de27ec16205db5face73417928b6a534641603c83907c138"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell72.obj",
+        "sha256": "9f6b89aa896932b3dc684e78356609bbfb25ae1bf6004fb8a225f1d95e0f2c72"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell73.obj",
+        "sha256": "a50b7dbf5c69216a06d33a255f1f4bc8aec313b193a218a09ff40c8a088e3669"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell74.obj",
+        "sha256": "09658e3bd5dd2db21ab99c0fbeea9acc2594b5560dec836083ae7aad16ed7f7c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell75.obj",
+        "sha256": "b59eee57e28f1fc12579234d9fbc2556166f0bf1ea4d5943e0166e7b1d82a5ee"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell76.obj",
+        "sha256": "75541b93c6ae0b033c4714be390c86696497915da9a7cc22e8e87d3db7cfee35"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell77.obj",
+        "sha256": "59dc2ee615ca7de944e25195872578b10e55ffb3e66eb9ff2e621b0c08006603"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell78.obj",
+        "sha256": "e9f2a7f3b9544b4b7bc7b7ec6092c3ab47839e8dbb3f3ebcc6418e814fd280f0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell79.obj",
+        "sha256": "e172e8def81d3acda9b82948b2d12f0e67f73d670cef0142255a81ba67b146af"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell80.obj",
+        "sha256": "fc75d0256b4a22dac139fbb3c855679dcb94b889758130b8a5bd93160c8eb7df"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell81.obj",
+        "sha256": "d7d9f4fcfab02ea8bbd45cf5ec0a9bce45cf6263a12e6e5c25a4db2740f658e0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell82.obj",
+        "sha256": "5ec112cb6a0286d426d10329958d9710d555f943ade8208b56f6f452ddf6af43"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell83.obj",
+        "sha256": "e5872148e8d2eb3103d719191f20a88ca7642151dfd0b97125b8eb2e228c4012"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell84.obj",
+        "sha256": "b74952d6bb9d1e40f21269eb0b6bc242cc179610bcf9c721e1921781d4e282b9"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell85.obj",
+        "sha256": "d8007bb7989b2982d49e4e5b996988e5a5d8b1b0d04091fa03069632872d2bb9"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell86.obj",
+        "sha256": "b3c8184cab06ddddd40390d36acf82e4f759ee55d3cd15dc6273f318f8f2810c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell87.obj",
+        "sha256": "6807569568580daca1e71523dec05880e8754787260a32b3f946ca28dcf7bda5"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell88.obj",
+        "sha256": "727ea592b6b2fa688aa59399bbc5da18e5a8792af5583239d5dc91dd47e0d904"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell89.obj",
+        "sha256": "7c5d47730b650dfe17d2e1a2cec0a416037560f8d0e5544b369a28d51338896b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell90.obj",
+        "sha256": "25a49dd4d6d645c92849b9f4e4bd1e61dc70c7f26cacbb53ba7928f9dc53780f"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell91.obj",
+        "sha256": "1bae7c48d7a34e73845161741c5f2e700facf1aa5680630d9dbcd330718f7736"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell92.obj",
+        "sha256": "9223fd55bfaf49f75aa6717cd7e9b132fc9b2968dde0db5f77715f7929da03b4"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell93.obj",
+        "sha256": "6ebaeb2a8ca472762c0fc2a6aa903ffb0c88210ecb57eaa3caf9c94a40f3fb96"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell94.obj",
+        "sha256": "1976edaafda70a5b7fb4363d81c3bb3fb30d81063af40451e5efeedc8a7fb453"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell95.obj",
+        "sha256": "d24f6f5106f6f9e948770a82bcbb8b9bdc191dd8493cbfd3f75f9fabc0f96378"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell96.obj",
+        "sha256": "945530c8e9ac3b6cd5f64bcc14691b9209f07cd55bbb0f9aca8421d90e1a2c7f"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell97.obj",
+        "sha256": "4aa7417867542258ee76e4f6c8c00aab74529ecc27bba2762d8b0b85c7a9e5e2"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell98.obj",
+        "sha256": "afb4e4e4df8532cc46a5818524dee00aaf05828624688af743c9d2e676bf4387"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell99.obj",
+        "sha256": "78c182e1882f0951a28d910b93ad3b1da882b34c4ce63bf5a21bc45a130fd762"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell100.obj",
+        "sha256": "593ce67f951e390530ae7fa75efb83605ebc28fa9a6adab24f0807c00c1885ca"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell101.obj",
+        "sha256": "36114622db928fa6aa532d5884c2bfe3cb4e1aec69bed882ff3bc832e2c07543"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell102.obj",
+        "sha256": "d33e4a0164a850ca483e83e1bf265a7e94714111c1519addc3aa56c71e33dd5a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell103.obj",
+        "sha256": "bc5b107fe05bc514774acf0a15ce984ff185b7f4d11283be86bb17f4429ab2d7"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell104.obj",
+        "sha256": "9de4aa87df3af7e9157265b97019a09b8dd29d88638086dcae1d9762b377cf32"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell105.obj",
+        "sha256": "573f479d695dfeb55aa489f5c6c09b7c2707fa160e51fe2be77fb1ffcd4068f3"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell106.obj",
+        "sha256": "ddbf4c6a8e20609da317b7832bb084199091894f2591c988f77485d2fb7b665f"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell107.obj",
+        "sha256": "e1609954567c2d305cb523cff6622fc1424367a5b3eb99f62a9079b14bd2430e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell108.obj",
+        "sha256": "4733044d8f6f023853b6aed3d373b6051ab697cbf3704fd3a41adae79457f362"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell109.obj",
+        "sha256": "518fcba4903047083e364bdfecb578b245dc44b576d0500323673ad8c4c9e673"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell110.obj",
+        "sha256": "eb694ed63433bd65b187fac1c25260658f34509351a7be95187ff30fb9014623"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell111.obj",
+        "sha256": "53c89fe3ca5776c81efdbb75338b4678c87fac88d520f9f43231ea38a7c56138"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell112.obj",
+        "sha256": "cf3e88f6bfee7b53d6276e638f3d2a22616186e46c03064ad88b1c75f343f94d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell113.obj",
+        "sha256": "3460bb06e74fde17184355fd5f17cf0882bc50864d374f41cd5bb68f55f665fd"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell114.obj",
+        "sha256": "542d200575831ee62ab377fc471830bcb9640d9c6492b1dec5bba1a19d3ab464"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell115.obj",
+        "sha256": "cd430db5aa0683fe44b86492f7d36fd8e2b8e27e1b870ec7eeca9adbbae1637c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell116.obj",
+        "sha256": "bcc5ed309f42cda5eda1b0462cee958e8f2eddaaa6789993a98b6dc0144d4ecd"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell117.obj",
+        "sha256": "9a0d7f57c32e81a84e460ed6e9259172ab7dffd7f253ebcc83e55bd725efc156"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell118.obj",
+        "sha256": "604e1016adccb127c1b2a02932030456ad0c0710f9f699734f19cd6bf14abb2b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell119.obj",
+        "sha256": "7470f52576921de656ab5e3e5a2ea3fb085d7771497b0f143ff4dc6d9284f9b6"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Rumba_Dancing/shell120.obj",
+        "sha256": "7fdf4b60113cf5e232192eb424421febdd1f9368ac791aaaeecb65843e6f128e"
+      }
+    ],
+    "ordered_sha256_list_digest": "d91c1ff6708cd06c5144dfbafd07ee5053c72a477cb7d41661394dbac9499e2c",
+    "initial_drape": {
+      "repository_relative_path": "Projects/FEMShell/input/dress_knife/drape.obj",
+      "sha256": "af82b1712073c1009b5229eafcb6144d00778de44540bb61d72b3a82aab86e66"
+    },
+    "source_frames": 121,
+    "fps": 25.0,
+    "firstframe": "body vertices after the garment block in drape.obj; then shell0..120",
+    "drape_to_shifted_shell0_maximum_m": 5.0000000003621024e-11
+  },
+  "portable_fields": [
+    "body_vertices",
+    "body_faces",
+    "body_model_kind=native_mesh",
+    "gender=null",
+    "betas=null",
+    "pose=null",
+    "translation=null",
+    "source_frame",
+    "source_hashes",
+    "shell_to_world_translation"
+  ],
+  "published_firstframe_sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24",
+  "published_body_array": "firstframe.npz:body",
+  "published_body_triangles_array": "firstframe.npz:body_triangles",
+  "source_audit_sha256": "9f13e72d730b82d98becadb5fff92ceef430e7c1fd68542d4c59b774e644a356",
+  "publication_body_policy": "preserved_target_body",
+  "source_geometry_authority": "Saved actual body mesh; model reconstruction tolerances are separately reported."
+}

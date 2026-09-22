@@ -1,0 +1,1290 @@
+{
+  "schema": "clothloop-testset-manifest/1",
+  "path_base": ".",
+  "excludes": [
+    "manifest.json",
+    "**/__pycache__/**"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7149,
+      "sha256": "cfac729ed79c3b8de714d12b3de89b0c1384cb6c98551e6a1bb70a4f4d1ed7a0"
+    },
+    {
+      "path": "cases/added_06_13/default/body.obj",
+      "bytes": 646052,
+      "sha256": "fb9252810e6c27f13e3dab3cc87292ed1537e51c9e5c9af5040dda35038c7934"
+    },
+    {
+      "path": "cases/added_06_13/default/body_parameters.json",
+      "bytes": 10809,
+      "sha256": "bf239943e98a830434acb0a478f72142afc24341c0bee26a62aae6c8f3e651e7"
+    },
+    {
+      "path": "cases/added_06_13/default/cloth.obj",
+      "bytes": 2031024,
+      "sha256": "90371599391dd4f1b0fe1312a61213f4e0530b269cd781143955c89e849948ba"
+    },
+    {
+      "path": "cases/added_06_13/default/components.json",
+      "bytes": 909577,
+      "sha256": "afd7a84263aeb83e644f7581d7d569b2bf53a7d4067b470327b424970586dfbc"
+    },
+    {
+      "path": "cases/added_06_13/default/firstframe.npz",
+      "bytes": 2034346,
+      "sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0"
+    },
+    {
+      "path": "cases/added_06_13/default/media/preview_front_back.png",
+      "bytes": 280085,
+      "sha256": "8c5fd71de28f5f0143d3dde83e739dc4b503d62de0d460c805f046cb24033793"
+    },
+    {
+      "path": "cases/added_06_13/default/references/source_collar_anchors.npz",
+      "bytes": 1112,
+      "sha256": "81d934be062d774f51f6ba10bf23201a13f2e01858316301c2e9b1760d6d588e"
+    },
+    {
+      "path": "cases/added_06_13/default/references/source_skirt_waist_anchors.npz",
+      "bytes": 1689,
+      "sha256": "0698877ed0aabda9fd0d1391443a7b1e58af9a3d9b1e234480200b37132c6c3d"
+    },
+    {
+      "path": "cases/added_06_13/default/references/source_transfer_constraints.json",
+      "bytes": 5008,
+      "sha256": "699db88b1c00aebdec07caacd44ccc5e88e7b656c1cb65da7fed85e8de2a8cbb"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "effb7794793d139803125a4821874e2c6977520093a3df451474319be9d702dc"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "1e95588a582dc419ebfd60d110142432d41d06cdbdabf028377f22c6d4b831ab"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/provenance.json",
+      "bytes": 1138,
+      "sha256": "b8ee1e2a01f5ba95eec975c706b820c65fb8e85163c6790f3493caeadc845906"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/quality.json",
+      "bytes": 413,
+      "sha256": "d0ceadfaaa2839b83df0ee890eb15e464dc23df49ccfd81c2d906637ebcafbc3"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/render.json",
+      "bytes": 511,
+      "sha256": "8d6226f10b1cee8c5b8837309d8c42fca7c764b1e7600fd805f48063688e691b"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "6a64c91df0afcae94aa7cf10ab205a2f99ddcfaaa9cb592e1db08d6ee4a3867a"
+    },
+    {
+      "path": "cases/added_06_13/default/reports/visual_review.json",
+      "bytes": 384,
+      "sha256": "4ae6a4b75f2ded2bc63c1a5cc0a10ede2380bf84dcb0ba6b00897ee82af90cc6"
+    },
+    {
+      "path": "cases/added_06_13/default/state.json",
+      "bytes": 1675,
+      "sha256": "754b1d29d309e85a37d0dc7dcd8ad7feff9c3d0fea7054a1d90ce0bc240b6b1a"
+    },
+    {
+      "path": "cases/added_85_12/shorts/body.obj",
+      "bytes": 662071,
+      "sha256": "e671570e68f9eb2a7c9c3d44c37e9f6696566854bf568fa79a3adcf1ca5538d3"
+    },
+    {
+      "path": "cases/added_85_12/shorts/body_parameters.json",
+      "bytes": 10799,
+      "sha256": "d1f339258004a89a861bcebb963717e6541d1a5c050c35331f2ec3cabe8c7de5"
+    },
+    {
+      "path": "cases/added_85_12/shorts/cloth.obj",
+      "bytes": 1362078,
+      "sha256": "7bbb6aad0438bd786b39341942c255bf82dcb27619174305af18e0713fe4086f"
+    },
+    {
+      "path": "cases/added_85_12/shorts/components.json",
+      "bytes": 600134,
+      "sha256": "9fc7bb09adeacc3f2bb819e1d4bd2c3e6e8f31b5a9fc96aa3452d7c4ec23343a"
+    },
+    {
+      "path": "cases/added_85_12/shorts/firstframe.npz",
+      "bytes": 1559363,
+      "sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0"
+    },
+    {
+      "path": "cases/added_85_12/shorts/media/preview_front_back.png",
+      "bytes": 255065,
+      "sha256": "be507605acb789ad6b8b3bda9c2de21b9d429300ea4da8269db5d48fa209131a"
+    },
+    {
+      "path": "cases/added_85_12/shorts/references/attachment_proposal.json",
+      "bytes": 1966,
+      "sha256": "b92610a1714bb5d57193f38403e8be667eeadd04c38825ffb2afc723a9f67f59"
+    },
+    {
+      "path": "cases/added_85_12/shorts/references/source_collar_anchors.npz",
+      "bytes": 1112,
+      "sha256": "81d934be062d774f51f6ba10bf23201a13f2e01858316301c2e9b1760d6d588e"
+    },
+    {
+      "path": "cases/added_85_12/shorts/references/source_skirt_waist_anchors.npz",
+      "bytes": 1689,
+      "sha256": "0698877ed0aabda9fd0d1391443a7b1e58af9a3d9b1e234480200b37132c6c3d"
+    },
+    {
+      "path": "cases/added_85_12/shorts/references/source_transfer_constraints.json",
+      "bytes": 5136,
+      "sha256": "d3ed0eacd8dd338fe7bd1dcf33bd778186d83501dfb51689abf69d40ab932ce6"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/containment.json",
+      "bytes": 341,
+      "sha256": "6cbad9e454f71fe0c2de57b158e444e65bd43479a8782a8dc1a437512556b3fd"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "9a670375157b87e032ed21083cb0094eb87ddbedef6aae43ca6f2b839d5d8461"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/provenance.json",
+      "bytes": 5727,
+      "sha256": "a93074917508a6c26c0ea519ef5e2bbbf9893a89ed1ccb840e134ad6e58a132c"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/quality.json",
+      "bytes": 1547,
+      "sha256": "843a359acfdc291f447981d49567cdd1c63657a0698452135cbaedd7c8f940b1"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/render.json",
+      "bytes": 510,
+      "sha256": "4d144887a17d5ff44d854c05823a1c98107683fd698cd2111b7591a7007c1887"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/status.json",
+      "bytes": 296,
+      "sha256": "fe57d02254d5e1707ebea7590ae077969a604bdfbe95847f052d8f6e9aa6dbb6"
+    },
+    {
+      "path": "cases/added_85_12/shorts/reports/visual_review.json",
+      "bytes": 754,
+      "sha256": "70f09f035b29d871cdd76779825612f884bc6ca7be81aca856ab67ba4445eb97"
+    },
+    {
+      "path": "cases/added_85_12/shorts/state.json",
+      "bytes": 1715,
+      "sha256": "f85fbd802f9cb2f27f57aef0466f0a0bda4d9dfb14f49640c3ebb84c2c8deab3"
+    },
+    {
+      "path": "cases/added_85_12/skirt/body.obj",
+      "bytes": 662071,
+      "sha256": "e671570e68f9eb2a7c9c3d44c37e9f6696566854bf568fa79a3adcf1ca5538d3"
+    },
+    {
+      "path": "cases/added_85_12/skirt/body_parameters.json",
+      "bytes": 10823,
+      "sha256": "4bb897da3006990cc58b1ed6090747a735fd45c6232706f53813fc1213848533"
+    },
+    {
+      "path": "cases/added_85_12/skirt/cloth.obj",
+      "bytes": 2075210,
+      "sha256": "cd102fa2e9c6777730b8ab647581e21f90aaa0d1be6d6e8cf1360dab1464a58c"
+    },
+    {
+      "path": "cases/added_85_12/skirt/components.json",
+      "bytes": 909577,
+      "sha256": "afd7a84263aeb83e644f7581d7d569b2bf53a7d4067b470327b424970586dfbc"
+    },
+    {
+      "path": "cases/added_85_12/skirt/firstframe.npz",
+      "bytes": 2035325,
+      "sha256": "0d323060ca1b6b6e3a4770f24c433305cee2c21db4ead5fdba4bd9c7bf18a285"
+    },
+    {
+      "path": "cases/added_85_12/skirt/media/preview_front_back.png",
+      "bytes": 266413,
+      "sha256": "962abb5b6ffc0a8ae748baa4a3c07079146baa225e71bdf9110976a73c998e92"
+    },
+    {
+      "path": "cases/added_85_12/skirt/references/source_collar_anchors.npz",
+      "bytes": 1112,
+      "sha256": "81d934be062d774f51f6ba10bf23201a13f2e01858316301c2e9b1760d6d588e"
+    },
+    {
+      "path": "cases/added_85_12/skirt/references/source_skirt_waist_anchors.npz",
+      "bytes": 1689,
+      "sha256": "0698877ed0aabda9fd0d1391443a7b1e58af9a3d9b1e234480200b37132c6c3d"
+    },
+    {
+      "path": "cases/added_85_12/skirt/references/source_transfer_constraints.json",
+      "bytes": 5008,
+      "sha256": "ba19d41cb2c2a2f0f49a3325eb7d1321eb5b9fc3508c1d5bc4107df00344a22a"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/containment.json",
+      "bytes": 341,
+      "sha256": "87956120e3e013bdf8ed7da18bb501dbe9b3cc3679167452a0e14be9d1800d8f"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "d124c86d39f9ef628526564cb3b1ebf0b9b99dbec8e565926cb476d4dd9f3e02"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/provenance.json",
+      "bytes": 1065,
+      "sha256": "e287fd9e78fa424af942dffb81ba10b24c80be8aa5b21f7020d38f0ae48ff102"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/quality.json",
+      "bytes": 1560,
+      "sha256": "98530280a4d53a97313c7de49c71e6774bdc5373b0bf8f4612d225b6faf8febc"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/render.json",
+      "bytes": 510,
+      "sha256": "162a2f61c4cbd822cca1079b063630b84ab59aca406b25f1550b56e98f5c08a1"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/status.json",
+      "bytes": 296,
+      "sha256": "43e4bdff7b7aee4709cd1e14a31e304f36a01004dae992cbdd19ece3155d00e6"
+    },
+    {
+      "path": "cases/added_85_12/skirt/reports/visual_review.json",
+      "bytes": 541,
+      "sha256": "1f7c988868e2dfae00055fca054419f28dc92eac81df4a86271a31c4d7a36566"
+    },
+    {
+      "path": "cases/added_85_12/skirt/state.json",
+      "bytes": 1733,
+      "sha256": "0e2bb66bdcd5cc6cf437d25f4012cd36e03f6e4ed6e4fd5fdcfd6778834261d7"
+    },
+    {
+      "path": "cases/cc_01_01/default/body.obj",
+      "bytes": 658861,
+      "sha256": "2e463240a48b07dd5e28d08c5d5270180d207b6f56c694290fa27ed082c14e6c"
+    },
+    {
+      "path": "cases/cc_01_01/default/body_parameters.json",
+      "bytes": 5952,
+      "sha256": "dacb105828f4fe02a76108322f9eec499924fd31a0c0ea849719da596ea17a9f"
+    },
+    {
+      "path": "cases/cc_01_01/default/cloth.obj",
+      "bytes": 3830819,
+      "sha256": "20600a55efb827aad73c8cd9d7c69a7198dd23c453dd5eeb2e5c590ce9464716"
+    },
+    {
+      "path": "cases/cc_01_01/default/components.json",
+      "bytes": 1678989,
+      "sha256": "82a078b664349061ce13f5dd9eeb89707548e0e73f51def05d90c06139f95150"
+    },
+    {
+      "path": "cases/cc_01_01/default/firstframe.npz",
+      "bytes": 8496556,
+      "sha256": "8418a581449d1486fe6c043530e2b936d7c0419d2929753ade3ec1e1e10e5262"
+    },
+    {
+      "path": "cases/cc_01_01/default/media/preview_front_back.png",
+      "bytes": 351925,
+      "sha256": "00fc0b1341e81068f28bedde37cce6449e2ee663efa8545407b90aa91b692f08"
+    },
+    {
+      "path": "cases/cc_01_01/default/references/rest_reference_comparison.json",
+      "bytes": 4084,
+      "sha256": "f6db5e41a573a40f0a09d3ab65a4818f48d841a8ff3de537c3c33d37e1f1bf1c"
+    },
+    {
+      "path": "cases/cc_01_01/default/references/rest_reference_original.npz",
+      "bytes": 1297159,
+      "sha256": "6a19ec2cd74ccee34ca3450b8b0710b9f350a4bc4e25016a7c4205fd3ff21e40"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "5ef3438cf27fb6f9c211d27f67a1557336b3608aab170dfaa785fabe19c392b7"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "0614d9fdfe724fd17c8f39fd5235bfb7430652ef7d3ccd25cdc1aaa86e4cd554"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/provenance.json",
+      "bytes": 5621,
+      "sha256": "53e6c892b3cad12b89be8915b2b715bda6c7d08d9a91fbe0a8a76b97156fd936"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/quality.json",
+      "bytes": 414,
+      "sha256": "4fbdb57924d6286790ba5778dbb66917d16cf6e6636dc390ae8c85599e902542"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/render.json",
+      "bytes": 509,
+      "sha256": "e3c66af8b753f7269e2489fe1a514ba648dd1d99036642b870830a1e47df2308"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "d32825e23085b9186049caf9abe888feb0567e560aba96775539d0e3d495b7cb"
+    },
+    {
+      "path": "cases/cc_01_01/default/reports/visual_review.json",
+      "bytes": 607,
+      "sha256": "542480e2d916b2ace67cadfe31575e88c05aada930c507df5e6a3673223b3320"
+    },
+    {
+      "path": "cases/cc_01_01/default/state.json",
+      "bytes": 1696,
+      "sha256": "d6c9b37f36e59fd59cc9bcf6323bd3e16c3359dc919daaf90cd87827730f0146"
+    },
+    {
+      "path": "cases/cc_05_06/default/body.obj",
+      "bytes": 654100,
+      "sha256": "37907d6f061316c082a7951c911e240f57ee69c98cb549bf4116154c014aaef6"
+    },
+    {
+      "path": "cases/cc_05_06/default/body_parameters.json",
+      "bytes": 5951,
+      "sha256": "d4b5b8d0acf6d5ae18e68704ea875decf0af2fffebdae9102e172b3d459485be"
+    },
+    {
+      "path": "cases/cc_05_06/default/cloth.obj",
+      "bytes": 745469,
+      "sha256": "ff7fc6fc5f6b2f95bfd5cb04379cfa11f9346841ca0d8c6a16c610d7480138e5"
+    },
+    {
+      "path": "cases/cc_05_06/default/components.json",
+      "bytes": 329468,
+      "sha256": "7170631c4aa4f33b5c6756e0bc7cdcf6dfd45554bc50e9689bbed3a890d02fd8"
+    },
+    {
+      "path": "cases/cc_05_06/default/firstframe.npz",
+      "bytes": 2531322,
+      "sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641"
+    },
+    {
+      "path": "cases/cc_05_06/default/media/preview_front_back.png",
+      "bytes": 216369,
+      "sha256": "9d42eac779535728438b09219125de892e981f74edfd45482ebdd503ef75ba51"
+    },
+    {
+      "path": "cases/cc_05_06/default/references/rest_reference_comparison.json",
+      "bytes": 4019,
+      "sha256": "f7dc04bffd43cf2cc69dcbe0c338b3e2fc283d1ab52f53ecfe4bc34ea4f19d6a"
+    },
+    {
+      "path": "cases/cc_05_06/default/references/rest_reference_original.npz",
+      "bytes": 263250,
+      "sha256": "d2b454481233c3dec618c1b9adace143285bef2fb526378dadb34e2c6734172d"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/containment.json",
+      "bytes": 342,
+      "sha256": "abb06d80335be6033738353ce4c6ac945fa1efa815c6c4909c91588701121a05"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "55d6b025d71de973bc567793b5557d938afceb0032e9a7a5b22de9db2e2b8dd7"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/provenance.json",
+      "bytes": 6822,
+      "sha256": "1adda53577e4fc7775f350cb64cac38c093d72440b057c05a22108a4301227e1"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/quality.json",
+      "bytes": 411,
+      "sha256": "3637e13bab0bd231ea828ca488e389b4379fa47e6a6c0576bde604c823be982a"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/render.json",
+      "bytes": 510,
+      "sha256": "a8dfb6bc373696fc433eb4cba96fa1d7facdc3d5fbf315091fe3ae646d9d4640"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "268adda36b5167777e72914ad955428c08bace53d9e8103e3f830330a9718cda"
+    },
+    {
+      "path": "cases/cc_05_06/default/reports/visual_review.json",
+      "bytes": 788,
+      "sha256": "d196a54f64b6a55751af50981e7060bc31651b249ce254780a52316ccc8d73c6"
+    },
+    {
+      "path": "cases/cc_05_06/default/state.json",
+      "bytes": 1676,
+      "sha256": "62be4bfb66391a7ca370ff038c620641d0e3311efdd71da88da06e1ee360b92d"
+    },
+    {
+      "path": "cases/cc_05_08/default/body.obj",
+      "bytes": 657998,
+      "sha256": "b22f793d6cfb9fd9d74fb3218f8797caf877bd0ad67fb2234b15348d8855fca3"
+    },
+    {
+      "path": "cases/cc_05_08/default/body_parameters.json",
+      "bytes": 5951,
+      "sha256": "dadd7fe604f78285eaacbedae01d67076a4b74e7f8351b26a124dc9d4da80831"
+    },
+    {
+      "path": "cases/cc_05_08/default/cloth.obj",
+      "bytes": 2051993,
+      "sha256": "b3a295e9d721afac32cf26cf5993edaddd2a1fe72944b88a31e4e12db8ec7e09"
+    },
+    {
+      "path": "cases/cc_05_08/default/components.json",
+      "bytes": 903852,
+      "sha256": "1eb719e3f8f4d56d0f56dbfd5caee47530e06832431e292a6faf6f899096f54b"
+    },
+    {
+      "path": "cases/cc_05_08/default/firstframe.npz",
+      "bytes": 5801417,
+      "sha256": "7b3749f8908a8e13328793a147b98c26cfbc46c8146bf29b16313d5f34baa616"
+    },
+    {
+      "path": "cases/cc_05_08/default/media/preview_front_back.png",
+      "bytes": 334461,
+      "sha256": "b71daca9d0d5011c1c9cef0f0f312e361e0d56a5bd2a5bd78d5ac04ca36a9f64"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "02f422caddef1b543c0400e0fa922ecf12bc6db95d8a77a802844617e36786d2"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "c39675ea4113c21fc603777dc3881261b9a2380856e1dc81e845946a3305cc3a"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/provenance.json",
+      "bytes": 6579,
+      "sha256": "219162e435b7b4ad45e38d741763b23da20292c0da435929fbcc256ccdf611ad"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/quality.json",
+      "bytes": 414,
+      "sha256": "7d5c1dccd92923aad7b2b0085fe202f4f18d064ea3e33085823251329c59beeb"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/render.json",
+      "bytes": 513,
+      "sha256": "66dd89b0716407ccbfa343ffe8e720e637a71d9f8fbc68c75ee7e872cbf84841"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "e4299753a085764da2d901d3b5e2e68fa45ebabe20fa55fe89acbe693f7f6f93"
+    },
+    {
+      "path": "cases/cc_05_08/default/reports/visual_review.json",
+      "bytes": 998,
+      "sha256": "372bb77257117481ec330347a38598e107bb8754b5a11fcfb1234f011bbb57f4"
+    },
+    {
+      "path": "cases/cc_05_08/default/state.json",
+      "bytes": 1649,
+      "sha256": "92a5a37b862b0fa7e5d95d0dc6955ad507bca82b81c4067b32cedc95ab8523e0"
+    },
+    {
+      "path": "cases/cc_05_16/default/body.obj",
+      "bytes": 647744,
+      "sha256": "b532185261b7b85ea7efa76edf990ea699e1d921df1b3e1121b64a507a4e71bd"
+    },
+    {
+      "path": "cases/cc_05_16/default/body_parameters.json",
+      "bytes": 5949,
+      "sha256": "cb586e31f8e82e3ef892d862a754139037df376970c464a7617bdf5e82ddeb29"
+    },
+    {
+      "path": "cases/cc_05_16/default/cloth.obj",
+      "bytes": 794639,
+      "sha256": "aab2608ce646c443c4c7065f86ed4fdc04cb8af00fbff45f7d30bd48b8ba093c"
+    },
+    {
+      "path": "cases/cc_05_16/default/components.json",
+      "bytes": 353568,
+      "sha256": "eeab20e639084d6f3fcf0beb8d4449405d99bbac23f8bcc921e60f4a236535a5"
+    },
+    {
+      "path": "cases/cc_05_16/default/firstframe.npz",
+      "bytes": 2684420,
+      "sha256": "87e4edc70072c196e1f9ce57f3bac55a7dc0a3993707e5f50747108a76e8df07"
+    },
+    {
+      "path": "cases/cc_05_16/default/media/preview_front_back.png",
+      "bytes": 227098,
+      "sha256": "59ccbad12698614a74310733a3a93b305394ef558e49a4e004541684d4a099da"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "b8abf782c6d5eee1b062522452f12790b0d80593fb751dbbdc82e388f10342ee"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "06c127e9c0ce69e41e035701c0367124041bfbad69b430b8e0adad933e1b70d4"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/provenance.json",
+      "bytes": 6292,
+      "sha256": "ae6742510ced32971e2f5555c9744c24e419cdd27d7d5897ddc527f488d95a4c"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/quality.json",
+      "bytes": 410,
+      "sha256": "cd095f3eb00f4922098bcd2fd0fb2bdfa739e9cb1fe23992c4f81a333fec252a"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/render.json",
+      "bytes": 510,
+      "sha256": "0f24fddb403c65e0b37bb2d453425b46121638157c2e2608c3e1fb70ae08d124"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "59e9cbcabd5936814ea72063f87388b7fb70160ce05f93ea75fca1f00815d2af"
+    },
+    {
+      "path": "cases/cc_05_16/default/reports/visual_review.json",
+      "bytes": 677,
+      "sha256": "28dd9c695e89236f8340c4b9176f73589b53d87ba2934099b39bdeb3b8f64325"
+    },
+    {
+      "path": "cases/cc_05_16/default/state.json",
+      "bytes": 1626,
+      "sha256": "5fb39a5fd9ee25ef473ddd82bbc79bc07c6b2804cd17da1a14394e5803571a0b"
+    },
+    {
+      "path": "cases/cc_144_02/default/body.obj",
+      "bytes": 658564,
+      "sha256": "78fb585373f3f0ae89fdd6a23c2f24c104c0fe4afe80fed91de20cdb3f51ae5d"
+    },
+    {
+      "path": "cases/cc_144_02/default/body_parameters.json",
+      "bytes": 5961,
+      "sha256": "c980a99842589375b4045e4f7b424746ebc87776cbfd3624e907d2a7277fe4ec"
+    },
+    {
+      "path": "cases/cc_144_02/default/cloth.obj",
+      "bytes": 2866814,
+      "sha256": "80d911cfd7cf0aa12252e778122a7f725442e777a7edfcf771e22e75af89a079"
+    },
+    {
+      "path": "cases/cc_144_02/default/components.json",
+      "bytes": 1255150,
+      "sha256": "d38d9b7e10638ccb2b8199e2e828116ae4afa79cc7fcca07fc5dc9b80b29696e"
+    },
+    {
+      "path": "cases/cc_144_02/default/firstframe.npz",
+      "bytes": 7830060,
+      "sha256": "70465974a047cd15212c1b48f04d752172d95f3c9da099bd4be430727b530493"
+    },
+    {
+      "path": "cases/cc_144_02/default/media/preview_front_back.png",
+      "bytes": 360981,
+      "sha256": "fc01259a9a0f23fffda7ede71de738dff8b28c22fb28a81daf2859601a58572e"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "5abd2ee9ee2e4bf4e7a64192be1b6ee1ba3dfa626a380ae727849ba4a131e3f5"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "078ba89d73cadb349b9154ff61ed4bcd2043f81d120cb6cfd80d45793d4a8318"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/provenance.json",
+      "bytes": 6594,
+      "sha256": "7294207817d0a78bbb6c512c75a9f2a9b53907cfbf9b0cb811cafd71a6399e85"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/quality.json",
+      "bytes": 412,
+      "sha256": "16a0104ebd6175ac8ecd9b800c1400214573890ae99c0894aac077418cd97bb8"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/render.json",
+      "bytes": 507,
+      "sha256": "fe3ff640922597a2da20476abd9eb009a707926ffa50bbe837ef4f2cac571523"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "a9e134e2c01fadb6e432f4585152c47793b612386815a0057b054422acf0efe8"
+    },
+    {
+      "path": "cases/cc_144_02/default/reports/visual_review.json",
+      "bytes": 719,
+      "sha256": "dabec97be2e6e34a2d9374dbf35b5be2b08dc71fc718f2d20af3a61f322eaf29"
+    },
+    {
+      "path": "cases/cc_144_02/default/state.json",
+      "bytes": 1627,
+      "sha256": "0beb15521daa809005f40e4b3d085cfa886ecce28884bdd3d6623fbeae918e5e"
+    },
+    {
+      "path": "cases/cc_55_27/default/body.obj",
+      "bytes": 660846,
+      "sha256": "552173572a01318b4f6d28d5a47ce43ce1ae41a68d496163d28419aed60ed309"
+    },
+    {
+      "path": "cases/cc_55_27/default/body_parameters.json",
+      "bytes": 5966,
+      "sha256": "1e0fc7abf58494b082cf9b61c1cb1869b3acf61afc42beaebfc43be9a14a40e7"
+    },
+    {
+      "path": "cases/cc_55_27/default/cloth.obj",
+      "bytes": 2871004,
+      "sha256": "0f6cd2068fc93d936f22516485aba7896d8d697fd1808b5f8061e6a202c3d01e"
+    },
+    {
+      "path": "cases/cc_55_27/default/components.json",
+      "bytes": 1253007,
+      "sha256": "1eadec39731d48c9d0a9cb0a7f6159d161815041e00071bbf56f800ba123b415"
+    },
+    {
+      "path": "cases/cc_55_27/default/firstframe.npz",
+      "bytes": 6519235,
+      "sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37"
+    },
+    {
+      "path": "cases/cc_55_27/default/media/preview_front_back.png",
+      "bytes": 353962,
+      "sha256": "4814f7c6bd4d396a554a8c1edcbc2125c81d404b2c954801ffbc12d331ca3e5e"
+    },
+    {
+      "path": "cases/cc_55_27/default/references/rest_reference_comparison.json",
+      "bytes": 4078,
+      "sha256": "d674586ecf0b562af7d4993c4d14cf481e27a6d2a2639e853401f61631c6b4a4"
+    },
+    {
+      "path": "cases/cc_55_27/default/references/rest_reference_original.npz",
+      "bytes": 967408,
+      "sha256": "6a647bbaa6321454bbdc3313942228c0d81d378af0b798d68c07fd0bd8d76a02"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/containment.json",
+      "bytes": 342,
+      "sha256": "1c30046be5154392d48e5f3d266eb2a2867031a9ce62012aa1110adb86397b00"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "84ef2d56e5eda8b0b1e940d90e1aa983d4328d13a8a83d7f3a9f031bac881293"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/provenance.json",
+      "bytes": 5646,
+      "sha256": "140f3012e014ad9599551c4b8f94dfa95e813c38822ac1f713b7ea32780204f5"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/quality.json",
+      "bytes": 415,
+      "sha256": "abc358c520557dcf048b88a05efa02906aa0a36d5b9cdc52ae09a72542c4756d"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/render.json",
+      "bytes": 510,
+      "sha256": "82e9c765a76e31e5c39f8570fecb69ac34b5198cf3035c23338591de4cd344c1"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "4bf98d3ef132157ce5a449c6f24a99746f279d8f524d207719e8a6f9a1d9b02e"
+    },
+    {
+      "path": "cases/cc_55_27/default/reports/visual_review.json",
+      "bytes": 612,
+      "sha256": "63061998ea0fe339487c26a888bd965e7e6b958d0574bea29816ae785df75bb9"
+    },
+    {
+      "path": "cases/cc_55_27/default/state.json",
+      "bytes": 1708,
+      "sha256": "48a39a5448e2a1c4afb0b8c5dbf6266ed26e8f934b197dd2d37300b55d9fcde0"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/body.obj",
+      "bytes": 1168031,
+      "sha256": "05284ed90c1fba1b8aa1129de1316e77d9e0dd4f76dd76a35d274fbe8a433fb0"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/body_parameters.json",
+      "bytes": 25655,
+      "sha256": "0715fa42cf1efb818023b3c44403bceb4f4e3c28d493970d01f129cae332c66e"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/cloth.obj",
+      "bytes": 1546178,
+      "sha256": "82e434ad0169ab1a6716116b4d669860bf3bb7ce28ab8b6543e40910d6ce09ac"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/components.json",
+      "bytes": 655886,
+      "sha256": "2451b80a80bcaa251965e0b183720e4b00e5164c98bd8b451a29c9e39087fd61"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/firstframe.npz",
+      "bytes": 1725771,
+      "sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/media/maximum_stitch_gap_closeup.png",
+      "bytes": 212217,
+      "sha256": "d3ea46cea376b02081a008f06d22d44bbbbdfc71c60667e010b8a0c7a9f4c56a"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/media/preview_front_back.png",
+      "bytes": 207810,
+      "sha256": "7d5adf5024542dacb59a8d35dd095a4b9ac64523e6d4776a52c717f25ce0770f"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/references/seam_closeup.json",
+      "bytes": 301,
+      "sha256": "ec5342ccd8ad10bafdba51fc8f9cf49918eb733734ac98a1d0dc3b294b50cccf"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "fb8c1a29c78c01dccd500551f2309e511c67538262787a0994873d2c739a917e"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/geometry.json",
+      "bytes": 626,
+      "sha256": "8129c28717131ca0d2caed7b670979ea5353394100a186e103b2cbfdc3daef76"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/provenance.json",
+      "bytes": 194358,
+      "sha256": "50cf451abc5f55025d18cd8adbab0c6e648bcca8b4db0b22fcdf21a7c1c9748a"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/quality.json",
+      "bytes": 5532,
+      "sha256": "47ee5ebb6f639020ffec4d6cb056930cd02d18604e8fdcd8b747d0a22d799026"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/render.json",
+      "bytes": 401,
+      "sha256": "36ad355472c8ad4f27dcd3aa974f1af10899147f1e58b1d0883a6b3e5db95b74"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "19607f4facdb4026215b75cbda89434dd9c340b31eb78e55b1f1c99943a9a634"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/reports/visual_review.json",
+      "bytes": 1101,
+      "sha256": "d247ebb5224fc79a1162f6ac43869d9b9af6e7dbc667a895426a160990ea25a2"
+    },
+    {
+      "path": "cases/cipc_dress_knife/default/state.json",
+      "bytes": 1708,
+      "sha256": "fbdade1ee5379b2ad5ef6c3533de4a9e171a6dc1643b40f82c2faa4b60be64c3"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/body.obj",
+      "bytes": 1168031,
+      "sha256": "05284ed90c1fba1b8aa1129de1316e77d9e0dd4f76dd76a35d274fbe8a433fb0"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/body_parameters.json",
+      "bytes": 24553,
+      "sha256": "5803b8ed819ebeb4994a912b171f99f06f6cab07a520624a9630b72f8218605c"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/cloth.obj",
+      "bytes": 2943929,
+      "sha256": "0e214b411219af91f6486c38968ea3f7c14f75241a12ee630debac16b5f5b277"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/components.json",
+      "bytes": 1316079,
+      "sha256": "3b935cbcc0c58c5b8c00aa1b0ef936734d243d34c1db22e7f8d173ba47b1afd5"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/firstframe.npz",
+      "bytes": 2608488,
+      "sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/media/preview_front_back.png",
+      "bytes": 205922,
+      "sha256": "4ac1aa7f8924914d594c927e0197f07a7e78c86f519c4f27d518926fd777a4d2"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "b9f4772bd53c39bbab9776af4eb50069346f6c4cff608c928e204b2287ec459c"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/geometry.json",
+      "bytes": 626,
+      "sha256": "149a6b6b9adaed2ad3f02ede517913c08430061340b20939f8606be9c04bc074"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/provenance.json",
+      "bytes": 16738,
+      "sha256": "58973d6f568c9468df931e947c0549592e0106625af575d75c6e50f3b7a197d5"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/quality.json",
+      "bytes": 4086,
+      "sha256": "0d57c82f842e9ecf8c59e79cc4ecbc8929f9e7d24389f0cf5af164cd528859d2"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/render.json",
+      "bytes": 401,
+      "sha256": "114ccc33d6d2d0381daedc67e7eba1a692a3149f348c6bc3ac56b314dec58171"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "14d9c43a6a553bf28789b378abf7756f2abbb765a2dc5c50b8c7b73dd6d5da7f"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/reports/visual_review.json",
+      "bytes": 817,
+      "sha256": "c3943aa46396662722325ac7f78fa50cb2bfafd6d51366ccc35233ce0235a0e4"
+    },
+    {
+      "path": "cases/cipc_multilayer/default/state.json",
+      "bytes": 1672,
+      "sha256": "d4d45c17338b9921169473f21de6160f57e4841796118800c93cd73ed15ad81d"
+    },
+    {
+      "path": "cases/ct_00004/default/body.obj",
+      "bytes": 659423,
+      "sha256": "9443fbecd8f608cafd44c3cf684d78b4a55dbf91d1d2293b2dfdfb3a7056cb1e"
+    },
+    {
+      "path": "cases/ct_00004/default/body_parameters.json",
+      "bytes": 8346,
+      "sha256": "d4472b0caa343baea474b239ca42f395d9c1c9a7a9deae6ea99eb7827b9ba9df"
+    },
+    {
+      "path": "cases/ct_00004/default/cloth.obj",
+      "bytes": 624801,
+      "sha256": "bcdfd1b8bfde357c9e8ad078170e58504c13bfc4c9be6613dced8c36a4a828cd"
+    },
+    {
+      "path": "cases/ct_00004/default/components.json",
+      "bytes": 273578,
+      "sha256": "8ae18f958c3870c1e2e864a44a672bef4d92573125fd251367128e7baa8ae088"
+    },
+    {
+      "path": "cases/ct_00004/default/firstframe.npz",
+      "bytes": 746128,
+      "sha256": "364cbef4580333c9b7a3e00f3856755399b22a08268bddda3059b367c6311939"
+    },
+    {
+      "path": "cases/ct_00004/default/media/preview_front_back.png",
+      "bytes": 242703,
+      "sha256": "5792fa691ee37c3b99e7eb6c54e087abe62f13769dfdbdaaa51244be596cc2a5"
+    },
+    {
+      "path": "cases/ct_00004/default/reports/containment.json",
+      "bytes": 50096,
+      "sha256": "0cce5cd02bc90611b6cefc3bcfcdb126753ed653d205eb39d71ed07e0e46aea8"
+    },
+    {
+      "path": "cases/ct_00004/default/reports/geometry.json",
+      "bytes": 445635,
+      "sha256": "e2149d1a63ee317795338ef7d3298aaf969b3d188df0ded9b4e6d1e68e4e1801"
+    },
+    {
+      "path": "cases/ct_00004/default/reports/provenance.json",
+      "bytes": 7972,
+      "sha256": "967d6eae6db0bb6dc25570486387b99743379593d4a1a7033287b311c6850a43"
+    },
+    {
+      "path": "cases/ct_00004/default/reports/quality.json",
+      "bytes": 128,
+      "sha256": "efb9b7939f91a117b87770b2e5bd4a167f0aa7e6bd406a63b5fbd87ef0b63048"
+    },
+    {
+      "path": "cases/ct_00004/default/reports/render.json",
+      "bytes": 509,
+      "sha256": "1138a141dc40aaf3ef51bb1d990bbe784c72e4004ac15a27b9d416a9cdc523b4"
+    },
+    {
+      "path": "cases/ct_00004/default/reports/status.json",
+      "bytes": 167,
+      "sha256": "509930ede5231b816b210a7d122e914f983323deecb676287cf5024afb110326"
+    },
+    {
+      "path": "cases/ct_00004/default/state.json",
+      "bytes": 1637,
+      "sha256": "242caf0dede4a6c261ccd98675a4d33545281d61a4afbcf089b34a0c7e6b2538"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_1/cleanup/best_candidate.npz",
+      "bytes": 326285,
+      "sha256": "9e18aa941f6f42559a4690c20acb698d7dc62d9d1ad5e3239e55a8d62e438463"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_1/cleanup/best_geometry.json",
+      "bytes": 4887,
+      "sha256": "537f6f1f2cbf1466c6cf854255feb72b691bcd797e162e96f2191412c700e398"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_1/cleanup/candidate.npz",
+      "bytes": 326289,
+      "sha256": "6ab4703430755a37fc0e3beb8d41d3a87f5f763d8c53323911ab3d371def6560"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_1/cleanup/repair.json",
+      "bytes": 34917,
+      "sha256": "2c11659c21039388e0ab31c1609a991de4863a9c08571391c6d83b63ac7a8cb6"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_1/source_initial/firstframe.npz",
+      "bytes": 996394,
+      "sha256": "cefc9a09e91d5636c41db4b544573e2858b0d014776bf3abe4ba86e35325a137"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_1/source_initial/provenance.json",
+      "bytes": 6402,
+      "sha256": "13a798d60069fe5db18aaba1e6f61f176e12a03d89822bf8ae6f88b2fc4fb189"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_2/cleanup/best_candidate.npz",
+      "bytes": 324349,
+      "sha256": "0ddbbdbb23ae434be523cb7d0b12e983d0224ef3c2871914d06b4c8fa8fef5c7"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_2/cleanup/best_geometry.json",
+      "bytes": 3968,
+      "sha256": "20cb0cebf45718fb2d30a6bfca5dfe5d436610bf926b1bddcb6e3dbb2e0974b3"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_2/cleanup/candidate.npz",
+      "bytes": 324368,
+      "sha256": "86f4833cc4b45b924ce48430a167582c6b75b7e1d3906ffd935d5c68e4b1b2f4"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_2/cleanup/repair.json",
+      "bytes": 32890,
+      "sha256": "3ab12f385c0ae196b480d8888d960cbe44aba4ee3732f7ebae822ed227cef1dc"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_2/source_initial/firstframe.npz",
+      "bytes": 1005067,
+      "sha256": "d97a742362fa959fe52008838b1d7c99b6a8c6d4c064a3486aadf6e639b789ff"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/candidate_2/source_initial/provenance.json",
+      "bytes": 7575,
+      "sha256": "a603d23ed697155fbcc21a225df439c040a2c2f5ecc6d68971a6fdccc1fef5f0"
+    },
+    {
+      "path": "cases/ct_00004/diagnostics_not_target/index.json",
+      "bytes": 523,
+      "sha256": "abace931df425f9685e0782abb1a9644eb25f72d3c11d906452a643822adaada"
+    },
+    {
+      "path": "cases/ct_00018/default/body.obj",
+      "bytes": 662535,
+      "sha256": "6e36330a026bb933084419fc9a3a4515fc9c584d8c68ab7c6d69bded84579743"
+    },
+    {
+      "path": "cases/ct_00018/default/body_parameters.json",
+      "bytes": 8390,
+      "sha256": "674727316426f454aa92dbe13484c9744548fbd3f319d1a671de7f2fca5a0ea5"
+    },
+    {
+      "path": "cases/ct_00018/default/cloth.obj",
+      "bytes": 408224,
+      "sha256": "be577bfc2123815beeae171961d54fa828b7b343499ad823d2a83d5338643841"
+    },
+    {
+      "path": "cases/ct_00018/default/components.json",
+      "bytes": 175624,
+      "sha256": "6110009e0077fcd342873368c3bc31988130d63d4d2ecbf2fe4c2d6070fea892"
+    },
+    {
+      "path": "cases/ct_00018/default/firstframe.npz",
+      "bytes": 1066328,
+      "sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493"
+    },
+    {
+      "path": "cases/ct_00018/default/media/preview_front_back.png",
+      "bytes": 236865,
+      "sha256": "0cde56ef30c5b234be5ae3f5c49e3a262a2aa93da1561bf3c5369c734a305f1b"
+    },
+    {
+      "path": "cases/ct_00018/default/references/source_mapping.json",
+      "bytes": 417338,
+      "sha256": "7fec98c57b2aac25fe81cbf2a810fbb29bd86842790ef11917aafb5cc47ca6b3"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/containment.json",
+      "bytes": 341,
+      "sha256": "e80d8996f98faaaf04febbe14a79f57bf8203f99c145ada076b826f215206027"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "b845620b8d3c5ab6689f6bdc40e24f93a19e3d3b763c913d42515ef4159a110c"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/provenance.json",
+      "bytes": 4891,
+      "sha256": "3305b79f0df5ba1aabcf4c1535f47511192ba300a988a2390a95ede78146d5d2"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/quality.json",
+      "bytes": 2482,
+      "sha256": "6f1a8b2419eb4d22619d53b43548e39049f869c276c4f653a3857e4462778a3e"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/render.json",
+      "bytes": 508,
+      "sha256": "8c183dd58cdfbc95706257876652dcc4220dc6c164b62646d5a3d284e3134ecd"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/status.json",
+      "bytes": 725,
+      "sha256": "647381123f94f710309aa86a40bf2a1b01e08c2948f504c0b5028bd665586a3d"
+    },
+    {
+      "path": "cases/ct_00018/default/reports/visual_review.json",
+      "bytes": 945,
+      "sha256": "2014dbf5626a7194f5714e9026562c7162bb71663ff6939b67faef41c11158b0"
+    },
+    {
+      "path": "cases/ct_00018/default/state.json",
+      "bytes": 1737,
+      "sha256": "4de3c98689871d08749d362af963b40e1c64ee4a2c6b1942b31dc1f945918e56"
+    },
+    {
+      "path": "cases/dlayers_00396/default/body.obj",
+      "bytes": 651401,
+      "sha256": "2ef4721fddb501d69d30d2503b8bb8b2331280c413f3c1f50033523024a02569"
+    },
+    {
+      "path": "cases/dlayers_00396/default/body_parameters.json",
+      "bytes": 11871,
+      "sha256": "a530ae2c7426d9427b1a5fa3c5a1c7cbc2f9b04c2a02edd9fbad8636d8057037"
+    },
+    {
+      "path": "cases/dlayers_00396/default/cloth.obj",
+      "bytes": 2258433,
+      "sha256": "b51682a5cbe27e259d9c251cd7a33cfbd1cb73014792bf962588009566784cb7"
+    },
+    {
+      "path": "cases/dlayers_00396/default/components.json",
+      "bytes": 1005080,
+      "sha256": "635b6becff26fd54a8532423a0bcce219d93a5f8740588b5f3fd62b88377b8cb"
+    },
+    {
+      "path": "cases/dlayers_00396/default/firstframe.npz",
+      "bytes": 1080588,
+      "sha256": "59c864af9a93e92884e12facc16f42d5271555c1803d9d96dbae177d4e644d88"
+    },
+    {
+      "path": "cases/dlayers_00396/default/media/preview_front_back.png",
+      "bytes": 271854,
+      "sha256": "b8e0fbd02ee5989b8fbf2aad7594b76864eec95f98ee6452377abc8c21d507ed"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/containment.json",
+      "bytes": 342,
+      "sha256": "19f9286feadc45a74074f82cfb875d5451622fe63b77e2f5b0337fb5537f22ff"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "6ea8408dd8110b54cb51c6c94e5c45f4711c9ddc65fa415526d863474b0d0527"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/provenance.json",
+      "bytes": 2376,
+      "sha256": "c831df8a3657d2ce55b82b1800bdd419f29ea7fb9d54697a473af7a1f5ef33b6"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/quality.json",
+      "bytes": 411,
+      "sha256": "3561ed914f537d6fc3f96dfbd77b3f56295dc33c830cf5e09da7fa54bb4e7934"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/render.json",
+      "bytes": 511,
+      "sha256": "7838b235a1d18bd84fcaed4a94c09b0d6b1e0c1bd906f202d0d8ef65f0e06d6b"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "a90ca2751a17c7ffdf88afee9ea8b75df40c843e2360ca9da6c24f4cba9ff293"
+    },
+    {
+      "path": "cases/dlayers_00396/default/reports/visual_review.json",
+      "bytes": 378,
+      "sha256": "025fbdfc0bdc350b45e8154e267d99b3616c70ee418f3cb324cbcbe9815c8d59"
+    },
+    {
+      "path": "cases/dlayers_00396/default/state.json",
+      "bytes": 1629,
+      "sha256": "56d70b5a3a75da83c1986fb8d5679bf3706c8f1c775b9abe1032903d05d93e07"
+    },
+    {
+      "path": "cases/dlayers_00756/default/body.obj",
+      "bytes": 664008,
+      "sha256": "144c72a41485c1c7434969601d9ebc16f3e488cd2e3d0b01d9fe735259d7291e"
+    },
+    {
+      "path": "cases/dlayers_00756/default/body_parameters.json",
+      "bytes": 11854,
+      "sha256": "fcd5e4a0e507ce8533c3a6b5674ccb7cd551c5e5baedfd8643843430666a4da1"
+    },
+    {
+      "path": "cases/dlayers_00756/default/cloth.obj",
+      "bytes": 3860887,
+      "sha256": "e52daa7743b3f246a406716aab6038e06ad58cd3df50c1ccecd2c06d04559f3d"
+    },
+    {
+      "path": "cases/dlayers_00756/default/components.json",
+      "bytes": 1681310,
+      "sha256": "128add2cdf2010d223df637299dcb36a0837765e497968a99973a5be836b8a4b"
+    },
+    {
+      "path": "cases/dlayers_00756/default/firstframe.npz",
+      "bytes": 1674430,
+      "sha256": "d97cbe214f0db09c86a388a63e10ed9252a1db868f64da0559932d9aba487afd"
+    },
+    {
+      "path": "cases/dlayers_00756/default/media/preview_front_back.png",
+      "bytes": 400720,
+      "sha256": "ce42444e4c69bb7c9c0340de19b044276bb5104e71c0559925e6f422771a672b"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/containment.json",
+      "bytes": 342,
+      "sha256": "94c0ec075cd6825eb80a7502a95712c2da008f03fa82ef78044bafe5490589f4"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/geometry.json",
+      "bytes": 516,
+      "sha256": "e7999ee5d5c0a943f74a9c766384ff4c17da42e28eb3653b0f10f6135d62b8f1"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/provenance.json",
+      "bytes": 2370,
+      "sha256": "3ce451d1dd7e3a84cf4573741506e881113d113b850ef8935ea35166431359b3"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/quality.json",
+      "bytes": 412,
+      "sha256": "4479d2b25598ad122647e8686a407bdb0f1951a988ab7fb9c41ddd825618960c"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/render.json",
+      "bytes": 512,
+      "sha256": "98b3f1ef716190821c0a842a39c9ecd66d26cc2b8f6a2cbfff6d04e3845f6302"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/status.json",
+      "bytes": 296,
+      "sha256": "e030ef06937d43aaa287332d42935e50b8d8eba17c1741132b18eb9cf925fdcc"
+    },
+    {
+      "path": "cases/dlayers_00756/default/reports/visual_review.json",
+      "bytes": 492,
+      "sha256": "d1e89adb6f2536166517b910add7980e99fdb461d532ead839bf7e811f47784d"
+    },
+    {
+      "path": "cases/dlayers_00756/default/state.json",
+      "bytes": 1648,
+      "sha256": "6327956eeae80ebd881b46a1727d96b77a60c4edf345f666d6c1b8f74ea7fd01"
+    },
+    {
+      "path": "dataset.json",
+      "bytes": 15499,
+      "sha256": "9264d457482c8e00fbddcbf61fe0c9caef6825bdbc6d2d2025343b88132aab8f"
+    },
+    {
+      "path": "docs/BODY_PARAMETERS.md",
+      "bytes": 3826,
+      "sha256": "1150e3df585a453e987274c66d5fcd8b02b0abc8e077a280da7bfb7ad4dd1554"
+    },
+    {
+      "path": "docs/CIPC_SINGLE_LIMITATION.md",
+      "bytes": 1167,
+      "sha256": "3b35da0c09fae065010181529caa3a868e7ad36a9efe30d289a365c14c072f79"
+    },
+    {
+      "path": "docs/CT_DRESSING_EVIDENCE.json",
+      "bytes": 7950,
+      "sha256": "ccb7644f9726e6222f3782f3e4f55eb0f88da869302f53216849ea4d18012d89"
+    },
+    {
+      "path": "docs/QUALITY_SUMMARY.md",
+      "bytes": 3169,
+      "sha256": "62f5b3637f3d30c483f3d4df7015b69f73db406cf30db72377bc116a857467b0"
+    },
+    {
+      "path": "docs/REST_REFERENCE_COMPARISON.md",
+      "bytes": 2148,
+      "sha256": "78b90cd9a056f41fec3608d985a24082c3bdd27e9660d20e928e34d499c45192"
+    },
+    {
+      "path": "index.html",
+      "bytes": 48477,
+      "sha256": "8c3429587796ec1fca92d799e163eaae4163cfefa41c2bde25c6529f06ec4eb3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 15,
+      "sha256": "105a25c9a24a53a42b52ccc93f930e1ea4a88b42372d440ae7c1b82c3a8b2c64"
+    },
+    {
+      "path": "tools/build_review.py",
+      "bytes": 2258,
+      "sha256": "d19eb547c7f739c34afed5dea158b98137e1948e399a0017a119a7ac3aa06580"
+    },
+    {
+      "path": "tools/load_firstframe.py",
+      "bytes": 2007,
+      "sha256": "9857dac723e6123a777e5bd084a4a9c809ca00a1e35d964a0d0eee9cb0de98fb"
+    },
+    {
+      "path": "tools/review_assets/index.html",
+      "bytes": 5730,
+      "sha256": "0cbe5841c04f9295b8a57f327a90bfcc5cffd36613eb915a2da813b93aa594b6"
+    },
+    {
+      "path": "tools/review_assets/review.css",
+      "bytes": 10937,
+      "sha256": "e865e58550988ff9e26f1739a51c5af5d53127f489d9960f789eb012d7551694"
+    },
+    {
+      "path": "tools/review_assets/review.js",
+      "bytes": 10489,
+      "sha256": "af8f5a2ba205635c59fcd61b30cf1c30d4e1a7b396d18519a8203376b1b92f4b"
+    },
+    {
+      "path": "tools/validate.py",
+      "bytes": 7826,
+      "sha256": "cdac84a39480d7bbe4fb22dcc2bc7bece805aeb7a2bb5b7a3115ac17df41cd3f"
+    }
+  ]
+}

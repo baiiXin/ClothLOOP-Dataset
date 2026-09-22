@@ -1,0 +1,554 @@
+{
+  "case": "cipc_multilayer",
+  "firstframe": {
+    "local_path": "local-evidence:task9/results/firstframes/cipc_multilayer/firstframe.npz",
+    "workspace_relative_path": "TASKs/task9/results/firstframes/cipc_multilayer/firstframe.npz",
+    "sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b"
+  },
+  "frame_index": 0,
+  "body_vertex_count": 12811,
+  "units": "m",
+  "coordinate_system": "right-handed Y-up",
+  "body_vertices_key": "body",
+  "geometry_status": "validated_geometric_firstframe",
+  "body_surface_repair_applied": false,
+  "model": {
+    "family": "native_mesh",
+    "version": null,
+    "gender": null,
+    "betas": null,
+    "smpl_compatible": false
+  },
+  "parameters": null,
+  "reconstruction": {
+    "method": "exact stored native body mesh; no SMPL parameters supplied or inferred",
+    "canonical_body_array_equal": true
+  },
+  "coordinate_transform": {
+    "source_drape_to_final": "identity",
+    "source_shell_to_final_translation": [
+      0.0,
+      -0.75,
+      0.0
+    ],
+    "uniform_scale": 1.0
+  },
+  "original_motion": {
+    "repository": "https://github.com/ipc-sim/Codim-IPC",
+    "commit": "9c6cbe3a5bef09a967ca8d420056adfafdf1fc9a",
+    "repository_relative_directory": "Projects/FEMShell/input/Kick",
+    "files": [
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell0.obj",
+        "sha256": "1dcd74a94b08d5cc1d0c8c062bf718dd71678f94b14d50af9e149cc24954cc93"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell1.obj",
+        "sha256": "d49eee762dbe1a4fa0ef8d426a83fc87323e7d57d1702c0493d0074426a68840"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell2.obj",
+        "sha256": "043d485257ce2c7b81e2eb41a7a22cf1f14d29a92367f040f83a1e4c0e507d8a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell3.obj",
+        "sha256": "7004d54b387bf4506747d2cafc2022d0a5d89609a7290bc028dc554d3b744712"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell4.obj",
+        "sha256": "fb92e96a25f3e9baf69c0b02b684037111a1f75a41ee242b6fb1188d4d07d888"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell5.obj",
+        "sha256": "3e341db53f809f1239d277a7d166a3833583d5b314966b78121b1d3c809c9fe5"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell6.obj",
+        "sha256": "2aeaaa0511c84b02e99c3e16f7324b3b464adafe38487e0a1ef6da99a84f2170"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell7.obj",
+        "sha256": "79b511745d2a3df9a023591064c815de94958bb126a1835c496e786c97335b6b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell8.obj",
+        "sha256": "6ac53d1c159ce5e31b014c9da33a3fc94eb0bc872ee75273b2962f10a6485584"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell9.obj",
+        "sha256": "4115222af3a5296e0737c3971c7599f33a940e6eab2e23ee60f863978f5a4b31"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell10.obj",
+        "sha256": "e1dabfa7eca0877540b7305d72cd9a5c0b1dd9485b205f4294dae59e14dda792"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell11.obj",
+        "sha256": "f0ffad4d23e6288a9a12163cabcd735ea0448dc480afade54225c510a7888544"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell12.obj",
+        "sha256": "d72dbfd3c64c55c11dbdee5f42142ad5ff2a21487d0f8a1ac82f709da0872857"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell13.obj",
+        "sha256": "be3b659cc43ca4fa39b38edc2262a55406050d4bb55c6caa57c4ad5be5617e7a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell14.obj",
+        "sha256": "60361fadaf6cf2a4e1c719a5c00c3b70fc1b0069dd8259be4a1af00f0df53eb0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell15.obj",
+        "sha256": "dc0e8e4bcca2791aba630fc4c6b614924a854caa5b6ffe95d1d3d88088b73b3e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell16.obj",
+        "sha256": "a91843ebfc8d85f2a19d717680a956b51dcafe4325a3d536d2596132a3fce7c5"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell17.obj",
+        "sha256": "ef5be7a13ae36145e77779ad711e1855c4bc4de1a9c6610d6962d10436bf98fc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell18.obj",
+        "sha256": "1f8ccc5e46d963c57271aa16e2fcb486d5adbc33ee230c50037b46b4dddb3aa6"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell19.obj",
+        "sha256": "83c1dd95257558cd1f7e8ad69d78d62afedf0a535579ba9ec4e06edbc750f4f2"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell20.obj",
+        "sha256": "9262dc8faedfeb967df5863fe7d79d9b34eb290b93c913e4ad905fe39e6a73b4"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell21.obj",
+        "sha256": "8002931ebb008a347b8b8879475f846108b937ed098db3306c831fc4339763d0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell22.obj",
+        "sha256": "0d3847c9427a29173055f0e7af87ef4fc439b076d92246d045daad21d90c8926"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell23.obj",
+        "sha256": "5b70173d410494e51fb819d2d1f2071fcf051a5db2f6eed66544835601df59cc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell24.obj",
+        "sha256": "86eefddaa3feabf703ac6815ff1c2d7053b2cefa856a21745199ecb83cc01925"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell25.obj",
+        "sha256": "b1047d8e3456b7e9eb0481e7163c8156932ffa3e0bae8240f31ec587544f2049"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell26.obj",
+        "sha256": "955c33c7c7da613935f932a91e9cbe7421739b1a9777f5a52ffedb28f1d303e0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell27.obj",
+        "sha256": "46ad76ceae2dec456de1eef1efcf3681fccf2b5c999f9a1715b60487f5bfd1b9"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell28.obj",
+        "sha256": "95e13e4e4fd3934a6b6748f9265393338902be0b715fbd3f211c644c6c3aba35"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell29.obj",
+        "sha256": "fa4f07cc14401ec4059f89ed58fd1f1a30192aaa5d295c5fa5d2e95c62c82d7f"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell30.obj",
+        "sha256": "07d9e285926a808df94332f94013a9724164d68ef247560e85428896b2b1e16d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell31.obj",
+        "sha256": "9251bf1b10b48d7300c875444852b0ba06007399a4c0c9f1bedf4453196b2e57"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell32.obj",
+        "sha256": "dfa64d232752347774890f2463db443f75a78aec56ce39cc3f40dd2471821660"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell33.obj",
+        "sha256": "22dfcf649c008f013b1425ef981e01d6c2565cca1868b20073501dcb5cd1f99b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell34.obj",
+        "sha256": "e5864fa2b9c26b2cac223c03f21cda783d3ce15235064cea1f35ffe3283b76b5"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell35.obj",
+        "sha256": "edd9fc820c36d7f5daf711370d90df655756a4f77b5280edc768688ab1b81eb7"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell36.obj",
+        "sha256": "07f29514d3ad2ddf813a0c8ab1f37fe6eeb9194579b19ac7b492619e9c0312b7"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell37.obj",
+        "sha256": "46566b338c4a94fb6d8e8d8c0ec862587204b560fd7772a67c5bf1c335921771"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell38.obj",
+        "sha256": "81717d7790a24aebd2474d4e0c066dbe4a9284306e047d7d7a226dea47c11c87"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell39.obj",
+        "sha256": "11129f8b01f8ffdde4cf635da578a25fe5cd2710954715c637d9b0ba17676387"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell40.obj",
+        "sha256": "f8d4a8e54f1a0a389d0a727d178d1192a5817037f0e877834016d272876039a0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell41.obj",
+        "sha256": "32ad16aae77409e444f29c3d6c758650ae010cdc188496d6dff8fc481bd61776"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell42.obj",
+        "sha256": "88206dc52c3e896298e71cf1a75aa48481bbd7e08e9cc544aee03982d570b998"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell43.obj",
+        "sha256": "b15093cf135015eb2d420c3668c9914e04b22dfa6afede6c7ddb3b133175acfb"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell44.obj",
+        "sha256": "ab857480429a109c97d703030fec499979d0e188d85237b4c395e92c5665c805"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell45.obj",
+        "sha256": "8cacb96136790536c937090a0ad302c164e8a1cdf8517ec87b16816f44042334"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell46.obj",
+        "sha256": "53d023f332f936f23f8eee3eb9e0caafdc71679f0a9ed561a83c9a95c9306c90"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell47.obj",
+        "sha256": "9e5c774952a2c9a1577777faea070a7d3f1b958065dce6173a79ddba1216e978"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell48.obj",
+        "sha256": "68efce22a60d759655b05966cc61073dc56ca5093b5b71cac850c9b836365773"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell49.obj",
+        "sha256": "c7ddb160ed9c6e6b1d6949bcf06509bb502738fe678c6c7f32cb150f605fd702"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell50.obj",
+        "sha256": "873439daa0829f8230a3147af8af3efc9654ce3514e0a6ed977ef6f09d9a191c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell51.obj",
+        "sha256": "46e41f1bc047f84e6c270a51c9d04000ec038708dde31a6df7edc53b982a6b54"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell52.obj",
+        "sha256": "214ab66269716fdf56427c3ef518132e4920f0eb86deffa7fdc488045d679a3a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell53.obj",
+        "sha256": "a25f0f2069ed6eb66f715588a0ea2e1b14e17fcbd4c9e07236683de6be0174d8"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell54.obj",
+        "sha256": "ed91291cad56d433f3698179c384eee2e58f153846a175017544e478c9e91275"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell55.obj",
+        "sha256": "df1217d344f73eb5e5d593886ddfa742740fb767d78e753aa4bccf2e2dd11c23"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell56.obj",
+        "sha256": "ddffdb142adfe2c97951c94e83befe25a43ac8ff635492c656b10fccaa987a71"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell57.obj",
+        "sha256": "955ee77b387e53a8bee0412fa5c2e0eeb8edb679e2c7f1e6cae2881b05978964"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell58.obj",
+        "sha256": "a93f896ea60074fee449baa27e302748f362ac3bf9e3f21ad61890cdbf020d89"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell59.obj",
+        "sha256": "78087489ce6cae71846a92d7c7ecf253ee7caa46658feff9898d626ceaa16ecd"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell60.obj",
+        "sha256": "4c15acf83d87efad32bd4783c5cff64d1abe93237848e3c85d26a8869ed40294"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell61.obj",
+        "sha256": "acf28517d187904b239dd6e24bc92ae1c2b8088f47222eb8121b6cdd627ccd99"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell62.obj",
+        "sha256": "4724e0ea4bf89b167f8f674766f3bc922be594de0ffd477e4995319a2562d648"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell63.obj",
+        "sha256": "947f6c184cae238a2c13b8b789a8ae3708a35298c05024a49b15878e2c83d9a0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell64.obj",
+        "sha256": "07c8392481111ce8a2396b3125dbc7e524fdbb4ec2e327b78206488ba01bfa90"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell65.obj",
+        "sha256": "7ff1125a8bdcc529f657ebd7578dba68b1bdf2ee3dbcf87062211c028b79d425"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell66.obj",
+        "sha256": "dca7d0a27ec17bb86ad2a8fc60bcecb30d1f9c1f0d73f6e00fb40e01273af136"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell67.obj",
+        "sha256": "9b2909dbc1e212d58acb82bd4412416c7d23af3170b14133f1fe6b8499a3c9ea"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell68.obj",
+        "sha256": "69ce59a8bd8be303589fb47375df34488d0d59ea0834130b964b149390a058b0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell69.obj",
+        "sha256": "b04901c7f4c0a55ed9cb53d4c5fee632bde0d8620a25af913f3229f37cde742c"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell70.obj",
+        "sha256": "bd7c1c1fdd1afde5b534c2727d3e54c67fe12ad4bab840f7c1b1225e84cbc3ff"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell71.obj",
+        "sha256": "03464d57c15c15e23caf468b1ad597b2677cac4f356903922d6f4feee707dfff"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell72.obj",
+        "sha256": "1b78cb91c46d4627c5dc994ffa055c7eb3c0a0d8edbfeb09ad660e963d7d4471"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell73.obj",
+        "sha256": "2543da17e1adadd18fc0e1bdd9b509876f93d3fac84a366794159da47f3fcb72"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell74.obj",
+        "sha256": "ce14f97e180c5b3af9d4637b4e6ec5f81f7eafd77daaa9bdd24d01b690bb59ab"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell75.obj",
+        "sha256": "9a45e6a778593df28a9d2264dc21d3bdc1b1690110ade634243e3eff4aaa8b88"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell76.obj",
+        "sha256": "4c81f71ff8386babc32666a55ca1982c7892bb0b91b311124db2de1d6b943671"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell77.obj",
+        "sha256": "eb2a49e1f77ea55bae95cdb6c29c7dc2b8ac49a013af4dee0651e2ade1db2825"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell78.obj",
+        "sha256": "d23726db92fa9f631353fc36f9f310943090661a103f5ed734c331371f14b15e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell79.obj",
+        "sha256": "a93d9f234f237cf863d246c0c714e9464d336d3fcb68d06b410b22576f89960b"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell80.obj",
+        "sha256": "ba19f7009d6e7b91bc97717d8368e2e87760762c6b602530e3f05524bdbdd6c8"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell81.obj",
+        "sha256": "c673af56b9aef78e60ffd79c9e7a497491b3baadb5aefee1bb7177b02977b1b2"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell82.obj",
+        "sha256": "7c7cca79ccddeb108668560da883a7ebf9bdf3dee0f0cfb21a58b332a4276b3d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell83.obj",
+        "sha256": "ab3f4a2f69d1b29c2bad96a6c7da6c900fd819cc5be91970263d84b329bc38e6"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell84.obj",
+        "sha256": "f6bf03bd3ee06a7f5acadbc71b1950cef3aed25b2b4467e993885528fa3ac60d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell85.obj",
+        "sha256": "e2ec21a6f40403933469e1e3a5a741986dae753d9dc361481abfd69d672c0e5e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell86.obj",
+        "sha256": "428e9f1d8255ddce35e1649c2defa42be3f3aa8146ffb7f3c0e26940e5b0614e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell87.obj",
+        "sha256": "84e783750c33861246b73398ba9bf678cc712226d089fc6313d9f929bf9aaf7d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell88.obj",
+        "sha256": "d80d5e057c4bc3132e5dd6549d023abd75e354776764b359ebe8fdbf083a06dc"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell89.obj",
+        "sha256": "be1f1baf66ac058fcd791e5bd4998cdd42f3cc66533002bf2519e6f1f4282802"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell90.obj",
+        "sha256": "3943cb46f09347dc08b8d888046e8671e1344cdb653e04efafe9545f1b2f3647"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell91.obj",
+        "sha256": "6abc73688df7086fb207b1e8daf2275736df8393582303fbf192accd1059bb85"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell92.obj",
+        "sha256": "548eee9c43a8c11922882b340f6805cf12dcb033f4b0fc2a72a6d5c22f7b4a03"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell93.obj",
+        "sha256": "a19826f74cac04a1188a67519287e6935940bb208188430c505c39c69c481617"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell94.obj",
+        "sha256": "d1cb1f122582e25f95c1b98e66f221e07cb6d385d7f47c1e34f7de1884750fc4"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell95.obj",
+        "sha256": "f46d6659edcfb8cd14c49629fa6c753c666729fdcdaff907b736e3bff06d5112"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell96.obj",
+        "sha256": "f23ae3b1a5ec7255134df480537fd1c6308679a012fb265f6fcae5d2d9e8dc54"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell97.obj",
+        "sha256": "bff29bb504cd8a006a709c8b5fabec1d6d95d9e0ec7b2c1dbd9968c514118a62"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell98.obj",
+        "sha256": "64288b0ec1e29e1dd57695a0db503ca61bd7bec32a89d3a99992c97d4d06e277"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell99.obj",
+        "sha256": "5da9b749a1b8620eed29cbfaaaced4cc34446f2c52d609cfee1667a4952cd715"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell100.obj",
+        "sha256": "32faa8516d529ffc493eac88ad7723aff31fe116975bdfea25ba68b17a8fd721"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell101.obj",
+        "sha256": "50bd631f5f99164eb8637dd20e60ae069e2435747ade6e06589b89c6f77c63d1"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell102.obj",
+        "sha256": "e094304b09dbe4932745cfa0582328328a13146a5d92c89d5c9f06e2b670a995"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell103.obj",
+        "sha256": "9d8511c7c0fb81c8abf85038d3f8956744f34638007881f95bde3bcf043f0d31"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell104.obj",
+        "sha256": "81fa50f51652ac2f08301fdff9878b574ad4aa24d4fa60dcf953d05548bf0d71"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell105.obj",
+        "sha256": "b58ee62dde03ade5c31f8c0540a0ae880a7dbf52266c5d94cd7a41675e03ddb0"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell106.obj",
+        "sha256": "084db25ffdf8414488ed14083ada365261a154d666e2547f1c9d0cde23619679"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell107.obj",
+        "sha256": "2c0a79a6c7149a6d76b9d2f76520f7f3c1569501cd35cdd5135328c1777e308d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell108.obj",
+        "sha256": "8d29d971fdf324cf72f2a32a898585efbe955f349f00b3b4152caef130425b87"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell109.obj",
+        "sha256": "93c17bad2befb804f2e04b87fdafe68aa9c0f74260903e2fcc780a7fd88af411"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell110.obj",
+        "sha256": "1667c45a5de47a6387e86de98f6654b35118bd4dce0532ff139abe9b6eaccfdd"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell111.obj",
+        "sha256": "14444018db5840771d431e091dfb6ce741fd21ed0dc7bd3c12807e859bec6990"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell112.obj",
+        "sha256": "b3049f29f3e395134e1f096be94a975d4a6427080faaff5a32b1759ac34a045a"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell113.obj",
+        "sha256": "75cd406222bebc5588db71cd74675939f04da1b1edf0f3bd4a2adb6a232ebead"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell114.obj",
+        "sha256": "1781c71698052148b4cc888df979baf5f2239c1f87a67bde4e518b876a5fb025"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell115.obj",
+        "sha256": "fb01054f1735f3c34f31eb38f05b477ec3c7ee003a2d4243235e671e1390b149"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell116.obj",
+        "sha256": "0be2108cc77672e13e0c91b45bd7047b27899ccdf8be356a6d4ac9e751ad4f9d"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell117.obj",
+        "sha256": "c25ca6c637f0e32aaa6ef7a451d9b62ef68e3d922fea81d2892a2d2927696984"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell118.obj",
+        "sha256": "fc8d687b01bb143b3ad55789daa727639918cac9873d8420a5d5d53d70be805e"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell119.obj",
+        "sha256": "4a4fef351cbe34d1df8ed9f0450ee76ac01bdd34c143013f924c4e8570ce8204"
+      },
+      {
+        "repository_relative_path": "Projects/FEMShell/input/Kick/shell120.obj",
+        "sha256": "e1703c050e06cad3546a962d4c4523ce25f39e3c7f3d815eb26767dc29e36b38"
+      }
+    ],
+    "ordered_sha256_list_digest": "e711ad7115fcf67775c64d7118fa807a5965ad7c53b25091334322c3b27cd50d",
+    "initial_drape": {
+      "repository_relative_path": "Projects/FEMShell/input/multilayer/drape.obj",
+      "sha256": "702eeab42b3dca81d6b79aaaeedfdfdfc543e933fefd68166cd28abdbbde14f5"
+    },
+    "source_frames": 121,
+    "fps": 25.0,
+    "firstframe": "body vertices after the garment block in drape.obj; then shell0..120",
+    "drape_to_shifted_shell0_maximum_m": 5.0000000003621024e-11
+  },
+  "portable_fields": [
+    "body_vertices",
+    "body_faces",
+    "body_model_kind=native_mesh",
+    "gender=null",
+    "betas=null",
+    "pose=null",
+    "translation=null",
+    "source_frame",
+    "source_hashes",
+    "shell_to_world_translation"
+  ],
+  "published_firstframe_sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b",
+  "published_body_array": "firstframe.npz:body",
+  "published_body_triangles_array": "firstframe.npz:body_triangles",
+  "source_audit_sha256": "9f13e72d730b82d98becadb5fff92ceef430e7c1fd68542d4c59b774e644a356",
+  "publication_body_policy": "preserved_target_body",
+  "source_geometry_authority": "Saved actual body mesh; model reconstruction tolerances are separately reported."
+}

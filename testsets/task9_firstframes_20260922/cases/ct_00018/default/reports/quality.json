@@ -1,0 +1,91 @@
+{
+  "finite": true,
+  "minimum_triangle_area_m2": 5.4904303247283055e-06,
+  "degenerate_faces": [],
+  "body_repair_max_m": 0.0,
+  "principal_stretch_vs_preserved_rest": {
+    "minimum": 0.7384600989556253,
+    "maximum": 6.132014643704146,
+    "max_per_face_quantiles": [
+      0.971435334427462,
+      1.0303577388380547,
+      1.1553102359535279,
+      1.2197985945174592,
+      6.132014643704146
+    ]
+  },
+  "maximum_speed_m_s": 1.6007889258649268,
+  "maximum_face_localization": {
+    "face_id": 8355,
+    "vertex_ids": [
+      3166,
+      3204,
+      3240
+    ],
+    "component": "CT-sim_00002",
+    "rest_area_m2": 1.2392056324343278e-06,
+    "source_repaired_area_m2": 1.2392056324343278e-06,
+    "target_area_m2": 8.663944407463941e-06,
+    "source_stretches": [
+      1.0,
+      0.9999999999998939
+    ],
+    "target_stretches": [
+      6.132014643704146,
+      1.1401686485229974
+    ],
+    "elastic_retention_vertex_ids_on_face": [],
+    "rest_centroid": [
+      -0.13147277902146248,
+      0.9372800193333334,
+      0.09064585653359941
+    ],
+    "target_centroid": [
+      -0.18934767524281937,
+      0.8392999897925978,
+      0.019653402661076264
+    ],
+    "original_reference_area_m2": 1.0812719610330688e-06,
+    "physical_to_original_reference_area_ratio": 1.146062856610437,
+    "physical_reference_stretches_vs_original": [
+      1.1445396227485132,
+      1.001330870361257
+    ],
+    "target_stretches_vs_original": [
+      6.140870457410355,
+      1.3048205254439333
+    ],
+    "touching_source_boundary_loops": [
+      {
+        "vertex_count": 3,
+        "face_vertices_on_boundary": [
+          3166,
+          3240
+        ],
+        "boundary_vertex_ids": [
+          3166,
+          3240,
+          3133
+        ]
+      }
+    ]
+  },
+  "principal_stretch_per_component": [
+    {
+      "component": "CT-sim_00000",
+      "minimum": 0.8705898851983885,
+      "maximum": 1.4834478112265437,
+      "maximum_principal_p99": 1.209547626192297
+    },
+    {
+      "component": "CT-sim_00002",
+      "minimum": 0.7384600989556253,
+      "maximum": 6.132014643704146,
+      "maximum_principal_p99": 1.2321970274346086
+    }
+  ],
+  "dynamics_limitation": "completed prescribed 900-step dressing, not static equilibrium or a uniform strain-barrier certificate; no source-rest reset",
+  "last_step_retention_error_m": 0.00019485207648578412,
+  "last_newton_displacement_residual_m": 4.819914441216478e-05,
+  "convergence_criterion": "semi_implicit_cumulative_step"
+}

@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "reviewed_image": "preview_front_back.png",
+  "review": "Actual final body-front/back images inspected. Native tee and jacket designs retain long hems and broad triangular sleeves. Both remain aligned to official female-SMPL target; no detached part, transfer-induced fold crossing, gross over-tightness or collapse visible. This is a deliberately loose source design, not a tightly fitted shirt. Official target betas and all first-frame pose/translation preserved; 59 local cloth vertices repaired with maximum 3.480 mm displacement. Geometric and containment checks independent."
+}

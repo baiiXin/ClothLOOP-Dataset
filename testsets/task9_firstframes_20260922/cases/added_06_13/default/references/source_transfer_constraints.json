@@ -1,0 +1,123 @@
+{
+  "scope": "Original Task8 skirt-outfit transfer constraints, not a new solver setup.",
+  "applies_to_current_variant": true,
+  "warning": "Indices refer to the unchanged original 00242 full outfit.",
+  "source_manifest": {
+    "motion": "06_13",
+    "phase": "transfer",
+    "requested_steps": 1200,
+    "full_input_steps": 1200,
+    "input_start_step": 0,
+    "complete_source_input": true,
+    "source_frames": 1201,
+    "dt": 0.0033333333333333335,
+    "output_frames": 121,
+    "config": {
+      "method": "libuipc_ipc_neo_hookean_shell",
+      "runtime": "local-evidence:task8/data/libuipc_contact_diagnostic/python",
+      "fps": 30.0,
+      "fps_status": "assumed_playback",
+      "substeps": 10,
+      "waist_attachments": "local-evidence:task8/data/prepared/waist_anchors.npz",
+      "waist": {
+        "hard_anchor_indices": [
+          5,
+          6,
+          7
+        ],
+        "strength_ratio": 100.0,
+        "maximum_extension_m": 0.05
+      },
+      "collar": {
+        "attachments": "local-evidence:task8/data/prepared/collar_anchors.npz",
+        "strength_ratio": 100.0,
+        "maximum_extension_m": 0.05
+      },
+      "transfer_guide_file": "transfer_guide_staged_corrected.npy",
+      "transfer_body_file": "transfer_body_staged.npy",
+      "transfer_support_file": "transfer_axilla_support_v2.npz",
+      "material": {
+        "young_modulus_pa": 1000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 400.0,
+        "full_thickness_m": 0.0005,
+        "bending_stiffness_N_m": 2e-05,
+        "collision_offset_m": 0.0,
+        "friction": 0.0,
+        "strain_barrier": true,
+        "strain_activation": 1.3,
+        "strain_limit": 1.5,
+        "strain_kappa": 100000.0,
+        "strain_kappa_cap": 1000000.0
+      },
+      "solver": {
+        "contact_dhat_m": 0.001,
+        "newton_max_iter": 1024,
+        "newton_velocity_tol": 0.005,
+        "line_search_max_iter": 32,
+        "semi_implicit": false,
+        "full_swept_ccd": false,
+        "body_areal_density": 0.2,
+        "diagnose_contact": true
+      },
+      "transfer": {
+        "moving_steps": 900,
+        "settling_steps": 300,
+        "guide_strength": 1.0,
+        "guide_release_steps": 200,
+        "save_every": 10
+      },
+      "guards": {
+        "body_tracking_max_m": 1e-09,
+        "maximum_principal_stretch": 1.5,
+        "maximum_speed_m_s": 50.0
+      }
+    },
+    "source_code_sha256": "46efbf2e912421b8261568f62178fa841fe9641973a0b6d704919f9237769acd",
+    "native_libraries": {
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_backend_cuda.so": "98a4aa54753fbc4af08aef48ee55ca4c609d2a068ee228a9b58ad9f09cc85f54",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_backend_none.so": "9914e84695203516710fdf3c2ccb12788d74f39fca64111c454ccd1085edc446",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_constitution.so": "97f1b4a80f1c7008578206f02f1640e5349be0dc8d8f058949501c21dd9a09f3",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_core.so": "339590c23d014931d3838682a7153cf1b8075597de5a53eca215b595f13581e8",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_geometry.so": "7bd4af6840b1b6bf56087201638b89646c761a53a3b731ce07747eecd8324c37",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_io.so": "aeaae5f110ace5af08740d861a5bac45931a8a0ab296ecd254636f665cac6324",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/libuipc_sanity_check.so": "3fa3afe45e29159d9c98aec29d16ab237e702a78ab5e0f605e810cd91b2b5536",
+      "local-evidence:task8/data/libuipc_contact_diagnostic/python/uipc/_native/pyuipc.cpython-311-x86_64-linux-gnu.so": "9fc94d3017aaadb5c5a449bfa09ffc27106fc67cb14712f5cd8c5cb1ea47a7b9"
+    },
+    "initial": "rigid transform of bound source rest state",
+    "cloth_constraints": "waist hard subset plus compliant waist and optional collar attachments; optional temporary transfer guides; remaining rollout vertices free",
+    "hard_waist_vertex_ids": [
+      1221,
+      82,
+      8112
+    ],
+    "compliant_waist_vertex_ids": [
+      2382,
+      3530,
+      4686,
+      5836,
+      6964
+    ],
+    "waist_strength_ratio": 100.0,
+    "waist_attachments_sha256": "0698877ed0aabda9fd0d1391443a7b1e58af9a3d9b1e234480200b37132c6c3d",
+    "body_self_contact": false,
+    "pid": 2198097
+  },
+  "collar": {
+    "cloth_vertex_ids": [
+      18116,
+      17646,
+      18423,
+      19155,
+      20062
+    ],
+    "attachments": "local-evidence:task8/data/prepared/collar_anchors.npz",
+    "sha256": "81d934be062d774f51f6ba10bf23201a13f2e01858316301c2e9b1760d6d588e",
+    "policy": "compliant jacket retention; no added hard constraints",
+    "config": {
+      "attachments": "local-evidence:task8/data/prepared/collar_anchors.npz",
+      "strength_ratio": 100.0,
+      "maximum_extension_m": 0.05
+    }
+  }
+}

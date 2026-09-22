@@ -1,0 +1,36 @@
+{
+  "id": "cc_05_06",
+  "case_id": "cc_05_06",
+  "variant": "default",
+  "directory": "cases/cc_05_06/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "CounterCraft",
+    "title": "05_06",
+    "outfit": "00276 · 仅内层连体衣",
+    "method": "IPC 从绑定姿态连续迁移到官网目标首帧。",
+    "caution": "局部源修复改变了代理 rest 小面的面积；相对实际求解 rest 最大主伸长 4.066。原参考另存，未事后重置 rest。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641",
+  "source_evidence_report_sha256": {
+    "geometry": "16f4695963956e8b6950d595cdb52f11fa3696fc98f5eb8a5c138b1f547fae03",
+    "containment": "efd74a8db143b4f4454ce1fe32a670c857539dbd2e9fe9f966e96a8c7ac1e751",
+    "quality": "bfb3cca8aa3b60d73f44e6a8de14be5fd56050466c3f38cd15475c37f8716e32",
+    "provenance": "69e508162dc154eddbd3ac1de7255f4f72a9a9fc6bd7095e02db03a31b9220a7",
+    "render": "7e09168655e33009d3f466df5b911133cee1b07386441d3ada325f90548f371e",
+    "status": "41989644a17fc912d5b53eb0913fc0e81fcb05ed641865a9d2517d91175e27cf",
+    "visual_review": "acd6921807f149ce30e724d730317fd50c863854cc569e1be24db377e601559d"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

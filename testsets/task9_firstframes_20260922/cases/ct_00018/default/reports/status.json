@@ -1,0 +1,15 @@
+{
+  "state": "verified_v11_substitute_firstframe",
+  "original_case_accepted": false,
+  "parent_visual_review_completed": true,
+  "parent_acceptance_record": "local-evidence:task9/results/PARENT_REVIEW_20260922_1258.md",
+  "parent_acceptance_record_sha256": "bbf6bbc3bdaeb5e3281c5bacde1522738e0882e2e9d796832d606de8d29e9bdb",
+  "counts_towards_formal_original_14": false,
+  "delivery_label": "12 original-scheme first frames plus 1 explicitly verified v1.1 substitute",
+  "firstframe_sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493",
+  "strict_cloth_cloth": 0,
+  "strict_cloth_body": 0,
+  "contained_vertices": 0,
+  "exact_target_v11_body_and_parameters": true,
+  "formal_12_npz_unchanged": true
+}

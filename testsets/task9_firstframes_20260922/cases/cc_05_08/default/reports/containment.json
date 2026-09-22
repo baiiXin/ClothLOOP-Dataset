@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "penetrating_vertices": [],
+  "near_surface_candidates": [],
+  "maximum_abs_winding": 6.714504327534091e-16,
+  "contact_tolerance_m": 1e-07,
+  "scope": "final first-frame vertices; not a full-body self-intersection certificate",
+  "geometry_sha256": "2c6260b6c369fbb0f12c99be5f4afc83ff13cbc328e7b4a9ab822f5c94d4dcd8"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cc_55_27",
+  "case_id": "cc_55_27",
+  "variant": "default",
+  "directory": "cases/cc_55_27/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "CounterCraft",
+    "title": "55_27",
+    "outfit": "01957 · 无袖内裙 + 连帽外套",
+    "method": "原 restpose 体型适配、蒙皮与局部几何去穿透；没有物理求解。",
+    "caution": "派生代理 rest 的个别小面造成最大主伸长 27.667；原参考另存。几何通过，不可直接当作动力学就绪初值。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37",
+  "source_evidence_report_sha256": {
+    "geometry": "a795a494fa93710ae4d42e88c454a3cd4fd2870ac80c8a7dde6f0b25fae9a8d8",
+    "containment": "c8426767616fc901bfb99e7d16b0b847ae19d85a19b2cd3413e9fab2e7871b6c",
+    "quality": "224d8f73f3521264637b771c669e148e83b17e2e552bc711b30959743b7e0426",
+    "provenance": "5482c2daf6b9956ec92d05dae895fb46dfbaf4cf0e7725181d6eafa1c0526faa",
+    "render": "f22e8e723c55e27907b7a1d68110b77f1512b6594b714a834ba69a9c534d923b",
+    "status": "b1723338b1df21d8bfa52e037848ebbd7a5d5e5b4d73cbe89eac6fc42a68fdce",
+    "visual_review": "6b0be146d54208ec900e930bc0d1a98f4f715c2204876aa710ff4fcf98550477"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

@@ -1,0 +1,6 @@
+{
+  "finite": true,
+  "minimum_triangle_area_m2": 5.846038554671707e-07,
+  "degenerate_faces": [],
+  "body_repair_max_m": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Source dressing preparation failures only; not target motion first frames and not additional test variants.",
+  "ipc_attempts": 0,
+  "candidates": [
+    {
+      "candidate": 1,
+      "iterations": 100,
+      "final_cc": 43,
+      "final_cb": 0
+    },
+    {
+      "candidate": 2,
+      "iterations": 100,
+      "final_cc": 31,
+      "final_cb": 0
+    }
+  ],
+  "geometry_mapping": "cleanup candidate/best_candidate contain positions; topology/rest/component mapping in sibling source_initial/firstframe.npz."
+}

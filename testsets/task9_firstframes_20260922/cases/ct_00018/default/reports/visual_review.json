@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "v1.1 substitute target first-frame garment wearing only; parent review still pending; not original v1.0 reconstruction",
+  "reviewed_image": "preview_front_back.png",
+  "review": "Actual body-front/back target views inspected. T-shirt neckline and both sleeves remain worn, long hem covers the skirt waistband, and skirt surrounds both hips/legs. Source construction's strongly flared lower tee has relaxed substantially. No detached garment, gross mesh collapse or visibly misplaced clothing opening. Skirt retains draped folds and asymmetric hem around the posed knees; no new source styling or topology is invented.",
+  "limitations": "Single 900-step dressing trial, not a full sequence or static equilibrium. Preserved source reference gives local maximum principal stretch6.13201 and P99=1.21980; final maximum speed1.60079m/s. These must accompany the preview and the original source/reference records."
+}

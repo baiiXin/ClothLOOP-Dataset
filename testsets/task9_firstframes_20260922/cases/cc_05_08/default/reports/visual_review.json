@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "reviewed_image": "preview_front_back.png",
+  "source_comparison": "../../preparation/source_views/04847/preview_front_back.png",
+  "review": "Actual target front/back and original bound source front/back reviewed together. The shortened front dress hem, long back hem, and narrow hanging jacket side strips are present in the source outfit, not invented or detached by transfer. Target shoulders/sleeves and inner dress remain dressed on the official female-SMPL first frame. Some free side/back hem curling remains from finite settling, disclosed rather than claimed perfectly equilibrated. No gross collapse, body penetration, or detached garment seen; independent strict CC/CB and containment pass. Full cloth guide removed for final 100 steps; only eight sparse elastic shoulder/upper-back retention points remain. Source bound-frame geometry is the explicitly recorded material reference because a canonical material rest is unavailable in the curated frame0 bundle."
+}

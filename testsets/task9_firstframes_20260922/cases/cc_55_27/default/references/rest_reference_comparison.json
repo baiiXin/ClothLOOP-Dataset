@@ -1,0 +1,129 @@
+{
+  "case": "cc_55_27",
+  "source": "local-evidence:task9/results/firstframes/cc_55_27/firstframe.npz",
+  "source_sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37",
+  "accepted_firstframe_sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37",
+  "optional_reference_kind": "original inverse-skinned native restpose before target-body shape-field adaptation; preserved source proxy, not a certified UV rest",
+  "used_in_completed_simulation": false,
+  "actual_exported_rest_unchanged": true,
+  "physical_solver_used": false,
+  "physical_solver_note": "no physical solve: original restpose, body-shape adaptation/LBS, then local geometric clearance repair",
+  "future_use_requires": "select and validate a material reference, then independently revalidate geometry/strain and any dynamical solve; this optional reference is not certified dynamics-ready",
+  "quantiles": [
+    0,
+    0.01,
+    0.05,
+    0.5,
+    0.95,
+    0.99,
+    1
+  ],
+  "actual_reference": {
+    "principal_minimum": 0.026205735497416505,
+    "principal_maximum": 27.666675418044957,
+    "maximum_principal_quantiles": [
+      0.8807528171097658,
+      0.9999999999999931,
+      0.9999999999999969,
+      1.0000000000000062,
+      1.0000000000000233,
+      1.0000000000000362,
+      27.666675418044957
+    ],
+    "minimum_principal_quantiles": [
+      0.026205735497416505,
+      0.9999999999999645,
+      0.9999999999999768,
+      0.9999999999999936,
+      1.0000000000000029,
+      1.000000000000007,
+      1.1801568789992138
+    ],
+    "rest_area_quantiles_m2": [
+      5.04631215084959e-07,
+      1.8537006776605406e-05,
+      2.2622360331177095e-05,
+      3.968311173638451e-05,
+      6.894391222779136e-05,
+      7.928881825349381e-05,
+      9.61907966949433e-05
+    ],
+    "final_to_rest_area_ratio_quantiles": [
+      0.025308598718334324,
+      0.9999999999999653,
+      0.9999999999999786,
+      0.9999999999999999,
+      1.0000000000000215,
+      1.0000000000000344,
+      25.899886904097073
+    ],
+    "rest_total_area_m2": 2.353540227829478,
+    "final_total_area_m2": 2.353275884056482
+  },
+  "original_reference": {
+    "principal_minimum": 0.015098994297164514,
+    "principal_maximum": 1.2296520647393174,
+    "maximum_principal_quantiles": [
+      0.6200536662589355,
+      0.8569645428841328,
+      0.8855827070435988,
+      0.9675875455637659,
+      1.015033514871247,
+      1.0425601172760341,
+      1.2296520647393174
+    ],
+    "minimum_principal_quantiles": [
+      0.015098994297164514,
+      0.6450988242356013,
+      0.7511991251166248,
+      0.8651230266337451,
+      0.9912499764741534,
+      0.9987260875435862,
+      1.0033565430849536
+    ],
+    "rest_area_quantiles_m2": [
+      2.04976936279671e-05,
+      2.3873177399922094e-05,
+      2.7944121304597188e-05,
+      4.77379860912133e-05,
+      8.223386736559635e-05,
+      9.272910550883828e-05,
+      0.00011787485841059539
+    ],
+    "final_to_rest_area_ratio_quantiles": [
+      0.0102796949828824,
+      0.6078312500014963,
+      0.697984756586983,
+      0.8297831679767427,
+      0.9899546846966747,
+      0.998873674346857,
+      1.173767511564449
+    ],
+    "rest_total_area_m2": 2.830681553185425,
+    "final_total_area_m2": 2.353275884056482
+  },
+  "actual_maximum_face": {
+    "face_id": 2413,
+    "vertex_ids": [
+      1306,
+      4196,
+      4017
+    ],
+    "actual_rest_area_m2": 5.04631215084959e-07,
+    "original_rest_area_m2": 6.037497850468327e-05,
+    "actual_to_original_rest_area_ratio": 0.00835828397099661,
+    "final_area_m2": 1.3069891398977525e-05,
+    "stretches_against_actual": [
+      27.666675418044957,
+      0.9361401943945066
+    ],
+    "stretches_against_original": [
+      0.9138301928581435,
+      0.23689150484738267
+    ]
+  },
+  "reference_rigid_fit_error_m": 0.0,
+  "maximum_reference_vertex_difference_m": 0.08871888955492338,
+  "optional_reference_file": "local-evidence:task9/results/firstframes/cc_55_27/rest_reference_original.npz",
+  "optional_reference_sha256": "6a647bbaa6321454bbdc3313942228c0d81d378af0b798d68c07fd0bd8d76a02"
+}

@@ -1,0 +1,17 @@
+{
+  "finite": true,
+  "minimum_triangle_area_m2": 6.364822636568864e-07,
+  "degenerate_faces": [],
+  "body_repair_max_m": 0.0,
+  "principal_stretch_vs_preserved_rest": {
+    "minimum": 0.026205735497416505,
+    "maximum": 27.666675418044957,
+    "max_per_face_quantiles": [
+      0.8807528171097657,
+      1.0000000000000062,
+      1.0000000000000233,
+      1.0000000000000362,
+      27.666675418044957
+    ]
+  }
+}

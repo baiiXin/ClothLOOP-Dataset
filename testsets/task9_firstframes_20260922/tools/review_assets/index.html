@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>14 组 / 15 份首帧检查台 · ClothLOOP Task9</title>
+  <style>__STYLE__</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-icon">C</span> ClothLOOP <span class="divider">/</span> <span class="task">TASK 09</span></a>
+    <div class="top-actions"><span id="review-progress">人工检查 0 / 15</span><button id="export" class="dark">导出检查意见 ↓</button></div>
+  </header>
+  <main>
+    <section class="intro">
+      <div><div class="eyebrow">FIRST-FRAME INSPECTION · 首帧几何检查</div><h1>14 组测试，15 份穿衣首帧。</h1><p>点击正背面图放大，逐组查看、标记和记录问题。全部图像对应实际交付网格。</p></div>
+      <div class="totals"><div><b>14</b><span><i class="dot pass-dot"></i>几何无穿</span></div><div><b>01</b><span><i class="dot fail-dot"></i>有穿候选</span></div></div>
+    </section>
+    <div class="notice"><b>验收范围</b><span>85_12 短裤 / 裙子同时保留；CT018 采用确认的新 v1.1 体型；CT004 仅供失败检查。无穿不等于动力学就绪，局部形变、缝合与替代体型限制均保留。</span><a href="README.md" target="_blank" rel="noopener">完整说明 ↗</a></div>
+    <section class="toolbar" aria-label="筛选结果">
+      <div class="filters" role="group" aria-label="几何状态">
+        <button data-filter="all" class="active" aria-pressed="true">全部 15</button>
+        <button data-filter="pass" aria-pressed="false">无穿 14</button>
+        <button data-filter="failed" aria-pressed="false">有穿 1</button>
+        <button data-filter="substitute" aria-pressed="false">新体型 1</button>
+        <button data-filter="pending" aria-pressed="false">待人工检查</button>
+      </div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索动作、衣服或数据集…" aria-label="搜索动作、衣服或数据集"></label>
+    </section>
+    <div class="list-heading"><span id="visible-count" aria-live="polite">显示 15 份</span><span>左：人体正面　右：人体背面 · 点击放大</span></div>
+    <section id="grid" class="grid" aria-label="首帧结果列表"></section>
+    <p id="empty" hidden>没有匹配结果，试试其他筛选或关键词。</p>
+    <noscript>请启用 JavaScript 以显示检查台；也可打开 <a href="README.md">静态预览总览</a>。</noscript>
+    <footer><div>只读结果 · 不上传数据 · 不修改原验收报告</div><div id="storage-status" role="status">备注仅保存在此浏览器，请导出留存。</div><div><a href="manifest.json" target="_blank">全部文件 SHA256 清单</a> · <a href="docs/QUALITY_SUMMARY.md" target="_blank">原 12 组质量说明</a></div></footer>
+  </main>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-shell">
+      <header class="viewer-header"><div><span id="viewer-number" class="eyebrow"></span><h2 id="viewer-title"></h2></div><div class="viewer-nav"><button id="previous" aria-label="上一组">←</button><button id="next" aria-label="下一组">→</button><button id="close" aria-label="关闭放大图">关闭 ✕</button></div></header>
+      <div class="viewer-layout">
+        <section class="image-panel">
+          <div class="image-tools"><span>正背面原始渲染</span><label for="zoom">缩放 <output id="zoom-value">100%</output></label><input id="zoom" type="range" min="100" max="400" step="10" value="100"><button id="reset">复位</button><a id="original-image" target="_blank" rel="noopener">原图 ↗</a></div>
+          <div id="viewport" class="viewport"><img id="large-image" draggable="false" alt="当前结果的正背面渲染"><div id="image-error" hidden>图像无法加载，请检查页面与原结果目录的相对位置。</div></div>
+          <p class="image-help">放大后拖动查看局部 · ← / → 切换筛选中的结果 · Esc 关闭</p>
+        </section>
+        <aside class="details-panel">
+          <div id="viewer-status"></div><p id="viewer-outfit" class="outfit"></p>
+          <div id="metrics" class="metrics"></div>
+          <p class="metric-note">CC：衣物自身 / 层间相交事件；CB：衣物—人体相交事件。内部点为独立包含检查，不是接触距离证书。</p>
+          <h3>来源与处理</h3><p id="method"></p>
+          <div class="caution"><h3>检查时请注意</h3><p id="caution"></p><p id="stretch"></p></div>
+          <a id="closeup" target="_blank" rel="noopener" hidden>查看最大缝隙特写 ↗</a>
+          <section class="human-review"><h3>你的检查意见 <small>独立于几何验收</small></h3>
+            <label for="review-state">人工标记</label><select id="review-state"><option value="pending">未检查</option><option value="ok">已看 · 外观可接受</option><option value="issue">已看 · 需要修改</option></select>
+            <label for="notes">备注</label><textarea id="notes" rows="3" maxlength="10000" placeholder="例如：右侧腋下、裙腰、背面衣褶…"></textarea><span id="save-status" role="status"></span>
+          </section>
+          <details><summary>数据与原始检查报告</summary><div id="data-links" class="data-links"></div><p class="hash-label">首帧 NPZ · SHA256</p><code id="hash"></code></details>
+        </aside>
+      </div>
+    </div>
+  </dialog>
+  <script id="case-data" type="application/json">__DATA__</script>
+  <script>__SCRIPT__</script>
+</body>
+</html>

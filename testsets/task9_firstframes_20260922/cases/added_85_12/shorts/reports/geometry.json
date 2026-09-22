@@ -1,0 +1,12 @@
+{
+  "cloth_cloth": 0,
+  "cloth_body": 0,
+  "count_definition": "exact edge-face intersections excluding shared endpoints only; body self intersections excluded",
+  "cloth_pairs": [],
+  "body_pairs": [],
+  "geometry_sha256": "325b6e4f5907625c69390af5410d3aabe8667907ca823cdb5c7e5e148d1f6e3a",
+  "checker_source": "local-evidence:task8/scripts/check_geometry.py",
+  "checker_sha256": "ab1086c733280a8e7b8d1e6f89ca6a422b032da38ada488e898c5d79df4027a1",
+  "scope": "actual exported first frame only",
+  "passed": true
+}

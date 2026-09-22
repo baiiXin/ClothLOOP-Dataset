@@ -1,0 +1,35 @@
+{
+  "id": "ct_00004",
+  "case_id": "ct_00004",
+  "variant": "default",
+  "directory": "cases/ct_00004/default",
+  "geometry_passed": false,
+  "intersection_counts": [
+    954,
+    1957,
+    424
+  ],
+  "firstframe_sha256": "364cbef4580333c9b7a3e00f3856755399b22a08268bddda3059b367c6311939",
+  "selected_body_policy": "explicit_failed_smpl_v1.1_candidate",
+  "display_kind": "failed",
+  "display": {
+    "group": "Cloth Transformer",
+    "title": "CT 004",
+    "outfit": "ct000 T-shirt + aaron009 bottom",
+    "method": "SMPL v1.1 目标首帧的直接蒙皮候选，未通过。",
+    "caution": "仍有衣物自交及人体穿透。本卡不是后续源姿态清理的 31 个自交候选；后者尚未迁移到目标首帧。原版 v1.0 人体未恢复。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "364cbef4580333c9b7a3e00f3856755399b22a08268bddda3059b367c6311939",
+  "source_evidence_report_sha256": {
+    "geometry": "16237e147cc17bc15bbdf85f10f96a1e799d656096b4b22eec247c7ff79adee9",
+    "containment": "599400837d95148a3b2de144c5cd6c6867861056568fbf307ba954b55c46ccf1",
+    "quality": "f9a545d1923822946880d56d9e1e2843238162891a315f7d02131e4dbfbbd496",
+    "provenance": "84620eb7d334a65f3149f51513e80a3207bd33d8d59bbb94fb38088a5fa6626f",
+    "render": "2b3bc7e374abf9136755c9c4ba945ff48e1ba5546212f82fc860a43cec9f9d3e",
+    "status": "e3d07fad994d2fcd14f019429edc17f469a449489d12a4ec097220d1d82cd049"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

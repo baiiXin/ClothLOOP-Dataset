@@ -1,0 +1,36 @@
+{
+  "id": "added_85_12_skirt",
+  "case_id": "added_85_12",
+  "variant": "skirt",
+  "directory": "cases/added_85_12/skirt",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "0d323060ca1b6b6e3a4770f24c433305cee2c21db4ead5fdba4bd9c7bf18a285",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "D-LAYERS 添加",
+    "title": "85_12 · 裙子",
+    "outfit": "00242 · 原八片裙 + 无袖内搭 + 连帽外套",
+    "method": "保留 Task8 已验收转移首帧；实际衣物/人体/rest/速度均未改变。",
+    "caution": "与短裤版并存、共享同一人体和上衣。最大主伸长 1.443；只展示穿衣初态，不是全序列验收。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": false,
+  "source_npz_sha256": "08670668ff44dedf786e581ebfc4a3a758f4c81680797d05da29a5e153f702f7",
+  "source_evidence_report_sha256": {
+    "geometry": "ebb1fb9c7c4847d5f494e65602cc55798e8d2267746a902f20a242e29ac4202c",
+    "containment": "0239175e00ea4023b45ed5107643bf7908c05dfc8c13fa7025e0a5c73716e006",
+    "quality": "6ae9ed0be0d8aafd9f8d7c301a98eddf6907cd24edbc98a520bde25a9d9194a7",
+    "provenance": "a4ffd55353e8e7fee1bec75e91bd74ef5501a6c0e195c1f618fd3ae627c35ee0",
+    "render": "2f8f28536df26d7cccfa87db13e1f4b12c38d1f817ec6508771d20c9cf985ef0",
+    "status": "ac4639417032e4e1e77147e5d88cce15bc89a2555050379236403b21bc2813da",
+    "visual_review": "a0d5e87ead80a5f924f8f2e2c3a476cdcac97eaff6c1d5d3ed137e41a6221fa8"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

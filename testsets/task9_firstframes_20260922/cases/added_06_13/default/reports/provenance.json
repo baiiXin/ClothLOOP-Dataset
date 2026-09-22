@@ -1,0 +1,26 @@
+{
+  "method": "reuse accepted IPC transfer, no new geometric modification",
+  "source": "local-evidence:task8/results/ipc/06_13/transfer_v13_collar_support/final.npz",
+  "source_sha256": "52fea56d437feacdf82a5310bf8ed3fbdef6c50962c0691a232ca4c5a5edf5ba",
+  "source_validation": "local-evidence:task8/results/ipc/06_13/transfer_v13_collar_support/visual_review.json",
+  "source_frame": 0,
+  "betas": [
+    2.6669766902923575,
+    0.3537134528160097,
+    3.2216537093415085e-15,
+    1.1701557260723394e-14,
+    3.625547106395514e-15,
+    8.205493442562125e-15,
+    1.888205892790892e-14,
+    3.8337076630015204e-15,
+    -1.553224734482786e-14,
+    1.7272269633565616e-15
+  ],
+  "body_repair_max_m": 0.0,
+  "new_cloth_repair_max_m": 0.0,
+  "rest_change_max_m": 0.0,
+  "initial_repair_source": "local-evidence:task8/results/preparation/initial_repair.json",
+  "constraints": "original 3 hard + 5 elastic waist and 5 elastic collar; source transfer supports and full-cloth guide absent at final",
+  "firstframe_sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0",
+  "scope": "one actual first frame only; no rollout"
+}

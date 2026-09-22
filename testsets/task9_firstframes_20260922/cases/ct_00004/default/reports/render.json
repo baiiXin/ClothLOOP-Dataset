@@ -1,0 +1,16 @@
+{
+  "renderer": "PyVista CPU software",
+  "source_sha256": "364cbef4580333c9b7a3e00f3856755399b22a08268bddda3059b367c6311939",
+  "views": "body-front and body-back",
+  "camera_basis": "SMPL pelvis left-minus-right hip axis crossed with pelvis-to-neck axis; no vertex transforms",
+  "front_direction": [
+    -0.3026775642271254,
+    -0.1273941801406003,
+    0.9445406370187779
+  ],
+  "resolution": [
+    1600,
+    900
+  ],
+  "image_sha256": "5792fa691ee37c3b99e7eb6c54e087abe62f13769dfdbdaaa51244be596cc2a5"
+}

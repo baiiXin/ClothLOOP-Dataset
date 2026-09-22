@@ -1,0 +1,476 @@
+{
+  "schema": "clothloop-testset-firstframes/1",
+  "title": "Task9 first frames, 2026-09-22",
+  "created_at": "2026-09-22T21:25:11.497558+08:00",
+  "source_repository": "https://github.com/baiiXin/ClothLOOP-Dataset",
+  "source_commit": "0ca42618be9ac42fb72f02a2bf06e17f1b011446",
+  "preservation_policy": "Only this new testset directory is added. All pre-existing repository blobs remain unchanged.",
+  "case_count": 14,
+  "snapshot_count": 15,
+  "geometry_passed_snapshots": 14,
+  "failed_snapshots": 1,
+  "geometry_passed_default_cases": 13,
+  "user_selected_ct018_model": "SMPL v1.1 female",
+  "snapshots": [
+    {
+      "id": "ct_00004",
+      "case_id": "ct_00004",
+      "variant": "default",
+      "directory": "cases/ct_00004/default",
+      "geometry_passed": false,
+      "intersection_counts": [
+        954,
+        1957,
+        424
+      ],
+      "firstframe_sha256": "364cbef4580333c9b7a3e00f3856755399b22a08268bddda3059b367c6311939",
+      "selected_body_policy": "explicit_failed_smpl_v1.1_candidate",
+      "display_kind": "failed",
+      "display": {
+        "group": "Cloth Transformer",
+        "title": "CT 004",
+        "outfit": "ct000 T-shirt + aaron009 bottom",
+        "method": "SMPL v1.1 目标首帧的直接蒙皮候选，未通过。",
+        "caution": "仍有衣物自交及人体穿透。本卡不是后续源姿态清理的 31 个自交候选；后者尚未迁移到目标首帧。原版 v1.0 人体未恢复。"
+      }
+    },
+    {
+      "id": "ct_00018",
+      "case_id": "ct_00018",
+      "variant": "default",
+      "directory": "cases/ct_00018/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "01a765759ce4f1dcee8c44eaf8a5ce9348fcaf97e80426e224f4f8023a0ec493",
+      "selected_body_policy": "user_selected_smpl_v1.1",
+      "display_kind": "substitute",
+      "display": {
+        "group": "Cloth Transformer",
+        "title": "CT 018",
+        "outfit": "ct000 T-shirt + ct002 skirt",
+        "method": "用户选择此 SMPL v1.1 女性新体型；900 步 IPC 穿衣后的实际目标首帧。",
+        "caution": "原版 v1.0 人体未恢复。裙子原小孔边缘最大主伸长 6.132，末速 1.601 m/s；几何无穿，但不是静态平衡或统一应变屏障初态。"
+      }
+    },
+    {
+      "id": "cc_05_06",
+      "case_id": "cc_05_06",
+      "variant": "default",
+      "directory": "cases/cc_05_06/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "d207fbddadc14188a3456a91683937ccd2ffa89d15262b780627aa7e6ba07641",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "CounterCraft",
+        "title": "05_06",
+        "outfit": "00276 · 仅内层连体衣",
+        "method": "IPC 从绑定姿态连续迁移到官网目标首帧。",
+        "caution": "局部源修复改变了代理 rest 小面的面积；相对实际求解 rest 最大主伸长 4.066。原参考另存，未事后重置 rest。"
+      }
+    },
+    {
+      "id": "cc_05_08",
+      "case_id": "cc_05_08",
+      "variant": "default",
+      "directory": "cases/cc_05_08/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "7b3749f8908a8e13328793a147b98c26cfbc46c8146bf29b16313d5f34baa616",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "CounterCraft",
+        "title": "05_08",
+        "outfit": "04847 · 无袖内裙 + 连帽外套",
+        "method": "IPC 从绑定姿态连续迁移，保留两层衣物。",
+        "caution": "颈部局部最大主伸长 1.645，来自本次迁移形变；不是统一 1.5 应变屏障可行初态。"
+      }
+    },
+    {
+      "id": "cc_05_16",
+      "case_id": "cc_05_16",
+      "variant": "default",
+      "directory": "cases/cc_05_16/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "87e4edc70072c196e1f9ce57f3bac55a7dc0a3993707e5f50747108a76e8df07",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "CounterCraft",
+        "title": "05_16",
+        "outfit": "04855 · 仅内层无袖裙",
+        "method": "IPC 从绑定姿态连续迁移，仅保留指定内层。",
+        "caution": "最大主伸长 1.308。此处认证首帧几何，尚未验证完整动作的稳定性。"
+      }
+    },
+    {
+      "id": "cc_01_01",
+      "case_id": "cc_01_01",
+      "variant": "default",
+      "directory": "cases/cc_01_01/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "8418a581449d1486fe6c043530e2b936d7c0419d2929753ade3ec1e1e10e5262",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "CounterCraft",
+        "title": "01_01",
+        "outfit": "01799 · 内搭 + 外套",
+        "method": "原 restpose 体型适配、蒙皮与局部几何去穿透；没有物理求解。",
+        "caution": "派生代理 rest 的个别小面造成最大主伸长 13.013；原参考另存。几何通过，不可直接当作动力学就绪初值。"
+      }
+    },
+    {
+      "id": "cc_55_27",
+      "case_id": "cc_55_27",
+      "variant": "default",
+      "directory": "cases/cc_55_27/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "59d0ce96fc8f1d36674572f646d0d3d922ae9d17fd479c8a8ef87d6519b7ba37",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "CounterCraft",
+        "title": "55_27",
+        "outfit": "01957 · 无袖内裙 + 连帽外套",
+        "method": "原 restpose 体型适配、蒙皮与局部几何去穿透；没有物理求解。",
+        "caution": "派生代理 rest 的个别小面造成最大主伸长 27.667；原参考另存。几何通过，不可直接当作动力学就绪初值。"
+      }
+    },
+    {
+      "id": "cc_144_02",
+      "case_id": "cc_144_02",
+      "variant": "default",
+      "directory": "cases/cc_144_02/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "70465974a047cd15212c1b48f04d752172d95f3c9da099bd4be430727b530493",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "CounterCraft",
+        "title": "144_02",
+        "outfit": "00100 · 无袖内搭 + 连帽外套",
+        "method": "IPC 从绑定姿态连续迁移到官网目标首帧。",
+        "caution": "局部最大主伸长 1.620；后续求解需核对材料参考与应变限制。"
+      }
+    },
+    {
+      "id": "dlayers_00396",
+      "case_id": "dlayers_00396",
+      "variant": "default",
+      "directory": "cases/dlayers_00396/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "59c864af9a93e92884e12facc16f42d5271555c1803d9d96dbae177d4e644d88",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "D-LAYERS",
+        "title": "00396",
+        "outfit": "原生无袖内搭 + 外套",
+        "method": "复用原生首帧，重新独立检查；没有几何修改。",
+        "caution": "保留原生 rest，最大主伸长 1.399。此处仅列首帧验收范围。"
+      }
+    },
+    {
+      "id": "dlayers_00756",
+      "case_id": "dlayers_00756",
+      "variant": "default",
+      "directory": "cases/dlayers_00756/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "d97cbe214f0db09c86a388a63e10ed9252a1db868f64da0559932d9aba487afd",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "D-LAYERS",
+        "title": "00756",
+        "outfit": "原生无袖内搭 + 外套",
+        "method": "复用原生首帧，重新独立检查；没有几何修改。",
+        "caution": "保留原生宽松外套、低背领口和最大主伸长 2.204，未通过更改 rest 隐藏。"
+      }
+    },
+    {
+      "id": "added_06_13",
+      "case_id": "added_06_13",
+      "variant": "default",
+      "directory": "cases/added_06_13/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "f284c5315cfea440a51fc585c11087abdd1f72fc468df095da9ffeb53fdac3b0",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "D-LAYERS 添加",
+        "title": "06_13",
+        "outfit": "00242 · 裙子 + 无袖内搭 + 连帽外套",
+        "method": "复用 Task8 已验收的 IPC 穿衣首帧，保留 00242 绑定体型。",
+        "caution": "首帧最大主伸长 1.391；本检查台仅展示初态，不替代 Task8 全序列报告。"
+      }
+    },
+    {
+      "id": "added_85_12",
+      "case_id": "added_85_12",
+      "variant": "shorts",
+      "directory": "cases/added_85_12/shorts",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "4eb67e3b169b8cfb56d73da04fd64568a4d07c1148012d5565c06e332db5bfa0",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "D-LAYERS 添加",
+        "title": "85_12 · 短裤",
+        "outfit": "00242 内搭 + 外套 + CC shorts（替换裙子）",
+        "method": "保留上衣与人体，仅对适配短裤进行局部几何修复。",
+        "caution": "短裤最大修复 22.998 mm，主伸长 0.01968–3.00689；腰部附着仅提供可选元数据，未施加物理松弛。"
+      }
+    },
+    {
+      "id": "added_85_12_skirt",
+      "case_id": "added_85_12",
+      "variant": "skirt",
+      "directory": "cases/added_85_12/skirt",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "0d323060ca1b6b6e3a4770f24c433305cee2c21db4ead5fdba4bd9c7bf18a285",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "D-LAYERS 添加",
+        "title": "85_12 · 裙子",
+        "outfit": "00242 · 原八片裙 + 无袖内搭 + 连帽外套",
+        "method": "保留 Task8 已验收转移首帧；实际衣物/人体/rest/速度均未改变。",
+        "caution": "与短裤版并存、共享同一人体和上衣。最大主伸长 1.443；只展示穿衣初态，不是全序列验收。"
+      }
+    },
+    {
+      "id": "cipc_dress_knife",
+      "case_id": "cipc_dress_knife",
+      "variant": "default",
+      "directory": "cases/cipc_dress_knife/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "C-IPC",
+        "title": "单层扭动",
+        "outfit": "Rumba Dancing · dress_knife",
+        "method": "保留原拓扑、UV rest 和 851 条缝合，局部几何修复。",
+        "caution": "最大修复 5.039 mm，仍有 3.541 mm 缝合开口及局部高压缩；包含未收敛 IPC 试验的几何种子，不是收敛平衡。"
+      }
+    },
+    {
+      "id": "cipc_multilayer",
+      "case_id": "cipc_multilayer",
+      "variant": "default",
+      "directory": "cases/cipc_multilayer/default",
+      "geometry_passed": true,
+      "intersection_counts": [
+        0,
+        0,
+        0
+      ],
+      "firstframe_sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b",
+      "selected_body_policy": "preserved_target_body",
+      "display_kind": "original",
+      "display": {
+        "group": "C-IPC",
+        "title": "多层踢腿",
+        "outfit": "Kick · 原生多层衣物",
+        "method": "原生初态局部微调 0.045 mm，保留 UV rest 和 791 条缝合。",
+        "caution": "最大原生缝合间隙 0.300874 mm 保持不变；严格检查没有使用缝合区域碰撞豁免。"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "ct_00004",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "ct_00004"
+      ],
+      "label": "CT 004",
+      "group": "Cloth Transformer"
+    },
+    {
+      "id": "ct_00018",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "ct_00018"
+      ],
+      "label": "CT 018",
+      "group": "Cloth Transformer"
+    },
+    {
+      "id": "cc_05_06",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cc_05_06"
+      ],
+      "label": "05_06",
+      "group": "CounterCraft"
+    },
+    {
+      "id": "cc_05_08",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cc_05_08"
+      ],
+      "label": "05_08",
+      "group": "CounterCraft"
+    },
+    {
+      "id": "cc_05_16",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cc_05_16"
+      ],
+      "label": "05_16",
+      "group": "CounterCraft"
+    },
+    {
+      "id": "cc_01_01",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cc_01_01"
+      ],
+      "label": "01_01",
+      "group": "CounterCraft"
+    },
+    {
+      "id": "cc_55_27",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cc_55_27"
+      ],
+      "label": "55_27",
+      "group": "CounterCraft"
+    },
+    {
+      "id": "cc_144_02",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cc_144_02"
+      ],
+      "label": "144_02",
+      "group": "CounterCraft"
+    },
+    {
+      "id": "dlayers_00396",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "dlayers_00396"
+      ],
+      "label": "00396",
+      "group": "D-LAYERS"
+    },
+    {
+      "id": "dlayers_00756",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "dlayers_00756"
+      ],
+      "label": "00756",
+      "group": "D-LAYERS"
+    },
+    {
+      "id": "added_06_13",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "added_06_13"
+      ],
+      "label": "06_13",
+      "group": "D-LAYERS 添加"
+    },
+    {
+      "id": "added_85_12",
+      "default_variant": "shorts",
+      "snapshot_ids": [
+        "added_85_12",
+        "added_85_12_skirt"
+      ],
+      "label": "85_12",
+      "group": "D-LAYERS 添加"
+    },
+    {
+      "id": "cipc_dress_knife",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cipc_dress_knife"
+      ],
+      "label": "单层扭动",
+      "group": "C-IPC"
+    },
+    {
+      "id": "cipc_multilayer",
+      "default_variant": "default",
+      "snapshot_ids": [
+        "cipc_multilayer"
+      ],
+      "label": "多层踢腿",
+      "group": "C-IPC"
+    }
+  ],
+  "limitations": "Single-frame geometric results; see README and per-snapshot quality. Licensed model weights not included."
+}

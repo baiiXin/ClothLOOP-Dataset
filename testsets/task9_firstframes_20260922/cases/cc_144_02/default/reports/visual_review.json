@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "reviewed_image": "preview_front_back.png",
+  "review": "Actual body-front/back images inspected after full guide release and 100 further IPC settling steps. Original inner sleeveless garment and hooded jacket remain on the official female-SMPL torso and arms; broad hanging sleeves and long fitted inner hem are preserved designs. Natural/finite-settling wrinkles and small free hem curls remain; no gross detached component, spiking, collapse or body crossing observed. All body target vertices remain prescribed and no surface repair was used. Eight sparse elastic shoulder/upper-back retention points remain, not a full cloth fixation; independent strict CC/CB=0 and inside-vertex count=0."
+}

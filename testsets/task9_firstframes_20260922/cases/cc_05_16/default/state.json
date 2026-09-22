@@ -1,0 +1,36 @@
+{
+  "id": "cc_05_16",
+  "case_id": "cc_05_16",
+  "variant": "default",
+  "directory": "cases/cc_05_16/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "87e4edc70072c196e1f9ce57f3bac55a7dc0a3993707e5f50747108a76e8df07",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "CounterCraft",
+    "title": "05_16",
+    "outfit": "04855 · 仅内层无袖裙",
+    "method": "IPC 从绑定姿态连续迁移，仅保留指定内层。",
+    "caution": "最大主伸长 1.308。此处认证首帧几何，尚未验证完整动作的稳定性。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "87e4edc70072c196e1f9ce57f3bac55a7dc0a3993707e5f50747108a76e8df07",
+  "source_evidence_report_sha256": {
+    "geometry": "293543001cde9b373eecfffd0802bf2e43d75965eac2b87c96a6781e7d0cb7f3",
+    "containment": "cca0385a4681b0408fd3be0ed45bc8d048d9f402643720a37c06febf5dfa0089",
+    "quality": "c3b990472ff68a6753b53f4ab39c8941c165776a6e77df8ca5d3d942c658f154",
+    "provenance": "72cb432379a6de6795e85b26a1496ba1f2ea968c5af0aceba43a8cd62cec7ba6",
+    "render": "c94da277dc4be5fff1d8b8702415b237d5f464bfeea05283d8ea5094857de7cd",
+    "status": "95e3b88f845b87e6764c5c032e81df717ff205c5c2f4a59b603d75b33cdc253c",
+    "visual_review": "bfb732d7756eb9fa22029e9ebd7f6cc9f9a6cf7ce5da4777247b5a718f7736ed"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

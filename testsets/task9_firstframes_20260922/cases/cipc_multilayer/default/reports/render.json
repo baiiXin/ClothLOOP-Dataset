@@ -1,0 +1,16 @@
+{
+  "renderer": "PyVista CPU software",
+  "source_sha256": "a08db68d8311b8d069056a997edfcccf12b9ad77ab9452a9dd44c34a041a5b7b",
+  "views": "body-front and body-back",
+  "camera_basis": "original C-IPC Y-up world basis",
+  "front_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "resolution": [
+    1600,
+    900
+  ],
+  "image_sha256": "4ac1aa7f8924914d594c927e0197f07a7e78c86f519c4f27d518926fd777a4d2"
+}

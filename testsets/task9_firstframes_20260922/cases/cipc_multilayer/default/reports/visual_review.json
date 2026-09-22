@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "reviewed_image": "preview_front_back.png",
+  "review": "Actual front/back views inspected and compared with the native first-frame views. Original sleeveless bodice and nested long skirt layers remain fitted around the torso and legs, with their original tier lengths and folds retained; no detached pattern, gross collapse, spike or visible body crossing appears. Pattern colors denote disconnected material panels, not new garment components. Maximum cloth correction is 0.045 mm, body and material rest are unchanged. All 791 original point-edge stitch relations are retained exactly; maximum finite stitch gap remains 0.300874 mm as in the source. Original 1052 strict events remain fully archived; final strict CC=0/CB=0 and inside-vertex count=0 pass without seam-neighbor exemptions."
+}

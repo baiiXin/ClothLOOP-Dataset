@@ -1,0 +1,36 @@
+{
+  "id": "cipc_dress_knife",
+  "case_id": "cipc_dress_knife",
+  "variant": "default",
+  "directory": "cases/cipc_dress_knife/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "C-IPC",
+    "title": "单层扭动",
+    "outfit": "Rumba Dancing · dress_knife",
+    "method": "保留原拓扑、UV rest 和 851 条缝合，局部几何修复。",
+    "caution": "最大修复 5.039 mm，仍有 3.541 mm 缝合开口及局部高压缩；包含未收敛 IPC 试验的几何种子，不是收敛平衡。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "9ef2c503baece66c38996c50c4e15d6a6883f30abfd10bb39e89dbfd28612f24",
+  "source_evidence_report_sha256": {
+    "geometry": "d45d767bbdad686ee221c3dde5c24c0deb83649d92f831089a50d5aa8c58e898",
+    "containment": "ca36998fb5a1892c82ce4a3f76047ca380642c9eef680312a66a92e1d7de6f2b",
+    "quality": "f7396fb93bf2760099650653b4f4fee0a8d3ed6d1bfc442224a276d26d984ea2",
+    "provenance": "68f6c014ecfe621b65ee69f86c147f22ee333e5be1592b38adb57c35d3ec2630",
+    "render": "7744f5a74a586d2dfcd7b20dc4f5097762141f01d13050424d6f3d2986f0eec3",
+    "status": "b1012af2d25e562117b15a3c3e58c166c51f097608458e6c915d00a9ce63d265",
+    "visual_review": "a035f4e3d3948a6eac3ced0076589584637e323719aa97e6fc10b79ee6f851fd"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}

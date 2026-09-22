@@ -1,0 +1,36 @@
+{
+  "id": "dlayers_00756",
+  "case_id": "dlayers_00756",
+  "variant": "default",
+  "directory": "cases/dlayers_00756/default",
+  "geometry_passed": true,
+  "intersection_counts": [
+    0,
+    0,
+    0
+  ],
+  "firstframe_sha256": "d97cbe214f0db09c86a388a63e10ed9252a1db868f64da0559932d9aba487afd",
+  "selected_body_policy": "preserved_target_body",
+  "display_kind": "original",
+  "display": {
+    "group": "D-LAYERS",
+    "title": "00756",
+    "outfit": "原生无袖内搭 + 外套",
+    "method": "复用原生首帧，重新独立检查；没有几何修改。",
+    "caution": "保留原生宽松外套、低背领口和最大主伸长 2.204，未通过更改 rest 隐藏。"
+  },
+  "scope": "One target first-frame geometry only; not dynamics-ready or full-motion acceptance.",
+  "original_npz_bytes_preserved": true,
+  "source_npz_sha256": "d97cbe214f0db09c86a388a63e10ed9252a1db868f64da0559932d9aba487afd",
+  "source_evidence_report_sha256": {
+    "geometry": "83beddcdc80e1a72bb797ea10b9121b31c602d540c0a0dddb20ab2d93912b1fe",
+    "containment": "c942280e73a52a292ad647033cc3ff3cd93b934e476c904dac782a78c3c077c3",
+    "quality": "b6450a1be0f9cd6d3fc1a82785a4f1b0c0b58afe6aec0509bfbdae918378ee7e",
+    "provenance": "d338135344de54e76071ce3cc8ba6c64de542bb3cfbf115aa8925f9296154833",
+    "render": "9e2ed6e3b688af16afc6cda433679966a9877d2fecc7d89f36404ee99c6ecbf3",
+    "status": "a1e0c7a0fec68a01071c8cc53c535628058970ecf687cf377776f28be27e75ad",
+    "visual_review": "d656a852f97775211772e847717098e81409d3f57fde3a257950a19df5626b2d"
+  },
+  "evidence_paths_are_provenance_only": true,
+  "local_absolute_paths_removed_from_reports": true
+}
