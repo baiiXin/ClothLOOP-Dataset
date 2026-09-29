@@ -4,7 +4,7 @@ export default defineConfig({
   testDir: './tests',
   workers: 1,
   timeout: 60000,
-  reporter: [['list'], ['json', { outputFile: 'test-results/results.json' }]],
+  reporter: [['list'], ['github'], ['json', { outputFile: 'test-results/results.json' }]],
   use: {
     baseURL: 'http://127.0.0.1:4173/ClothLOOP-Dataset/',
     viewport: { width: 1440, height: 1000 },
