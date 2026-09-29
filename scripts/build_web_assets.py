@@ -5,6 +5,7 @@ Only NumPy is required. Never unpickles PKLs or loads SMPL models. Original
 scientific files are read-only. Generated files belong to the Pages artifact.
 """
 import hashlib
+import csv
 import json
 import shutil
 import struct
@@ -239,13 +240,29 @@ def main():
         shutil.copyfile(ROOT / x['preview'], target)
         row.update(category='最终选定首帧', state='frame0', state_label='无穿首帧', body_bound=True,
                    thumbnail=str(target.relative_to(OUT.parent)), contact=str(target.relative_to(OUT.parent)),
-                   description='Task14 最终选定初值：原精度人体与衣服共用坐标，只展示首帧，不含动画序列。',
+                   description='Task14 最终选定初值与 libuipc 完整仿真：左侧旋转检查首帧，右侧播放实际保存状态。',
                    preview_note='实际首帧双视角；没有几何平滑、投影或分部件重新对齐。',
                    metadata=metadata, initial_geometry_check=metadata['geometry_check'])
         scene = build_glb(key, [('human', ROOT / x['body'], True), ('衣服', ROOT / x['cloth'], False)])
         checks.extend(scene.pop('verification'))
         row.update(scene)
+        sim = read(ROOT / 'web/media/libuipc' / x['case'] / 'render.json')
+        assert sim['case'] == x['case']
+        assert row['video'] == f'media/libuipc/{x["case"]}/video.mp4'
+        video_file = media[key]['files']['video']
+        assert sim['bytes'] == video_file['bytes'] and sim['video_sha256'] == video_file['sha256']
+        iteration_rows = list(csv.DictReader((ROOT / 'web/media/libuipc' / x['case'] / 'iterations.csv').open()))
+        assert len(iteration_rows) == sim['frames']
+        assert [int(r['frame']) for r in iteration_rows] == list(range(sim['frames']))
+        assert sum(int(r['nonlinear_iterations']) for r in iteration_rows) == sim['total_nonlinear_iterations']
+        assert sum(int(r['physical_steps']) for r in iteration_rows) == sim['total_physical_steps']
+        row['simulation'] = {**sim, 'poster': f'media/libuipc/{x["case"]}/poster.jpg',
+                             'iterations': f'media/libuipc/{x["case"]}/iterations.csv',
+                             'provenance': f'media/libuipc/{x["case"]}/render.json'}
         test_initials.append(row)
+    assert len(test_initials) == 14
+    assert sum(x['simulation']['frames'] for x in test_initials) == 8081
+    assert sum(x['simulation']['bytes'] for x in test_initials) < 100_000_000
 
     summary = {'motions': len(motions), 'garments': len(garments), 'initials': len(initials),
                'test_initials': len(test_initials), 'test_initial_mesh_bytes': test_index['initial_mesh_bytes'],

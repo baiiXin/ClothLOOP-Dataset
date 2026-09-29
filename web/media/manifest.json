@@ -4231,6 +4231,496 @@
           "source_sha256": "839dcf57f36505a0cc3a8acc0882f0567f306f6efc43ed6859cc9b3352fa01cd"
         }
       }
+    },
+    "test-initials/added_06_13": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/added_06_13/video.mp4",
+          "bytes": 7892413,
+          "sha256": "95c7affb50366d53d25ce45eab5fc8ea73f883b4b04a38f7440e01c41bf51ad7",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/added_06_13/poster.jpg",
+          "bytes": 76659,
+          "sha256": "aa9260f14f73dde91d907a32e7b71f7f5604899693ea6e4d8055e15edbd6f0b6",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/added_06_13/contact.jpg",
+          "bytes": 83749,
+          "sha256": "8b9d0b757bc67a119944ea985b3b1945f7c62b6405d56115459b330a95b2e9ae",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/added_06_13/iterations.csv",
+          "bytes": 75530,
+          "sha256": "b91ac4887a4ae732fbd5387497d5333c80a3ad0cd1fce22ee53885ac8d9e6696",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/added_06_13/render.json",
+          "bytes": 1645,
+          "sha256": "99c982f63db916f7d915b595fef13dda0547483eabb1cb4dfc2a08d14d4a9f21",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/added_85_12": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/added_85_12/video.mp4",
+          "bytes": 6617757,
+          "sha256": "46a9f2e860e20b633b69a9803bf7bef060d2765453401b4648a26847563aeefc",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/added_85_12/poster.jpg",
+          "bytes": 76546,
+          "sha256": "44bc49db345a94dd833bd90b364c7bf7ac2b261c2ffe99aa4bf62a1201f22eb0",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/added_85_12/contact.jpg",
+          "bytes": 81166,
+          "sha256": "80bbcc28cdd700064439b1561a81678c52bbfd23f1a0c82189a9102e534534db",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/added_85_12/iterations.csv",
+          "bytes": 68890,
+          "sha256": "1abaff966a7dc77473c9b713ef5ea3a7e9fda54153876f1083f18f916fb891f6",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/added_85_12/render.json",
+          "bytes": 1645,
+          "sha256": "a077fcda961e251daa2d79e20b1c8e8c9f42b8338f2511a37a961ec8139e91bf",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cc_01_01": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cc_01_01/video.mp4",
+          "bytes": 4467497,
+          "sha256": "23632beefc8679618e0b17bf6faee926a8c194b0ec44313a1b2c4765c73d5da6",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cc_01_01/poster.jpg",
+          "bytes": 73185,
+          "sha256": "a58b22a0c4d15cb3ec7bd43642a7e8909edc838b1c409fc731c5e822f7b0b32a",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cc_01_01/contact.jpg",
+          "bytes": 79137,
+          "sha256": "bf3808e4740ff7c0e1ff4383af4363c50e44609f0f035467f2764e662caa9ce7",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cc_01_01/iterations.csv",
+          "bytes": 44170,
+          "sha256": "74fcc33e36db78bf5c0dc69227fb42a1d7d1c07d04828b5670af6efd3a836b41",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cc_01_01/render.json",
+          "bytes": 1640,
+          "sha256": "29d1ef9c810c3b33abbf28c892a2bd1b3c503c6f360bea1a968dd6d7d3375367",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cc_05_06": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cc_05_06/video.mp4",
+          "bytes": 1944609,
+          "sha256": "e0ab1e2b2ca326bfcdd9aa0193b0e27f3a56b931119533747bea6c74976a4f8e",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cc_05_06/poster.jpg",
+          "bytes": 64501,
+          "sha256": "0b4a4800f780073b3b97a62482db431e44f3c4be6f81b0f3daecf4f2bde6a49f",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cc_05_06/contact.jpg",
+          "bytes": 71752,
+          "sha256": "47e6e753d064ccde7174ed370270945726bdefc4cde92106c9737f3ddd42a241",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cc_05_06/iterations.csv",
+          "bytes": 28556,
+          "sha256": "6c0df300b6e91602e4d84aae8a1657e09ab4d310a6daa163e700edff591d35e1",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cc_05_06/render.json",
+          "bytes": 1639,
+          "sha256": "779e6f5d10314e6399ed57363a418c30ed451e6e447f93c3be63c50c8a0fdde0",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cc_05_08": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cc_05_08/video.mp4",
+          "bytes": 2164586,
+          "sha256": "8c60b28228992f536da99d8ada8ca7bb0f310a9e6b43410f0a00a3fc197dd652",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cc_05_08/poster.jpg",
+          "bytes": 81195,
+          "sha256": "9b339b58129553ed930d739db6b973297d54f6e1b7b6846e8695ee1fb3038905",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cc_05_08/contact.jpg",
+          "bytes": 81910,
+          "sha256": "357cfc3f1b8e88a68554d585f20b20d7c755c6c21ea9efb9756a0ba0c5d7eaea",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cc_05_08/iterations.csv",
+          "bytes": 23458,
+          "sha256": "5512194a8563bc6ce1425d4edffcd37d055d6a61130c35648b1f80648b5ca36b",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cc_05_08/render.json",
+          "bytes": 1639,
+          "sha256": "2f92b5c3249e523f02f1a16a2c0243b3c69c418adcfa85bf4f2454a17d99f165",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cc_05_16": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cc_05_16/video.mp4",
+          "bytes": 1380148,
+          "sha256": "9a69e8efec8e95bd1d5d5884103afe3096b704890cd961a0c77c3707fa09a1e3",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cc_05_16/poster.jpg",
+          "bytes": 68377,
+          "sha256": "ab84cd1324ae0cd37fa25037c327dff60cf062ccc6a103132734b78b4b007a36",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cc_05_16/contact.jpg",
+          "bytes": 75965,
+          "sha256": "a7308c6f7d2a7c5ffd1abb9c8dcf9f05da466e8c685f34e1e64e9f7edb3d6772",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cc_05_16/iterations.csv",
+          "bytes": 17559,
+          "sha256": "faf04dc26ffe384333f2e4b929232834a9084d22b7559d9df7826a197dcc656c",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cc_05_16/render.json",
+          "bytes": 1638,
+          "sha256": "c07ab0de9e1615279b2cd503e8e6ccb2f8d0a71425cfe23f6e69eb086d0b7316",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cc_144_02": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cc_144_02/video.mp4",
+          "bytes": 5386197,
+          "sha256": "05963684ec12d3c2634a05cbdb48038935feb3184172d00c905d15190ca681b1",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cc_144_02/poster.jpg",
+          "bytes": 75303,
+          "sha256": "17cb3eb1bd8e01c18b2119838fd299577cdc04e9e5422bf90b3ee6c03d508e4c",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cc_144_02/contact.jpg",
+          "bytes": 77140,
+          "sha256": "6b79f331de281b261c4be8b477b8e32c596a2f2c7458fbc366c4849246c91110",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cc_144_02/iterations.csv",
+          "bytes": 72888,
+          "sha256": "2ea2f02ab90850c6418406d0fbe7a3271c227ffe03844d77e72d122f97d9c991",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cc_144_02/render.json",
+          "bytes": 1643,
+          "sha256": "7346069e5e7149a197b6834273cd6f90559a9ad03e7d86e852792e5dbd0814d5",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cc_55_27": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cc_55_27/video.mp4",
+          "bytes": 9235184,
+          "sha256": "a10f23a88f6d4eeb5f1e4f65f9ca19321c6df6d41b8d796e4d9076f804804fc3",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cc_55_27/poster.jpg",
+          "bytes": 90399,
+          "sha256": "7cb7c729d3b3b31999c1d2d362b7d0dafbba01466e1b60bd57057483fe54c0f5",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cc_55_27/contact.jpg",
+          "bytes": 84012,
+          "sha256": "f6f2b25c85c8969ee21c2a0f6682e719483c7ad6e79bd4b85c9902f830b918a5",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cc_55_27/iterations.csv",
+          "bytes": 78827,
+          "sha256": "c5cfda5a7735a8256601f607399024996d9c6d85687b51f07a247da612cd81b3",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cc_55_27/render.json",
+          "bytes": 1642,
+          "sha256": "fd665847adcf33f54ad3001360b663ada131c2f8a948b7ba3fbbbc2dc2a154ef",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cipc_dress_knife": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cipc_dress_knife/video.mp4",
+          "bytes": 579569,
+          "sha256": "8f477eda65ae07a6c901259a9477620c13f7584577134a3da0c97085d875a743",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cipc_dress_knife/poster.jpg",
+          "bytes": 74076,
+          "sha256": "44fc69cf81b5c6a234b82def11f42e831145ac2eb0b9d9fcd994d1e4a2634e52",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cipc_dress_knife/contact.jpg",
+          "bytes": 75752,
+          "sha256": "a9c2779502cda15294217a1153058db553ca5d9cff658d2735c25ae593310ad7",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cipc_dress_knife/iterations.csv",
+          "bytes": 6251,
+          "sha256": "bb9e5f7b548fb7b4528ca642b8f7893ea95d7c6f8e40349d8b0effb29cd8358f",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cipc_dress_knife/render.json",
+          "bytes": 1644,
+          "sha256": "17f10c5d66a43acd27f13e583d4d97c9988f141d9190d69ff40de6843c11a5ca",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/cipc_multilayer": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/cipc_multilayer/video.mp4",
+          "bytes": 881785,
+          "sha256": "43e59aa16509e34e166d6f5c8693ad68e4a4b2aa73e978ecef6c5db472f321a7",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/cipc_multilayer/poster.jpg",
+          "bytes": 77027,
+          "sha256": "1da20e8d1afbd5f37608a0ad0a860c61cc1e6f4a00973ca005a8ddfbef35110a",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/cipc_multilayer/contact.jpg",
+          "bytes": 82182,
+          "sha256": "a393ac8be02a1d39d426c2e37e98b5c8adbc31e4957e33f39753688b30a63321",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/cipc_multilayer/iterations.csv",
+          "bytes": 6319,
+          "sha256": "3a6a4ff6eeab05f61bcf302999b00b571052364bdfdbe941e957a10cef7f7667",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/cipc_multilayer/render.json",
+          "bytes": 1643,
+          "sha256": "8abe997cf50ef4055f79c99fdc8066bea6b24971b0c8cfad9c75999499d4baea",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/ct_00004": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/ct_00004/video.mp4",
+          "bytes": 1264156,
+          "sha256": "9642f402803c3c876a22669487edefb54e49200998716fa59b3e1ac752fc36b3",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/ct_00004/poster.jpg",
+          "bytes": 75605,
+          "sha256": "c1ef3bc0b337da8e30b1e51e26c55aba123fc794dd303bb70cf6b399efa5e5a3",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/ct_00004/contact.jpg",
+          "bytes": 78583,
+          "sha256": "58c714419ebe64b2e32aabc09098aba5dc5966ab79d456d960f7b7685e47df98",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/ct_00004/iterations.csv",
+          "bytes": 14520,
+          "sha256": "b9c771e578a74b8a3765227a8867b131632329ea1db881ecd87cf201e3a3c17c",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/ct_00004/render.json",
+          "bytes": 1637,
+          "sha256": "c14e592671ce9313b6219a5eb51233adad846223fa2943f18b06687030862c0a",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/ct_00018": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/ct_00018/video.mp4",
+          "bytes": 1122295,
+          "sha256": "201380f95f7957286583fbb3dec07d0c4405943294238d80e10c1b2b4cbdb1df",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/ct_00018/poster.jpg",
+          "bytes": 76621,
+          "sha256": "d9e001243b561722248cd98d76dcaff4f7c8ea3c0e19778ce56f3c54570b1e96",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/ct_00018/contact.jpg",
+          "bytes": 80296,
+          "sha256": "f93d0c0f2a78ff57fc996be8dd0466649bafdda1557dff63f9b260d2bff6fa41",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/ct_00018/iterations.csv",
+          "bytes": 14394,
+          "sha256": "0542a8bd08cbda7b05bc7a2cdea5e9129846573283f97a752cbc98b53a695e48",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/ct_00018/render.json",
+          "bytes": 1637,
+          "sha256": "d1f86f50f658688a7f98e70fdd08b2eeb3f4ea833d7db25c1eb076dc73d7d6d1",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/dlayers_00396": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/dlayers_00396/video.mp4",
+          "bytes": 1932661,
+          "sha256": "73b5ecbfe96843e4830a184e33eb37c0118ac820e3a1fd0a6c2dfdd023f0d606",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/dlayers_00396/poster.jpg",
+          "bytes": 76231,
+          "sha256": "b6fc9108e73365cf75dc0aeca6a8cc06bc7d9782e0ac897cd2dee2a92ecea9f4",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/dlayers_00396/contact.jpg",
+          "bytes": 85287,
+          "sha256": "dd6009e505385de09df1ec53b208c0cf30f4976dd0a0e9c91b7de0b13dbd1966",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/dlayers_00396/iterations.csv",
+          "bytes": 28441,
+          "sha256": "db6436d15d80633fde93d8c49e2e05d0bba975e70929d8a391da0507510c54e1",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/dlayers_00396/render.json",
+          "bytes": 1656,
+          "sha256": "c1e542a656f4e5fc5638a179a6c683bc3aefc9aa7a2071dbef499c4b46c78f3f",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
+    },
+    "test-initials/dlayers_00756": {
+      "note": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+      "files": {
+        "video": {
+          "path": "media/libuipc/dlayers_00756/video.mp4",
+          "bytes": 1721536,
+          "sha256": "648e08f5f230ae543565869d615cdc4fec164c623a64ba748ab1c04eb69f9078",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_poster": {
+          "path": "media/libuipc/dlayers_00756/poster.jpg",
+          "bytes": 91037,
+          "sha256": "64ba48cd6186d42da0d1113151c1666b5afa6e686e4ad8d4348035931c63369d",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_contact": {
+          "path": "media/libuipc/dlayers_00756/contact.jpg",
+          "bytes": 90378,
+          "sha256": "cf87d7b1b947ed5d85f2bbef6698f8204f8dcea3de18752d68e9bf682f5db6ab",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "iteration_table": {
+          "path": "media/libuipc/dlayers_00756/iterations.csv",
+          "bytes": 18123,
+          "sha256": "27af975ce87afce8fa5edc728920c36b031b798c07604932c0bfb1c875d681db",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "simulation_provenance": {
+          "path": "media/libuipc/dlayers_00756/render.json",
+          "bytes": 1674,
+          "sha256": "71ea5b869fe149c4e89e93712d9573e5d5fe1d8e5e844ee0f4d8cc52865fc8c7",
+          "source": "Task14 selected exact saved source states; source hashes in render.json"
+        }
+      }
     }
   },
   "images": "Display-only WebP derivatives. Motion videos copied byte-for-byte.",

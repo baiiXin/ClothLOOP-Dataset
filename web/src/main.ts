@@ -14,12 +14,12 @@ const time = (seconds?: number) => {
 const sizes = (bytes: number) => bytes < 1e6 ? `${(bytes / 1000).toFixed(1)} KB` : `${(bytes / 1e6).toFixed(2)} MB`;
 const fpsNote = (item: Entry) => item.fps_status === 'assumed_playback' ? '（假定）' : item.fps_status === 'project_defined' ? '（项目设定）' : '';
 const splitLabel = (split?: string) => ({ train: '训练集', test: '测试集', unassigned: '未纳入本轮划分' }[split || 'unassigned'] || '未纳入本轮划分');
-const labels: Record<Section, string> = { body: '人体动作', cloth: '服装资产', initials: '绑定初始状态', 'test-initials': '测试集初值' };
+const labels: Record<Section, string> = { body: '人体动作', cloth: '服装资产', initials: '绑定初始状态', 'test-initials': '测试集 · 初值与仿真' };
 const descriptions: Record<Section, string> = {
   body: '查看动作内容、序列长度与参数来源，找到适合仿真的运动。',
   cloth: '浏览服装与套装网格，旋转查看轮廓、结构和三角面。',
   initials: '整套查看人体与服装，保留每个样本的选定姿态和碰撞报告。',
-  'test-initials': '14 条测试序列的最终无穿首帧：人体与衣服整套查看，只放初值，不含动画。',
+  'test-initials': '14 组无穿初值与 libuipc 完整序列。交互检查首帧，高清播放仿真，并查看逐帧求解统计。',
 };
 let data: Catalog;
 const allEntries = () => [...data.body, ...data.cloth, ...data.initials, ...data['test-initials']];
@@ -73,7 +73,7 @@ function home() {
       <div class="collection-image">${image(featured[i], '', true)}<span class="collection-number">0${i + 1}</span></div>
       <div class="collection-copy"><div class="eyebrow">${['BODY MOTION', 'GARMENT ASSETS', 'BOUND INITIAL STATES'][i]}</div><h2>${labels[key]} <span>↗</span></h2><p>${descriptions[key]}</p>
       <div class="collection-tags">${[`${summary.motions} 条序列 · 按 10 秒分组`, `${summary.garments} 份静态网格 · 3D 查看`, `${summary.bound_garments} 件服装 · ${summary.restpose} restpose / ${summary.frame0} frame0`][i]}</div></div></a>`).join('')}</div></section>
-    <section class="panel"><div class="section-heading"><h2>14 条测试序列 · 最终无穿初值</h2><a class="button" href="${url('test-initials/')}">查看测试集初值 ↗</a></div><p>Task14 选定的首帧人体与衣服，保留原精度坐标及拓扑，可旋转查看、切换显隐和下载；不含完整运动序列，独立于原绑定初始状态。</p><p>初值网格 ${sizes(summary.test_initial_mesh_bytes)} · ${summary.test_initials} 组 · 人体自相交未认证为零</p></section>
+    <section class="panel"><div class="section-heading"><h2>14 条测试序列 · 初值与 libuipc 仿真</h2><a class="button" href="${url('test-initials/')}">查看测试集初值与仿真 ↗</a></div><p>首帧人体与衣服支持旋转、显隐和下载；并排展示 1080 × 1080 完整仿真视频，逐帧标注物理子步与迭代统计。独立于原绑定初始状态。</p><p>初值网格 ${sizes(summary.test_initial_mesh_bytes)} · ${summary.test_initials} 组 · 人体自相交未认证为零</p></section>
     <section class="overview-grid"><div class="panel"><div class="section-heading"><h2>数据来源</h2><span>沿用原始来源关系</span></div>
     <table class="source-table"><thead><tr><th>来源</th><th>动作</th><th>服装 / 初值</th></tr></thead><tbody>
       <tr><td><strong>ClothTransformer</strong><small>SMPL 反求与关节修复</small></td><td>${count('body', 'ClothTransformer')}</td><td>${count('cloth', 'ClothTransformer')} 份服装</td></tr>
@@ -116,7 +116,7 @@ function card(item: Entry) {
   return `<article class="asset-card"><a class="asset-image" href="${url(item.url)}" tabindex="-1" aria-hidden="true">${image(item)}<span class="image-tag">${esc(tag)}</span>${item.kind === 'body' ? '<span class="play-icon" aria-hidden="true">▶</span>' : '<span class="mesh-tag">3D</span>'}</a>
     <div class="asset-copy"><div class="asset-topline"><span class="source-label">${esc(item.source)}</span><label class="selection-label" title="加入本地选择"><input type="checkbox" data-select="${esc(item.key)}" aria-label="选择 ${esc(item.id)}" ${selected.has(item.key) ? 'checked' : ''}><span>选择</span></label></div>
     <h3><a href="${url(item.url)}">${esc(item.id)}</a></h3><p class="asset-category">${esc(item.category)}</p><div class="asset-facts">${details}</div>
-    <div class="asset-status">${item.kind === 'body' ? badge(splitLabel(item.split), item.split === 'train' ? 'green' : '') : ''}${badge(item.kind === 'body' ? item.processing_label : item.kind === 'initials' ? `${item.garment_count} 件服装 · 已绑定人体` : item.kind === 'test-initials' ? '人体＋衣服 · 仅首帧' : '独立资产', item.body_bound ? 'green' : '')}</div></div></article>`;
+    <div class="asset-status">${item.kind === 'body' ? badge(splitLabel(item.split), item.split === 'train' ? 'green' : '') : ''}${badge(item.kind === 'body' ? item.processing_label : item.kind === 'initials' ? `${item.garment_count} 件服装 · 已绑定人体` : item.kind === 'test-initials' ? '3D 初值 ＋ libuipc 视频' : '独立资产', item.body_bound ? 'green' : '')}</div></div></article>`;
 }
 
 function listing(kind: Section) {
@@ -126,7 +126,7 @@ function listing(kind: Section) {
   const params = new URLSearchParams(location.search);
   frame(`<section class="page-heading"><div class="eyebrow">COLLECTION / ${kind === 'body' ? 'BODY MOTION' : kind === 'cloth' ? 'GARMENT ASSETS' : 'BOUND INITIAL STATES'}</div>
     <h1>${labels[kind]} <span class="heading-count">${rows.length}</span></h1><p>${descriptions[kind]}</p></section>
-    ${kind === 'test-initials' ? `<div class="context-note">14 组首帧的衣物自交与衣物—人体相交检查均为零；<strong>人体自身相交不作零交声明</strong>。只上传最终人体＋衣服网格，不含完整序列、材料 rest mesh、初速度或 SMPL 模型。初值网格合计 ${sizes(data.summary.test_initial_mesh_bytes)}。</div>` : ''}
+    ${kind === 'test-initials' ? `<div class="context-note">14 条完整序列共 8081 个保存源帧，衣物自交与衣物—人体相交检查均为零；<strong>不等于连续时间数学证明，人体自身相交不作零交声明</strong>。初值网格合计 ${sizes(data.summary.test_initial_mesh_bytes)}；高清视频合计 ${sizes(rows.reduce((n, x) => n + (x.simulation?.bytes || 0), 0))}，全部 1080 × 1080。公开完整视频及迭代表，不上传完整逐帧网格、材料 rest mesh、初速度或 SMPL 模型。</div>` : ''}
     ${kind === 'initials' ? `<div class="context-note">当前 ${rows.length} 套所选状态中，${rows.filter(x => x.collision?.clothing_related_all_zero).length} 套的<strong>服装相关碰撞计数为零</strong>；人体自相交另列，检查来源见详情报告。</div>` : kind === 'body' ? `<div class="context-note">按 <strong>10 秒</strong>划分短 / 长序列。带“≈”的时长基于 D-LAYERS 假定的 30 FPS。ClothTransformer 显示最新关节修复对比预览。</div>` : ''}
     <form class="filters" id="filters" role="search"><label class="search-label">搜索<input name="q" type="search" placeholder="序列 ID、名称、类别或来源" autocomplete="off"></label>
     ${selectField('source', '数据来源', sources.map(x => [x, x]))}
@@ -215,6 +215,17 @@ function viewerMarkup() {
     <div class="part-toggles" data-parts></div><p class="viewer-status" data-viewer-status role="status">正在加载三维查看器…</p></div>`;
 }
 
+function simulationMarkup(item: Entry) {
+  const s = item.simulation!;
+  return `<div class="video-panel simulation-video"><video controls playsinline preload="none" poster="${url(s.poster)}" aria-label="${esc(item.id)} libuipc 完整仿真"><source src="${url(item.video!)}" type="video/mp4"></video>
+    <p class="video-error" hidden>视频加载失败，请使用下方链接单独打开。</p>
+    <p>${num(s.frames)} 帧 · ${s.fps} FPS${s.fps_status === 'assumed_playback' ? '（播放假定）' : '（项目设定）'} · ${s.width} × ${s.height} · ${sizes(s.bytes)}</p>
+    <p><a href="${url(item.video!)}" target="_blank" rel="noopener">单独播放 / 下载视频 ↗</a> · <a href="${url(s.iterations)}" download>逐帧迭代 CSV ↓</a> · <a href="${url(s.provenance)}" target="_blank" rel="noopener">来源与 SHA-256 ↗</a></p>
+    <p class="small-note">视频数字：源帧（从 0 起）、模拟时间、求解模式、物理子步数、非线性迭代、线性迭代、求解耗时。迭代与耗时均按该源帧区间累计，首帧是初值，不进行求解；不是每一个物理子步的单独次数。</p>
+    <p class="small-note">实际模式：${esc(s.methods.join(' / '))}。${s.methods.some(m => m.includes('mixed') || m.includes('semi')) ? '包含混合／半隐式步骤，非线性计数沿用原日志，不宣称全部为完整 Newton。' : 'full_newton 表示完整 Newton。'}累计 ${num(s.total_physical_steps)} 个物理子步，${num(s.total_nonlinear_iterations)} 次非线性迭代。</p>
+    <p class="small-note">视频使用实际修复人体与保存衣物，未平滑、插帧或重新仿真。3D 仅为首帧，不随视频同步运动。</p></div>`;
+}
+
 async function detail(item: Entry) {
   document.title = `${item.id} · ${labels[item.kind]} · ClothLOOP`;
   const meta: [string, unknown][] = [['来源', item.source], ['ID', item.id]];
@@ -230,7 +241,8 @@ async function detail(item: Entry) {
   frame(`<div class="breadcrumbs"><a href="${url()}">总览</a><span>/</span><a href="${url(item.kind + '/')}">${labels[item.kind]}</a><span>/</span><span>${esc(item.id)}</span></div>
     <section class="detail-heading"><div><div class="eyebrow">${esc(item.source)}</div><h1>${esc(item.id)}</h1><p>${esc(item.description || (item.kind === 'initials' ? item.category : item.category_basis || ''))}</p></div>
     <button class="button secondary" id="detail-select">${selected.has(item.key) ? '✓ 已加入选择' : '+ 加入选择'}</button></section>
-    <div class="detail-grid"><div class="detail-main">${media}
+    ${item.simulation ? `<div class="simulation-pair"><section><h2>初值 · 交互 3D</h2>${media}</section><section><h2>libuipc · 完整仿真</h2>${simulationMarkup(item)}</section></div>` : ''}
+    <div class="detail-grid"><div class="detail-main">${item.simulation ? '' : media}
     ${item.kind === 'body' ? (item.processing === 'joint_plausibility_repair' ? '<div class="context-note">本序列由原始人体网格反求 SMPL 后进行关节合理性修复，属于近似重建；参数与修复后网格的一致性不等于对原网格的逐点拟合误差。</div>' : '') : collisionPanel(item)}
     ${item.contact ? `<details class="panel contact-panel"><summary>多视角 / 时间采样预览</summary><img src="${url(item.contact)}" loading="lazy" alt="${esc(item.id)} 多视角或时间采样预览"></details>` : ''}
     <details class="panel"><summary>完整元数据与来源记录</summary><pre>${esc(JSON.stringify(item.metadata, null, 2))}</pre></details></div>
@@ -241,12 +253,13 @@ async function detail(item: Entry) {
     selected.has(item.key) ? selected.delete(item.key) : selected.add(item.key); saveSelection();
     (event.target as HTMLButtonElement).textContent = selected.has(item.key) ? '✓ 已加入选择' : '+ 加入选择';
   };
-  if (item.kind === 'body') {
+  if (item.kind === 'body' || item.simulation) {
     const video = app.querySelector('video')!;
     const showError = () => { app.querySelector<HTMLElement>('.video-error')!.hidden = false; };
     video.addEventListener('error', showError);
     video.querySelector('source')!.addEventListener('error', showError);
-  } else if (item.mesh) {
+  }
+  if (item.kind !== 'body' && item.mesh) {
     try {
       const { mountViewer } = await import('./viewer');
       cleanupViewer = await mountViewer(app.querySelector<HTMLElement>('.viewer')!, item, url(item.mesh));

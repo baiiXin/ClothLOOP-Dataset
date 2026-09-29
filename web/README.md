@@ -14,7 +14,7 @@ npm run build
 python3 ../scripts/serve_web.py
 ```
 
-访问 `http://127.0.0.1:4173/ClothLOOP-Dataset/`。这个测试服务器严格按真实静态路径返回文件，不会把不存在的详情路由回退成首页。
+访问 `http://127.0.0.1:4173/ClothLOOP-Dataset/`。这个测试服务器严格按真实静态路径返回文件，不会把不存在的详情路由回退成首页；支持视频HTTP单字节范围请求，供Chromium准确拖动进度，和Pages行为一致。
 
 日常修改界面可在 `npm run assets` 后运行 `npm run dev`。`dev` 仅供开发；新增或检查真实详情路径时使用完整 build 和上述静态服务器。
 
@@ -40,14 +40,16 @@ tests/                     Playwright 浏览器行为测试
 - `/ClothLOOP-Dataset/body/`：动作；详情如 `body/ClothTransformer/sim_00000/`。
 - `/ClothLOOP-Dataset/cloth/`：服装；详情如 `cloth/ClothTransformer/CT-sim_00002/`。
 - `/ClothLOOP-Dataset/initials/`：绑定初值；详情如 `initials/D-LAYERS/01306/`。
-- `/ClothLOOP-Dataset/test-initials/`：Task14 最终14组测试初值，只有首帧人体＋衣服；详情如 `test-initials/ct_00004/`。数据独立保存于 `testsets/task14_initials_20260929/`，不替换原绑定初值；构建自动核验新目录的独立清单及首帧几何哈希。
+- `/ClothLOOP-Dataset/test-initials/`：Task14 最终14组初值与 libuipc 完整仿真；详情如 `test-initials/ct_00004/`。桌面左右对照首帧3D与视频，窄屏上下排列。初值数据独立保存于 `testsets/task14_initials_20260929/`，不替换原绑定初值；构建自动核验独立清单及首帧几何哈希。新增视频在 `media/libuipc/`，不改变初值科学数据。
 
 来源、类别、时长等筛选写入 query string；时长以 `<10 s` 和 `≥10 s` 分组。勾选仅保存到当前浏览器的 localStorage，并可导出带数据版本、文件路径和哈希的 JSON。网站不会写回服务器文件或更改仓库选择。
 
 ## 科研数据与展示数据
 
 - NPZ/PKL/OBJ 输入原样保留；浏览器不加载完整动作网格或 SMPL 模型。
-- MP4 复用已有验证预览，字节不变；CT 的 7 段视频明确标注为最新关节修复对比，不能当成未经修改的原始动作。
+- 原人体 MP4 复用已有验证预览，字节不变；CT 的 7 段视频明确标注为最新关节修复对比，不能当成未经修改的原始动作。
+- Task14 新增14条1080×1080 H.264仿真视频，共8081源帧，保留完整长度和来源帧率，视频总量严格小于100,000,000字节。只读实际保存衣物及实际修复人体，无平滑、插帧或重新仿真；不上传完整逐帧真值数组。画面标注源帧、时间、物理子步、非线性/线性迭代与求解耗时；CSV为区间子步之和，frame0无求解。两条D-LAYERS如实标为mixed_or_semi_implicit，不把所有计数称为full Newton。
+- 新视频的保存源状态CC/CB为零，不代表连续时间独立数学证明或人体自交为零；粗折、帽子遮脸等原结果外观保留。`media/libuipc/<case>/render.json`记录输入hash、验收证书hash、采样语义与编码检查；`iterations.csv`可独立下载。所有预览文件纳入原media清单。
 - 52条VTO动作帧率标记为已验证；8条HOOD validation标为项目设定；24条D-LAYERS（含00396、00756原样本片段）标为播放假定，时长前显示 `≈`。
 - 人体页支持训练／测试划分筛选和URL参数 `split=train|test|unassigned`，对应52／12／27条；未纳入本轮的动作保留。服装页不分配训练／测试标签。
 - 新增00396、00756的人体片段详情显示原动作编号、源帧范围，并与对应静态服装初值互相链接。人体视频的零betas体型仅供预览，不能当成绑定初值的原人体体型。未打包服装逐帧真值。
@@ -70,6 +72,10 @@ python3 scripts/import_previews.py --source-workspace /absolute/path/to/DATA
 此可选步骤需要 Pillow，复制视频并从历史图片生成 WebP；DATA 路径仅用于一次性导入，不参与日常构建。
 
 4. 重新构建并检查 `dist/generated/validation.json`，运行浏览器测试。
+
+Task14 高清预览的可选离线再生成：`python scripts/render_task14_hd.py --source /path/to/selected --output web/media/libuipc`，需要numpy、PyVista、Pillow、ffmpeg及DejaVuSans。输出不覆盖已有完整视频；新位置试验更合适。使用固定正交尺度、逐帧更新渲染、CPU Mesa；不在CI重新渲染。随后 `python scripts/register_task14_hd.py --source /path/to/selected --audit /path/to/audit.json`核对公开初值逐点相同、逐帧迭代与原子步日志重聚合相同，再更新预览清单。构建不依赖这些外部输入。
+
+迭代模式沿用历史报表的终止分类：该源帧所有子步达到native_tolerance时标full_newton，其余标mixed_or_semi_implicit。因此D-LAYERS运行即使启用了半隐式策略，也可能在个别源帧达到完整容差。不要把这些个别帧解读为整条运行关闭了半隐式策略。
 
 ## 测试与部署
 

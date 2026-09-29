@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 
 const catalog = JSON.parse(await readFile(new URL('../dist/generated/catalog.json', import.meta.url), 'utf8'));
 
-test('14 test first frames have exact routes, previews, mesh data and no videos', async ({ page, request }) => {
+test('14 test cases have exact routes, initial meshes and bounded HD previews', async ({ page, request }) => {
   const errors: string[] = [];
   page.on('pageerror', e => errors.push(e.message));
   await page.goto('test-initials/');
@@ -15,9 +15,18 @@ test('14 test first frames have exact routes, previews, mesh data and no videos'
     expect((await request.get(row.url)).status()).toBe(200);
     expect((await request.get(row.thumbnail)).status()).toBe(200);
     expect((await request.get(row.mesh)).status()).toBe(200);
-    expect(row.video).toBeUndefined();
+    expect(row.video).toMatch(/media\/libuipc\/.*\/video.mp4/);
+    expect(row.simulation.width).toBe(1080);
+    expect(row.simulation.height).toBe(1080);
+    expect((await request.get(row.simulation.iterations)).status()).toBe(200);
+    expect((await request.get(row.simulation.provenance)).status()).toBe(200);
+    const range = await request.get(row.video, { headers: { Range: 'bytes=0-31' } });
+    expect(range.status()).toBe(206);
+    expect((await range.body()).length).toBe(32);
     expect(row.initial_geometry_check).toMatchObject({ frame: 0, cloth_cloth: 0, cloth_body: 0 });
   }
+  expect(catalog['test-initials'].reduce((n: number, r: any) => n + r.simulation.bytes, 0)).toBeLessThan(100_000_000);
+  expect(catalog['test-initials'].reduce((n: number, r: any) => n + r.simulation.frames, 0)).toBe(8081);
   await page.getByLabel('数据来源').selectOption('C-IPC');
   await expect(page.locator('.asset-card')).toHaveCount(2);
   await page.getByRole('button', { name: '重置筛选' }).click();
@@ -41,6 +50,7 @@ test('14 test first frames have exact routes, previews, mesh data and no videos'
 });
 
 test('all14 joint first-frame viewers load, hide body/cloth and preserve original coordinates', async ({ page }) => {
+  test.setTimeout(180000);
   const errors: string[] = [];
   page.on('pageerror', e => errors.push(e.message));
   for (const row of catalog['test-initials']) {
@@ -48,7 +58,22 @@ test('all14 joint first-frame viewers load, hide body/cloth and preserve origina
     await expect(page.locator('.viewer')).toHaveAttribute('data-state', 'ready', { timeout: 30000 });
     await expect(page.locator('.viewer')).toHaveAttribute('data-mesh-count', '2');
     await expect(page.locator('.collision-summary')).toContainText('未认证');
-    await expect(page.locator('video')).toHaveCount(0);
+    const video = page.locator('video');
+    await expect(video).toHaveCount(1);
+    await expect(video).toHaveAttribute('preload', 'none');
+    await video.evaluate(async (v: HTMLVideoElement) => { v.muted = true; await v.play(); });
+    await expect.poll(() => video.evaluate((v: HTMLVideoElement) => v.currentTime)).toBeGreaterThan(0);
+    expect(await video.evaluate((v: HTMLVideoElement) => v.videoWidth)).toBe(1080);
+    await video.evaluate((v: HTMLVideoElement) => new Promise<void>(resolve => {
+      v.pause(); v.addEventListener('seeked', () => resolve(), { once: true }); v.currentTime = v.duration * .5;
+    }));
+    await expect.poll(() => video.evaluate((v: HTMLVideoElement) => !v.seeking && v.readyState >= 2)).toBe(true);
+    expect(await video.evaluate((v: HTMLVideoElement) => Math.abs(v.currentTime - v.duration / 2))).toBeLessThan(.1);
+    expect(Math.abs(await video.evaluate((v: HTMLVideoElement) => v.duration) - row.simulation.frames / row.simulation.fps)).toBeLessThan(.05);
+    const left = (await page.locator('.simulation-pair>section').nth(0).boundingBox())!;
+    const right = (await page.locator('.simulation-pair>section').nth(1).boundingBox())!;
+    expect(right.x).toBeGreaterThan(left.x + left.width - 1);
+    expect(Math.abs(left.y - right.y)).toBeLessThan(1);
     await page.getByLabel('人体', { exact: true }).uncheck();
     await expect(page.locator('[data-parts] input:checked')).toHaveCount(1);
     await page.getByLabel('人体', { exact: true }).check();
@@ -71,6 +96,9 @@ test('test initial page is reachable from home and works on mobile', async ({ pa
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.goto('test-initials/ct_00004/');
   await expect(page.locator('.viewer')).toHaveAttribute('data-state', 'ready', { timeout: 30000 });
+  const left = (await page.locator('.simulation-pair>section').nth(0).boundingBox())!;
+  const right = (await page.locator('.simulation-pair>section').nth(1).boundingBox())!;
+  expect(right.y).toBeGreaterThan(left.y + left.height - 1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: 'test-results/task14-mobile.png', fullPage: true });
 });

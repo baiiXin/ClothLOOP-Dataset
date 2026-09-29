@@ -1,0 +1,34 @@
+{
+  "case": "cc_05_16",
+  "frames": 290,
+  "fps": 30.0,
+  "fps_status": "project_defined",
+  "width": 1080,
+  "height": 1080,
+  "bytes": 1380148,
+  "video_sha256": "9a69e8efec8e95bd1d5d5884103afe3096b704890cd961a0c77c3707fa09a1e3",
+  "methods": [
+    "full_newton"
+  ],
+  "total_nonlinear_iterations": 47259,
+  "total_physical_steps": 1156,
+  "iteration_definition": "Native logged counters summed over physical substeps ending in each source-frame interval. Frame0 has no solve. Mixed/semi-implicit counts are not claimed to be full Newton.",
+  "geometry": "Exact saved source states and actual repaired collider; no smoothing, interpolation or new simulation.",
+  "collision_scope": "All saved source states CC=CB=0; not a continuous-time formal proof; body self-intersection not certified zero.",
+  "source_sha256": {
+    "case.json": "c640dcd4aac0fe353fd01f47203a03758ad6bff1decdea02cd56afd5c2184acf",
+    "geometry.npz": "0abdfc9fdad7f89d937527e434d99c52bae719f5227bcd90c0452a77b4116031",
+    "reference/cloth.npy": "fe756ecc5e4d1247b7b500c8c936ddf1bb4cdfd2822baf8756aa8128e15595ee",
+    "body_vertices.npy": "4298f469abc98b8f88cddec2021a3f8068a32b477e7f1b845d8d3c25ddd5f726",
+    "reference/iterations_per_frame.csv": "675476e59961befe26d9e9829d257469fa9cc29f166e264472e8dd56acde4309",
+    "reference/solver_steps.jsonl": "836bea78d35c179fee5001e179afee660f609b27bc8f1d35681d4bbdf2307beb"
+  },
+  "source_certificate_sha256": "0ec0ef82f8c5f1e34448b9e301eaba50354d7acb08f6af873b2913665df6ecd6",
+  "ffprobe": {
+    "width": 1080,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "9.666667",
+    "nb_frames": "290"
+  }
+}

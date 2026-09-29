@@ -16,6 +16,9 @@ export interface Entry {
   state?: string; state_label?: string; body_bound?: boolean; garment_count?: number;
   collision?: Collision | null; metadata: unknown; model?: Record<string, unknown>;
   initial_geometry_check?: { cloth_cloth: number; cloth_body: number; frame: number };
+  simulation?: { frames: number; fps: number; fps_status: string; width: number; height: number;
+    bytes: number; methods: string[]; total_nonlinear_iterations: number; total_physical_steps: number;
+    poster: string; iterations: string; provenance: string };
   files: DataFile[]; source_sequence?: Record<string, unknown>;
   related_url?: string;
   source_segment?: { source_sequence_id: string; start_inclusive: number; end_exclusive: number };
