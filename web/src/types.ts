@@ -1,4 +1,4 @@
-export type Section = 'body' | 'cloth' | 'initials';
+export type Section = 'body' | 'cloth' | 'initials' | 'test-initials';
 export interface DataFile { path: string; url: string; raw_url: string; sha256: string; bytes: number }
 export interface Part { name: string; body: boolean; vertices: number; triangles: number; file: string; sha256: string }
 export interface Collision {
@@ -15,6 +15,7 @@ export interface Entry {
   mesh?: string; mesh_bytes?: number; parts?: Part[]; vertices?: number; triangles?: number;
   state?: string; state_label?: string; body_bound?: boolean; garment_count?: number;
   collision?: Collision | null; metadata: unknown; model?: Record<string, unknown>;
+  initial_geometry_check?: { cloth_cloth: number; cloth_body: number; frame: number };
   files: DataFile[]; source_sequence?: Record<string, unknown>;
   related_url?: string;
   source_segment?: { source_sequence_id: string; start_inclusive: number; end_exclusive: number };
@@ -22,8 +23,9 @@ export interface Entry {
 export interface Catalog {
   schema: string; commit: string; repository: string;
   summary: { motions: number; garments: number; initials: number; bound_garments: number;
+    test_initials: number; test_initial_mesh_bytes: number;
     frames: number; duration: number; assumed_fps_motions: number; restpose: number; frame0: number;
     sources: string[]; missing_previews: number; missing_motion_categories: number;
     body_splits: Record<string, number> };
-  body: Entry[]; cloth: Entry[]; initials: Entry[];
+  body: Entry[]; cloth: Entry[]; initials: Entry[]; 'test-initials': Entry[];
 }

@@ -40,6 +40,7 @@ tests/                     Playwright 浏览器行为测试
 - `/ClothLOOP-Dataset/body/`：动作；详情如 `body/ClothTransformer/sim_00000/`。
 - `/ClothLOOP-Dataset/cloth/`：服装；详情如 `cloth/ClothTransformer/CT-sim_00002/`。
 - `/ClothLOOP-Dataset/initials/`：绑定初值；详情如 `initials/D-LAYERS/01306/`。
+- `/ClothLOOP-Dataset/test-initials/`：Task14 最终14组测试初值，只有首帧人体＋衣服；详情如 `test-initials/ct_00004/`。数据独立保存于 `testsets/task14_initials_20260929/`，不替换原绑定初值；构建自动核验新目录的独立清单及首帧几何哈希。
 
 来源、类别、时长等筛选写入 query string；时长以 `<10 s` 和 `≥10 s` 分组。勾选仅保存到当前浏览器的 localStorage，并可导出带数据版本、文件路径和哈希的 JSON。网站不会写回服务器文件或更改仓库选择。
 

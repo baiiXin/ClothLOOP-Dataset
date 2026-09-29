@@ -1,0 +1,209 @@
+{
+  "schema": "ClothLOOP.task14-initials.v1",
+  "cases": [
+    {
+      "case": "added_06_13",
+      "source": "D-LAYERS",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/added_06_13/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/added_06_13/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/added_06_13/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/added_06_13/provenance.json",
+      "components": [
+        "skirt_8_panels",
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "case": "cc_55_27",
+      "source": "ContourCraft",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cc_55_27/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cc_55_27/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cc_55_27/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cc_55_27/provenance.json",
+      "components": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "case": "added_85_12",
+      "source": "D-LAYERS",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/added_85_12/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/added_85_12/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/added_85_12/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/added_85_12/provenance.json",
+      "components": [
+        "tee_sleeveless",
+        "jacket_hood",
+        "shorts"
+      ]
+    },
+    {
+      "case": "cc_05_16",
+      "source": "ContourCraft",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cc_05_16/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cc_05_16/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cc_05_16/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cc_05_16/provenance.json",
+      "components": [
+        "dress_sleeveless"
+      ]
+    },
+    {
+      "case": "ct_00004",
+      "source": "ClothTransformer",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/ct_00004/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/ct_00004/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/ct_00004/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/ct_00004/provenance.json",
+      "components": [
+        "CT-sim_00000",
+        "shorts"
+      ]
+    },
+    {
+      "case": "cc_05_08",
+      "source": "ContourCraft",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cc_05_08/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cc_05_08/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cc_05_08/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cc_05_08/provenance.json",
+      "components": [
+        "dress_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "case": "cc_05_06",
+      "source": "ContourCraft",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cc_05_06/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cc_05_06/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cc_05_06/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cc_05_06/provenance.json",
+      "components": [
+        "jumpsuit_sleeveless"
+      ]
+    },
+    {
+      "case": "cipc_multilayer",
+      "source": "C-IPC",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cipc_multilayer/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cipc_multilayer/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cipc_multilayer/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cipc_multilayer/provenance.json",
+      "components": [
+        "pattern_00",
+        "pattern_01",
+        "pattern_02",
+        "pattern_03",
+        "pattern_04",
+        "pattern_05",
+        "pattern_06",
+        "pattern_07",
+        "pattern_08",
+        "pattern_09"
+      ]
+    },
+    {
+      "case": "ct_00018",
+      "source": "ClothTransformer",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/ct_00018/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/ct_00018/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/ct_00018/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/ct_00018/provenance.json",
+      "components": [
+        "CT-sim_00000",
+        "CT-sim_00002"
+      ]
+    },
+    {
+      "case": "cipc_dress_knife",
+      "source": "C-IPC",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cipc_dress_knife/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cipc_dress_knife/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cipc_dress_knife/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cipc_dress_knife/provenance.json",
+      "components": [
+        "pattern_00",
+        "pattern_01",
+        "pattern_02",
+        "pattern_03",
+        "pattern_04",
+        "pattern_05",
+        "pattern_06",
+        "pattern_07",
+        "pattern_08",
+        "pattern_09",
+        "pattern_10",
+        "pattern_11",
+        "pattern_12",
+        "pattern_13"
+      ]
+    },
+    {
+      "case": "cc_01_01",
+      "source": "ContourCraft",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cc_01_01/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cc_01_01/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cc_01_01/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cc_01_01/provenance.json",
+      "components": [
+        "tee",
+        "jacket"
+      ]
+    },
+    {
+      "case": "cc_144_02",
+      "source": "ContourCraft",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/cc_144_02/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/cc_144_02/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/cc_144_02/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/cc_144_02/provenance.json",
+      "components": [
+        "tee_sleeveless",
+        "jacket_hood"
+      ]
+    },
+    {
+      "case": "dlayers_00396",
+      "source": "D-LAYERS",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/dlayers_00396/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/dlayers_00396/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/dlayers_00396/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/dlayers_00396/provenance.json",
+      "components": [
+        "tee_sleeveless",
+        "jacket"
+      ]
+    },
+    {
+      "case": "dlayers_00756",
+      "source": "D-LAYERS",
+      "state": "frame0",
+      "body": "testsets/task14_initials_20260929/cases/dlayers_00756/body.npz",
+      "cloth": "testsets/task14_initials_20260929/cases/dlayers_00756/cloth.npz",
+      "preview": "testsets/task14_initials_20260929/cases/dlayers_00756/preview.jpg",
+      "provenance": "testsets/task14_initials_20260929/cases/dlayers_00756/provenance.json",
+      "components": [
+        "tee_sleeveless",
+        "jacket"
+      ]
+    }
+  ],
+  "initial_mesh_bytes": 11742626,
+  "scope": "14 selected joint frame-zero meshes only; no motion data"
+}

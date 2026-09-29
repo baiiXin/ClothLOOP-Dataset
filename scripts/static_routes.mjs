@@ -7,7 +7,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'web/dist');
 const catalog = JSON.parse(await readFile(path.join(dist, 'generated/catalog.json'), 'utf8'));
 const html = await readFile(path.join(dist, 'index.html'), 'utf8');
-const routes = ['body/', 'cloth/', 'initials/', ...['body', 'cloth', 'initials'].flatMap(k => catalog[k].map(x => x.url))];
+const sections = ['body', 'cloth', 'initials', 'test-initials'];
+const routes = [...sections.map(k => k + '/'), ...sections.flatMap(k => catalog[k].map(x => x.url))];
 for (const route of routes) {
   const destination = path.join(dist, route);
   await mkdir(destination, { recursive: true });

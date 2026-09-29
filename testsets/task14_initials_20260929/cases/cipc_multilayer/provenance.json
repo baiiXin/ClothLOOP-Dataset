@@ -1,0 +1,39 @@
+{
+  "case": "cipc_multilayer",
+  "state": "frame0",
+  "units": "metres",
+  "up_axis": "Y",
+  "source": "Task14 observation1 final selected dataset",
+  "source_frame": 0,
+  "source_initial_sha256": "2785d23dba3d711295dae8283fc1b5c30cf7d28ce8a92c0abc3444458c96ecfc",
+  "source_geometry_sha256": "a510b27a8505e2282d8ad6d985a8c6e4bb044068881ff0df98a89d8be27d3877",
+  "source_acceptance_sha256": "02dc7fe1a76537d1226fa9e750baccf1f4ba81ccaf75dcb9edb584a2d7577381",
+  "source_selection_sha256": "259457313f2f93216c770b0c73f1bcf7c6169fab285205bfde088ef6c2f61964",
+  "source_index_sha256": "11941ca06830d6353aceebdaaa0b4fe4da4a86567f058659d0d9b6219f75bcaa",
+  "geometry_check": {
+    "cloth_cloth": 0,
+    "cloth_body": 0,
+    "count_definition": "exact edge-face intersections excluding shared endpoints only; body self intersections excluded",
+    "cloth_pairs": [],
+    "body_pairs": [],
+    "geometry_sha256": "4521f7cfebbb586826eb1cfe4a3eb6e22673fc2aa9e0cf3986ee316d0f1b5610",
+    "frame": 0,
+    "case": "cipc_multilayer"
+  },
+  "source_vertices_and_topology_exact": true,
+  "display_transform": "identity; body and cloth always share coordinates",
+  "limitations": "First frame only. Body surface includes accepted repairs where applicable. Body self-intersections are not certified zero. No continuous-time proof. No full trajectories, material rest mesh, initial velocity or SMPL model included.",
+  "components": [
+    "pattern_00",
+    "pattern_01",
+    "pattern_02",
+    "pattern_03",
+    "pattern_04",
+    "pattern_05",
+    "pattern_06",
+    "pattern_07",
+    "pattern_08",
+    "pattern_09"
+  ],
+  "component_note": "C-IPC components are sewing panels, not a garment count."
+}

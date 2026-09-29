@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import numpy as np
+from validate_task14_initials import validate as validate_test_initials
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'web/public/generated'
@@ -227,7 +228,27 @@ def main():
         row.update(scene)
         initials.append(row)
 
+    test_initials = []
+    test_index = validate_test_initials()
+    for x in test_index['cases']:
+        key = f'test-initials/{x["case"]}'
+        metadata = read(ROOT / x['provenance'])
+        row = common(key, x['source'], x['case'], 'test-initials', [x['body'], x['cloth'], x['provenance']])
+        target = OUT / 'test-initials' / x['case'] / 'preview.jpg'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / x['preview'], target)
+        row.update(category='最终选定首帧', state='frame0', state_label='无穿首帧', body_bound=True,
+                   thumbnail=str(target.relative_to(OUT.parent)), contact=str(target.relative_to(OUT.parent)),
+                   description='Task14 最终选定初值：原精度人体与衣服共用坐标，只展示首帧，不含动画序列。',
+                   preview_note='实际首帧双视角；没有几何平滑、投影或分部件重新对齐。',
+                   metadata=metadata, initial_geometry_check=metadata['geometry_check'])
+        scene = build_glb(key, [('human', ROOT / x['body'], True), ('衣服', ROOT / x['cloth'], False)])
+        checks.extend(scene.pop('verification'))
+        row.update(scene)
+        test_initials.append(row)
+
     summary = {'motions': len(motions), 'garments': len(garments), 'initials': len(initials),
+               'test_initials': len(test_initials), 'test_initial_mesh_bytes': test_index['initial_mesh_bytes'],
                'bound_garments': sum(x['garment_count'] for x in initials),
                'frames': sum(x['frames'] for x in motions), 'duration': sum(x['duration'] for x in motions),
                'assumed_fps_motions': sum(x['fps_status'] == 'assumed_playback' for x in motions),
@@ -238,11 +259,11 @@ def main():
                'missing_motion_categories': sum(x['category'] == '未提供' for x in motions)}
     summary['body_splits'] = {s: sum(x['split'] == s for x in motions) for s in ['train', 'test', 'unassigned']}
     catalog = {'schema': 'ClothLOOP.explorer.v1', 'commit': commit, 'repository': REPO, 'summary': summary,
-               'body': motions, 'cloth': garments, 'initials': initials}
+               'body': motions, 'cloth': garments, 'initials': initials, 'test-initials': test_initials}
     write_json(OUT / 'catalog.json', catalog)
     validation = {'schema': 'ClothLOOP.web-export-validation.v1', 'passed': True,
                   'source_manifest_files_verified': len(manifest['files']), 'mesh_count': len(checks),
-                  'scene_count': len(garments) + len(initials), 'no_mesh_simplification': True,
+                  'scene_count': len(garments) + len(initials) + len(test_initials), 'no_mesh_simplification': True,
                   'export_precision': 'float32 positions/normals; lossless uint16/uint32 indices',
                   'max_abs_coordinate_error': max(x['max_abs_coordinate_error'] for x in checks),
                   'coordinate_error_units': 'Original source units; no meter assumption',
