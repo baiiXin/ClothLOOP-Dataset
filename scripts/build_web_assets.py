@@ -259,10 +259,24 @@ def main():
         row['simulation'] = {**sim, 'poster': f'media/libuipc/{x["case"]}/poster.jpg',
                              'iterations': f'media/libuipc/{x["case"]}/iterations.csv',
                              'provenance': f'media/libuipc/{x["case"]}/render.json'}
+        smooth = read(ROOT / 'web/media/libuipc-smooth' / x['case'] / 'render.json')
+        smooth_file = media[key]['files']['smooth_video']
+        assert smooth['bytes'] == smooth_file['bytes'] and smooth['video_sha256'] == smooth_file['sha256']
+        assert smooth['frames'] == sim['frames'] and smooth['fps'] == sim['fps']
+        assert smooth['source_sha256'] == sim['source_sha256'] and smooth['body_subdiv'] == 0
+        timing = read(ROOT / 'web/media/libuipc-smooth' / x['case'] / 'timesteps.json')['frames']
+        assert len(timing) == sim['frames']
+        for frame, t in enumerate(timing):
+            assert t['frame'] == frame and len(t['physical_dt_s']) == int(iteration_rows[frame]['physical_steps'])
+            assert abs(sum(t['physical_dt_s']) - (1 / sim['fps'] if frame else 0)) < 1e-9
+        row['simulation']['smooth'] = dict(video=smooth_file['path'], bytes=smooth['bytes'],
+            poster=f'media/libuipc-smooth/{x["case"]}/poster.jpg',
+            provenance=f'media/libuipc-smooth/{x["case"]}/render.json',
+            timesteps=f'media/libuipc-smooth/{x["case"]}/timesteps.json')
         test_initials.append(row)
     assert len(test_initials) == 14
     assert sum(x['simulation']['frames'] for x in test_initials) == 8081
-    assert sum(x['simulation']['bytes'] for x in test_initials) < 100_000_000
+    assert sum(x['simulation']['bytes'] + x['simulation']['smooth']['bytes'] for x in test_initials) < 120_000_000
 
     summary = {'motions': len(motions), 'garments': len(garments), 'initials': len(initials),
                'test_initials': len(test_initials), 'test_initial_mesh_bytes': test_index['initial_mesh_bytes'],

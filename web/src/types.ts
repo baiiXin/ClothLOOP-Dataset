@@ -18,7 +18,8 @@ export interface Entry {
   initial_geometry_check?: { cloth_cloth: number; cloth_body: number; frame: number };
   simulation?: { frames: number; fps: number; fps_status: string; width: number; height: number;
     bytes: number; methods: string[]; total_nonlinear_iterations: number; total_physical_steps: number;
-    poster: string; iterations: string; provenance: string };
+    poster: string; iterations: string; provenance: string;
+    smooth: { video: string; poster: string; bytes: number; provenance: string; timesteps: string } };
   files: DataFile[]; source_sequence?: Record<string, unknown>;
   related_url?: string;
   source_segment?: { source_sequence_id: string; start_inclusive: number; end_exclusive: number };

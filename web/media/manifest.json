@@ -4264,6 +4264,36 @@
           "bytes": 1645,
           "sha256": "99c982f63db916f7d915b595fef13dda0547483eabb1cb4dfc2a08d14d4a9f21",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/added_06_13/video.mp4",
+          "bytes": 9396231,
+          "sha256": "313b3436a1b26b1d3b830d0b4d33515cf3fca084f55ab1b130a4f4a578054009",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/added_06_13/poster.jpg",
+          "bytes": 115443,
+          "sha256": "677141d26e2f5b729e43dd9c45ea547c84a626434b8cdb3f7b43d4162c79d453",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/added_06_13/contact.jpg",
+          "bytes": 116406,
+          "sha256": "c03de77fe14e7552594dfda1b67fea711d0a94e72e2335abe0b146dacf780d72",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/added_06_13/render.json",
+          "bytes": 2611,
+          "sha256": "efe0ed60141fcae8596a6ebfb62f5bdf570b5f925eba1d688271036406978ecf",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/added_06_13/timesteps.json",
+          "bytes": 429515,
+          "sha256": "052f9a9abada3eeba672f3c8f990ff1fa64f7195f602451e44d1a6d325329ef4",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4299,6 +4329,36 @@
           "bytes": 1645,
           "sha256": "a077fcda961e251daa2d79e20b1c8e8c9f42b8338f2511a37a961ec8139e91bf",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/added_85_12/video.mp4",
+          "bytes": 8052742,
+          "sha256": "ee07ffcc48c8896aca8a7cbd6803850c1da62186d13d640fbbe7bb3d1a8d8022",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/added_85_12/poster.jpg",
+          "bytes": 116911,
+          "sha256": "f10db91da664f4bb4c1bc17a4014c0def03e064b61f804f3f49db6b93243b41a",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/added_85_12/contact.jpg",
+          "bytes": 112306,
+          "sha256": "277fde8a989d8fee9538cccd542926ba01292265b23421ac610f591945156729",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/added_85_12/render.json",
+          "bytes": 2611,
+          "sha256": "45b832e79d0958beee7bf13f772cfc91285d0e94fe3bc69f42cfa074275d11f0",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/added_85_12/timesteps.json",
+          "bytes": 393713,
+          "sha256": "c873daebdf4a16b6fb8c586731a3c19ce6e4871a09b7bcdd5915b9933d600b8a",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4334,6 +4394,36 @@
           "bytes": 1640,
           "sha256": "29d1ef9c810c3b33abbf28c892a2bd1b3c503c6f360bea1a968dd6d7d3375367",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cc_01_01/video.mp4",
+          "bytes": 5566645,
+          "sha256": "256542bd1e7ec58d0e3623ec50bc2d4c804767f21033ebed4c0a967de4b549af",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cc_01_01/poster.jpg",
+          "bytes": 113024,
+          "sha256": "ad621bb4cf0dcb67e42dc6fba3835a6d0d1f0c10f2d24010cf4c0c20c3dd7459",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cc_01_01/contact.jpg",
+          "bytes": 113095,
+          "sha256": "5f84d1528b910f1fab628e8cd7ab065b293e4c29ff414fc2f6f463542989d753",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cc_01_01/render.json",
+          "bytes": 2606,
+          "sha256": "8dfb2018ebfae2d6fdce502c748879c6ee5114affadc045d878b36f1a9f322c0",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cc_01_01/timesteps.json",
+          "bytes": 251897,
+          "sha256": "707270eff687fd622400e196731c2ad9d6ef39013069f00e82aee741563e8e53",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4369,6 +4459,36 @@
           "bytes": 1639,
           "sha256": "779e6f5d10314e6399ed57363a418c30ed451e6e447f93c3be63c50c8a0fdde0",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cc_05_06/video.mp4",
+          "bytes": 2930510,
+          "sha256": "4cdc92a487db097a3aae88425e842af59909ba9953240290a25e2475ad08de07",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cc_05_06/poster.jpg",
+          "bytes": 113653,
+          "sha256": "63802fca90318252ece3ee987fe637517cd41361cbedc059a25b3f7f3718c945",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cc_05_06/contact.jpg",
+          "bytes": 109067,
+          "sha256": "a1300aa30917d5f19446450aee73e2b15f9ed4e093ff3c6542af06df14fe07da",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cc_05_06/render.json",
+          "bytes": 2605,
+          "sha256": "88e7844c991f156925372cca4046b3ae39fcba597339f443e340eac61a12bafe",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cc_05_06/timesteps.json",
+          "bytes": 164338,
+          "sha256": "0e2aacc5bd3f3e9c9e24eafc7cf0949dd83566faca6db0aa30cebeaa9b8490c9",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4404,6 +4524,36 @@
           "bytes": 1639,
           "sha256": "2f92b5c3249e523f02f1a16a2c0243b3c69c418adcfa85bf4f2454a17d99f165",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cc_05_08/video.mp4",
+          "bytes": 2725810,
+          "sha256": "2090c816a5d528fde36a62c4a5b7bc62bcccdafab8b096eb8c39572756dd2188",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cc_05_08/poster.jpg",
+          "bytes": 116394,
+          "sha256": "0d13d2991704899f53b26f1de533699227f848606ae95e82db815d1509ad7ade",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cc_05_08/contact.jpg",
+          "bytes": 114552,
+          "sha256": "c70b55c6bf606aba8a59ab7ea5c659e657a6c6f9cc3f0e480312ffe29728633d",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cc_05_08/render.json",
+          "bytes": 2605,
+          "sha256": "567c4c9b688a3ef7b0ab907bc4b7424e1791d22c2676665531362e164fe7cd0b",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cc_05_08/timesteps.json",
+          "bytes": 135638,
+          "sha256": "782cb1850163db12ff14d0db6f2b0b92450e79d31780e2333c210c0e7fe3d28d",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4439,6 +4589,36 @@
           "bytes": 1638,
           "sha256": "c07ab0de9e1615279b2cd503e8e6ccb2f8d0a71425cfe23f6e69eb086d0b7316",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cc_05_16/video.mp4",
+          "bytes": 2192189,
+          "sha256": "29a6c50412bc67203704fc3e41d7f30f8b055ad44d08e127aecba0d41145688a",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cc_05_16/poster.jpg",
+          "bytes": 114181,
+          "sha256": "accadf0c759ae3b8dd0a9caabb15c9ae1be5a6184739c71d216ea7754475cef4",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cc_05_16/contact.jpg",
+          "bytes": 111797,
+          "sha256": "90c3a7acec53379a9260d020a22a6aca1ac1180d1a421c45c2f16e3e049628d8",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cc_05_16/render.json",
+          "bytes": 2604,
+          "sha256": "413ba500dece3def5a19742a1075e3a06b017d0eeab559f6e87a5f3305df1006",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cc_05_16/timesteps.json",
+          "bytes": 101338,
+          "sha256": "3a73398bb100a08e76e7eb1f020d3dbe6c9774d9aceed188106227d1f4ded12f",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4474,6 +4654,36 @@
           "bytes": 1643,
           "sha256": "7346069e5e7149a197b6834273cd6f90559a9ad03e7d86e852792e5dbd0814d5",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cc_144_02/video.mp4",
+          "bytes": 7750122,
+          "sha256": "7683e71a4d1fdd4accb9f5828c97e19cc73efd715e3b0935d68a584ba002390a",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cc_144_02/poster.jpg",
+          "bytes": 117417,
+          "sha256": "12c4630349e2ac3d929ccc9c1cf36cedfddeea4c4fee6a01498e157680a6c733",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cc_144_02/contact.jpg",
+          "bytes": 109819,
+          "sha256": "82bc3b634eb57873b35180c1c450d905b11a1d94fde617bf63bf3823fcc93322",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cc_144_02/render.json",
+          "bytes": 2609,
+          "sha256": "19b3bb5a2fba655b21a77df9a3897a9f456d4201e21e329b82190eca7e49d6f3",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cc_144_02/timesteps.json",
+          "bytes": 413480,
+          "sha256": "20dfd960b2f640321db8ece956dd1be4b51b8a450ed9eee4a5bb26794ccb94f2",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4509,6 +4719,36 @@
           "bytes": 1642,
           "sha256": "fd665847adcf33f54ad3001360b663ada131c2f8a948b7ba3fbbbc2dc2a154ef",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cc_55_27/video.mp4",
+          "bytes": 9786295,
+          "sha256": "0e2924c51780a2cc16e9bc644fdeb14d73e90d834b9ea9817131b3e7de7ef5d2",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cc_55_27/poster.jpg",
+          "bytes": 117410,
+          "sha256": "80331b320ee85171da1dc8ff7c569978b2debe917dc171076bb1db20a5bcf002",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cc_55_27/contact.jpg",
+          "bytes": 113911,
+          "sha256": "92e2ef1990d5786e275d3dc4c2bf6413cb77bbea0cf5935c8fa7763a021a593b",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cc_55_27/render.json",
+          "bytes": 2622,
+          "sha256": "7d574c5286149f1b285f858f5eac9bc373086f5c44852e2c5e7d99d8858f2f7d",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cc_55_27/timesteps.json",
+          "bytes": 466389,
+          "sha256": "898a9a9268cf6d98934b025bce71d883dfb024fb1b457d5d1204fc814b28c289",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4544,6 +4784,36 @@
           "bytes": 1644,
           "sha256": "17f10c5d66a43acd27f13e583d4d97c9988f141d9190d69ff40de6843c11a5ca",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cipc_dress_knife/video.mp4",
+          "bytes": 826780,
+          "sha256": "ee29e1f9a61bbb98fa933447ec2a0d96c55d63d41238f081832c9d9fc9b4ae0d",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cipc_dress_knife/poster.jpg",
+          "bytes": 115887,
+          "sha256": "c4248563cd68a0a925566ec4fd4864c9030f2ee9a8e4a46f1982a29141067817",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cipc_dress_knife/contact.jpg",
+          "bytes": 115862,
+          "sha256": "d205fb1c07938dd5f30e5176ea0149ddcce92bc4961bb7f1d2630a8264f07fcd",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cipc_dress_knife/render.json",
+          "bytes": 2610,
+          "sha256": "a592e4d5c3e944d9d1de05a56d248859a0dbc4875be3a7afc2f811b4a267327e",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cipc_dress_knife/timesteps.json",
+          "bytes": 31648,
+          "sha256": "72a08635e7ecda3cf04e39ca9e0638bf78c3c8ef3656445ba83faa509c53eb6e",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4579,6 +4849,36 @@
           "bytes": 1643,
           "sha256": "8abe997cf50ef4055f79c99fdc8066bea6b24971b0c8cfad9c75999499d4baea",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/cipc_multilayer/video.mp4",
+          "bytes": 1129771,
+          "sha256": "b5d7dabbdeee7ca04dde9cfeb6ba0f31de10f21a215a82ccd2477cc2b3d27820",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/cipc_multilayer/poster.jpg",
+          "bytes": 112387,
+          "sha256": "135665cb791d5031c84b2d9d4abac8e02f808928fefac41174e9c15724e55d6c",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/cipc_multilayer/contact.jpg",
+          "bytes": 117642,
+          "sha256": "81591d1680a3a8ab498db43c13adf56efabbfa6c514f9110f00f577ef21886e8",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/cipc_multilayer/render.json",
+          "bytes": 2610,
+          "sha256": "96fad5732e8a477b60a16854b4cf81c6a1fa7ccbcfcc36d0480e5b2db8079dbf",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/cipc_multilayer/timesteps.json",
+          "bytes": 31648,
+          "sha256": "9ae00609b62e9c526b9d91606df4b552702cd81e4e4f6122bc5fc0b4fa86acba",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4614,6 +4914,36 @@
           "bytes": 1637,
           "sha256": "c14e592671ce9313b6219a5eb51233adad846223fa2943f18b06687030862c0a",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/ct_00004/video.mp4",
+          "bytes": 1084675,
+          "sha256": "bde29d679d3590699caac756890505a68cb89a3b39ba1595250f2f76218b1722",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/ct_00004/poster.jpg",
+          "bytes": 112740,
+          "sha256": "70afbba92c0598de42f183d9939bb642c63bb3b4fa5141871344f20b2ca2c06a",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/ct_00004/contact.jpg",
+          "bytes": 111935,
+          "sha256": "63b4d242fb5d593c36003629ce001f4bdbd591db2d3759543291e27a2ed59b6b",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/ct_00004/render.json",
+          "bytes": 2603,
+          "sha256": "05bfb224a48b48d806706bfb9ac9d87900d8542b83d8e8b59b193d18b61bc4b9",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/ct_00004/timesteps.json",
+          "bytes": 69737,
+          "sha256": "00b6e4e3a9d7c6154cfe2647ed0af78a45ca4240557c7a0e746b0ad2ce1b3f89",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4649,6 +4979,36 @@
           "bytes": 1637,
           "sha256": "d1f86f50f658688a7f98e70fdd08b2eeb3f4ea833d7db25c1eb076dc73d7d6d1",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/ct_00018/video.mp4",
+          "bytes": 1081368,
+          "sha256": "b55549fe62386f0f9f208898eaddc3c1b4252732f012e2ea24dbbefda8489320",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/ct_00018/poster.jpg",
+          "bytes": 112480,
+          "sha256": "0b859bc0e6499dea7418a70ef852d63e1742ee36424d4d38dcacf02d574cd921",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/ct_00018/contact.jpg",
+          "bytes": 112527,
+          "sha256": "e84b5c357984919a1c43ca086f8a9af52379b8de6fe22917257b5198413941d5",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/ct_00018/render.json",
+          "bytes": 2603,
+          "sha256": "131a25c8b30f3879be35eb52db52210a38b053ee282c4e25c2a5138f9478f077",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/ct_00018/timesteps.json",
+          "bytes": 69737,
+          "sha256": "44a0badea19d0c3a033b521def7c913ce114dac93e170cbf0190d9592b519098",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4684,6 +5044,36 @@
           "bytes": 1656,
           "sha256": "c1e542a656f4e5fc5638a179a6c683bc3aefc9aa7a2071dbef499c4b46c78f3f",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/dlayers_00396/video.mp4",
+          "bytes": 2678796,
+          "sha256": "b0837181d113898407139da6308626d15e23bdf7de7c4a6c64d397fd73639dac",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/dlayers_00396/poster.jpg",
+          "bytes": 115246,
+          "sha256": "5d3cb8acc40686dbbcd4b967e53a2d55daa7d73c34b9a89ea230da79ac5653a5",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/dlayers_00396/contact.jpg",
+          "bytes": 115405,
+          "sha256": "1898c083cd27bbd288944c100684f1fe5e466e0eae959b406361e8838a8d1f4e",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/dlayers_00396/render.json",
+          "bytes": 2636,
+          "sha256": "e926c404cd1d1beb1d0823ad6ba288bd4c3b75243fe72fc303f1aa8c72564597",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/dlayers_00396/timesteps.json",
+          "bytes": 147244,
+          "sha256": "f317afa8cee1dda0119efb949ea6efa326eaeae1611c886d4238165882b0b352",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     },
@@ -4719,6 +5109,36 @@
           "bytes": 1674,
           "sha256": "71ea5b869fe149c4e89e93712d9573e5d5fe1d8e5e844ee0f4d8cc52865fc8c7",
           "source": "Task14 selected exact saved source states; source hashes in render.json"
+        },
+        "smooth_video": {
+          "path": "media/libuipc-smooth/dlayers_00756/video.mp4",
+          "bytes": 2148737,
+          "sha256": "5dc7e4a7c903da62deea4527dcdab2393728627063a81f695d5e9d9a8cf5cec5",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_poster": {
+          "path": "media/libuipc-smooth/dlayers_00756/poster.jpg",
+          "bytes": 119731,
+          "sha256": "1491853a9d8430c0e1403cad3a961ce35edb99ccdf11a84da53c904dc200286c",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_contact": {
+          "path": "media/libuipc-smooth/dlayers_00756/contact.jpg",
+          "bytes": 118091,
+          "sha256": "fbd6fb4fec9b02c6b2a3ad3da094ec78af314ac24c21ab6d9aed924a1c5ec18a",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "smooth_provenance": {
+          "path": "media/libuipc-smooth/dlayers_00756/render.json",
+          "bytes": 2654,
+          "sha256": "4c531d0d562e6a4a9167808c85878b5de77d5524119d030b3634aa9c39f4feef",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
+        },
+        "timesteps": {
+          "path": "media/libuipc-smooth/dlayers_00756/timesteps.json",
+          "bytes": 96284,
+          "sha256": "dd6ae6865edcddb0a3eeea425aac21c2b65231211e54e60efc715c8f1b17b129",
+          "source": "ClothLOOP default render.py; source and renderer hashes in smooth render.json"
         }
       }
     }

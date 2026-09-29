@@ -126,7 +126,7 @@ function listing(kind: Section) {
   const params = new URLSearchParams(location.search);
   frame(`<section class="page-heading"><div class="eyebrow">COLLECTION / ${kind === 'body' ? 'BODY MOTION' : kind === 'cloth' ? 'GARMENT ASSETS' : 'BOUND INITIAL STATES'}</div>
     <h1>${labels[kind]} <span class="heading-count">${rows.length}</span></h1><p>${descriptions[kind]}</p></section>
-    ${kind === 'test-initials' ? `<div class="context-note">14 条完整序列共 8081 个保存源帧，衣物自交与衣物—人体相交检查均为零；<strong>不等于连续时间数学证明，人体自身相交不作零交声明</strong>。初值网格合计 ${sizes(data.summary.test_initial_mesh_bytes)}；高清视频合计 ${sizes(rows.reduce((n, x) => n + (x.simulation?.bytes || 0), 0))}，全部 1080 × 1080。公开完整视频及迭代表，不上传完整逐帧网格、材料 rest mesh、初速度或 SMPL 模型。</div>` : ''}
+    ${kind === 'test-initials' ? `<div class="context-note">14 条完整序列共 8081 个保存源帧，衣物自交与衣物—人体相交检查均为零；<strong>不等于连续时间数学证明，人体自身相交不作零交声明</strong>。初值网格合计 ${sizes(data.summary.test_initial_mesh_bytes)}；平滑版＋原面片版共 28 个视频，合计 ${sizes(rows.reduce((n, x) => n + (x.simulation?.bytes || 0) + (x.simulation?.smooth.bytes || 0), 0))}，全部 1080 × 1080，低于 120 MB。公开完整视频、迭代表及逐子步时间，不上传完整逐帧网格、材料 rest mesh、初速度或 SMPL 模型。</div>` : ''}
     ${kind === 'initials' ? `<div class="context-note">当前 ${rows.length} 套所选状态中，${rows.filter(x => x.collision?.clothing_related_all_zero).length} 套的<strong>服装相关碰撞计数为零</strong>；人体自相交另列，检查来源见详情报告。</div>` : kind === 'body' ? `<div class="context-note">按 <strong>10 秒</strong>划分短 / 长序列。带“≈”的时长基于 D-LAYERS 假定的 30 FPS。ClothTransformer 显示最新关节修复对比预览。</div>` : ''}
     <form class="filters" id="filters" role="search"><label class="search-label">搜索<input name="q" type="search" placeholder="序列 ID、名称、类别或来源" autocomplete="off"></label>
     ${selectField('source', '数据来源', sources.map(x => [x, x]))}
@@ -217,13 +217,59 @@ function viewerMarkup() {
 
 function simulationMarkup(item: Entry) {
   const s = item.simulation!;
-  return `<div class="video-panel simulation-video"><video controls playsinline preload="none" poster="${url(s.poster)}" aria-label="${esc(item.id)} libuipc 完整仿真"><source src="${url(item.video!)}" type="video/mp4"></video>
+  return `<div class="video-panel simulation-video"><label class="video-version">视频版本 <select aria-label="视频版本"><option value="smooth">平滑版 · ClothLOOP 默认渲染</option><option value="flat">原面片版 · 保留</option></select></label><video controls playsinline preload="none" poster="${url(s.smooth.poster)}" aria-label="${esc(item.id)} libuipc 完整仿真" data-variant="smooth"><source src="${url(s.smooth.video)}" type="video/mp4"></video>
     <p class="video-error" hidden>视频加载失败，请使用下方链接单独打开。</p>
-    <p>${num(s.frames)} 帧 · ${s.fps} FPS${s.fps_status === 'assumed_playback' ? '（播放假定）' : '（项目设定）'} · ${s.width} × ${s.height} · ${sizes(s.bytes)}</p>
-    <p><a href="${url(item.video!)}" target="_blank" rel="noopener">单独播放 / 下载视频 ↗</a> · <a href="${url(s.iterations)}" download>逐帧迭代 CSV ↓</a> · <a href="${url(s.provenance)}" target="_blank" rel="noopener">来源与 SHA-256 ↗</a></p>
+    <p data-timestep>正在加载逐子步时间…</p>
+    <p>${num(s.frames)} 帧 · ${s.fps} FPS${s.fps_status === 'assumed_playback' ? '（播放假定）' : '（项目设定）'} · ${s.width} × ${s.height} · <span data-video-bytes>${sizes(s.smooth.bytes)}</span></p>
+    <p><a data-video-download href="${url(s.smooth.video)}" target="_blank" rel="noopener">单独播放 / 下载当前视频 ↗</a> · <a href="${url(s.iterations)}" download>逐帧迭代 CSV ↓</a> · <a data-video-provenance href="${url(s.smooth.provenance)}" target="_blank" rel="noopener">来源与 SHA-256 ↗</a> · <a href="${url(s.smooth.timesteps)}" download>逐子步 Δt JSON ↓</a></p>
     <p class="small-note">视频数字：源帧（从 0 起）、模拟时间、求解模式、物理子步数、非线性迭代、线性迭代、求解耗时。迭代与耗时均按该源帧区间累计，首帧是初值，不进行求解；不是每一个物理子步的单独次数。</p>
     <p class="small-note">实际模式：${esc(s.methods.join(' / '))}。${s.methods.some(m => m.includes('mixed') || m.includes('semi')) ? '包含混合／半隐式步骤，非线性计数沿用原日志，不宣称全部为完整 Newton。' : 'full_newton 表示完整 Newton。'}累计 ${num(s.total_physical_steps)} 个物理子步，${num(s.total_nonlinear_iterations)} 次非线性迭代。</p>
-    <p class="small-note">视频使用实际修复人体与保存衣物，未平滑、插帧或重新仿真。3D 仅为首帧，不随视频同步运动。</p></div>`;
+    <p class="small-note">平滑版直接使用 ClothLOOP render.py，逐帧重算面积加权顶点法线；只平滑着色，不进行几何平滑、细分、插帧或重新仿真。地面和阴影仅用于显示。原面片视频保留原始字节。3D 仅为首帧，不随视频同步运动。</p>
+    <p class="small-note">Δt 是一个物理子步推进的时间，不是 Newton 迭代耗时。30 FPS 均匀 4 子步时 Δt=1/120 秒。CC01_01、CC144_02 使用预先构造的非均匀人体回放时间轴，并非在线自适应 timestep；同帧可能有不同 Δt。平滑视频已烧录步长，两版均有同步文字和原始步长 JSON。</p></div>`;
+}
+
+async function wireSimulation(item: Entry) {
+  const s = item.simulation!;
+  const video = app.querySelector<HTMLVideoElement>('.simulation-video video')!;
+  app.querySelector<HTMLSelectElement>('[aria-label="视频版本"]')!.onchange = event => {
+    const variant = (event.target as HTMLSelectElement).value;
+    const smooth = variant === 'smooth';
+    const position = video.currentTime;
+    const playing = !video.paused;
+    video.pause();
+    video.querySelector('source')!.src = url(smooth ? s.smooth.video : item.video!);
+    video.poster = url(smooth ? s.smooth.poster : s.poster);
+    video.dataset.variant = variant;
+    app.querySelector('[data-video-bytes]')!.textContent = sizes(smooth ? s.smooth.bytes : s.bytes);
+    app.querySelector<HTMLAnchorElement>('[data-video-download]')!.href = url(smooth ? s.smooth.video : item.video!);
+    app.querySelector<HTMLAnchorElement>('[data-video-provenance]')!.href = url(smooth ? s.smooth.provenance : s.provenance);
+    app.querySelector<HTMLElement>('.video-error')!.hidden = true;
+    video.addEventListener('loadedmetadata', () => {
+      video.currentTime = Math.min(position, video.duration);
+      if (playing) void video.play().catch(() => {});
+    }, { once: true });
+    video.load();
+  };
+  const label = app.querySelector<HTMLElement>('[data-timestep]')!;
+  try {
+    const response = await fetch(url(s.smooth.timesteps));
+    if (!response.ok) throw new Error('timesteps unavailable');
+    const table = await response.json() as { frames: { dt_min_s: number | null; dt_max_s: number | null; interval_s: number }[] };
+    const update = (seconds = video.currentTime) => {
+      const frame = Math.max(0, Math.min(s.frames - 1, Math.floor(seconds * s.fps + 1e-6)));
+      const t = table.frames[frame];
+      const format = (dt: number) => (dt * 1000).toFixed(6) + ' ms';
+      label.textContent = t.dt_min_s == null ? '源帧 0 · 初值，无物理子步，Δt 不适用' : `源帧 ${frame} · Δt ${format(t.dt_min_s)}${Math.abs(t.dt_max_s! - t.dt_min_s) > 1e-10 ? ' – ' + format(t.dt_max_s!) + '（最小–最大）' : ' / 子步'} · 区间累计 ${format(t.interval_s)}`;
+    };
+    video.addEventListener('timeupdate', () => update());
+    video.addEventListener('seeked', () => update());
+    video.addEventListener('loadedmetadata', () => update());
+    if ('requestVideoFrameCallback' in video) {
+      const callback: VideoFrameRequestCallback = (_now, meta) => { update(meta.mediaTime); video.requestVideoFrameCallback(callback); };
+      video.requestVideoFrameCallback(callback);
+    }
+    update();
+  } catch { label.textContent = '步长信息暂不可用，请下载 Δt JSON 查看。'; }
 }
 
 async function detail(item: Entry) {
@@ -268,6 +314,7 @@ async function detail(item: Entry) {
       if (status?.textContent === '正在加载三维查看器…') status.textContent = '三维查看器加载失败。请刷新，或查看多视角图片。';
     }
   }
+  if (item.simulation) void wireSimulation(item);
 }
 
 async function boot() {

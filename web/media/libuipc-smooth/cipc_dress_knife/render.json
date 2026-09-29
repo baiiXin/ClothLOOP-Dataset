@@ -1,0 +1,47 @@
+{
+  "case": "cipc_dress_knife",
+  "frames": 122,
+  "fps": 25.0,
+  "fps_status": "project_defined",
+  "width": 1080,
+  "height": 1080,
+  "bytes": 826780,
+  "video_sha256": "ee29e1f9a61bbb98fa933447ec2a0d96c55d63d41238f081832c9d9fc9b4ae0d",
+  "methods": [
+    "full_newton"
+  ],
+  "total_nonlinear_iterations": 14354,
+  "total_physical_steps": 605,
+  "iteration_definition": "Native logged counters summed over physical substeps ending in each source-frame interval. Frame0 has no solve. Mixed/semi-implicit counts are not claimed to be full Newton.",
+  "geometry": "No geometric smoothing or subdivision. Original topology; float32 display conversion and shared translation/axis transform from default renderer.",
+  "collision_scope": "All saved source states CC=CB=0; not a continuous-time formal proof; body self-intersection not certified zero.",
+  "source_sha256": {
+    "case.json": "d7d35a72c1ca363b3d04ffea464bfe38c7192cc5963ba99cb387b5d2bda9bc8e",
+    "geometry.npz": "e4b86ad975d0c4af8074c4310d9970c954e221f1ef146db199c000e81841cec7",
+    "reference/cloth.npy": "72187b51f1bc75dd5be0cc1dea58b87b9ede76871ae67b1690bb75096e0c3702",
+    "body_vertices.npy": "973d2badec27c4dcac79bc69d27e4a2bfe0aa2a253b0754d91c2fc4194018c48",
+    "reference/iterations_per_frame.csv": "86351ef9b2d44f966c402309c27ae7d9ff6ffed022f844e2502096e48a1261a4",
+    "reference/solver_steps.jsonl": "429e580f4d8544ff69d962872aa5027d8e1dac0d04ec3cf41d2e1b471f839ba2"
+  },
+  "source_certificate_sha256": "aed5ea4c679a8daed0d38647de549483cf20647c765dbedff2c5d002d3e24cd5",
+  "ffprobe": {
+    "width": 1080,
+    "height": 1080,
+    "r_frame_rate": "25/1",
+    "duration": "4.880000",
+    "nb_frames": "122"
+  },
+  "renderer": "ClothLOOP render.py main, unchanged upstream code; selected-state loader + annotation/encoding pipe adapter",
+  "renderer_commit": "ee08a67a5467b357d13cbde0889c9c1f956ddc7a",
+  "renderer_sha256": "53339d47245759762fdaa60ab2a6fe21971af96a2164476f0d9e7ff0e849ce27",
+  "shading": "area-weighted vertex normals recalculated each frame, upstream smooth_shading=True",
+  "display_ground": "Default rendering-only grid/shadows; not a simulated floor/contact constraint.",
+  "palette": "Default ClothLOOP colors, repeated after eight entries for C-IPC panels; component IDs unchanged.",
+  "body_subdiv": 0,
+  "camera_azimuth_degrees": 72,
+  "timestep_provenance": [
+    "initial",
+    "native_physical_dt_s"
+  ],
+  "timestep_definition": "Native physical_dt_s; where absent, fixed dt from sealed config fps*substeps. Nonuniform CC01/144 timeline is precompiled collider replay, not an online time-step controller."
+}

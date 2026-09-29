@@ -48,7 +48,9 @@ tests/                     Playwright 浏览器行为测试
 
 - NPZ/PKL/OBJ 输入原样保留；浏览器不加载完整动作网格或 SMPL 模型。
 - 原人体 MP4 复用已有验证预览，字节不变；CT 的 7 段视频明确标注为最新关节修复对比，不能当成未经修改的原始动作。
-- Task14 新增14条1080×1080 H.264仿真视频，共8081源帧，保留完整长度和来源帧率，视频总量严格小于100,000,000字节。只读实际保存衣物及实际修复人体，无平滑、插帧或重新仿真；不上传完整逐帧真值数组。画面标注源帧、时间、物理子步、非线性/线性迭代与求解耗时；CSV为区间子步之和，frame0无求解。两条D-LAYERS如实标为mixed_or_semi_implicit，不把所有计数称为full Newton。
+- Task14 原14条1080×1080 H.264面片版共46,590,393字节，完整8081源帧，原文件全部保留。新增14条平滑版，详情页默认显示平滑版，可切换回原版；两组合计严格小于120,000,000字节。只读实际保存衣物及实际修复人体，不上传完整逐帧真值数组。画面标注源帧、时间、物理子步、非线性/线性迭代与求解耗时；CSV为区间子步之和，frame0无求解。两条D-LAYERS如实标为mixed_or_semi_implicit，不把所有计数称为full Newton。
+- 平滑版直接调用ClothLOOP `render.py`主流程（冻结版本与文件SHA见render.json）：面积加权顶点法线逐帧更新、原材质/灯光/地面/阴影，body-subdiv=0，azim=72度。输入适配器仅把最终源状态送入原加载接口；输出适配器烧录标注并限制视频码率。没有几何平滑、细分、插帧或重仿真，float32显示转换和共同坐标变换沿用默认工具。C-IPC超过8个组件时只循环默认调色板，组件编号/拓扑不变。地面是显示辅助，不是新增物理接触约束。
+- 平滑视频烧录Δt，两版播放器均同步显示当前源帧的Δt、非均匀时的最小–最大值和累计区间时长，完整逐子步数组在`media/libuipc-smooth/<case>/timesteps.json`。数值以秒存储、画面以毫秒显示；优先读取原日志physical_dt_s，旧CC55及D-LAYERS缺该字段时按其封存固定fps×substeps配置计算并标明来源。30FPS×4和60FPS×2都为1/120秒，25FPS×5为1/125秒；CC01_01/CC144_02是预先构造的非均匀人体回放时间轴，不是在线自适应步长控制器。
 - 新视频的保存源状态CC/CB为零，不代表连续时间独立数学证明或人体自交为零；粗折、帽子遮脸等原结果外观保留。`media/libuipc/<case>/render.json`记录输入hash、验收证书hash、采样语义与编码检查；`iterations.csv`可独立下载。所有预览文件纳入原media清单。
 - 52条VTO动作帧率标记为已验证；8条HOOD validation标为项目设定；24条D-LAYERS（含00396、00756原样本片段）标为播放假定，时长前显示 `≈`。
 - 人体页支持训练／测试划分筛选和URL参数 `split=train|test|unassigned`，对应52／12／27条；未纳入本轮的动作保留。服装页不分配训练／测试标签。
@@ -76,6 +78,8 @@ python3 scripts/import_previews.py --source-workspace /absolute/path/to/DATA
 Task14 高清预览的可选离线再生成：`python scripts/render_task14_hd.py --source /path/to/selected --output web/media/libuipc`，需要numpy、PyVista、Pillow、ffmpeg及DejaVuSans。输出不覆盖已有完整视频；新位置试验更合适。使用固定正交尺度、逐帧更新渲染、CPU Mesa；不在CI重新渲染。随后 `python scripts/register_task14_hd.py --source /path/to/selected --audit /path/to/audit.json`核对公开初值逐点相同、逐帧迭代与原子步日志重聚合相同，再更新预览清单。构建不依赖这些外部输入。
 
 迭代模式沿用历史报表的终止分类：该源帧所有子步达到native_tolerance时标full_newton，其余标mixed_or_semi_implicit。因此D-LAYERS运行即使启用了半隐式策略，也可能在个别源帧达到完整容差。不要把这些个别帧解读为整条运行关闭了半隐式策略。
+
+平滑版再生成使用`python scripts/render_task14_smooth.py --source /path/to/selected --output web/media/libuipc-smooth --renderer /path/to/frozen/ClothLOOP/render.py --evidence /path/to/task/results`（额外需要PyYAML）；然后运行`python scripts/register_task14_smooth.py`，它会先校验原版媒体字节不变再登记新文件。新资源不参与网站构建时的重渲染，CI无需ClothLOOP工作区或PyVista。
 
 ## 测试与部署
 

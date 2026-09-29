@@ -35,6 +35,13 @@ try {
     const stats = await video.evaluate(v => ({ width: v.videoWidth, height: v.videoHeight, time: v.currentTime, duration: v.duration, error: v.error?.message }));
     assert.equal(stats.width, 1080); assert.equal(stats.height, 1080); assert.ok(Math.abs(stats.time - stats.duration / 2) < .1); assert.ok(!stats.error);
     await page.screenshot({ path: out + `/online-${name}.png`, fullPage: true });
+    await page.getByLabel('视频版本', { exact: true }).selectOption('flat');
+    await page.waitForFunction(() => {
+      const v = document.querySelector('video');
+      return v.currentSrc.includes('/media/libuipc/') && v.readyState >= 2 && Math.abs(v.currentTime - v.duration / 2) < .1;
+    });
+    assert.match(await page.locator('[data-timestep]').innerText(), /Δt.*ms/);
+    stats.flat_variant_seek_passed = true;
     result.cases.push({ name, ...stats });
     console.log(`Online 3D + playback + seek passed: ${name}`);
   }
