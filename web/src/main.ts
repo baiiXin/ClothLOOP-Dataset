@@ -233,6 +233,7 @@ async function wireSimulation(item: Entry) {
   const video = app.querySelector<HTMLVideoElement>('.simulation-video video')!;
   app.querySelector<HTMLSelectElement>('[aria-label="视频版本"]')!.onchange = event => {
     const variant = (event.target as HTMLSelectElement).value;
+    if (variant === video.dataset.variant) return;
     const smooth = variant === 'smooth';
     const position = video.currentTime;
     const playing = !video.paused;
@@ -255,8 +256,11 @@ async function wireSimulation(item: Entry) {
     const response = await fetch(url(s.smooth.timesteps));
     if (!response.ok) throw new Error('timesteps unavailable');
     const table = await response.json() as { frames: { dt_min_s: number | null; dt_max_s: number | null; interval_s: number }[] };
-    const update = (seconds = video.currentTime) => {
-      const frame = Math.max(0, Math.min(s.frames - 1, Math.floor(seconds * s.fps + 1e-6)));
+    const update = (seconds = video.currentTime, presentedFrame = false) => {
+      // Decoded frame PTS can be rounded (e.g. 28/30 -> 0.933333).
+      // It identifies a frame, unlike the continuous playback/seek position.
+      const index = presentedFrame ? Math.round(seconds * s.fps) : Math.floor(seconds * s.fps + 1e-6);
+      const frame = Math.max(0, Math.min(s.frames - 1, index));
       const t = table.frames[frame];
       const format = (dt: number) => (dt * 1000).toFixed(6) + ' ms';
       label.textContent = t.dt_min_s == null ? '源帧 0 · 初值，无物理子步，Δt 不适用' : `源帧 ${frame} · Δt ${format(t.dt_min_s)}${Math.abs(t.dt_max_s! - t.dt_min_s) > 1e-10 ? ' – ' + format(t.dt_max_s!) + '（最小–最大）' : ' / 子步'} · 区间累计 ${format(t.interval_s)}`;
@@ -265,7 +269,7 @@ async function wireSimulation(item: Entry) {
     video.addEventListener('seeked', () => update());
     video.addEventListener('loadedmetadata', () => update());
     if ('requestVideoFrameCallback' in video) {
-      const callback: VideoFrameRequestCallback = (_now, meta) => { update(meta.mediaTime); video.requestVideoFrameCallback(callback); };
+      const callback: VideoFrameRequestCallback = (_now, meta) => { update(meta.mediaTime, true); video.requestVideoFrameCallback(callback); };
       video.requestVideoFrameCallback(callback);
     }
     update();

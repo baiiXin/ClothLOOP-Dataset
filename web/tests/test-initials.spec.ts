@@ -120,13 +120,14 @@ test('test initial page is reachable from home and works on mobile', async ({ pa
 });
 
 test('nonuniform timestep readout matches the exact saved interval on both variants', async ({ page, request }) => {
+  test.setTimeout(120000);
   for (const name of ['cc_01_01', 'cc_144_02']) {
     const row = catalog['test-initials'].find((r: any) => r.id === name);
     const data = await (await request.get(row.simulation.smooth.timesteps)).json();
     const t = data.frames.find((r: any) => r.dt_min_s != null && r.dt_max_s - r.dt_min_s > 1e-8);
     expect(t).toBeTruthy();
     await page.goto(row.url);
-    await expect(page.locator('.viewer')).toHaveAttribute('data-state', 'ready');
+    await expect(page.locator('.viewer')).toHaveAttribute('data-state', 'ready', { timeout: 30000 });
     const v = page.locator('video');
     await v.evaluate(async (v: HTMLVideoElement) => { v.muted = true; await v.play(); v.pause(); });
     await v.evaluate((v: HTMLVideoElement, seconds: number) => new Promise<void>(resolve => {
@@ -134,6 +135,8 @@ test('nonuniform timestep readout matches the exact saved interval on both varia
     }), (t.frame + .2) / row.simulation.fps);
     for (const variant of ['smooth', 'flat']) {
       await page.getByLabel('视频版本', { exact: true }).selectOption(variant);
+      await expect.poll(() => v.evaluate((v: HTMLVideoElement) => !v.seeking && v.readyState >= 2)).toBe(true);
+      await expect(page.locator('[data-timestep]')).toContainText(`源帧 ${t.frame} ·`);
       await expect(page.locator('[data-timestep]')).toContainText((t.dt_min_s * 1000).toFixed(6));
       await expect(page.locator('[data-timestep]')).toContainText((t.dt_max_s * 1000).toFixed(6));
       await expect(page.locator('[data-timestep]')).toContainText('最小–最大');
